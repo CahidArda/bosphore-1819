@@ -1,7 +1,7 @@
 import { forwardRef, useCallback, useEffect, useImperativeHandle, useRef, useState } from "react";
 import OpenSeadragon from "openseadragon";
 import type { Label, Lang, NBox } from "@/types";
-import { ASPECT, isConstrainedDevice, tileSourceFor } from "@/map/pyramid";
+import { ASPECT, isConstrainedDevice, PAPER_INSET, tileSourceFor } from "@/map/pyramid";
 import { t } from "@/i18n";
 import { cn } from "@/lib/utils";
 import { HoverCard } from "./HoverCard";
@@ -124,7 +124,19 @@ export const MapView = forwardRef<
       viewer.removeHandler("tile-loaded", onTile);
     };
     viewer.addHandler("tile-loaded", onTile);
-    viewer.addHandler("open", () => setOpened(true));
+    viewer.addHandler("open", () => {
+      // Hide the dark band around the paper. Clipping also shrinks the home bounds and
+      // the pan constraints to the paper, so re-home once without animation.
+      const item = viewer.world.getItemAt(0);
+      if (item) {
+        const { x: w, y: h } = item.source.dimensions;
+        const ix = w * PAPER_INSET.x;
+        const iy = h * PAPER_INSET.y;
+        item.setClip(new OpenSeadragon.Rect(ix, iy, w - 2 * ix, h - 2 * iy));
+        viewer.viewport.goHome(true);
+      }
+      setOpened(true);
+    });
     viewer.addHandler("open-failed", () => setLoaded(true));
 
     // Clicks (and taps) hit-test against the label boxes. Desktop: a click toggles the
