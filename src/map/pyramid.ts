@@ -24,6 +24,15 @@ export const LEVELS = [
   { url: FULL_URL, width: IMG_W, height: IMG_H },
 ];
 
+/**
+ * The scan has a dark band, up to ~100 px of the original on each side, where the
+ * photograph runs past the paper. The viewer clips it at draw time (TiledImage.setClip)
+ * rather than serving a cropped copy, so tiles still come straight from Wikimedia and
+ * label coordinates stay relative to the full scan. 130 px clears the band and its
+ * soft edge on every side; the engraved frame starts far further in.
+ */
+export const PAPER_INSET = { x: 130 / IMG_W, y: 130 / IMG_H };
+
 export const TILE_SOURCE = {
   type: "legacy-image-pyramid",
   levels: LEVELS,

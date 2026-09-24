@@ -47,6 +47,10 @@ name (Latin and Arabic script) and today's name, each with a literal gloss.
   0.3 is the largest value that draws the original at label zoom and the 1920 px level at
   home; 0.2 gives the same levels for no benefit. `maxZoomPixelRatio` and
   `minZoomImageRatio` were not part of the problem.
+- The scan has a dark band around the paper (up to ~100 px of the original per side). The
+  viewer hides it with `TiledImage.setClip` on open (`PAPER_INSET` in `pyramid.ts`), which
+  also shrinks the home view and pan limits to the paper. Do not crop or self-host the
+  image for this; labels stay in full-scan coordinates.
 - Scripted downloads need a descriptive User-Agent (`pipeline/common.py`). Gallica's
   IIIF endpoint refuses scripts; do not depend on it.
 - `pipeline/download.py` fetches the scan to `pipeline/raw/full.jpg` (gitignored) and
