@@ -48,7 +48,7 @@
    "latn": "Karadeniz Boğazı Ağzı",
    "arab": "قره دكز بوغازی آغزی"
   },
-  "modern": "Karadeniz Boğazı girişi (Rumeli Feneri – Anadolu Feneri)",
+  "modern": "Boğaz'ın Karadeniz ağzı",
   "lit": {
    "fr": {
     "en": "Mouth of the Black Sea",
@@ -89,7 +89,7 @@
    ]
   ],
   "uncertain": true,
-  "note": "Ottoman form reconstructed; the map has no Turkish name for the mouth"
+  "note": "Ottoman form reconstructed; the map has no Turkish name for the mouth. Between Rumelifeneri and Anadolufeneri"
  },
  {
   "fr": "CANAL DE LA MER NOIRE",
@@ -97,7 +97,7 @@
    "latn": "Karadeniz Boğazı",
    "arab": "قره دكز بوغازی"
   },
-  "modern": "İstanbul Boğazı (northern Bosphorus)",
+  "modern": "İstanbul Boğazı",
   "lit": {
    "fr": {
     "en": "Channel of the Black Sea",
@@ -292,7 +292,7 @@
    "latn": "Boğaz Ağzı",
    "arab": "بوغاز آغزی"
   },
-  "modern": "Boğaz girişi (Sarayburnu – Salacak)",
+  "modern": "Boğaz'ın Marmara ağzı",
   "lit": {
    "fr": {
     "en": "Entrance of the Bosphorus",
@@ -333,7 +333,7 @@
    ]
   ],
   "uncertain": true,
-  "note": "Ottoman form reconstructed; the map has no Turkish name for the southern entrance"
+  "note": "Ottoman form reconstructed; the map has no Turkish name for the southern entrance. Between Sarayburnu and Salacak"
  },
  {
   "fr": "MER DE MARMARA",

@@ -32,7 +32,7 @@
  {
   "fr": "Citerne ancienne",
   "ota": null,
-  "modern": "Ancient cistern at Pendik (lost)",
+  "modern": "Ancient cistern, Pendik (lost)",
   "lit": {
    "fr": {
     "en": "Ancient cistern",
@@ -55,7 +55,7 @@
  {
   "fr": "Eglise Grecque",
   "ota": null,
-  "modern": "Greek Orthodox church of Pendik",
+  "modern": "Greek Orthodox church, Pendik",
   "lit": {
    "fr": {
     "en": "Greek Church",
@@ -111,7 +111,7 @@
    "latn": "Kervansaray",
    "arab": "كاروانسرای"
   },
-  "modern": "Caravanserai at Kartal (lost)",
+  "modern": "Kartal caravanserai (lost)",
   "lit": {
    "fr": {
     "en": "Caravanserai",
@@ -138,7 +138,7 @@
  {
   "fr": "Chateau ruiné",
   "ota": null,
-  "modern": "Ruined castle at Kartal (lost)",
+  "modern": "Ruined castle, Kartal (lost)",
   "lit": {
    "fr": {
     "en": "Ruined castle",
@@ -184,7 +184,7 @@
  {
   "fr": "Eglise Grecque",
   "ota": null,
-  "modern": "Greek Orthodox church of Kartal",
+  "modern": "Greek Orthodox church, Kartal",
   "lit": {
    "fr": {
     "en": "Greek Church",
@@ -210,7 +210,7 @@
    "latn": "Ağacık",
    "arab": "آغاجق"
   },
-  "modern": "Ağacık (unidentified village north of Kartal)",
+  "modern": "Ağacık (unidentified)",
   "lit": {
    "fr": {
     "en": "Agadgik",
@@ -238,9 +238,9 @@
   "fr": "Chemin de Nicomédie",
   "ota": {
    "latn": "İzmit Yolu",
-   "arab": "ایزمید یولی"
+   "arab": "ازمید یولی"
   },
-  "modern": "Old Nicomedia road (today the Bağdat Caddesi / D-100 corridor)",
+  "modern": "Old İzmit road (Bağdat Caddesi)",
   "lit": {
    "fr": {
     "en": "Road to Nicomedia",
@@ -280,7 +280,7 @@
     2293
    ]
   ],
-  "uncertain": false,
-  "note": "Three words strung along the coast road: Nicomédie near Pendik, de at Kartal, Chemin in chunk c_9100_1850"
+  "uncertain": true,
+  "note": "Ottoman form reconstructed; today roughly the Bağdat Caddesi / D-100 corridor. Three words strung along the coast road: Nicomédie near Pendik, de at Kartal, Chemin in chunk c_9100_1850"
  }
 ]

@@ -35,7 +35,7 @@
    "latn": "Tersane Anbarları",
    "arab": "ترسانه انبارلری"
   },
-  "modern": "Naval storehouses at Bebek (lost)",
+  "modern": "Naval storehouses, Bebek (lost)",
   "lit": {
    "fr": {
     "en": "Storehouses of the Navy",
@@ -57,7 +57,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Diagonal label"
+  "note": "Diagonal label; the Ottoman name is reconstructed"
  },
  {
   "fr": "ARNAOUT-KEUI",
@@ -118,7 +118,7 @@
    "latn": "Esma Sultan Sahilsarayı",
    "arab": "اسما سلطان ساحل سرایی"
   },
-  "modern": "Esma Sultan waterside palace, Kuruçeşme (lost)",
+  "modern": "Esma Sultan Sahilsarayı, Kuruçeşme (lost)",
   "lit": {
    "fr": {
     "en": "Palace of Esma Sultana",
@@ -191,7 +191,7 @@
    "latn": "Hatice Sultan Sahilsarayı",
    "arab": "خدیجه سلطان ساحل سرایی"
   },
-  "modern": "Hatice Sultan waterside palace, Defterdarburnu (lost)",
+  "modern": "Hatice Sultan Sahilsarayı, Defterdarburnu (lost)",
   "lit": {
    "fr": {
     "en": "Palace of Hadidgé Sultana",
@@ -352,7 +352,7 @@
    ]
   ],
   "uncertain": true,
-  "note": null
+  "note": "The Ottoman name is reconstructed"
  },
  {
   "fr": "Kiosque du Gd Sr",
@@ -418,7 +418,7 @@
   "fr": "BESCHIK-TASCH",
   "ota": {
    "latn": "Beşiktaş",
-   "arab": "بشكطاش"
+   "arab": "بشیكطاش"
   },
   "modern": "Beşiktaş",
   "lit": {
@@ -448,9 +448,9 @@
   "fr": "Flamour-Alti",
   "ota": {
    "latn": "Ihlamur Altı",
-   "arab": "ایهلامور آلتی"
+   "arab": "اهلامور آلتی"
   },
-  "modern": "Ihlamur, Beşiktaş (site of the Ihlamur Kasrı)",
+  "modern": "Ihlamur, Beşiktaş",
   "lit": {
    "fr": {
     "en": "Flamour-Alti",
@@ -472,7 +472,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Flamour = Greek flamouri, the linden; the Ihlamur Kasrı was built here in the 1850s"
+  "note": "Flamour is Greek flamouri, the linden; the Ihlamur Kasrı was built here in the 1850s"
  },
  {
   "fr": "Kutchuk-Levend Tchiftlik",
@@ -487,8 +487,8 @@
     "tr": "Küçük Levend Çiftliği"
    },
    "ota": {
-    "en": "Farm of the Little Levends (marines)",
-    "fr": "Ferme des petits Levends",
+    "en": "Little Levend farm",
+    "fr": "Petite ferme des Levends",
     "tr": "Küçük Levend çiftliği"
    },
    "modern": null
@@ -502,7 +502,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": null
+  "note": "Levends were Ottoman marines and irregular troops; this was the smaller of the two Levend farms"
  },
  {
   "fr": "St DIMITRI",
@@ -540,7 +540,7 @@
    "latn": "Tatavla Deresi",
    "arab": "طاطاوله دره سی"
   },
-  "modern": "Tatavla stream (Dolapdere), culverted",
+  "modern": "Dolapdere, Şişli (culverted)",
   "lit": {
    "fr": {
     "en": "Tatalla stream",
@@ -562,7 +562,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Diagonal label"
+  "note": "Diagonal label; the Tatavla stream is today the culverted Dolapdere"
  },
  {
   "fr": "KIAHAD-HANÉ",
@@ -597,7 +597,7 @@
  {
   "fr": "Pont de Bois",
   "ota": null,
-  "modern": "Wooden bridge over the Kağıthane stream (lost)",
+  "modern": "Wooden bridge, Kağıthane (lost)",
   "lit": {
    "fr": {
     "en": "Wooden Bridge",
@@ -623,7 +623,7 @@
    "latn": "Cirit Çayırı",
    "arab": "جرید چایری"
   },
-  "modern": "Cirit Meydanı, Kağıthane (Sadabad meadow)",
+  "modern": "Cirit Meydanı, Kağıthane",
   "lit": {
    "fr": {
     "en": "Meadow of the Djerid",
@@ -658,7 +658,7 @@
    ]
   ],
   "uncertain": false,
-  "note": "Cirit is the Ottoman mounted javelin game"
+  "note": "Cirit is the Ottoman mounted javelin game; the meadow belonged to the Sadabad grounds"
  },
  {
   "fr": "Cascades",
@@ -696,7 +696,7 @@
    "latn": "Sadâbâd Kasrı",
    "arab": "سعدآباد قصری"
   },
-  "modern": "Sadabad Kasrı, Kağıthane (rebuilt as Çağlayan Kasrı; lost)",
+  "modern": "Sadabad Kasrı, Kağıthane (lost)",
   "lit": {
    "fr": {
     "en": "Kiahad-Hané or Saad-abad, Palace of the Grand Seigneur",
@@ -737,12 +737,12 @@
    ]
   ],
   "uncertain": false,
-  "note": "Built 1722 for Ahmed III in the Tulip Period"
+  "note": "Built 1722 for Ahmed III in the Tulip Period; rebuilt as Çağlayan Kasrı and later demolished"
  },
  {
   "fr": "But de Tir",
   "ota": null,
-  "modern": "Shooting range at Kağıthane (lost)",
+  "modern": "Shooting butt, Kağıthane (lost)",
   "lit": {
    "fr": {
     "en": "Shooting butt",
@@ -768,15 +768,15 @@
    "latn": "Büyük Levend Çiftliği",
    "arab": "بیوك لوند چفتلكی"
   },
-  "modern": "Levent, Beşiktaş (Levend Çiftliği barracks, site)",
+  "modern": "Levent, Beşiktaş",
   "lit": {
    "fr": {
     "en": "Great Levend Farm, burnt in 1808",
     "tr": "Büyük Levend Çiftliği, 1808'de yandı"
    },
    "ota": {
-    "en": "Farm of the Great Levends (marines)",
-    "fr": "Ferme des grands Levends",
+    "en": "Great Levend farm",
+    "fr": "Grande ferme des Levends",
     "tr": "Büyük Levend çiftliği"
    },
    "modern": null
@@ -911,7 +911,7 @@
  {
   "fr": "le Puits",
   "ota": null,
-  "modern": "Well on the Büyükdere road above Ortaköy (lost)",
+  "modern": "Well on the Büyükdere road (lost)",
   "lit": {
    "fr": {
     "en": "The Well",
@@ -1003,15 +1003,15 @@
    "latn": "Su Terazileri",
    "arab": "صو ترازولری"
   },
-  "modern": "Su terazisi towers of the Taksim water line, Levent-Zincirlikuyu",
+  "modern": "Su terazisi towers, Levent",
   "lit": {
    "fr": {
     "en": "Sou-Kerazous, or Hydraulic Pyramids",
     "tr": "Su Terazileri, ya da Hidrolik Piramitler"
    },
    "ota": {
-    "en": "Water balances (pressure towers)",
-    "fr": "Balances d'eau (tours de pression)",
+    "en": "Water balances",
+    "fr": "Balances d'eau",
     "tr": "Su terazileri"
    },
    "modern": null
@@ -1038,6 +1038,6 @@
    ]
   ],
   "uncertain": true,
-  "note": "Engraved 'Kerazous' for 'terazous' (su terazisi); diagonal label along the aqueduct line"
+  "note": "Engraved 'Kerazous' for 'terazous' (su terazisi, the pressure towers of the Taksim water line); diagonal label along the aqueduct"
  }
 ]

@@ -51,7 +51,7 @@ for fname in sorted(os.listdir(CHUNK_DIR)):
 def fix_agadgik(recs):
     for r in recs:
         if r["fr"] == "AGADGIK":
-            r["modern"] = "Ağacık (unidentified village north of Kartal)"
+            r["modern"] = "Ağacık (unidentified)"
             r["lit"]["modern"] = None
             r["uncertain"] = True
             r["note"] = "Possibly a garbled Yakacık, but IAKA-KEUI just to the west is the better match for that village; left unidentified"
@@ -66,7 +66,7 @@ def fix_sera(recs):
     for r in recs:
         if r["fr"].lower().startswith("sera-tachi"):
             r["ota"] = {"latn": "Sıra Taşı", "arab": "صیره طاشی"}
-            r["modern"] = "Sıra Taşı rock, north of Kınalıada (identification uncertain)"
+            r["modern"] = "Sıra Taşı, Kınalıada (unidentified)"
             r["lit"]["ota"] = {"en": "Row Stone", "fr": "Pierre de la rangée", "tr": "Sıra taşı"}
             r["lit"]["modern"] = None
             r["uncertain"] = True

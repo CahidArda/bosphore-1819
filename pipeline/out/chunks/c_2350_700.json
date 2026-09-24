@@ -5,7 +5,7 @@
    "latn": "Kara Abondus Burnu",
    "arab": "قره آبوندوس بورنی"
   },
-  "modern": "Unidentified cape north-west of Riva, Beykoz",
+  "modern": "Kara Abondus Burnu, Beykoz (unidentified)",
   "lit": {
    "fr": {
     "en": "Cape Kara-Abondous",
@@ -27,7 +27,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Second word hard to read: Abondous / Aboudous; only 'Kara' (black) is sure"
+  "note": "Cape north-west of Riva; the second word is hard to read (Abondous / Aboudous) and only 'Kara' (black) is sure."
  },
  {
   "fr": "I. de Riva",
@@ -35,7 +35,7 @@
    "latn": "Riva Adası",
    "arab": "ریوا آطه سی"
   },
-  "modern": "Islet off Riva (Riva Adası), Beykoz",
+  "modern": "Riva Adası, Beykoz",
   "lit": {
    "fr": {
     "en": "Island of Riva",
@@ -95,7 +95,7 @@
    "latn": "Riva Kalesi",
    "arab": "ریوا قلعه سی"
   },
-  "modern": "Riva Kalesi (Genoese castle), Beykoz",
+  "modern": "Riva Kalesi, Beykoz",
   "lit": {
    "fr": {
     "en": "Castle",
@@ -117,7 +117,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Generic word placed at the castle of Riva"
+  "note": "Generic word placed at the Genoese castle of Riva."
  },
  {
   "fr": "Cap de Riva",

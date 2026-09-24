@@ -2,11 +2,11 @@
  {
   "fr": "EMBOUCHURE DE LA MER NOIRE",
   "ota": null,
-  "modern": "Karadeniz Boğazı ağzı (northern mouth of the Bosphorus)",
+  "modern": "Karadeniz Boğazı ağzı",
   "lit": {
    "fr": {
     "en": "Mouth of the Black Sea",
-    "tr": "Karadeniz Ağzı"
+    "tr": "Karadeniz'in Ağzı"
    },
    "ota": null,
    "modern": null
@@ -39,7 +39,7 @@
    ]
   ],
   "uncertain": false,
-  "note": "Letter-spaced three-line label over the water; spans the boundary with c_2350_1850"
+  "note": "The northern mouth of the Bosphorus; letter-spaced three-line label over the water"
  },
  {
   "fr": "Roumili-Fener-Bournou",

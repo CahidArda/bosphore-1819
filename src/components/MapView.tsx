@@ -1,7 +1,7 @@
 import { forwardRef, useCallback, useEffect, useImperativeHandle, useRef, useState } from "react";
 import OpenSeadragon from "openseadragon";
 import type { Label, Lang, NBox } from "@/types";
-import { ASPECT, TILE_SOURCE } from "@/map/pyramid";
+import { ASPECT, isConstrainedDevice, tileSourceFor } from "@/map/pyramid";
 import { t } from "@/i18n";
 import { cn } from "@/lib/utils";
 import { HoverCard } from "./HoverCard";
@@ -22,11 +22,6 @@ interface Hit {
   x2: number;
   y2: number;
   area: number;
-}
-
-/** Normalised [x, y, w, h] fraction box to an OpenSeadragon viewport rect. */
-function toRect(b: NBox) {
-  return new OpenSeadragon.Rect(b[0], b[1] * ASPECT, b[2], b[3] * ASPECT);
 }
 
 function unionRect(boxes: NBox[]) {
@@ -59,11 +54,13 @@ export const MapView = forwardRef<
   {
     labels: Label[];
     selected: Set<string>;
+    /** Ids matching the current search; drawn with a subtle gray outline. */
+    highlighted: Set<string>;
     lang: Lang;
     onToggle: (id: string) => void;
     className?: string;
   }
->(function MapView({ labels, selected, lang, onToggle, className }, ref) {
+>(function MapView({ labels, selected, highlighted, lang, onToggle, className }, ref) {
   const d = t(lang);
   const elRef = useRef<HTMLDivElement>(null);
   const viewerRef = useRef<OpenSeadragon.Viewer | null>(null);
@@ -72,7 +69,11 @@ export const MapView = forwardRef<
   const hits = useRef<Hit[]>([]);
   const byId = useRef<Map<string, Label>>(new Map());
   const hoveredRef = useRef<string | null>(null);
+  /** On touch screens the card stays open on the tapped label until the map is tapped elsewhere. */
+  const pinnedRef = useRef<string | null>(null);
+  const touchUI = typeof window !== "undefined" && (window.matchMedia?.("(hover: none)").matches ?? false);
   const prevSelected = useRef<Set<string>>(new Set());
+  const prevHighlighted = useRef<Set<string>>(new Set());
   const onToggleRef = useRef(onToggle);
   onToggleRef.current = onToggle;
 
@@ -86,7 +87,7 @@ export const MapView = forwardRef<
     if (!el) return;
     const viewer = OpenSeadragon({
       element: el,
-      tileSources: TILE_SOURCE as unknown as OpenSeadragon.TileSourceOptions,
+      tileSources: tileSourceFor(isConstrainedDevice()) as unknown as OpenSeadragon.TileSourceOptions,
       prefixUrl: "",
       showNavigationControl: false,
       crossOriginPolicy: "Anonymous",
@@ -114,28 +115,31 @@ export const MapView = forwardRef<
     viewer.addHandler("open", () => setOpened(true));
     viewer.addHandler("open-failed", () => setLoaded(true));
 
-    // Clicks (and taps) hit-test against the label boxes.
+    // Clicks (and taps) hit-test against the label boxes. Desktop: a click toggles the
+    // selection. Touch screens have no hover, so a tap on a label pins its card and a
+    // tap anywhere else on the map closes it.
     viewer.addHandler("canvas-click", (ev) => {
       if (!ev.quick) return;
       const id = hitTest(viewer, hits.current, ev.position.x, ev.position.y);
-      if (!id) {
-        if ((ev.originalEvent as PointerEvent)?.pointerType === "touch") {
+      if (touchUI) {
+        if (!id) {
+          pinnedRef.current = null;
           setHover(null);
           setHoverLabel(null);
+          return;
         }
-        return;
-      }
-      onToggleRef.current(id);
-      if ((ev.originalEvent as PointerEvent)?.pointerType === "touch") {
+        pinnedRef.current = id;
         setHover(id);
         setHoverLabel(byId.current.get(id) ?? null);
         placeCard(ev.position.x, ev.position.y);
+        return;
       }
+      if (id) onToggleRef.current(id);
     });
 
     const container = viewer.container;
     const onMove = (e: PointerEvent) => {
-      if (e.pointerType === "touch") return;
+      if (touchUI || e.pointerType === "touch") return;
       const rect = container.getBoundingClientRect();
       const px = e.clientX - rect.left;
       const py = e.clientY - rect.top;
@@ -147,6 +151,7 @@ export const MapView = forwardRef<
       if (id) placeCard(px, py);
     };
     const onLeave = () => {
+      if (pinnedRef.current) return;
       setHover(null);
       setHoverLabel(null);
     };
@@ -196,6 +201,12 @@ export const MapView = forwardRef<
     elsById.current.clear();
     byId.current = new Map(labels.map((l) => [l.id, l]));
     const list: Hit[] = [];
+    // One overlay covering the whole image; every label box is a child positioned in
+    // percentages. OpenSeadragon then updates a single element per frame instead of
+    // several hundred, which keeps panning and pinch-zoom smooth on phones.
+    const root = document.createElement("div");
+    root.className = "lbl-root";
+    const frag = document.createDocumentFragment();
     for (const label of labels) {
       const boxes = label.parts && label.parts.length ? label.parts : [label.bbox];
       const els: HTMLElement[] = [];
@@ -206,19 +217,38 @@ export const MapView = forwardRef<
         div.setAttribute("role", "img");
         div.setAttribute("aria-label", `${label.fr} · ${label.modern}`);
         if (i > 0) div.setAttribute("aria-hidden", "true");
-        viewer.addOverlay({ element: div, location: toRect(b) });
+        div.style.left = `${b[0] * 100}%`;
+        div.style.top = `${b[1] * 100}%`;
+        div.style.width = `${b[2] * 100}%`;
+        div.style.height = `${b[3] * 100}%`;
+        frag.appendChild(div);
         els.push(div);
         list.push({ id: label.id, x1: b[0], y1: b[1], x2: b[0] + b[2], y2: b[1] + b[3], area: b[2] * b[3] });
       });
       elsById.current.set(label.id, els);
     }
+    root.appendChild(frag);
+    viewer.addOverlay({ element: root, location: new OpenSeadragon.Rect(0, 0, 1, ASPECT) });
     list.sort((a, b) => a.area - b.area);
     hits.current = list;
     prevSelected.current = new Set();
     for (const id of selected) elsById.current.get(id)?.forEach((e) => e.classList.add("is-sel"));
     prevSelected.current = new Set(selected);
+    prevHighlighted.current = new Set();
+    for (const id of highlighted) elsById.current.get(id)?.forEach((e) => e.classList.add("is-match"));
+    prevHighlighted.current = new Set(highlighted);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [labels, opened]);
+
+  useEffect(() => {
+    for (const id of prevHighlighted.current) {
+      if (!highlighted.has(id)) elsById.current.get(id)?.forEach((e) => e.classList.remove("is-match"));
+    }
+    for (const id of highlighted) {
+      if (!prevHighlighted.current.has(id)) elsById.current.get(id)?.forEach((e) => e.classList.add("is-match"));
+    }
+    prevHighlighted.current = new Set(highlighted);
+  }, [highlighted]);
 
   useEffect(() => {
     for (const id of prevSelected.current) {
@@ -273,7 +303,7 @@ export const MapView = forwardRef<
   return (
     <div className={cn("relative h-full w-full overflow-hidden", className)}>
       <div ref={elRef} className="absolute inset-0" data-testid="map" aria-label={d.appName} />
-      <HoverCard ref={cardRef} label={hoverLabel} lang={lang} />
+      <HoverCard ref={cardRef} label={hoverLabel} lang={lang} interactive={touchUI} />
       <div
         aria-hidden={loaded}
         className={cn(

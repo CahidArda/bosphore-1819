@@ -65,7 +65,7 @@
    "latn": "Valide Sultan Sahilsarayı",
    "arab": "والده سلطان ساحل سرایی"
   },
-  "modern": "Valide Sultan's waterside palace near Ortaköy / Kuruçeşme (lost)",
+  "modern": "Valide Sultan Sahilsarayı, Ortaköy (lost)",
   "lit": {
    "fr": {
     "en": "Palace of the Sultana Validé",
@@ -100,12 +100,12 @@
    ]
   ],
   "uncertain": true,
-  "note": "On the European shore, at the chunk's left edge"
+  "note": "Shore palace of the Sultan's mother between Çırağan and Ortaköy; which Valide's palace is meant is uncertain"
  },
  {
   "fr": "Magasins de Bled",
   "ota": null,
-  "modern": "Grain warehouses at Üsküdar (lost)",
+  "modern": "Zahire Ambarı, Paşalimanı, Üsküdar (lost)",
   "lit": {
    "fr": {
     "en": "Grain warehouses",
@@ -135,8 +135,8 @@
     4579
    ]
   ],
-  "uncertain": false,
-  "note": "Bled = grain in French"
+  "uncertain": true,
+  "note": "Bled = grain (French). State grain magazines on the Paşalimanı shore, where the later flour mill stands"
  },
  {
   "fr": "Palais de la Behan-Sultane",
@@ -144,7 +144,7 @@
    "latn": "Beyhan Sultan Sahilsarayı",
    "arab": "بیهان سلطان ساحل سرایی"
   },
-  "modern": "Beyhan Sultan's waterside palace, Çırağan (lost)",
+  "modern": "Beyhan Sultan Sahilsarayı, Çırağan (lost)",
   "lit": {
    "fr": {
     "en": "Palace of the Sultana Behan",
@@ -363,7 +363,7 @@
    "latn": "Kavak Sarayı",
    "arab": "قواق سرایی"
   },
-  "modern": "Kavak Sarayı (demolished; site of Selimiye Barracks)",
+  "modern": "Kavak Sarayı, Üsküdar (demolished)",
   "lit": {
    "fr": {
     "en": "Kavak Palace",
@@ -385,7 +385,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": null
+  "note": "Selimiye Barracks was later built on its grounds"
  },
  {
   "fr": "Caserne brûlée en 1808",
@@ -393,7 +393,7 @@
    "latn": "Selimiye Kışlası",
    "arab": "سلیمیه قشله سی"
   },
-  "modern": "Selimiye Kışlası, Üsküdar (rebuilt in stone 1825-28)",
+  "modern": "Selimiye Kışlası, Üsküdar",
   "lit": {
    "fr": {
     "en": "Barracks burnt in 1808",
@@ -415,12 +415,12 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Selim III's Nizam-ı Cedid barracks, burnt in the 1808 uprising"
+  "note": "Selim III's Nizam-ı Cedid barracks, burnt in the revolts of 1807-08; rebuilt in stone 1825-28"
  },
  {
   "fr": "Mosquée en Ruines",
   "ota": null,
-  "modern": "Ruined mosque near Selimiye (lost)",
+  "modern": "Ruined mosque, Selimiye (unidentified)",
   "lit": {
    "fr": {
     "en": "Mosque in Ruins",
@@ -446,7 +446,7 @@
    "latn": "Kavak Burnu",
    "arab": "قواق بورنی"
   },
-  "modern": "Harem / Selimiye shore, Üsküdar",
+  "modern": "Harem, Üsküdar",
   "lit": {
    "fr": {
     "en": "Kavak cape",
@@ -468,7 +468,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": null
+  "note": "The cape below Kavak Sarayı, now the Harem ferry-terminal shore"
  },
  {
   "fr": "Kiz-Koullesi, ou Tour de Léandre",
@@ -519,7 +519,7 @@
    "latn": "Beşiktaş Sahilsarayı",
    "arab": "بشیكطاش ساحل سرایی"
   },
-  "modern": "Beşiktaş Sahilsarayı (demolished; site of Dolmabahçe Palace)",
+  "modern": "Beşiktaş Sahilsarayı (demolished)",
   "lit": {
    "fr": {
     "en": "Palace of Beschik-tasch",
@@ -554,24 +554,24 @@
    ]
   ],
   "uncertain": false,
-  "note": "Mahmud II's favoured residence in 1819"
+  "note": "Mahmud II's favoured residence in 1819; Dolmabahçe Palace now stands on the site"
  },
  {
   "fr": "Champ des Morts",
   "ota": {
-   "latn": "Büyük Mezarlık",
-   "arab": "بیوك مزارلق"
+   "latn": "Ayaspaşa Mezarlığı",
+   "arab": "آیاس پاشا مزارلغی"
   },
-  "modern": "Grand Champs des Morts, Pera (cleared; now Taksim / Harbiye)",
+  "modern": "Grand Champ des Morts, Taksim (cleared)",
   "lit": {
    "fr": {
     "en": "Field of the Dead",
     "tr": "Ölüler Tarlası"
    },
    "ota": {
-    "en": "Great Cemetery",
-    "fr": "Grand Cimetière",
-    "tr": "Büyük mezarlık"
+    "en": "Cemetery of Ayas Pasha",
+    "fr": "Cimetière d'Ayas Pacha",
+    "tr": "Ayaspaşa mezarlığı"
    },
    "modern": null
   },
@@ -584,7 +584,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "The Muslim cemetery above Fındıklı, known to Europeans as the Grand Champ des Morts"
+  "note": "The Muslim cemetery on the hill above Fındıklı, known to Europeans as the Grand Champ des Morts; the Ottoman name is reconstructed"
  },
  {
   "fr": "FONDOUKLI",
@@ -892,7 +892,7 @@
    "latn": "Vezir Sarayı",
    "arab": "وزیر سرایی"
   },
-  "modern": "Bâb-ı Âli (Sublime Porte), now Istanbul Governorship",
+  "modern": "Bâb-ı Âli (Sublime Porte)",
   "lit": {
    "fr": {
     "en": "Vizier's Palace",
@@ -914,7 +914,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "The Grand Vizier's residence, better known as the Sublime Porte"
+  "note": "The Grand Vizier's residence, better known as the Sublime Porte; now the Istanbul Governorship"
  },
  {
   "fr": "Achmet",
@@ -1012,7 +1012,7 @@
    "latn": "Eski Saray",
    "arab": "اسكی سرای"
   },
-  "modern": "Eski Saray (demolished; site of Istanbul University, Beyazıt)",
+  "modern": "Eski Saray, Beyazıt (demolished)",
   "lit": {
    "fr": {
     "en": "Old Palace",
@@ -1034,7 +1034,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": null
+  "note": "Istanbul University's main campus now occupies the site"
  },
  {
   "fr": "Baïezid",

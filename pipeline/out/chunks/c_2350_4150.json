@@ -2,7 +2,7 @@
   {
     "fr": "Tour d'Ovide, Édifice du Bas-Empire",
     "ota": null,
-    "modern": "Ovid's Tower, Byzantine watchtower ruin near Zekeriyaköy / Kilyos",
+    "modern": "Ovid Kulesi, Zekeriyaköy (ruin)",
     "lit": {
       "fr": {
         "en": "Ovid's Tower, building of the Late Empire",
@@ -33,7 +33,7 @@
       ]
     ],
     "uncertain": true,
-    "note": "Bas-Empire = the Late Roman/Byzantine empire; travellers linked the ruin to the exiled poet Ovid"
+    "note": "Byzantine watchtower ruin near Kilyos; travellers linked it to the exiled poet Ovid. Bas-Empire = the Late Roman/Byzantine empire."
   },
   {
     "fr": "SCOMBRÉ-KEUI",
@@ -71,10 +71,10 @@
       "latn": "Kestane Suyu",
       "arab": "كستانه صویی"
     },
-    "modern": "Kestanesuyu, Bahçeköy (Sarıyer)",
+    "modern": "Kestanesuyu, Bahçeköy",
     "lit": {
       "fr": {
-        "en": "Kastanié-sou",
+        "en": "Chestnut Water",
         "tr": "Kestane Suyu"
       },
       "ota": {
@@ -101,7 +101,7 @@
       "latn": "Mahmud Bendi",
       "arab": "محمود بندی"
     },
-    "modern": "Topuzlu Bendi (Sultan I. Mahmud Bendi), Bahçeköy",
+    "modern": "Topuzlu Bendi, Bahçeköy",
     "lit": {
       "fr": {
         "en": "Dam of Mahmud",
@@ -123,7 +123,7 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": "Built 1750 under Mahmud I; the Mahmud II dam dates from 1839, after this map"
+    "note": "Built 1750 under Mahmud I, hence also called Sultan I. Mahmud Bendi; the Mahmud II dam dates from 1839, after this map."
   },
   {
     "fr": "Bend de la Validé",
@@ -161,7 +161,7 @@
       "latn": "Küçük Bend",
       "arab": "كوچك بند"
     },
-    "modern": "Ayvad Bendi (probable), Belgrad Forest",
+    "modern": "Ayvad Bendi, Belgrad Forest (probable)",
     "lit": {
       "fr": {
         "en": "Small dam",
@@ -183,7 +183,7 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": "Vertical label"
+    "note": "Vertical label; the identification with Ayvad Bendi is a guess."
   },
   {
     "fr": "GRAND BEND",
@@ -221,7 +221,7 @@
       "latn": "Kâmürlü",
       "arab": "كامورلی"
     },
-    "modern": "Unidentified village beside Belgrad village (abandoned)",
+    "modern": "Kâmürlü, Belgrad Forest (unidentified)",
     "lit": {
       "fr": {
         "en": "Kiamurli",
@@ -243,7 +243,7 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": null
+    "note": "Village symbol beside the old Belgrad village; reading and identification uncertain."
   },
   {
     "fr": "le Vieux BELGRADE",
@@ -251,7 +251,7 @@
       "latn": "Belgrad Köyü",
       "arab": "بلغراد كوی"
     },
-    "modern": "Belgrat village site (evacuated 1890s), Belgrad Forest",
+    "modern": "Belgrad Köyü, Belgrad Forest (abandoned)",
     "lit": {
       "fr": {
         "en": "Old Belgrade",
@@ -286,6 +286,6 @@
       ]
     ],
     "uncertain": true,
-    "note": "'le Vieux' and 'BELGRADE' are split by the village symbol; settled by Serbs deported after 1521"
+    "note": "'le Vieux' and 'BELGRADE' are split by the village symbol. Settled by Serbs deported after 1521 and evacuated in the 1890s."
   }
 ]

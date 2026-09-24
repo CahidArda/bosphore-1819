@@ -101,7 +101,13 @@
 }
 
 /* ---------------------------------------------------------------- map labels */
+.lbl-root {
+  position: absolute;
+  pointer-events: none;
+  overflow: visible;
+}
 .lbl {
+  position: absolute;
   box-sizing: border-box;
   border: 1px dashed color-mix(in oklab, var(--sepia) 30%, transparent);
   border-radius: 2px;
@@ -114,6 +120,11 @@
   border-style: solid;
   border-color: color-mix(in oklab, var(--sepia) 85%, transparent);
   background: color-mix(in oklab, var(--sepia) 10%, transparent);
+}
+/* search matches: a quiet gray outline, never the accent colour */
+.lbl.is-match {
+  border: 1px solid color-mix(in oklab, var(--foreground) 45%, transparent);
+  background: color-mix(in oklab, var(--foreground) 7%, transparent);
 }
 .lbl.is-sel {
   border: 2px solid var(--primary);

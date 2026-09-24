@@ -28,3 +28,21 @@ export const TILE_SOURCE = {
   type: "legacy-image-pyramid",
   levels: LEVELS,
 };
+
+/**
+ * Phones and tablets get the pyramid without the 12,509 px original: decoding a
+ * 97-megapixel JPEG into a texture is what makes mobile browsers stutter and drop
+ * the WebGL context (the map "disappears") while pinch-zooming. The 3,840 px level
+ * still resolves every label.
+ */
+export function isConstrainedDevice(): boolean {
+  if (typeof window === "undefined") return false;
+  const coarse = window.matchMedia?.("(pointer: coarse)").matches ?? false;
+  const small = Math.min(window.screen?.width ?? 1e4, window.screen?.height ?? 1e4) < 900;
+  const lowMem = ((navigator as Navigator & { deviceMemory?: number }).deviceMemory ?? 8) <= 4;
+  return (coarse && small) || lowMem;
+}
+
+export function tileSourceFor(constrained: boolean) {
+  return { type: "legacy-image-pyramid", levels: constrained ? LEVELS.slice(0, 3) : LEVELS };
+}

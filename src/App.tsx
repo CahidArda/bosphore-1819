@@ -73,6 +73,8 @@ export default function App() {
     return ms;
   }, [index, query, kinds, uncertainOnly]);
   const selected = useMemo(() => new Set(selectedOrder), [selectedOrder]);
+  // Labels matching a non-empty search are outlined on the map.
+  const matchIds = useMemo(() => (query.trim() ? new Set(matches.map((m) => m.label.id)) : new Set<string>()), [matches, query]);
 
   const toggle = useCallback((id: string) => {
     setSelectedOrder((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
@@ -149,7 +151,7 @@ export default function App() {
             {error ? <p className="text-destructive p-4 text-sm">{d.loadFailed}</p> : <Sidebar {...sidebarProps} />}
           </aside>
           <main className="relative min-w-0 flex-1">
-            <MapView ref={mapRef} labels={labels} selected={selected} lang={lang} onToggle={onMapToggle} />
+            <MapView ref={mapRef} labels={labels} selected={selected} highlighted={matchIds} lang={lang} onToggle={onMapToggle} />
             <MapControls
               lang={lang}
               fullscreen={fullscreen}

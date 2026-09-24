@@ -14,7 +14,7 @@
    "ota": {
     "en": "White Father (also 'vulture')",
     "fr": "Père Blanc (aussi 'vautour')",
-    "tr": "Akbaba"
+    "tr": "Ak baba (akbaba)"
    },
    "modern": null
   },
@@ -35,7 +35,7 @@
    "latn": "Tokat",
    "arab": "طوقات"
   },
-  "modern": "Tokat Bahçesi, Beykoz (Tokat Köşkü, lost)",
+  "modern": "Tokat Bahçesi, Beykoz (lost)",
   "lit": {
    "fr": {
     "en": "Tokat",
@@ -57,7 +57,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Royal garden and hunting lodge founded by Süleyman I"
+  "note": "Royal garden and hunting lodge (Tokat Köşkü) founded by Süleyman I"
  },
  {
   "fr": "Tokat Tchiftlik",
@@ -147,7 +147,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": null
+  "note": "Ottoman form reconstructed; the map gives only the French"
  },
  {
   "fr": "Sultanié",
@@ -155,16 +155,16 @@
    "latn": "Sultaniye",
    "arab": "سلطانیه"
   },
-  "modern": "Sultaniye, Beykoz (Sultaniye Kasrı, lost)",
+  "modern": "Sultaniye, Beykoz",
   "lit": {
    "fr": {
     "en": "Sultanié",
     "tr": "Sultaniye"
    },
    "ota": {
-    "en": "The Imperial (place)",
-    "fr": "L'Impériale",
-    "tr": "Sultana ait yer"
+    "en": "Imperial, of the Sultan",
+    "fr": "Impériale, du Sultan",
+    "tr": "Sultana ait"
    },
    "modern": null
   },
@@ -177,12 +177,12 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Sultaniye meadow and kiosk on the Beykoz shore"
+  "note": "Sultaniye meadow and kiosk (Sultaniye Kasrı, lost) on the Beykoz shore"
  },
  {
   "fr": "Kiosque ruiné",
   "ota": null,
-  "modern": "Sultaniye Kasrı, Beykoz (ruined kiosk, lost)",
+  "modern": "Sultaniye Kasrı, Beykoz (lost)",
   "lit": {
    "fr": {
     "en": "Ruined kiosk",
@@ -200,12 +200,12 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Placed directly under Sultanié"
+  "note": "Placed directly under Sultanié; probably the ruined Sultaniye kiosk"
  },
  {
   "fr": "Ruines antiques",
   "ota": null,
-  "modern": "Ancient ruins at Sultaniye, Beykoz (unidentified)",
+  "modern": "Ancient ruins, Sultaniye (unidentified)",
   "lit": {
    "fr": {
     "en": "Ancient ruins",
@@ -226,13 +226,13 @@
   "note": null
  },
  {
-  "fr": "Lavée des Ruines",
+  "fr": "L'anse des Ruines",
   "ota": null,
-  "modern": "Cove off Sultaniye, Beykoz",
+  "modern": "Sultaniye cove, Beykoz (unidentified)",
   "lit": {
    "fr": {
     "en": "Cove of the Ruins",
-    "tr": "Harabeler koyu"
+    "tr": "Harabeler Koyu"
    },
    "ota": null,
    "modern": null
@@ -259,7 +259,7 @@
    ]
   ],
   "uncertain": true,
-  "note": "Reading uncertain; probably 'L'anse des Ruines' (cove of the ruins)"
+  "note": "Small cove below the ancient ruins at Sultaniye; read from a low-resolution scan"
  },
  {
   "fr": "BEY-KOZ",
@@ -421,7 +421,7 @@
    "latn": "Hünkâr Değirmeni",
    "arab": "خنكار دگرمنی"
   },
-  "modern": "Sultan's mill at Hünkâr İskelesi (lost)",
+  "modern": "Sultan's mill, Hünkâr İskelesi (lost)",
   "lit": {
    "fr": {
     "en": "Mill of the Grand Seigneur",
@@ -443,7 +443,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Le Grand Seigneur = the Sultan"
+  "note": "Le Grand Seigneur = the Sultan; Ottoman form reconstructed"
  },
  {
   "fr": "Selvé-Bournou",
@@ -541,7 +541,7 @@
    "latn": "Kalender",
    "arab": "قلندر"
   },
-  "modern": "Kalender, Sarıyer (Kalender Kasrı)",
+  "modern": "Kalender, Sarıyer",
   "lit": {
    "fr": {
     "en": "Kalender",
@@ -550,7 +550,7 @@
    "ota": {
     "en": "Kalender (wandering dervish)",
     "fr": "Kalender (derviche errant)",
-    "tr": "Kalender"
+    "tr": "Kalender (gezgin derviş)"
    },
    "modern": null
   },
@@ -571,7 +571,7 @@
    "latn": "Bibika",
    "arab": "بیبیقه"
   },
-  "modern": "Bibika, north of Tarabya (unidentified property)",
+  "modern": "Bibika, Tarabya (unidentified)",
   "lit": {
    "fr": {
     "en": "Bibika",
@@ -593,7 +593,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Probably a Phanariot family estate"
+  "note": "Probably a Phanariot family estate north of Tarabya"
  },
  {
   "fr": "Havous Baktché",
@@ -601,7 +601,7 @@
    "latn": "Havuz Bağçesi",
    "arab": "حوض باغچه سی"
   },
-  "modern": "Havuzbaşı, Tarabya (garden, lost)",
+  "modern": "Havuz Bahçesi, Tarabya (lost)",
   "lit": {
    "fr": {
     "en": "Pool Garden",
@@ -623,7 +623,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": null
+  "note": "Ottoman form reconstructed from the French"
  },
  {
   "fr": "THARAPIA",
@@ -638,9 +638,9 @@
     "tr": "Tarabya"
    },
    "ota": {
-    "en": "Healing (Greek Therapeia)",
-    "fr": "Guérison (grec Therapeia)",
-    "tr": "Şifa (Yunanca Therapeia)"
+    "en": "Tarabya",
+    "fr": "Tarabya",
+    "tr": "Tarabya"
    },
    "modern": null
   },
@@ -653,7 +653,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": null
+  "note": "From the Greek Therapeia, 'healing'"
  },
  {
   "fr": "Nveau Palais de France",
@@ -661,7 +661,7 @@
    "latn": "Fransa Sarayı",
    "arab": "فرانسه سرایی"
   },
-  "modern": "French Embassy summer residence, Tarabya",
+  "modern": "French summer embassy, Tarabya",
   "lit": {
    "fr": {
     "en": "New Palace of France",
@@ -683,12 +683,12 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Diagonal label; abbreviation 'Nveau' (Nouveau) read from a small engraving"
+  "note": "Diagonal label; 'Nveau' = Nouveau"
  },
  {
   "fr": "Observatoire",
   "ota": null,
-  "modern": "Observatory at Tarabya (lost)",
+  "modern": "Tarabya observatory (lost)",
   "lit": {
    "fr": {
     "en": "Observatory",
@@ -714,7 +714,7 @@
    "latn": "Eski Fransa Sarayı",
    "arab": "اسكی فرانسه سرایی"
   },
-  "modern": "Old French embassy summer residence, Tarabya (lost)",
+  "modern": "Old French summer embassy, Tarabya (lost)",
   "lit": {
    "fr": {
     "en": "Old Palace of France",
@@ -784,7 +784,7 @@
  {
   "fr": "Construction antique",
   "ota": null,
-  "modern": "Ancient structure near Kireçburnu (unidentified)",
+  "modern": "Ancient structure, Kireçburnu (unidentified)",
   "lit": {
    "fr": {
     "en": "Ancient structure",
@@ -979,7 +979,7 @@
    "latn": "Rusya Sarayı",
    "arab": "روسیه سرایی"
   },
-  "modern": "Russian consulate summer residence, Büyükdere",
+  "modern": "Russian summer embassy, Büyükdere",
   "lit": {
    "fr": {
     "en": "Palace of Russia",
@@ -1001,7 +1001,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Summer residence of the Russian embassy"
+  "note": "Summer residence of the Russian embassy, still held by the Russian consulate"
  },
  {
   "fr": "Palais d'Espagne",
@@ -1009,7 +1009,7 @@
    "latn": "İspanya Sarayı",
    "arab": "اسپانیه سرایی"
   },
-  "modern": "Spanish embassy summer residence, Büyükdere (lost)",
+  "modern": "Spanish summer embassy, Büyükdere (lost)",
   "lit": {
    "fr": {
     "en": "Palace of Spain",
@@ -1134,7 +1134,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Crio-nero is Greek 'kryo nero', cold water"
+  "note": "Crio-nero is Greek 'kryo nero', cold water; Ottoman form reconstructed from the French gloss"
  },
  {
   "fr": "Ieron, ancien Château des Génois ruiné",
@@ -1315,10 +1315,10 @@
  {
   "fr": "Ruines du Monastère de St Pantéléemon",
   "ota": null,
-  "modern": "Ruins of the monastery of St Panteleimon, Yuşa Tepesi",
+  "modern": "St Panteleimon monastery, Yuşa Tepesi (ruined)",
   "lit": {
    "fr": {
-    "en": "Ruins of the Monastery of St Pantaleon",
+    "en": "Ruins of the Monastery of St Panteleimon",
     "tr": "Aziz Panteleimon Manastırı harabeleri"
    },
    "ota": null,
@@ -1418,7 +1418,7 @@
   "fr": "Tél-Tabié",
   "ota": {
    "latn": "Tel Tabya",
-   "arab": "تل طابیه سی"
+   "arab": "تل طابیه"
   },
   "modern": "Telli Tabya, Rumelikavağı",
   "lit": {
@@ -1485,7 +1485,7 @@
    ]
   ],
   "uncertain": true,
-  "note": "Diagonal label along the valley behind Hünkâr İskelesi"
+  "note": "Diagonal label along the valley behind Hünkâr İskelesi; Ottoman form reconstructed"
  },
  {
   "fr": "Validé Tchechmé",
@@ -1523,7 +1523,7 @@
    "latn": "Kâğıd Fabrikası",
    "arab": "كاغد فابریقه سی"
   },
-  "modern": "Beykoz paper mill (Hünkâr İskelesi Kâğıt Fabrikası, 1804; lost)",
+  "modern": "Hünkâr İskelesi Kâğıt Fabrikası, Beykoz (lost)",
   "lit": {
    "fr": {
     "en": "Paper mill",
@@ -1545,7 +1545,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "State paper mill founded under Selim III"
+  "note": "State paper mill founded under Selim III in 1804; Ottoman form reconstructed"
  },
  {
   "fr": "INDGIR-KEUI",
@@ -1583,7 +1583,7 @@
    "latn": "Abdurrahman Ağa Köşkü",
    "arab": "عبدالرحمن آغا كوشكی"
   },
-  "modern": "Kiosk on the shore south of İncirköy (lost)",
+  "modern": "Abdurat Zagia kiosk, İncirköy (lost)",
   "lit": {
    "fr": {
     "en": "Kiosk of Abdurat Zagia",
@@ -1618,12 +1618,12 @@
    ]
   ],
   "uncertain": true,
-  "note": "Owner's name read with difficulty; Ottoman form is a guess"
+  "note": "Kiosk on the shore south of İncirköy; owner's name read with difficulty, Ottoman form is a guess"
  },
  {
   "fr": "Fours à chaux",
   "ota": null,
-  "modern": "Lime kilns on the Çubuklu shore (lost)",
+  "modern": "Lime kilns, Çubuklu (lost)",
   "lit": {
    "fr": {
     "en": "Lime kilns",

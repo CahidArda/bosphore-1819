@@ -2,10 +2,10 @@
   {
     "fr": "Mine de Charbon de terre",
     "ota": null,
-    "modern": "Former coal working near Kilyos / Rumelifeneri (no longer extant)",
+    "modern": "Coal mine near Kilyos (lost)",
     "lit": {
       "fr": {
-        "en": "Coal mine",
+        "en": "Mineral coal mine",
         "tr": "Taş kömürü madeni"
       },
       "ota": null,
@@ -33,7 +33,7 @@
       ]
     ],
     "uncertain": true,
-    "note": "'Charbon de terre' = mineral coal, as opposed to charcoal"
+    "note": "'Charbon de terre' = mineral coal, as opposed to charcoal; on the Black Sea coast between Rumelifeneri and Kilyos"
   },
   {
     "fr": "Eski-Fanaraki Bournou",
@@ -41,7 +41,7 @@
       "latn": "Eski Fanaraki Burnu",
       "arab": "اسكی فناراكی بورنی"
     },
-    "modern": "Headland at Kilyos (below Kilyos Kalesi)",
+    "modern": "Kilyos headland, Sarıyer (unidentified)",
     "lit": {
       "fr": {
         "en": "Old Fanaraki Cape",
@@ -50,7 +50,7 @@
       "ota": {
         "en": "Cape of the old little lighthouse",
         "fr": "Cap du vieux petit phare",
-        "tr": "Eski fenercik burnu"
+        "tr": "Eski küçük fener burnu"
       },
       "modern": null
     },
@@ -63,12 +63,12 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": "Fanaraki = Greek 'little lighthouse'; the cape beside Kila Fort (Kilyos)"
+    "note": "Fanaraki = Greek 'little lighthouse'; the cape beside Kila Fort (Kilyos). Ottoman form reconstructed from the French"
   },
   {
     "fr": "Ancienne Tour",
     "ota": null,
-    "modern": "Old tower at Kilyos headland (site of Kilyos Kalesi)",
+    "modern": "Old tower at Kilyos, Sarıyer (unidentified)",
     "lit": {
       "fr": {
         "en": "Old Tower",
@@ -86,6 +86,6 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": null
+    "note": "Drawn beside Kila Fort on the Kilyos headland; possibly part of the Genoese castle of Kilyos"
   }
 ]

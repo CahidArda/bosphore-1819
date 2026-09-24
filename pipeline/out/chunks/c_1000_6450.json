@@ -5,7 +5,7 @@
    "latn": "Şerköy",
    "arab": "شر كوی"
   },
-  "modern": "Unidentified village west of Ağaçlı (Eyüpsultan)",
+  "modern": "Şerköy, Eyüpsultan (unidentified)",
   "lit": {
    "fr": {
     "en": "Cher-keui",
@@ -27,15 +27,15 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Village with a mosque; recorded identically in c_1000_5300 and c_1000_6450 (same bbox)"
+  "note": "Village with a mosque west of Ağaçlı; the Ottoman form and the meaning of 'Şer' are guesses"
  },
  {
   "fr": "F. P. Michel Sculp.",
   "ota": null,
-  "modern": "Engraver's signature (F. P. Michel)",
+  "modern": "Engraver's signature (not a place)",
   "lit": {
    "fr": {
-    "en": "F. P. Michel engraved (this)",
+    "en": "Engraved by F. P. Michel",
     "tr": "F. P. Michel hakketti"
    },
    "ota": null,
@@ -50,6 +50,6 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Engraver's signature in the bottom-left margin, just below the map frame; not a place"
+  "note": "Engraver's signature in the bottom-left margin, below the map frame"
  }
 ]
