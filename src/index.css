@@ -110,17 +110,21 @@
   pointer-events: none;
   overflow: visible;
 }
-/* layers toggle: every label gets a visible outline (handy on touch screens).
+/* layers toggle: every label gets a dotted outline (handy on touch screens).
+   Lowest in the hierarchy: search matches and selections keep their own styles.
    The map is sepia in both themes, so the colour does not follow the theme. */
-.lbl-root.show-all .lbl {
-  border: 2px solid var(--outline-all);
-  background: color-mix(in oklab, var(--outline-all) 6%, transparent);
+.lbl-root.show-all .lbl:not(.is-match):not(.is-sel) {
+  border: 2px dotted var(--outline-all);
+  background: color-mix(in oklab, var(--outline-all) 5%, transparent);
 }
 .lbl {
   position: absolute;
-  box-sizing: border-box;
+  /* a little breathing room around the engraved text, independent of zoom */
+  box-sizing: content-box;
+  padding: 2px 3px;
+  margin: -2px -3px;
   border: 1px dashed color-mix(in oklab, var(--sepia) 30%, transparent);
-  border-radius: 2px;
+  border-radius: 4px;
   pointer-events: none;
   transition:
     border-color 120ms ease,
@@ -143,8 +147,8 @@
 .lbl.is-sel::after {
   content: "";
   position: absolute;
-  top: -5px;
-  right: -5px;
+  top: -6px;
+  right: -6px;
   width: 8px;
   height: 8px;
   border-radius: 9999px;
