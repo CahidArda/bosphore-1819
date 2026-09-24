@@ -1,7 +1,7 @@
 import { forwardRef, useCallback, useEffect, useImperativeHandle, useRef, useState } from "react";
 import OpenSeadragon from "openseadragon";
 import type { Label, Lang, NBox } from "@/types";
-import { ASPECT, TILE_SOURCE } from "@/map/pyramid";
+import { ASPECT, isConstrainedDevice, tileSourceFor } from "@/map/pyramid";
 import { t } from "@/i18n";
 import { cn } from "@/lib/utils";
 import { HoverCard } from "./HoverCard";
@@ -22,11 +22,6 @@ interface Hit {
   x2: number;
   y2: number;
   area: number;
-}
-
-/** Normalised [x, y, w, h] fraction box to an OpenSeadragon viewport rect. */
-function toRect(b: NBox) {
-  return new OpenSeadragon.Rect(b[0], b[1] * ASPECT, b[2], b[3] * ASPECT);
 }
 
 function unionRect(boxes: NBox[]) {
@@ -89,7 +84,7 @@ export const MapView = forwardRef<
     if (!el) return;
     const viewer = OpenSeadragon({
       element: el,
-      tileSources: TILE_SOURCE as unknown as OpenSeadragon.TileSourceOptions,
+      tileSources: tileSourceFor(isConstrainedDevice()) as unknown as OpenSeadragon.TileSourceOptions,
       prefixUrl: "",
       showNavigationControl: false,
       crossOriginPolicy: "Anonymous",
@@ -199,6 +194,12 @@ export const MapView = forwardRef<
     elsById.current.clear();
     byId.current = new Map(labels.map((l) => [l.id, l]));
     const list: Hit[] = [];
+    // One overlay covering the whole image; every label box is a child positioned in
+    // percentages. OpenSeadragon then updates a single element per frame instead of
+    // several hundred, which keeps panning and pinch-zoom smooth on phones.
+    const root = document.createElement("div");
+    root.className = "lbl-root";
+    const frag = document.createDocumentFragment();
     for (const label of labels) {
       const boxes = label.parts && label.parts.length ? label.parts : [label.bbox];
       const els: HTMLElement[] = [];
@@ -209,12 +210,18 @@ export const MapView = forwardRef<
         div.setAttribute("role", "img");
         div.setAttribute("aria-label", `${label.fr} · ${label.modern}`);
         if (i > 0) div.setAttribute("aria-hidden", "true");
-        viewer.addOverlay({ element: div, location: toRect(b) });
+        div.style.left = `${b[0] * 100}%`;
+        div.style.top = `${b[1] * 100}%`;
+        div.style.width = `${b[2] * 100}%`;
+        div.style.height = `${b[3] * 100}%`;
+        frag.appendChild(div);
         els.push(div);
         list.push({ id: label.id, x1: b[0], y1: b[1], x2: b[0] + b[2], y2: b[1] + b[3], area: b[2] * b[3] });
       });
       elsById.current.set(label.id, els);
     }
+    root.appendChild(frag);
+    viewer.addOverlay({ element: root, location: new OpenSeadragon.Rect(0, 0, 1, ASPECT) });
     list.sort((a, b) => a.area - b.area);
     hits.current = list;
     prevSelected.current = new Set();

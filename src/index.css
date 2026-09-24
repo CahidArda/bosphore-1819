@@ -101,7 +101,13 @@
 }
 
 /* ---------------------------------------------------------------- map labels */
+.lbl-root {
+  position: absolute;
+  pointer-events: none;
+  overflow: visible;
+}
 .lbl {
+  position: absolute;
   box-sizing: border-box;
   border: 1px dashed color-mix(in oklab, var(--sepia) 30%, transparent);
   border-radius: 2px;
