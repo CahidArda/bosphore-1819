@@ -186,7 +186,7 @@ const tr: Dict = {
   home: "Genel görünüm",
   fullscreen: "Tam ekran",
   exitFullscreen: "Tam ekrandan çık",
-  openList: "Ad listesini aç",
+  openList: "Yer adları listesini aç",
   close: "Kapat",
   noResults: "Eşleşen ad yok.",
   loading: "Harita yükleniyor…",
@@ -220,7 +220,7 @@ const tr: Dict = {
   allKinds: "Tüm türler",
   credit: "Kauffer & Barbié du Bocage, 1819 · BnF Gallica / Wikimedia Commons · kamu malı",
   listHelp: "Ok tuşlarıyla gezin, Boşluk ile seçin, Enter ile haritada gidin.",
-  labelsList: "Harita adları",
+  labelsList: "Yer adları",
   aboutTitle: "Harita hakkında",
   aboutBody: [
     "Plan Topographique du Bosphore de Thrace ou Canal de Constantinople et de ses environs, François Kauffer tarafından 1776–1786 yılları arasında, önce Fransız elçisi Choiseul-Gouffier'nin, sonra Bâbıâli'nin hizmetindeyken ölçülmüştür. Jean-Denis Barbié du Bocage haritayı Antoine-Ignace Melling'in 1819'da yayımlanan Voyage pittoresque de Constantinople et des rives du Bosphore adlı eseri için yeniden çizip zenginleştirmiştir.",
