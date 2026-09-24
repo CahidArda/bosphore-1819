@@ -102,6 +102,14 @@
   mark {
     @apply rounded-sm bg-mark px-0.5 text-inherit;
   }
+  /* Tailwind v4 preflight leaves buttons with the default cursor; every control here is
+     a button (checkboxes, toggles, dialog close, map controls), so restore the pointer. */
+  button:not(:disabled),
+  [role="button"]:not(:disabled),
+  [role="checkbox"]:not(:disabled),
+  [role="radio"]:not(:disabled) {
+    cursor: pointer;
+  }
 }
 
 /* ---------------------------------------------------------------- map labels */
