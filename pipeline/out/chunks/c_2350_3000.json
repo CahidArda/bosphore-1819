@@ -16,7 +16,11 @@
         "fr": "Phare de Roumélie",
         "tr": "Rumeli feneri"
       },
-      "modern": null
+      "modern": {
+        "en": "Lighthouse of Rumelia",
+        "fr": "Phare de Roumélie",
+        "tr": "Rumeli feneri"
+      }
     },
     "kind": "village",
     "bbox": [
@@ -40,7 +44,11 @@
       ]
     ],
     "uncertain": false,
-    "note": "Fanaraki is Greek for 'little lighthouse'."
+    "note": {
+      "en": "Fanaraki is Greek for 'little lighthouse'.",
+      "fr": "Fanaraki signifie « petit phare » en grec.",
+      "tr": "Fanaraki, Rumca 'küçük fener' demektir."
+    }
   },
   {
     "fr": "Karibtché Dérési",
@@ -59,7 +67,11 @@
         "fr": "Ruisseau de Garipçe",
         "tr": "Garipçe deresi"
       },
-      "modern": null
+      "modern": {
+        "en": "Garipçe stream",
+        "fr": "Ruisseau de Garipçe",
+        "tr": "Garipçe deresi"
+      }
     },
     "kind": "water",
     "bbox": [
@@ -83,7 +95,11 @@
       ]
     ],
     "uncertain": false,
-    "note": "Vertical label along the stream that flows into Büyükliman bay; the same name as Garipçe Burnu to the north."
+    "note": {
+      "en": "Vertical label along the stream that flows into Büyükliman bay; the same name as Garipçe Burnu to the north.",
+      "fr": "Étiquette verticale le long du ruisseau qui se jette dans la baie de Büyükliman ; même nom que le cap Garipçe au nord.",
+      "tr": "Büyükliman koyuna dökülen dere boyunca dikey yazılmış etiket; kuzeydeki Garipçe Burnu ile aynı ad."
+    }
   },
   {
     "fr": "Buyuk-Liman",
@@ -102,7 +118,11 @@
         "fr": "Grand Port",
         "tr": "Büyük liman"
       },
-      "modern": null
+      "modern": {
+        "en": "Great harbour",
+        "fr": "Grand port",
+        "tr": "Büyük liman"
+      }
     },
     "kind": "bay",
     "bbox": [
@@ -132,7 +152,11 @@
         "fr": "Sous la Roche Noire",
         "tr": "Kara taşın altı"
       },
-      "modern": null
+      "modern": {
+        "en": "Below the black rock",
+        "fr": "Sous la roche noire",
+        "tr": "Kara taşın altı"
+      }
     },
     "kind": "other",
     "bbox": [
@@ -143,19 +167,27 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": "Shore below Rumelikavağı on the Büyükliman side; an anchorage and battery are marked beside it."
+    "note": {
+      "en": "Shore below Rumelikavağı on the Büyükliman side; an anchorage and battery are marked beside it.",
+      "fr": "Rivage en contrebas de Rumelikavağı, côté Büyükliman ; un mouillage et une batterie sont marqués à côté.",
+      "tr": "Rumelikavağı'nın Büyükliman tarafındaki alt kıyısı; yanında bir demirleme yeri ve tabya işaretli."
+    }
   },
   {
     "fr": "TERRAIN VOLCANIQUE",
     "ota": null,
-    "modern": "Volcanic terrain, Rumelifeneri",
+    "modern": "Volkanik arazi, Rumelifeneri",
     "lit": {
       "fr": {
         "en": "Volcanic terrain",
         "tr": "Volkanik arazi"
       },
       "ota": null,
-      "modern": null
+      "modern": {
+        "en": "Volcanic terrain",
+        "fr": "Terrain volcanique",
+        "tr": "Volkanik arazi"
+      }
     },
     "kind": "region",
     "bbox": [
@@ -179,7 +211,11 @@
       ]
     ],
     "uncertain": false,
-    "note": "Letter-spaced label over the hills between Rumelifeneri and Demirciköy."
+    "note": {
+      "en": "Letter-spaced label over the hills between Rumelifeneri and Demirciköy.",
+      "fr": "Étiquette aux lettres espacées sur les collines entre Rumelifeneri et Demirciköy.",
+      "tr": "Rumelifeneri ile Demirciköy arasındaki tepeler üzerine aralıklı harflerle yazılmış etiket."
+    }
   },
   {
     "fr": "Ruines du Monastère de Mauromolos",
@@ -198,7 +234,11 @@
         "fr": "Monastère du Môle Noir",
         "tr": "Kara iskele manastırı"
       },
-      "modern": null
+      "modern": {
+        "en": "Mavromolos monastery",
+        "fr": "Monastère de Mavromolos",
+        "tr": "Mavromolos manastırı"
+      }
     },
     "kind": "religious",
     "bbox": [
@@ -222,7 +262,11 @@
       ]
     ],
     "uncertain": true,
-    "note": "Greek Mavromolos = 'black mole'; Byzantine monastery site above Rumelikavağı. The Ottoman form is reconstructed."
+    "note": {
+      "en": "Greek Mavromolos = 'black mole'; Byzantine monastery site above Rumelikavağı. The Ottoman form is reconstructed.",
+      "fr": "Mavromolos signifie « môle noir » en grec ; site d'un monastère byzantin au-dessus de Rumelikavağı. La forme ottomane est reconstituée.",
+      "tr": "Rumca Mavromolos 'kara iskele' demektir; Rumelikavağı üzerinde Bizans manastırı yeri. Osmanlıca biçimi tahmini."
+    }
   },
   {
     "fr": "Ruines d'un ancien Château des Génois",
@@ -241,7 +285,11 @@
         "fr": "Château des Génois",
         "tr": "Ceneviz kalesi"
       },
-      "modern": null
+      "modern": {
+        "en": "Genoese castle",
+        "fr": "Château génois",
+        "tr": "Ceneviz kalesi"
+      }
     },
     "kind": "fort",
     "bbox": [
@@ -271,7 +319,11 @@
       ]
     ],
     "uncertain": true,
-    "note": "Twin of the Yoros castle on the Asian side; the Ottoman form is reconstructed from the French."
+    "note": {
+      "en": "Twin of the Yoros castle on the Asian side; the Ottoman form is reconstructed from the French.",
+      "fr": "Jumeau du château de Yoros sur la rive asiatique ; la forme ottomane est reconstituée d'après le français.",
+      "tr": "Anadolu yakasındaki Yoros Kalesi'nin ikizi; Osmanlıca biçimi Fransızcadan türetildi."
+    }
   },
   {
     "fr": "Château",
@@ -290,7 +342,11 @@
         "fr": "Forteresse de Roumili Kavak",
         "tr": "Rumeli Kavağı kalesi"
       },
-      "modern": null
+      "modern": {
+        "en": "Rumelikavağı fortress",
+        "fr": "Forteresse de Rumelikavağı",
+        "tr": "Rumelikavağı kalesi"
+      }
     },
     "kind": "fort",
     "bbox": [
@@ -301,7 +357,11 @@
     ],
     "parts": null,
     "uncertain": false,
-    "note": "Generic word placed at the fortress of Rumelikavağı, built by Murad IV in 1624 against Cossack raids."
+    "note": {
+      "en": "Generic word placed at the fortress of Rumelikavağı, built by Murad IV in 1624 against Cossack raids.",
+      "fr": "Mot générique placé à la forteresse de Rumelikavağı, bâtie par Mourad IV en 1624 contre les raids cosaques.",
+      "tr": "Kazak akınlarına karşı 1624'te IV. Murad'ın yaptırdığı Rumelikavağı kalesine konmuş genel bir sözcük."
+    }
   },
   {
     "fr": "ROUMILI KAVAK",
@@ -320,7 +380,11 @@
         "fr": "Peuplier de Roumélie",
         "tr": "Rumeli kavağı"
       },
-      "modern": null
+      "modern": {
+        "en": "Poplar of Rumelia",
+        "fr": "Peuplier de Roumélie",
+        "tr": "Rumeli kavağı"
+      }
     },
     "kind": "village",
     "bbox": [
@@ -344,7 +408,11 @@
       ]
     ],
     "uncertain": false,
-    "note": "Customs and quarantine post at the mouth of the Bosphorus"
+    "note": {
+      "en": "Customs and quarantine post at the mouth of the Bosphorus",
+      "fr": "Poste de douane et de quarantaine à l'entrée du Bosphore",
+      "tr": "Boğaz'ın ağzındaki gümrük ve karantina noktası"
+    }
   },
   {
     "fr": "DEMIRDGI-KEUI",
@@ -363,7 +431,11 @@
         "fr": "Village du forgeron",
         "tr": "Demirci köyü"
       },
-      "modern": null
+      "modern": {
+        "en": "Blacksmith's village",
+        "fr": "Village du forgeron",
+        "tr": "Demirci köyü"
+      }
     },
     "kind": "village",
     "bbox": [
@@ -379,14 +451,18 @@
   {
     "fr": "Cimetière Turc",
     "ota": null,
-    "modern": "Turkish cemetery, Sarıyer (unidentified)",
+    "modern": "Türk mezarlığı, Sarıyer (unidentified)",
     "lit": {
       "fr": {
         "en": "Turkish Cemetery",
         "tr": "Türk Mezarlığı"
       },
       "ota": null,
-      "modern": null
+      "modern": {
+        "en": "Turkish cemetery",
+        "fr": "Cimetière turc",
+        "tr": "Türk mezarlığı"
+      }
     },
     "kind": "religious",
     "bbox": [
@@ -410,7 +486,11 @@
       ]
     ],
     "uncertain": true,
-    "note": "Descriptive label on the hill above Sarıyer."
+    "note": {
+      "en": "Descriptive label on the hill above Sarıyer.",
+      "fr": "Étiquette descriptive sur la colline au-dessus de Sarıyer.",
+      "tr": "Sarıyer'in üstündeki tepede yer alan tanımlayıcı etiket."
+    }
   },
   {
     "fr": "ZÉKÉRÉ-KEUI",
@@ -429,7 +509,11 @@
         "fr": "Village de Zacharie",
         "tr": "Zekeriya köyü"
       },
-      "modern": null
+      "modern": {
+        "en": "Zachariah's village",
+        "fr": "Village de Zacharie",
+        "tr": "Zekeriya köyü"
+      }
     },
     "kind": "village",
     "bbox": [
@@ -452,7 +536,11 @@
         "tr": "Ovidius Kulesi, Geç Roma dönemi yapısı"
       },
       "ota": null,
-      "modern": null
+      "modern": {
+        "en": "Ovid's tower",
+        "fr": "Tour d'Ovide",
+        "tr": "Ovidius kulesi"
+      }
     },
     "kind": "ruin",
     "bbox": [
@@ -476,6 +564,10 @@
       ]
     ],
     "uncertain": true,
-    "note": "Byzantine watchtower ruin near Kilyos; travellers linked it to the exiled poet Ovid. Bas-Empire = the Late Roman/Byzantine empire."
+    "note": {
+      "en": "Byzantine watchtower ruin near Kilyos; travellers linked it to the exiled poet Ovid. Bas-Empire = the Late Roman/Byzantine empire.",
+      "fr": "Ruine d'une tour de guet byzantine près de Kilyos ; les voyageurs l'associaient au poète exilé Ovide. Bas-Empire = l'Empire romain tardif / byzantin.",
+      "tr": "Kilyos yakınında Bizans gözetleme kulesi kalıntısı; gezginler onu sürgündeki şair Ovidius'a bağlamıştır. Bas-Empire = Geç Roma / Bizans İmparatorluğu."
+    }
   }
 ]

@@ -1,17 +1,36 @@
 [
  {
   "fr": "Batterie et Fort",
-  "ota": {"latn": "Anadolu Kavağı Kalesi", "arab": "آناطولی قواغی قلعه سی"},
+  "ota": {
+   "latn": "Anadolu Kavağı Kalesi",
+   "arab": "آناطولی قواغی قلعه سی"
+  },
   "modern": "Kavak Kalesi, Anadolukavağı",
   "lit": {
-   "fr": {"en": "Battery and Fort", "tr": "Batarya ve Kale"},
-   "ota": {"en": "Fort of Anadolu Kavağı", "fr": "Fort d'Anadolu Kavağı", "tr": "Anadolu Kavağı kalesi"},
+   "fr": {
+    "en": "Battery and Fort",
+    "tr": "Batarya ve Kale"
+   },
+   "ota": {
+    "en": "Fort of Anadolu Kavağı",
+    "fr": "Fort d'Anadolu Kavağı",
+    "tr": "Anadolu Kavağı kalesi"
+   },
    "modern": null
   },
   "kind": "fort",
-  "bbox": [3696, 3390, 3836, 3424],
+  "bbox": [
+   3696,
+   3390,
+   3836,
+   3424
+  ],
   "parts": null,
   "uncertain": true,
-  "note": "Generic label under the ANADOLI-KAVAK village: the shore fort rebuilt by Baron de Tott in 1773, distinct from Yoros Kalesi on the hill. Ottoman name reconstructed from the adjacent label"
+  "note": {
+   "en": "Generic label under the ANADOLI-KAVAK village: the shore fort rebuilt by Baron de Tott in 1773, distinct from Yoros Kalesi on the hill. Ottoman name reconstructed from the adjacent label",
+   "fr": "Étiquette générique sous le village d'ANADOLI-KAVAK : le fort du rivage reconstruit par le baron de Tott en 1773, distinct de Yoros Kalesi sur la colline. Nom ottoman reconstitué d'après l'étiquette voisine",
+   "tr": "ANADOLI-KAVAK köyünün altındaki genel etiket: 1773'te Baron de Tott'un yeniden yaptırdığı kıyı kalesi, tepedeki Yoros Kalesi'nden ayrı. Osmanlıca ad yandaki etiketten çıkarıldı"
+  }
  }
 ]

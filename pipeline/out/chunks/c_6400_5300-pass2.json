@@ -16,7 +16,11 @@
     "fr": "Village des canonniers",
     "tr": "Topçular köyü"
    },
-   "modern": null
+   "modern": {
+    "en": "The gunners",
+    "fr": "Les canonniers",
+    "tr": "Topçular"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -27,6 +31,10 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Named after the Ottoman artillery corps"
+  "note": {
+   "en": "Named after the Ottoman artillery corps",
+   "fr": "Nommé d'après le corps d'artillerie ottoman",
+   "tr": "Adını Osmanlı topçu ocağından alır"
+  }
  }
 ]

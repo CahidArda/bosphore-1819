@@ -1,3 +1,40 @@
 [
- {"fr":"PETINO-CHORI","ota":{"latn":"Petnahor","arab":"پتناهور"},"modern":"Pirinççi, Eyüpsultan","lit":{"fr":{"en":"Petino-Chori","tr":"Petino-Chori"},"ota":{"en":"Petnahor","fr":"Petnahor","tr":"Petnahor"},"modern":{"en":"Rice-grower","fr":"Riziculteur","tr":"Pirinççi"}},"kind":"village","bbox":[3564,6562,3792,6592],"parts":null,"uncertain":true,"note":"Greek Petinochori ('cock village'), Ottoman Petnahor; renamed Pirinççi in the Republican era."}
+  {
+    "fr": "PETINO-CHORI",
+    "ota": {
+      "latn": "Petnahor",
+      "arab": "پتناهور"
+    },
+    "modern": "Pirinççi, Eyüpsultan",
+    "lit": {
+      "fr": {
+        "en": "Petino-Chori",
+        "tr": "Petino-Chori"
+      },
+      "ota": {
+        "en": "Petnahor",
+        "fr": "Petnahor",
+        "tr": "Petnahor"
+      },
+      "modern": {
+        "en": "Rice-grower",
+        "fr": "Riziculteur",
+        "tr": "Pirinççi"
+      }
+    },
+    "kind": "village",
+    "bbox": [
+      3564,
+      6562,
+      3792,
+      6592
+    ],
+    "parts": null,
+    "uncertain": true,
+    "note": {
+      "en": "Greek Petinochori ('cock village'), Ottoman Petnahor; renamed Pirinççi in the Republican era.",
+      "fr": "Petinochori en grec (« village du coq »), Petnahor en ottoman ; rebaptisé Pirinççi à l'époque républicaine.",
+      "tr": "Rumca Petinochori ('horoz köyü'), Osmanlıca Petnahor; Cumhuriyet döneminde Pirinççi adını aldı."
+    }
+  }
 ]

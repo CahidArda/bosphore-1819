@@ -6,13 +6,13 @@
     "lit": {
       "fr": { "en": "Tchenghel-Keui", "tr": "Çengelköy" },
       "ota": { "en": "Hook Village", "fr": "Village du Crochet", "tr": "Çengel köyü" },
-      "modern": null
+      "modern": { "en": "Hook village", "fr": "Village du Crochet", "tr": "Çengel köyü" }
     },
     "kind": "village",
     "bbox": [6316, 3921, 6566, 3956],
     "parts": null,
     "uncertain": false,
-    "note": "Label straddles the seam between two chunks; recorded from a zoom across the boundary"
+    "note": { "en": "Label straddles the seam between two chunks; recorded from a zoom across the boundary", "fr": "L'étiquette chevauche la jointure de deux tuiles ; relevée sur un zoom à cheval sur la limite", "tr": "Yazı iki parçanın birleşim yerine yayılıyor; sınırı aşan bir yakınlaştırmadan kaydedildi" }
   },
   {
     "fr": "DOLMA-BAKTCHÉ",
@@ -21,12 +21,12 @@
     "lit": {
       "fr": { "en": "Dolma-Baktché", "tr": "Dolmabahçe" },
       "ota": { "en": "Filled-in Garden", "fr": "Jardin comblé", "tr": "Dolma bahçe" },
-      "modern": null
+      "modern": { "en": "Filled-in garden", "fr": "Jardin comblé", "tr": "Dolma bahçe" }
     },
     "kind": "quarter",
     "bbox": [6356, 4901, 6560, 4939],
     "parts": null,
     "uncertain": false,
-    "note": "The shore garden reclaimed from the sea; the palace was built here in the 1850s. Label straddles a chunk seam"
+    "note": { "en": "The shore garden reclaimed from the sea; the palace was built here in the 1850s. Label straddles a chunk seam", "fr": "Le jardin du rivage gagné sur la mer ; le palais y fut construit dans les années 1850. L'étiquette chevauche une jointure de tuiles", "tr": "Denizden doldurularak kazanılan kıyı bahçesi; saray burada 1850'lerde yapıldı. Yazı bir parça sınırına yayılıyor" }
   }
 ]

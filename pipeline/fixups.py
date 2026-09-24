@@ -54,7 +54,7 @@ def fix_agadgik(recs):
             r["modern"] = "Ağacık (unidentified)"
             r["lit"]["modern"] = None
             r["uncertain"] = True
-            r["note"] = "Possibly a garbled Yakacık, but IAKA-KEUI just to the west is the better match for that village; left unidentified"
+            r["note"] = {"en": "Possibly a garbled Yakacık, but IAKA-KEUI just to the west is the better match for that village; left unidentified", "fr": "Peut-être un Yakacık déformé, mais IAKA-KEUI juste à l’ouest correspond mieux à ce village ; laissé non identifié", "tr": "Bozulmuş bir Yakacık olabilir, ama hemen batıdaki IAKA-KEUI o köye daha iyi uyar; tanımlanmadan bırakıldı"}
     return recs
 
 

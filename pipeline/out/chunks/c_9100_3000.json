@@ -16,7 +16,11 @@
     "fr": "Monastère de Saint-Nicolas",
     "tr": "Aziz Nikolaos manastırı"
    },
-   "modern": null
+   "modern": {
+    "en": "Church of Saint Nicholas",
+    "fr": "Église Saint-Nicolas",
+    "tr": "Aziz Nikola kilisesi"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -27,7 +31,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Tentatively the village church of St Nicholas (rebuilt 1857); Ottoman form reconstructed. Label sits on the top edge of the chunk"
+  "note": {
+   "en": "Tentatively the village church of St Nicholas (rebuilt 1857); Ottoman form reconstructed. Label sits on the top edge of the chunk",
+   "fr": "Probablement l'église Saint-Nicolas du village (reconstruite en 1857) ; forme ottomane reconstituée. L'étiquette se trouve au bord supérieur du fragment",
+   "tr": "Muhtemelen köyün Aya Nikola kilisesi (1857'de yeniden yapıldı); Osmanlıca biçim türetildi. Etiket parçanın üst kenarında"
+  }
  },
  {
   "fr": "Monastère de la Trinité",
@@ -46,7 +54,11 @@
     "fr": "Monastère de la Sainte-Trinité",
     "tr": "Kutsal Üçleme manastırı"
    },
-   "modern": null
+   "modern": {
+    "en": "Monastery of the Holy Trinity",
+    "fr": "Monastère de la Sainte-Trinité",
+    "tr": "Kutsal Üçleme manastırı"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -57,7 +69,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Later site of the Halki theological school (Heybeliada Ruhban Okulu, 1844)"
+  "note": {
+   "en": "Later site of the Halki theological school (Heybeliada Ruhban Okulu, 1844)",
+   "fr": "Plus tard le site de l'école théologique de Halki (Heybeliada Ruhban Okulu, 1844)",
+   "tr": "Sonradan Heybeliada Ruhban Okulu'nun (1844) yeri"
+  }
  },
  {
   "fr": "Mon. de St Georges",
@@ -76,7 +92,11 @@
     "fr": "Monastère de Saint-Georges",
     "tr": "Aziz Yorgi manastırı"
    },
-   "modern": null
+   "modern": {
+    "en": "Monastery of Saint George",
+    "fr": "Monastère de Saint-Georges",
+    "tr": "Aziz Yorgi manastırı"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -87,19 +107,27 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Identification tentative; Ottoman form reconstructed"
+  "note": {
+   "en": "Identification tentative; Ottoman form reconstructed",
+   "fr": "Identification incertaine ; forme ottomane reconstituée",
+   "tr": "Özdeşleştirme kesin değil; Osmanlıca biçim türetildi"
+  }
  },
  {
   "fr": "Petit Port",
   "ota": null,
-  "modern": "Small harbour, Heybeliada (unidentified)",
+  "modern": "Küçük liman, Heybeliada (unidentified)",
   "lit": {
    "fr": {
     "en": "Small Harbour",
     "tr": "Küçük Liman"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Small harbour",
+    "fr": "Petit port",
+    "tr": "Küçük liman"
+   }
   },
   "kind": "bay",
   "bbox": [
@@ -110,7 +138,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Slanted label on the north-west shore beside the village"
+  "note": {
+   "en": "Slanted label on the north-west shore beside the village",
+   "fr": "Étiquette inclinée sur la rive nord-ouest, à côté du village",
+   "tr": "Köyün yanında, kuzeybatı kıyısında eğik etiket"
+  }
  },
  {
   "fr": "KHALKY",
@@ -140,19 +172,27 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Greek Chalki, from chalkos = copper, after the island's ancient copper mines"
+  "note": {
+   "en": "Greek Chalki, from chalkos = copper, after the island's ancient copper mines",
+   "fr": "Grec Chalki, de chalkos = cuivre, d'après les anciennes mines de cuivre de l'île",
+   "tr": "Yunanca Halki, chalkos = bakır; adanın eski bakır madenlerinden"
+  }
  },
  {
   "fr": "Mine de cuivre",
   "ota": null,
-  "modern": "Copper mine, Heybeliada (lost)",
+  "modern": "Bakır madeni, Heybeliada (lost)",
   "lit": {
    "fr": {
     "en": "Copper mine",
     "tr": "Bakır madeni"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Copper mine",
+    "fr": "Mine de cuivre",
+    "tr": "Bakır madeni"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -176,7 +216,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Two-line label; the mines gave the island its Greek name"
+  "note": {
+   "en": "Two-line label; the mines gave the island its Greek name",
+   "fr": "Étiquette sur deux lignes ; les mines ont donné à l'île son nom grec",
+   "tr": "İki satırlık etiket; madenler adaya Yunanca adını vermiş"
+  }
  },
  {
   "fr": "Monastère de Ste Marie",
@@ -184,7 +228,7 @@
    "latn": "Panaya Manastırı",
    "arab": "پانایا مناستری"
   },
-  "modern": "Monastery of the Virgin, Heybeliada (unidentified)",
+  "modern": "Panaya Manastırı, Heybeliada (unidentified)",
   "lit": {
    "fr": {
     "en": "Monastery of St. Mary",
@@ -195,7 +239,11 @@
     "fr": "Monastère de la Toute-Sainte",
     "tr": "Meryem Ana manastırı"
    },
-   "modern": null
+   "modern": {
+    "en": "Monastery of the Virgin",
+    "fr": "Monastère de la Vierge",
+    "tr": "Meryem Ana manastırı"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -206,7 +254,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Ottoman form reconstructed; the site is not securely identified"
+  "note": {
+   "en": "Ottoman form reconstructed; the site is not securely identified",
+   "fr": "Forme ottomane reconstituée ; le site n'est pas identifié avec certitude",
+   "tr": "Osmanlıca biçim türetildi; yeri kesin olarak belirlenemedi"
+  }
  },
  {
   "fr": "Port Ste Marie",
@@ -236,19 +288,27 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Tentatively the large southern bay Çam Limanı, whose Turkish name is used for the Ottoman form"
+  "note": {
+   "en": "Tentatively the large southern bay Çam Limanı, whose Turkish name is used for the Ottoman form",
+   "fr": "Probablement la grande baie méridionale de Çam Limanı, dont le nom turc sert de forme ottomane",
+   "tr": "Muhtemelen güneydeki büyük koy Çam Limanı; Türkçe adı Osmanlıca biçim olarak kullanıldı"
+  }
  },
  {
   "fr": "Bains en Briques",
   "ota": null,
-  "modern": "Brick baths, Heybeliada (lost)",
+  "modern": "Tuğla hamamlar, Heybeliada (lost)",
   "lit": {
    "fr": {
     "en": "Brick Baths",
     "tr": "Tuğla Hamamlar"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Brick baths",
+    "fr": "Bains en briques",
+    "tr": "Tuğla hamamlar"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -259,7 +319,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Two-line slanted label beside a building symbol on the shore; reading confirmed at 1.5x zoom"
+  "note": {
+   "en": "Two-line slanted label beside a building symbol on the shore; reading confirmed at 1.5x zoom",
+   "fr": "Étiquette inclinée sur deux lignes à côté d'un symbole de bâtiment sur la rive ; lecture confirmée au zoom 1,5x",
+   "tr": "Kıyıdaki bir bina işaretinin yanında iki satırlık eğik etiket; okunuş 1,5x yakınlaştırmada doğrulandı"
+  }
  },
  {
   "fr": "Sera-Tachi",
@@ -289,7 +353,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Charted rock north of Kınalıada, drawn with a dotted outline and a cross. Ottoman form reconstructed; 'Sera' may stand for Saray"
+  "note": {
+   "en": "Charted rock north of Kınalıada, drawn with a dotted outline and a cross. Ottoman form reconstructed; 'Sera' may stand for Saray",
+   "fr": "Rocher relevé au nord de Kınalıada, dessiné en pointillé avec une croix. Forme ottomane reconstituée ; « Sera » pourrait signifier Saray",
+   "tr": "Kınalıada'nın kuzeyinde noktalı çizgi ve haçla gösterilmiş kayalık. Osmanlıca biçim türetildi; 'Sera' Saray olabilir"
+  }
  },
  {
   "fr": "Pytys",
@@ -319,7 +387,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Greek Pita / Pityoussa, the islet between Heybeliada and Burgazada"
+  "note": {
+   "en": "Greek Pita / Pityoussa, the islet between Heybeliada and Burgazada",
+   "fr": "Grec Pita / Pityoussa, l'îlot entre Heybeliada et Burgazada",
+   "tr": "Yunanca Pita / Pityoussa, Heybeliada ile Burgazada arasındaki adacık"
+  }
  },
  {
   "fr": "ANTIGONE",
@@ -327,7 +399,7 @@
    "latn": "Burgaz Köyü",
    "arab": "بورغاز كوی"
   },
-  "modern": "Burgazada village",
+  "modern": "Burgazada köyü",
   "lit": {
    "fr": {
     "en": "Antigone",
@@ -338,7 +410,11 @@
     "fr": "Village de Burgaz",
     "tr": "Burgaz köyü"
    },
-   "modern": null
+   "modern": {
+    "en": "Burgazada village",
+    "fr": "Village de Burgazada",
+    "tr": "Burgazada köyü"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -349,7 +425,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Smaller label on the village; the larger ANTIGONE names the island"
+  "note": {
+   "en": "Smaller label on the village; the larger ANTIGONE names the island",
+   "fr": "Étiquette plus petite sur le village ; le grand ANTIGONE désigne l'île",
+   "tr": "Köyün üstündeki küçük etiket; büyük ANTIGONE adayı adlandırıyor"
+  }
  },
  {
   "fr": "ANTIGONE",
@@ -379,19 +459,27 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Burgaz from Greek pyrgos = tower; Antigone after Antigonus Monophthalmus"
+  "note": {
+   "en": "Burgaz from Greek pyrgos = tower; Antigone after Antigonus Monophthalmus",
+   "fr": "Burgaz vient du grec pyrgos = tour ; Antigone d'après Antigone le Borgne",
+   "tr": "Burgaz Yunanca pyrgos = kuleden; Antigone adı Tek Gözlü Antigonos'tan"
+  }
  },
  {
   "fr": "Ancien Monastère ruiné",
   "ota": null,
-  "modern": "Ruined monastery, Burgazada (unidentified)",
+  "modern": "Yıkık manastır, Burgazada (unidentified)",
   "lit": {
    "fr": {
     "en": "Old ruined Monastery",
     "tr": "Eski yıkık Manastır"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Ruined monastery",
+    "fr": "Monastère en ruine",
+    "tr": "Yıkık manastır"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -407,14 +495,18 @@
  {
   "fr": "Ruines de Proti",
   "ota": null,
-  "modern": "Ruins of Proti, Kınalıada (lost)",
+  "modern": "Proti kalıntıları, Kınalıada (lost)",
   "lit": {
    "fr": {
     "en": "Ruins of Proti",
     "tr": "Proti Harabeleri"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Ruins of Proti",
+    "fr": "Ruines de Proti",
+    "tr": "Proti kalıntıları"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -438,19 +530,27 @@
    ]
   ],
   "uncertain": true,
-  "note": "'Proti' is set in a larger upright face than 'Ruines de'; possibly two labels"
+  "note": {
+   "en": "'Proti' is set in a larger upright face than 'Ruines de'; possibly two labels",
+   "fr": "« Proti » est composé dans un caractère droit plus grand que « Ruines de » ; peut-être deux étiquettes",
+   "tr": "'Proti', 'Ruines de'den daha büyük ve dik bir yazıyla dizilmiş; belki iki ayrı etiket"
+  }
  },
  {
   "fr": "Citernes anciennes",
   "ota": null,
-  "modern": "Ancient cisterns, Kınalıada (lost)",
+  "modern": "Eski sarnıçlar, Kınalıada (lost)",
   "lit": {
    "fr": {
     "en": "Ancient cisterns",
     "tr": "Eski sarnıçlar"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Ancient cisterns",
+    "fr": "Citernes anciennes",
+    "tr": "Eski sarnıçlar"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -466,14 +566,18 @@
  {
   "fr": "Monastère ruiné",
   "ota": null,
-  "modern": "Ruined monastery, Kınalıada (unidentified)",
+  "modern": "Yıkık manastır, Kınalıada (unidentified)",
   "lit": {
    "fr": {
     "en": "Ruined Monastery",
     "tr": "Yıkık Manastır"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Ruined monastery",
+    "fr": "Monastère en ruine",
+    "tr": "Yıkık manastır"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -484,7 +588,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "The italic '8' just left of the label is a depth sounding, not part of it"
+  "note": {
+   "en": "The italic '8' just left of the label is a depth sounding, not part of it",
+   "fr": "Le « 8 » en italique juste à gauche de l'étiquette est un sondage de profondeur, non une partie de celle-ci",
+   "tr": "Etiketin hemen solundaki italik '8' bir derinlik ölçümü, etiketin parçası değil"
+  }
  },
  {
   "fr": "PROTI",
@@ -514,6 +622,10 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Greek Proti = 'the first' island; the Turkish name refers to its reddish soil"
+  "note": {
+   "en": "Greek Proti = 'the first' island; the Turkish name refers to its reddish soil",
+   "fr": "Grec Proti = « la première » île ; le nom turc renvoie à sa terre rougeâtre",
+   "tr": "Yunanca Proti = 'ilk' ada; Türkçe adı kızıl toprağından geliyor"
+  }
  }
 ]

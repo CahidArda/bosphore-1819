@@ -27,7 +27,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Named after the admiral Güzelce Kasım Paşa; printed over dense building hatching, so a hyphen may be hidden"
+  "note": {
+   "en": "Named after the admiral Güzelce Kasım Paşa; printed over dense building hatching, so a hyphen may be hidden",
+   "fr": "Nommé d'après l'amiral Güzelce Kasım Paşa ; gravé sur des hachures de bâtiments serrées, un trait d'union peut être caché",
+   "tr": "Adını kaptan-ı derya Güzelce Kasım Paşa'dan alır; sık bina taramasının üzerine basıldığından bir tire gizlenmiş olabilir"
+  }
  },
  {
   "fr": "ARSENAL",
@@ -46,7 +50,11 @@
     "fr": "Arsenal impérial",
     "tr": "İmparatorluk tersanesi"
    },
-   "modern": null
+   "modern": {
+    "en": "Golden Horn Dockyard",
+    "fr": "Arsenal de la Corne d'Or",
+    "tr": "Haliç tersanesi"
+   }
   },
   "kind": "military",
   "bbox": [
@@ -57,7 +65,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Vertical label along the Golden Horn shore; the Ottoman Tersane-i Amire, the imperial naval dockyard."
+  "note": {
+   "en": "Vertical label along the Golden Horn shore; the Ottoman Tersane-i Amire, the imperial naval dockyard.",
+   "fr": "Étiquette verticale le long de la rive de la Corne d'Or ; la Tersane-i Amire ottomane, l'arsenal impérial de la marine.",
+   "tr": "Haliç kıyısı boyunca dikey yazılmış; Osmanlı'nın Tersane-i Âmire'si, devletin donanma tersanesi."
+  }
  },
  {
   "fr": "Port de Constantinople",
@@ -65,7 +77,7 @@
    "latn": "Haliç",
    "arab": "خلیج"
   },
-  "modern": "Haliç (Golden Horn)",
+  "modern": "Haliç",
   "lit": {
    "fr": {
     "en": "Port of Constantinople",
@@ -76,7 +88,11 @@
     "fr": "Le Golfe",
     "tr": "Haliç (körfez)"
    },
-   "modern": null
+   "modern": {
+    "en": "The Gulf (the Golden Horn)",
+    "fr": "Le Golfe (la Corne d'Or)",
+    "tr": "Haliç (körfez)"
+   }
   },
   "kind": "water",
   "bbox": [
@@ -106,7 +122,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Curved label following the Golden Horn"
+  "note": {
+   "en": "Curved label following the Golden Horn; Haliç is the Turkish name of the Golden Horn.",
+   "fr": "Étiquette courbe suivant la Corne d'Or ; Haliç est le nom turc de la Corne d'Or.",
+   "tr": "Haliç boyunca kavisli yazılmış; Haliç, Batı dillerinde Altın Boynuz olarak bilinir."
+  }
  },
  {
   "fr": "Validé",
@@ -114,7 +134,7 @@
    "latn": "Valide Camii",
    "arab": "والده جامعی"
   },
-  "modern": "Yeni Cami (Valide Sultan Camii), Eminönü",
+  "modern": "Yeni Cami, Eminönü",
   "lit": {
    "fr": {
     "en": "Validé (Queen Mother)",
@@ -125,7 +145,11 @@
     "fr": "Mosquée de la Sultane mère",
     "tr": "Valide Sultan camisi"
    },
-   "modern": null
+   "modern": {
+    "en": "New Mosque",
+    "fr": "Nouvelle Mosquée",
+    "tr": "Yeni cami"
+   }
   },
   "kind": "mosque",
   "bbox": [
@@ -136,7 +160,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "The New Mosque at Eminönü, completed by Turhan Hatice Sultan in 1665"
+  "note": {
+   "en": "The New Mosque at Eminönü, also called Valide Sultan Camii, completed by Turhan Hatice Sultan in 1665",
+   "fr": "La Nouvelle Mosquée d'Eminönü, dite aussi Valide Sultan Camii, achevée par Turhan Hatice Sultan en 1665",
+   "tr": "Eminönü'ndeki Yeni Cami, Valide Sultan Camii olarak da bilinir; Turhan Hatice Sultan 1665'te tamamlatmıştır"
+  }
  },
  {
   "fr": "Osmanié",
@@ -196,7 +224,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Mehmed II's first palace, later the residence of the dowager household; the site is now Istanbul University."
+  "note": {
+   "en": "Mehmed II's first palace, later the residence of the dowager household; the site is now Istanbul University.",
+   "fr": "Premier palais de Mehmed II, plus tard résidence des sultanes mères ; le site est aujourd'hui l'université d'Istanbul.",
+   "tr": "II. Mehmed'in ilk sarayı, sonradan valide sultanların ikametgâhı; yerinde bugün İstanbul Üniversitesi bulunur."
+  }
  },
  {
   "fr": "Baïezid",
@@ -286,7 +318,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Built by Süleyman for his son Şehzade Mehmed"
+  "note": {
+   "en": "Built by Süleyman for his son Şehzade Mehmed",
+   "fr": "Construite par Soliman pour son fils le prince Mehmed",
+   "tr": "Kanuni Sultan Süleyman'ın oğlu Şehzade Mehmed için yaptırdığı cami"
+  }
  },
  {
   "fr": "Laleli",
@@ -335,7 +371,11 @@
     "fr": "Mosquée de Sultan Sélim",
     "tr": "Sultan Selim camisi"
    },
-   "modern": null
+   "modern": {
+    "en": "Mosque of Sultan Selim the Grim",
+    "fr": "Mosquée de Sultan Sélim le Terrible",
+    "tr": "Yavuz Sultan Selim camisi"
+   }
   },
   "kind": "mosque",
   "bbox": [
@@ -414,7 +454,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Letter-spaced across the walled city. The Ottoman name Kostantiniyye is the Arabic form of Constantinople; İstanbul comes from the Greek phrase 'to the city'."
+  "note": {
+   "en": "Letter-spaced across the walled city. The Ottoman name Kostantiniyye is the Arabic form of Constantinople; İstanbul comes from the Greek phrase 'to the city'.",
+   "fr": "En lettres espacées sur la ville intra-muros. Le nom ottoman Kostantiniyye est la forme arabe de Constantinople ; İstanbul vient du grec « vers la ville ».",
+   "tr": "Sur içi boyunca aralıklı harflerle yazılmış. Osmanlıca Kostantiniyye, Konstantinopolis'in Arapça biçimidir; İstanbul adı Yunanca 'şehre' deyişinden gelir."
+  }
  },
  {
   "fr": "Aïnali-Kavak Sérai",
@@ -433,7 +477,11 @@
     "fr": "Palais du Peuplier aux miroirs",
     "tr": "Aynalı kavak sarayı"
    },
-   "modern": null
+   "modern": {
+    "en": "Mirrored Poplar Pavilion",
+    "fr": "Pavillon du Peuplier aux miroirs",
+    "tr": "Aynalıkavak kasrı"
+   }
   },
   "kind": "palace",
   "bbox": [
@@ -457,7 +505,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Site of the 1779 Aynalıkavak convention with Russia"
+  "note": {
+   "en": "Site of the 1779 Aynalıkavak convention with Russia",
+   "fr": "Lieu de la convention d'Aynalıkavak conclue avec la Russie en 1779",
+   "tr": "1779'da Rusya ile imzalanan Aynalıkavak Tenkihnamesi burada yapıldı"
+  }
  },
  {
   "fr": "Caserne des Bombardiers",
@@ -476,7 +528,11 @@
     "fr": "Caserne des bombardiers",
     "tr": "Humbaracı kışlası"
    },
-   "modern": null
+   "modern": {
+    "en": "Barracks of the mortar house",
+    "fr": "Caserne de la maison des mortiers",
+    "tr": "Humbarahane kışlası"
+   }
   },
   "kind": "military",
   "bbox": [
@@ -506,7 +562,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Three-line label; barracks of the humbaracı (mortar) corps reorganised by Baron de Tott"
+  "note": {
+   "en": "Three-line label; barracks of the humbaracı (mortar) corps reorganised by Baron de Tott",
+   "fr": "Étiquette sur trois lignes ; caserne du corps des humbaracı (mortiers) réorganisé par le baron de Tott",
+   "tr": "Üç satırlık yazı; Baron de Tott'un yeniden düzenlediği Humbaracı Ocağı'nın kışlası"
+  }
  },
  {
   "fr": "Tekir-Serai",
@@ -536,7 +596,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Engraved Tekir for Tekfur; the Byzantine Palace of the Porphyrogenitus by the land walls."
+  "note": {
+   "en": "Engraved Tekir for Tekfur; the Byzantine Palace of the Porphyrogenitus by the land walls.",
+   "fr": "Gravé Tekir pour Tekfur ; le palais byzantin du Porphyrogénète, près des murailles terrestres.",
+   "tr": "Tekfur yerine Tekir kazınmış; kara surlarının yanındaki Bizans Porfirogennetos Sarayı."
+  }
  },
  {
   "fr": "Ederné",
@@ -566,7 +630,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Label reads only Ederné; identified as the Edirne Gate of the land walls from its position"
+  "note": {
+   "en": "Label reads only Ederné; identified as the Edirne Gate of the land walls from its position",
+   "fr": "L'étiquette dit seulement Ederné ; identifiée d'après sa position à la porte d'Edirne des murailles terrestres",
+   "tr": "Yazıda yalnızca Ederné okunuyor; konumundan kara surlarındaki Edirne Kapısı olduğu anlaşılıyor"
+  }
  },
  {
   "fr": "Eyoub",
@@ -574,7 +642,7 @@
    "latn": "Eyüb",
    "arab": "ایوب"
   },
-  "modern": "Eyüp (Eyüpsultan)",
+  "modern": "Eyüp, Eyüpsultan",
   "lit": {
    "fr": {
     "en": "Eyoub",
@@ -596,7 +664,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Named after the Companion of the Prophet Abu Ayyub al-Ansari, buried here."
+  "note": {
+   "en": "Named after the Companion of the Prophet Abu Ayyub al-Ansari, buried here. The district is now called Eyüpsultan.",
+   "fr": "Nommé d'après Abou Ayyoub al-Ansari, compagnon du Prophète, qui y est enterré. Le district s'appelle aujourd'hui Eyüpsultan.",
+   "tr": "Adını burada gömülü olan sahabe Ebu Eyyub el-Ensari'den alır. İlçenin adı bugün Eyüpsultan'dır."
+  }
  },
  {
   "fr": "OTAKDGILER-KEUI",
@@ -656,7 +728,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Identification as Hekimoğlu Ali Paşa Camii inferred from its position in the south-west of the walled city"
+  "note": {
+   "en": "Identification as Hekimoğlu Ali Paşa Camii inferred from its position in the south-west of the walled city",
+   "fr": "Identification à la mosquée Hekimoğlu Ali Paşa déduite de sa position au sud-ouest de la ville intra-muros",
+   "tr": "Sur içinin güneybatısındaki konumundan Hekimoğlu Ali Paşa Camii olduğu çıkarılmıştır"
+  }
  },
  {
   "fr": "Imrahor",
@@ -686,7 +762,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "The former Byzantine monastery of St John of Studios, converted by İlyas Bey, master of the horse to Bayezid II."
+  "note": {
+   "en": "The former Byzantine monastery of St John of Studios, converted by İlyas Bey, master of the horse to Bayezid II.",
+   "fr": "L'ancien monastère byzantin de Saint-Jean de Stoudios, converti par İlyas Bey, grand écuyer de Bayezid II.",
+   "tr": "Eski Bizans Studios Aziz Yuhanna Manastırı; II. Bayezid'in imrahoru İlyas Bey tarafından camiye çevrilmiştir."
+  }
  },
  {
   "fr": "IEDI-KOULLELER",
@@ -705,7 +785,11 @@
     "fr": "Sept Tours",
     "tr": "Yedi kule"
    },
-   "modern": null
+   "modern": {
+    "en": "Fortress of the Seven Towers",
+    "fr": "Forteresse des Sept Tours",
+    "tr": "Yedikule hisarı"
+   }
   },
   "kind": "fort",
   "bbox": [
@@ -716,7 +800,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "The Ottoman fortress and state prison at the southern end of the land walls"
+  "note": {
+   "en": "The Ottoman fortress and state prison at the southern end of the land walls",
+   "fr": "La forteresse ottomane et prison d'État à l'extrémité sud des murailles terrestres",
+   "tr": "Kara surlarının güney ucundaki Osmanlı kalesi ve devlet zindanı"
+  }
  },
  {
   "fr": "Pointe des Sept tours",
@@ -746,7 +834,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Ottoman form inferred from the French; the point now lies under the coastal road and its landfill."
+  "note": {
+   "en": "Ottoman form inferred from the French; the point now lies under the coastal road and its landfill.",
+   "fr": "Forme ottomane déduite du français ; la pointe est aujourd'hui sous la route côtière et son remblai.",
+   "tr": "Osmanlıca biçim Fransızcadan çıkarılmıştır; burun bugün sahil yolu ve dolgusunun altında kalmıştır."
+  }
  },
  {
   "fr": "MEVLI-HANÉ",
@@ -765,7 +857,11 @@
     "fr": "Maison des Mevlevis",
     "tr": "Mevlevi dergâhı"
    },
-   "modern": null
+   "modern": {
+    "en": "Mevlevi lodge of Yenikapı (the New Gate)",
+    "fr": "Tekké mevlevi de Yenikapı (la Porte Neuve)",
+    "tr": "Yenikapı mevlevihanesi"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -776,7 +872,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Outside the Mevlevihane Gate of the land walls"
+  "note": {
+   "en": "Outside the Mevlevihane Gate of the land walls",
+   "fr": "Hors de la porte du Mevlevihane, dans les murailles terrestres",
+   "tr": "Kara surlarındaki Mevlevihane Kapısı'nın dışında"
+  }
  },
  {
   "fr": "Mal-tépé",
@@ -806,7 +906,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Hill west of the walls, not the Asian Maltepe"
+  "note": {
+   "en": "Hill west of the walls, not the Asian Maltepe",
+   "fr": "Colline à l'ouest des murailles, à ne pas confondre avec le Maltepe d'Asie",
+   "tr": "Surların batısındaki tepe; Anadolu yakasındaki Maltepe değil"
+  }
  },
  {
   "fr": "KUTCHUK-BALOUKLI",
@@ -836,7 +940,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "A hamlet near Balıklı outside the land walls; no modern site is identified."
+  "note": {
+   "en": "A hamlet near Balıklı outside the land walls; no modern site is identified.",
+   "fr": "Hameau près de Balıklı, hors des murailles terrestres ; aucun site moderne identifié.",
+   "tr": "Kara surlarının dışında, Balıklı yakınında bir mezra; bugünkü yeri belirlenememiştir."
+  }
  },
  {
   "fr": "Kutchuk-sou",
@@ -844,7 +952,7 @@
    "latn": "Küçüksu",
    "arab": "كوچك صو"
   },
-  "modern": "Küçüksu Deresi, Zeytinburnu (lost)",
+  "modern": "Küçüksu Deresi, Zeytinburnu (culverted)",
   "lit": {
    "fr": {
     "en": "Little Water",
@@ -866,7 +974,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Not the Asian Küçüksu; a small stream near Balıklı, now culverted. Identification uncertain."
+  "note": {
+   "en": "Not the Asian Küçüksu; a small stream near Balıklı, now culverted. Identification uncertain.",
+   "fr": "Pas le Küçüksu d'Asie ; petit ruisseau près de Balıklı, aujourd'hui canalisé. Identification incertaine.",
+   "tr": "Anadolu yakasındaki Küçüksu değil; Balıklı yakınında, bugün kapatılmış küçük bir dere. Tanımlama kesin değil."
+  }
  },
  {
   "fr": "BUYUK-SAL-HANE",
@@ -885,7 +997,11 @@
     "fr": "Grand abattoir",
     "tr": "Büyük mezbaha"
    },
-   "modern": null
+   "modern": {
+    "en": "Yedikule slaughterhouse",
+    "fr": "Abattoir de Yedikule",
+    "tr": "Yedikule salhanesi"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -909,7 +1025,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Two-line label; the famous slaughterhouses outside Yedikule."
+  "note": {
+   "en": "Two-line label; the famous slaughterhouses outside Yedikule.",
+   "fr": "Étiquette sur deux lignes ; les célèbres abattoirs hors de Yedikule.",
+   "tr": "İki satırlık yazı; Yedikule dışındaki ünlü salhaneler."
+  }
  },
  {
   "fr": "Boucheries",
@@ -917,7 +1037,7 @@
    "latn": "Salhaneler",
    "arab": "سلخانه لر"
   },
-  "modern": "Kazlıçeşme butchers (demolished)",
+  "modern": "Kazlıçeşme kasapları, Zeytinburnu (demolished)",
   "lit": {
    "fr": {
     "en": "Butcheries",
@@ -928,7 +1048,11 @@
     "fr": "Abattoirs",
     "tr": "Mezbahalar"
    },
-   "modern": null
+   "modern": {
+    "en": "Butchers of Kazlıçeşme",
+    "fr": "Boucheries de Kazlıçeşme",
+    "tr": "Kazlıçeşme kasapları"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -939,7 +1063,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Descriptive label for the Yedikule slaughterhouses; the Ottoman form is reconstructed, not on the map."
+  "note": {
+   "en": "Descriptive label for the Yedikule slaughterhouses; the Ottoman form is reconstructed, not on the map.",
+   "fr": "Étiquette descriptive pour les abattoirs de Yedikule ; la forme ottomane est reconstituée, absente de la carte.",
+   "tr": "Yedikule salhaneleri için açıklayıcı bir yazı; Osmanlıca biçim haritada yoktur, yeniden kurulmuştur."
+  }
  },
  {
   "fr": "Fontaine sacrée",
@@ -969,7 +1097,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "The Zoodochos Pege (Life-giving Spring) shrine with its fish pool, inside the Balıklı Greek monastery. Ottoman form reconstructed from the French."
+  "note": {
+   "en": "The Zoodochos Pege (Life-giving Spring) shrine with its fish pool, inside the Balıklı Greek monastery. Ottoman form reconstructed from the French.",
+   "fr": "Le sanctuaire de la Zoodochos Pigi (Source vivifiante) et son bassin aux poissons, dans le monastère grec de Balıklı. Forme ottomane reconstituée d'après le français.",
+   "tr": "Balıklı Rum Manastırı içindeki Zoodohos Pigi (Hayat Veren Pınar) ayazması ve balıklı havuzu. Osmanlıca biçim Fransızcadan yeniden kurulmuştur."
+  }
  },
  {
   "fr": "BALOUKLI",
@@ -1054,7 +1186,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Spaced-out label; the army's mustering ground before campaigns, now the Yıldız Technical University campus and its surroundings."
+  "note": {
+   "en": "Spaced-out label; the army's mustering ground before campaigns, now the Yıldız Technical University campus and its surroundings.",
+   "fr": "Étiquette en lettres espacées ; le lieu de rassemblement de l'armée avant les campagnes, aujourd'hui le campus de l'université technique Yıldız et ses environs.",
+   "tr": "Aralıklı harflerle yazılmış; ordunun sefer öncesi toplanma alanı, bugün Yıldız Teknik Üniversitesi kampüsü ve çevresi."
+  }
  },
  {
   "fr": "Chemin d'Andrinople",
@@ -1062,7 +1198,7 @@
    "latn": "Edirne Yolu",
    "arab": "ادرنه یولی"
   },
-  "modern": "Edirne road (roughly Davutpaşa Caddesi), Topkapı",
+  "modern": "Edirne yolu, Topkapı",
   "lit": {
    "fr": {
     "en": "Road to Adrianople",
@@ -1073,7 +1209,11 @@
     "fr": "Route d'Edirne",
     "tr": "Edirne yolu"
    },
-   "modern": null
+   "modern": {
+    "en": "Edirne road",
+    "fr": "Route d'Edirne",
+    "tr": "Edirne yolu"
+   }
   },
   "kind": "road",
   "bbox": [
@@ -1097,6 +1237,10 @@
    ]
   ],
   "uncertain": false,
-  "note": "Vertical label along the road leading from the Topkapı gate past Davutpaşa towards Edirne."
+  "note": {
+   "en": "Vertical label along the road leading from the Topkapı gate past Davutpaşa towards Edirne, roughly today's Davutpaşa Caddesi.",
+   "fr": "Étiquette verticale le long de la route qui mène de la porte de Topkapı vers Edirne en passant par Davutpaşa, à peu près l'actuelle Davutpaşa Caddesi.",
+   "tr": "Topkapı'dan Davutpaşa üzerinden Edirne'ye giden yol boyunca dikey yazılmış; aşağı yukarı bugünkü Davutpaşa Caddesi."
+  }
  }
 ]

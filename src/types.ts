@@ -46,7 +46,7 @@ export interface Label {
   bbox: NBox;
   parts: NBox[] | null;
   uncertain: boolean;
-  note: string | null;
+  note: string | Gloss3 | null;
   src: string;
 }
 

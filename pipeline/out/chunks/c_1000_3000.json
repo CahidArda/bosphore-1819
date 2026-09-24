@@ -2,14 +2,18 @@
   {
     "fr": "Mine de Charbon de terre",
     "ota": null,
-    "modern": "Coal mine near Kilyos (lost)",
+    "modern": "Kilyos yakınında kömür madeni (lost)",
     "lit": {
       "fr": {
         "en": "Mineral coal mine",
         "tr": "Taş kömürü madeni"
       },
       "ota": null,
-      "modern": null
+      "modern": {
+        "en": "Coal mine near Kilyos",
+        "fr": "Mine de charbon près de Kilyos",
+        "tr": "Kilyos yakınında kömür madeni"
+      }
     },
     "kind": "other",
     "bbox": [
@@ -33,7 +37,11 @@
       ]
     ],
     "uncertain": true,
-    "note": "'Charbon de terre' = mineral coal, as opposed to charcoal; on the Black Sea coast between Rumelifeneri and Kilyos"
+    "note": {
+      "en": "'Charbon de terre' = mineral coal, as opposed to charcoal; on the Black Sea coast between Rumelifeneri and Kilyos",
+      "fr": "« Charbon de terre » désigne la houille, par opposition au charbon de bois ; sur la côte de la mer Noire entre Rumelifeneri et Kilyos",
+      "tr": "'Charbon de terre', odun kömürünün aksine taş kömürü demektir; Karadeniz kıyısında Rumelifeneri ile Kilyos arasında"
+    }
   },
   {
     "fr": "Eski-Fanaraki Bournou",
@@ -41,7 +49,7 @@
       "latn": "Eski Fanaraki Burnu",
       "arab": "اسكی فناراكی بورنی"
     },
-    "modern": "Kilyos headland, Sarıyer (unidentified)",
+    "modern": "Kilyos burnu, Sarıyer (unidentified)",
     "lit": {
       "fr": {
         "en": "Old Fanaraki Cape",
@@ -52,7 +60,11 @@
         "fr": "Cap du vieux petit phare",
         "tr": "Eski küçük fener burnu"
       },
-      "modern": null
+      "modern": {
+        "en": "Kilyos headland",
+        "fr": "Cap de Kilyos",
+        "tr": "Kilyos burnu"
+      }
     },
     "kind": "cape",
     "bbox": [
@@ -63,19 +75,27 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": "Fanaraki = Greek 'little lighthouse'; the cape beside Kila Fort (Kilyos). Ottoman form reconstructed from the French"
+    "note": {
+      "en": "Fanaraki = Greek 'little lighthouse'; the cape beside Kila Fort (Kilyos). Ottoman form reconstructed from the French",
+      "fr": "Fanaraki = « petit phare » en grec ; le cap à côté du fort de Kila (Kilyos). Forme ottomane reconstituée d'après le français",
+      "tr": "Fanaraki, Yunanca 'küçük fener'; Kila Kalesi'nin (Kilyos) yanındaki burun. Osmanlıca biçim Fransızcadan çıkarıldı"
+    }
   },
   {
     "fr": "Ancienne Tour",
     "ota": null,
-    "modern": "Old tower at Kilyos, Sarıyer (unidentified)",
+    "modern": "Kilyos'ta eski kule, Sarıyer (unidentified)",
     "lit": {
       "fr": {
         "en": "Old Tower",
         "tr": "Eski Kule"
       },
       "ota": null,
-      "modern": null
+      "modern": {
+        "en": "Old tower at Kilyos",
+        "fr": "Vieille tour à Kilyos",
+        "tr": "Kilyos'ta eski kule"
+      }
     },
     "kind": "ruin",
     "bbox": [
@@ -86,6 +106,10 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": "Drawn beside Kila Fort on the Kilyos headland; possibly part of the Genoese castle of Kilyos"
+    "note": {
+      "en": "Drawn beside Kila Fort on the Kilyos headland; possibly part of the Genoese castle of Kilyos",
+      "fr": "Dessinée à côté du fort de Kila sur le cap de Kilyos ; peut-être une partie du château génois de Kilyos",
+      "tr": "Kilyos burnunda Kila Kalesi'nin yanında çizilmiş; Kilyos'un Ceneviz kalesinin bir parçası olabilir"
+    }
   }
 ]

@@ -36,6 +36,7 @@ type Dict = {
   sourceLink: string;
   dataLink: string;
   noOttoman: string;
+  showAll: string;
   aboutBuiltBefore: string;
   aboutBuiltAfter: string;
   blogLink: string;
@@ -59,7 +60,7 @@ const en: Dict = {
   home: "Reset view",
   fullscreen: "Fullscreen",
   exitFullscreen: "Exit fullscreen",
-  openList: "Open the list of names",
+  openList: "Open the list of place names",
   close: "Close",
   noResults: "No labels match.",
   loading: "Loading the map…",
@@ -93,7 +94,7 @@ const en: Dict = {
   allKinds: "All kinds",
   credit: "Kauffer & Barbié du Bocage, 1819 · BnF Gallica / Wikimedia Commons · public domain",
   listHelp: "Use the arrow keys to move, Space to select and Enter to fly to a label.",
-  labelsList: "Map labels",
+  labelsList: "Place names",
   aboutTitle: "About the map",
   aboutBody: [
     "The Plan Topographique du Bosphore de Thrace ou Canal de Constantinople et de ses environs was surveyed by François Kauffer between 1776 and 1786 while he was attached to the French ambassador Choiseul-Gouffier, and later to the Ottoman Porte. Jean-Denis Barbié du Bocage redrew and enriched it for Antoine-Ignace Melling's Voyage pittoresque de Constantinople et des rives du Bosphore, published in 1819.",
@@ -104,6 +105,7 @@ const en: Dict = {
   sourceLink: "Wikimedia Commons file",
   dataLink: "Source code and data on GitHub",
   noOttoman: "no Ottoman name",
+  showAll: "Outline every label",
   aboutBuiltBefore: "An app built by ",
   aboutBuiltAfter: " with Claude Opus 5.5.",
   blogLink: "How it was built (blog post)",
@@ -127,7 +129,7 @@ const fr: Dict = {
   home: "Vue d'ensemble",
   fullscreen: "Plein écran",
   exitFullscreen: "Quitter le plein écran",
-  openList: "Ouvrir la liste des noms",
+  openList: "Ouvrir la liste des noms de lieux",
   close: "Fermer",
   noResults: "Aucun nom ne correspond.",
   loading: "Chargement de la carte…",
@@ -161,7 +163,7 @@ const fr: Dict = {
   allKinds: "Tous les types",
   credit: "Kauffer & Barbié du Bocage, 1819 · BnF Gallica / Wikimedia Commons · domaine public",
   listHelp: "Flèches pour se déplacer, Espace pour sélectionner, Entrée pour aller sur la carte.",
-  labelsList: "Noms de la carte",
+  labelsList: "Noms de lieux",
   aboutTitle: "À propos de la carte",
   aboutBody: [
     "Le Plan Topographique du Bosphore de Thrace ou Canal de Constantinople et de ses environs a été levé par François Kauffer entre 1776 et 1786, alors qu'il était attaché à l'ambassadeur Choiseul-Gouffier puis à la Porte ottomane. Jean-Denis Barbié du Bocage l'a redessiné et enrichi pour le Voyage pittoresque de Constantinople et des rives du Bosphore d'Antoine-Ignace Melling, paru en 1819.",
@@ -172,6 +174,7 @@ const fr: Dict = {
   sourceLink: "Fichier sur Wikimedia Commons",
   dataLink: "Code source et données sur GitHub",
   noOttoman: "pas de nom ottoman",
+  showAll: "Encadrer tous les noms",
   aboutBuiltBefore: "Une application réalisée par ",
   aboutBuiltAfter: " avec Claude Opus 5.5.",
   blogLink: "Comment elle a été faite (article de blog)",
@@ -240,6 +243,7 @@ const tr: Dict = {
   sourceLink: "Wikimedia Commons dosyası",
   dataLink: "Kaynak kod ve veriler GitHub'da",
   noOttoman: "Osmanlıca adı yok",
+  showAll: "Tüm adları çerçevele",
   aboutBuiltBefore: "Bu uygulama ",
   aboutBuiltAfter: " tarafından Claude Opus 5.5 ile yapıldı.",
   blogLink: "Nasıl yapıldı (blog yazısı)",
@@ -253,6 +257,37 @@ export const LANGS: Lang[] = ["fr", "tr", "en"];
 
 export function t(lang: Lang): Dict {
   return DICT[lang];
+}
+
+/** Status words the data keeps in parentheses at the end of `modern`, translated per language. */
+const STATUS: Record<string, Record<Lang, string>> = {
+  lost: { en: "lost", fr: "disparu", tr: "kayıp" },
+  demolished: { en: "demolished", fr: "démoli", tr: "yıkıldı" },
+  ruin: { en: "ruin", fr: "ruine", tr: "harabe" },
+  unidentified: { en: "unidentified", fr: "non identifié", tr: "tanımlanamadı" },
+  abandoned: { en: "abandoned", fr: "abandonné", tr: "terk edilmiş" },
+  submerged: { en: "submerged", fr: "submergé", tr: "su altında" },
+  "partly surviving": { en: "partly surviving", fr: "partiellement conservé", tr: "kısmen ayakta" },
+  cleared: { en: "cleared", fr: "disparu", tr: "kaldırıldı" },
+  probable: { en: "probable", fr: "probable", tr: "muhtemel" },
+  culverted: { en: "culverted", fr: "canalisé", tr: "kapatıldı" },
+  "not a place": { en: "not a place", fr: "pas un lieu", tr: "yer değil" },
+};
+
+/** "Bebek Kasrı (demolished)" -> "Bebek Kasrı (yıkıldı)" in Turkish, and so on. */
+export function localizeModern(modern: string, lang: Lang): string {
+  return modern.replace(/\(([^()]+)\)\s*$/, (m, inner: string) => {
+    const t = STATUS[inner.trim().toLowerCase()];
+    return t ? `(${t[lang]})` : m;
+  });
+}
+
+/** The note in the interface language; a bare string is English-only data. */
+export function noteFor(label: Label, lang: Lang): string | null {
+  const n = label.note;
+  if (!n) return null;
+  if (typeof n === "string") return n;
+  return n[lang] || n.en || null;
 }
 
 export function isLang(x: unknown): x is Lang {

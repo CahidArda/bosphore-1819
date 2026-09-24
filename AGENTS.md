@@ -30,6 +30,23 @@ name (Latin and Arabic script) and today's name, each with a literal gloss.
   original, all served from upload.wikimedia.org with `Access-Control-Allow-Origin: *`.
   Only those thumbnail widths exist; others return 400. On phones the original level is
   dropped (`isConstrainedDevice`), because decoding 97 megapixels stalls mobile WebGL.
+  `minPixelRatio` is 0.3 on purpose: the levels are not power-of-two steps, and with the
+  default 0.5 the viewer stretched the 3840 px thumbnail at label zoom (blurry) and used
+  the 1280 px one at home. Measure with `?debug` (`window.__osd`) before changing it.
+  How it was found: with `?debug`, read `viewer.world.getItemAt(0)._lastDrawn` (tile
+  levels 0..3 = 1280, 1920, 3840, original) at three zooms in a 1280×800 window, setting
+  `viewer.minPixelRatio` and the item's `minPixelRatio` and forcing a redraw between runs:
+
+  | minPixelRatio | label zoom (image zoom 0.37) | mid (0.17) | home (0.07) |
+  |---|---|---|---|
+  | 0.5 (default) | level 2, 3840 px stretched | level 1 | level 0, soft |
+  | 0.4 | level 2 | level 2 | level 0 |
+  | 0.3 (chosen) | level 3, original | level 2 | level 1 |
+  | 0.2 | level 3 | level 2 | level 1 |
+
+  0.3 is the largest value that draws the original at label zoom and the 1920 px level at
+  home; 0.2 gives the same levels for no benefit. `maxZoomPixelRatio` and
+  `minZoomImageRatio` were not part of the problem.
 - Scripted downloads need a descriptive User-Agent (`pipeline/common.py`). Gallica's
   IIIF endpoint refuses scripts; do not depend on it.
 - `pipeline/download.py` fetches the scan to `pipeline/raw/full.jpg` (gitignored) and
@@ -52,9 +69,14 @@ name (Latin and Arabic script) and today's name, each with a literal gloss.
   and translations). `pipeline/fixups.py` holds the cross-chunk decisions made after
   review; it is idempotent and runs before `merge.py`.
 - Conventions: `fr` exactly as engraved; Ottoman Arabic script with ی and ك only;
-  `modern` is a name (plus district, plus a short status in parentheses), never a
-  sentence; `uncertain: true` whenever a reading or identification is a guess. The app
-  shows uncertain records with a `?` badge. Boxes are stored as fractions of the image.
+  `modern` is today's Turkish name (or a short Turkish description), plus district,
+  plus one of the status tokens `(lost)`, `(demolished)`, `(ruin)`, `(unidentified)`,
+  `(abandoned)`, `(submerged)`, `(partly surviving)`, `(cleared)`, `(probable)`,
+  `(culverted)`, `(not a place)`, which the app translates (`localizeModern` in
+  `src/i18n.ts`); never a sentence, never English. `lit.modern` glosses a modern name
+  that has a meaning. `note` is `{en, fr, tr}` or null (`pipeline/prompts/localize.md`).
+  `uncertain: true` whenever a reading or identification is a guess; the app shows
+  those with a `?` badge. Boxes are stored as fractions of the image.
 - QA: `pipeline/overlay.py` draws every box back onto the tiles (`pipeline/out/qa/`).
 
 ## The app

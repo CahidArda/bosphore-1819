@@ -1,3 +1,33 @@
 [
- {"fr":"Colonne","ota":null,"modern":"Column, Riva (unidentified)","lit":{"fr":{"en":"Column","tr":"Sütun"},"ota":null,"modern":null},"kind":"ruin","bbox":[2946,1618,3012,1643],"parts":null,"uncertain":true,"note":"Italic label beside a rock on the shore south of Riva; the engraving may read 'Colone'. Probably an ancient column or landmark."}
+  {
+    "fr": "Colonne",
+    "ota": null,
+    "modern": "Sütun, Riva (unidentified)",
+    "lit": {
+      "fr": {
+        "en": "Column",
+        "tr": "Sütun"
+      },
+      "ota": null,
+      "modern": {
+        "en": "Column",
+        "fr": "Colonne",
+        "tr": "Sütun"
+      }
+    },
+    "kind": "ruin",
+    "bbox": [
+      2946,
+      1618,
+      3012,
+      1643
+    ],
+    "parts": null,
+    "uncertain": true,
+    "note": {
+      "en": "Italic label beside a rock on the shore south of Riva; the engraving may read 'Colone'. Probably an ancient column or landmark.",
+      "fr": "Étiquette en italique près d'un rocher sur le rivage au sud de Riva ; la gravure porte peut-être « Colone ». Sans doute une colonne antique ou un amer.",
+      "tr": "Riva'nın güneyindeki kıyıda bir kayanın yanında italik etiket; gravürde 'Colone' yazıyor olabilir. Muhtemelen antik bir sütun ya da nirengi noktası."
+    }
+  }
 ]

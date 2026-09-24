@@ -1,5 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <!-- Original ornament: a dark plate with mirrored copper scrollwork, the strait drawn over it in cream. -->
+  <!-- Original ornament: a dark plate with mirrored scrollwork. The cream stroke traces the
+       strait as this sheet draws it: Black Sea mouth at the left, the bay at Büyükdere, the
+       narrows at the two fortresses, the bend at Bebek, then the entrance to the Marmara. -->
   <defs>
     <g id="q">
       <path d="M32 32 C 26 30, 20 30, 14 34 C 10 37, 9 43, 13 46 C 16 48, 20 46, 19 42 C 18 39, 14 39, 14 42" fill="none" stroke="#c9a978" stroke-width="1.4" stroke-linecap="round"/>
@@ -9,16 +11,17 @@
       <circle cx="24" cy="10" r="0.9" fill="#b8864f"/>
       <circle cx="10" cy="24" r="0.9" fill="#b8864f"/>
     </g>
+    <path id="strait" d="M 8 19 C 13 20.5, 17 24, 21 26.5 C 25 29, 30 30.2, 35 30.6 C 39 30.9, 41.5 31.2, 43.5 33 C 45.5 34.8, 45.6 37.2, 47.5 39.3 C 49.5 41.4, 52.5 42.6, 56 45"/>
   </defs>
   <rect width="64" height="64" rx="12" fill="#1c1814"/>
   <rect x="3.5" y="3.5" width="57" height="57" rx="9" fill="none" stroke="#b8864f" stroke-width="1" opacity="0.9"/>
-  <g opacity="0.85">
+  <g opacity="0.8">
     <use href="#q"/>
     <use href="#q" transform="translate(64 0) scale(-1 1)"/>
     <use href="#q" transform="translate(0 64) scale(1 -1)"/>
     <use href="#q" transform="translate(64 64) scale(-1 -1)"/>
   </g>
-  <path d="M12 10 C 24 22, 20 34, 32 42 S 50 50, 54 56" fill="none" stroke="#1c1814" stroke-width="9" stroke-linecap="round" opacity="0.9"/>
-  <path d="M12 10 C 24 22, 20 34, 32 42 S 50 50, 54 56" fill="none" stroke="#f3ecdc" stroke-width="5" stroke-linecap="round"/>
-  <path d="M12 10 C 24 22, 20 34, 32 42 S 50 50, 54 56" fill="none" stroke="#c9a978" stroke-width="1.6" stroke-linecap="round"/>
+  <use href="#strait" fill="none" stroke="#1c1814" stroke-width="9" stroke-linecap="round" opacity="0.92"/>
+  <use href="#strait" fill="none" stroke="#f3ecdc" stroke-width="4.6" stroke-linecap="round"/>
+  <use href="#strait" fill="none" stroke="#c9a978" stroke-width="1.3" stroke-linecap="round"/>
 </svg>

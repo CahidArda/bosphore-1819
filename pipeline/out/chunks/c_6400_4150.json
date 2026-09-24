@@ -27,7 +27,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Greek stavros = cross; the old name of the Beylerbeyi shore"
+  "note": {
+   "en": "Greek stavros = cross; the old name of the Beylerbeyi shore",
+   "fr": "Du grec stavros, croix ; l'ancien nom du rivage de Beylerbeyi",
+   "tr": "Yunanca stavros: haç; Beylerbeyi kıyısının eski adı"
+  }
  },
  {
   "fr": "KOUZ-GOUNDJOUK",
@@ -100,19 +104,27 @@
    ]
   ],
   "uncertain": true,
-  "note": "Shore palace of the Sultan's mother between Çırağan and Ortaköy; which Valide's palace is meant is uncertain"
+  "note": {
+   "en": "Shore palace of the Sultan's mother between Çırağan and Ortaköy; which Valide's palace is meant is uncertain",
+   "fr": "Palais riverain de la mère du sultan entre Çırağan et Ortaköy ; on ignore de quelle Valide il s'agit",
+   "tr": "Çırağan ile Ortaköy arasında valide sultan sahilsarayı; hangi valide sultanın sarayı olduğu belirsiz"
+  }
  },
  {
   "fr": "Magasins de Bled",
   "ota": null,
-  "modern": "Zahire Ambarı, Paşalimanı, Üsküdar (lost)",
+  "modern": "Zahire Ambarı, Paşalimanı (lost)",
   "lit": {
    "fr": {
     "en": "Grain warehouses",
     "tr": "Zahire ambarları"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Grain warehouse",
+    "fr": "Entrepôt à grains",
+    "tr": "Zahire ambarı"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -136,7 +148,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "Bled = grain (French). State grain magazines on the Paşalimanı shore, where the later flour mill stands"
+  "note": {
+   "en": "Bled = grain (French). State grain magazines on the Paşalimanı shore, where the later flour mill stands",
+   "fr": "Bled = blé. Magasins à grains de l'État sur le rivage de Paşalimanı, où s'élèvera plus tard la minoterie",
+   "tr": "Bled: Fransızca buğday. Paşalimanı kıyısındaki devlet zahire ambarları; sonradan un fabrikası burada kuruldu"
+  }
  },
  {
   "fr": "Palais de la Behan-Sultane",
@@ -179,7 +195,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "Engraved \"Behan\"; taken as Beyhan Sultan, sister of Selim III"
+  "note": {
+   "en": "Engraved \"Behan\"; taken as Beyhan Sultan, sister of Selim III",
+   "fr": "Gravé « Behan » ; interprété comme Beyhan Sultan, sœur de Sélim III",
+   "tr": "Haritada \"Behan\" yazılı; III. Selim'in kız kardeşi Beyhan Sultan olarak alındı"
+  }
  },
  {
   "fr": "Port de Scutari",
@@ -252,7 +272,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Scutari is the European name, from Byzantine Skoutarion"
+  "note": {
+   "en": "Scutari is the European name, from Byzantine Skoutarion",
+   "fr": "Scutari est le nom européen, du byzantin Skoutarion",
+   "tr": "Scutari, Bizans dönemindeki Skoutarion'dan gelen Avrupa adıdır"
+  }
  },
  {
   "fr": "Les Grands Cimetières",
@@ -295,7 +319,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Two slanted lines"
+  "note": {
+   "en": "Two slanted lines",
+   "fr": "Deux lignes obliques",
+   "tr": "İki eğik satır"
+  }
  },
  {
   "fr": "Haïder-Pacha",
@@ -355,7 +383,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Ancient Chalcedon"
+  "note": {
+   "en": "Ancient Chalcedon",
+   "fr": "L'antique Chalcédoine",
+   "tr": "Antik Kalkedon"
+  }
  },
  {
   "fr": "KAVAK-SÉRAI",
@@ -385,7 +417,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Selimiye Barracks was later built on its grounds"
+  "note": {
+   "en": "Selimiye Barracks was later built on its grounds",
+   "fr": "La caserne de Selimiye fut ensuite bâtie sur son emplacement",
+   "tr": "Selimiye Kışlası sonradan bu sarayın arazisine yapıldı"
+  }
  },
  {
   "fr": "Caserne brûlée en 1808",
@@ -415,19 +451,27 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Selim III's Nizam-ı Cedid barracks, burnt in the revolts of 1807-08; rebuilt in stone 1825-28"
+  "note": {
+   "en": "Selim III's Nizam-ı Cedid barracks, burnt in the revolts of 1807-08; rebuilt in stone 1825-28",
+   "fr": "Caserne du Nizam-ı Cedid de Sélim III, incendiée lors des révoltes de 1807-1808 ; rebâtie en pierre en 1825-1828",
+   "tr": "III. Selim'in Nizam-ı Cedid kışlası; 1807-08 isyanlarında yandı, 1825-28'de kâgir olarak yeniden yapıldı"
+  }
  },
  {
   "fr": "Mosquée en Ruines",
   "ota": null,
-  "modern": "Ruined mosque, Selimiye (unidentified)",
+  "modern": "Yıkık cami, Selimiye (unidentified)",
   "lit": {
    "fr": {
     "en": "Mosque in Ruins",
     "tr": "Harap Cami"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Ruined mosque",
+    "fr": "Mosquée en ruine",
+    "tr": "Yıkık cami"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -468,7 +512,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "The cape below Kavak Sarayı, now the Harem ferry-terminal shore"
+  "note": {
+   "en": "The cape below Kavak Sarayı, now the Harem ferry-terminal shore",
+   "fr": "Le cap sous Kavak Sarayı, aujourd'hui le rivage de l'embarcadère de Harem",
+   "tr": "Kavak Sarayı'nın altındaki burun; bugün Harem iskelesinin kıyısı"
+  }
  },
  {
   "fr": "Kiz-Koullesi, ou Tour de Léandre",
@@ -511,7 +559,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Leander's Tower is a European misnomer borrowed from the Hellespont legend"
+  "note": {
+   "en": "Leander's Tower is a European misnomer borrowed from the Hellespont legend",
+   "fr": "« Tour de Léandre » est une appellation européenne erronée, empruntée à la légende de l'Hellespont",
+   "tr": "Leandros Kulesi, Çanakkale Boğazı efsanesinden ödünç alınmış yanlış bir Avrupa adlandırmasıdır"
+  }
  },
  {
   "fr": "Palais de Beschik-tasch",
@@ -554,7 +606,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Mahmud II's favoured residence in 1819; Dolmabahçe Palace now stands on the site"
+  "note": {
+   "en": "Mahmud II's favoured residence in 1819; Dolmabahçe Palace now stands on the site",
+   "fr": "Résidence favorite de Mahmoud II en 1819 ; le palais de Dolmabahçe s'élève aujourd'hui sur le site",
+   "tr": "1819'da II. Mahmud'un gözde ikametgâhı; bugün yerinde Dolmabahçe Sarayı var"
+  }
  },
  {
   "fr": "Champ des Morts",
@@ -562,7 +618,7 @@
    "latn": "Ayaspaşa Mezarlığı",
    "arab": "آیاس پاشا مزارلغی"
   },
-  "modern": "Grand Champ des Morts, Taksim (cleared)",
+  "modern": "Ayaspaşa Mezarlığı, Taksim (cleared)",
   "lit": {
    "fr": {
     "en": "Field of the Dead",
@@ -584,7 +640,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "The Muslim cemetery on the hill above Fındıklı, known to Europeans as the Grand Champ des Morts; the Ottoman name is reconstructed"
+  "note": {
+   "en": "The Muslim cemetery on the hill above Fındıklı, known to Europeans as the Grand Champ des Morts; the Ottoman name is reconstructed",
+   "fr": "Le cimetière musulman sur la colline au-dessus de Fındıklı, que les Européens appelaient le Grand Champ des Morts ; le nom ottoman est reconstitué",
+   "tr": "Fındıklı'nın üstündeki tepede, Avrupalıların Grand Champ des Morts dediği Müslüman mezarlığı; Osmanlıca ad tahminidir"
+  }
  },
  {
   "fr": "FONDOUKLI",
@@ -614,7 +674,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Letters partly hidden by the engraved buildings"
+  "note": {
+   "en": "Letters partly hidden by the engraved buildings",
+   "fr": "Lettres en partie masquées par les bâtiments gravés",
+   "tr": "Harfler gravürdeki binaların ardında kısmen gizli"
+  }
  },
  {
   "fr": "Caserne des Canoniers",
@@ -657,7 +721,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Engraved with a single n (Canoniers)"
+  "note": {
+   "en": "Engraved with a single n (Canoniers)",
+   "fr": "Gravé avec un seul n (Canoniers)",
+   "tr": "Haritada tek n ile yazılmış (Canoniers)"
+  }
  },
  {
   "fr": "TOP-HANÉ",
@@ -717,7 +785,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Pera (Greek: beyond) was the European name; the Ottoman name Beyoğlu is used today"
+  "note": {
+   "en": "Pera (Greek: beyond) was the European name; the Ottoman name Beyoğlu is used today",
+   "fr": "Pera (grec : au-delà) était le nom européen ; le nom ottoman Beyoğlu est celui d'aujourd'hui",
+   "tr": "Pera (Yunanca: öte) Avrupa adıydı; bugün Osmanlı adı Beyoğlu kullanılıyor"
+  }
  },
  {
   "fr": "GALATA",
@@ -747,7 +819,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Label runs diagonally up the Galata shore, south-west to north-east"
+  "note": {
+   "en": "Label runs diagonally up the Galata shore, south-west to north-east",
+   "fr": "L'étiquette monte en diagonale le long du rivage de Galata, du sud-ouest au nord-est",
+   "tr": "Etiket Galata kıyısı boyunca güneybatıdan kuzeydoğuya çapraz uzanır"
+  }
  },
  {
   "fr": "CASSIM-PACHA",
@@ -777,7 +853,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Letters largely hidden by the engraved buildings"
+  "note": {
+   "en": "Letters largely hidden by the engraved buildings",
+   "fr": "Lettres en grande partie masquées par les bâtiments gravés",
+   "tr": "Harfler gravürdeki binaların ardında büyük ölçüde gizli"
+  }
  },
  {
   "fr": "Pointe du Sérail",
@@ -862,7 +942,7 @@
    "latn": "Ayasofya",
    "arab": "آیا صوفیه"
   },
-  "modern": "Ayasofya (Hagia Sophia)",
+  "modern": "Ayasofya",
   "lit": {
    "fr": {
     "en": "Hagia Sophia",
@@ -884,7 +964,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": null
+  "note": {
+   "en": "Hagia Sophia; a mosque in 1819, as today",
+   "fr": "Sainte-Sophie ; mosquée en 1819 comme aujourd'hui",
+   "tr": "Hagia Sophia; 1819'da da bugünkü gibi camiydi"
+  }
  },
  {
   "fr": "Vézir-Sérai",
@@ -892,7 +976,7 @@
    "latn": "Vezir Sarayı",
    "arab": "وزیر سرایی"
   },
-  "modern": "Bâb-ı Âli (Sublime Porte)",
+  "modern": "Bâbıâli",
   "lit": {
    "fr": {
     "en": "Vizier's Palace",
@@ -903,7 +987,11 @@
     "fr": "Palais du Vizir",
     "tr": "Vezir sarayı"
    },
-   "modern": null
+   "modern": {
+    "en": "The Sublime Porte",
+    "fr": "La Sublime Porte",
+    "tr": "Yüce Kapı"
+   }
   },
   "kind": "palace",
   "bbox": [
@@ -914,7 +1002,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "The Grand Vizier's residence, better known as the Sublime Porte; now the Istanbul Governorship"
+  "note": {
+   "en": "The Grand Vizier's residence, better known as the Sublime Porte; now the Istanbul Governorship",
+   "fr": "La résidence du grand vizir, plus connue sous le nom de Sublime Porte ; aujourd'hui la préfecture d'Istanbul",
+   "tr": "Sadrazam konağı, Avrupa'da Sublime Porte diye bilinir; bugün İstanbul Valiliği"
+  }
  },
  {
   "fr": "Achmet",
@@ -922,7 +1014,7 @@
    "latn": "Sultan Ahmed Camii",
    "arab": "سلطان احمد جامعی"
   },
-  "modern": "Sultanahmet Camii (Blue Mosque)",
+  "modern": "Sultanahmet Camii",
   "lit": {
    "fr": {
     "en": "Ahmed",
@@ -944,7 +1036,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": null
+  "note": {
+   "en": "Known to visitors as the Blue Mosque",
+   "fr": "Connue des visiteurs comme la Mosquée bleue",
+   "tr": "Ziyaretçilerin Mavi Cami dediği cami"
+  }
  },
  {
   "fr": "Validé",
@@ -952,7 +1048,7 @@
    "latn": "Valide Camii",
    "arab": "والده جامعی"
   },
-  "modern": "Yeni Cami (Valide Sultan Camii), Eminönü",
+  "modern": "Yeni Cami, Eminönü",
   "lit": {
    "fr": {
     "en": "Validé",
@@ -963,7 +1059,11 @@
     "fr": "Mosquée de la Sultane mère",
     "tr": "Valide Sultan camii"
    },
-   "modern": null
+   "modern": {
+    "en": "New Mosque",
+    "fr": "Nouvelle Mosquée",
+    "tr": "Yeni cami"
+   }
   },
   "kind": "mosque",
   "bbox": [
@@ -974,7 +1074,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": null
+  "note": {
+   "en": "Officially the Valide Sultan Mosque, completed in 1665",
+   "fr": "Officiellement la mosquée de la Sultane mère, achevée en 1665",
+   "tr": "Resmî adı Valide Sultan Camii; 1665'te tamamlandı"
+  }
  },
  {
   "fr": "Osmanié",
@@ -1034,7 +1138,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Istanbul University's main campus now occupies the site"
+  "note": {
+   "en": "Istanbul University's main campus now occupies the site",
+   "fr": "Le campus principal de l'université d'Istanbul occupe aujourd'hui le site",
+   "tr": "Bugün yerinde İstanbul Üniversitesi'nin ana yerleşkesi var"
+  }
  },
  {
   "fr": "Baïezid",

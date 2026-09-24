@@ -26,6 +26,7 @@ export default function App() {
   const [aboutOpen, setAboutOpen] = useState(false);
   const [sheetOpen, setSheetOpen] = useState(false);
   const [fullscreen, setFullscreen] = useState(false);
+  const [outlineAll, setOutlineAll] = useState(false);
   const mapRef = useRef<MapHandle>(null);
   const d = t(lang);
 
@@ -151,10 +152,12 @@ export default function App() {
             {error ? <p className="text-destructive p-4 text-sm">{d.loadFailed}</p> : <Sidebar {...sidebarProps} />}
           </aside>
           <main className="relative min-w-0 flex-1">
-            <MapView ref={mapRef} labels={labels} selected={selected} highlighted={matchIds} lang={lang} onToggle={onMapToggle} />
+            <MapView ref={mapRef} labels={labels} selected={selected} highlighted={matchIds} outlineAll={outlineAll} lang={lang} onToggle={onMapToggle} />
             <MapControls
               lang={lang}
               fullscreen={fullscreen}
+              outlineAll={outlineAll}
+              onToggleOutlineAll={() => setOutlineAll((v) => !v)}
               onZoomIn={() => mapRef.current?.zoomIn()}
               onZoomOut={() => mapRef.current?.zoomOut()}
               onHome={() => mapRef.current?.home()}

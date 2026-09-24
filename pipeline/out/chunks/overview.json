@@ -40,7 +40,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Vertical letter-spaced label along the left edge of the sheet"
+  "note": {
+   "en": "Vertical letter-spaced label along the left edge of the sheet",
+   "fr": "Étiquette verticale aux lettres espacées, le long du bord gauche de la feuille",
+   "tr": "Sayfanın sol kenarı boyunca dikey, harfleri aralıklı yazılmış etiket"
+  }
  },
  {
   "fr": "EMBOUCHURE DE LA MER NOIRE",
@@ -59,7 +63,11 @@
     "fr": "Bouche du détroit de la Mer Noire",
     "tr": "Karadeniz Boğazı ağzı"
    },
-   "modern": null
+   "modern": {
+    "en": "The Black Sea mouth of the Strait",
+    "fr": "L'embouchure du Bosphore sur la mer Noire",
+    "tr": "Boğaz'ın Karadeniz ağzı"
+   }
   },
   "kind": "water",
   "bbox": [
@@ -89,7 +97,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "Ottoman form reconstructed; the map has no Turkish name for the mouth. Between Rumelifeneri and Anadolufeneri"
+  "note": {
+   "en": "Ottoman form reconstructed; the map has no Turkish name for the mouth. Between Rumelifeneri and Anadolufeneri",
+   "fr": "Forme ottomane reconstituée ; la carte ne donne pas de nom turc pour l'embouchure. Entre Rumelifeneri et Anadolufeneri",
+   "tr": "Osmanlıca biçim yeniden kurulmuştur; haritada ağız için Türkçe bir ad yoktur. Rumelifeneri ile Anadolufeneri arasında"
+  }
  },
  {
   "fr": "CANAL DE LA MER NOIRE",
@@ -154,7 +166,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "The map's name for the northern reach of the strait; the curved label follows the channel"
+  "note": {
+   "en": "The map's name for the northern reach of the strait; the curved label follows the channel",
+   "fr": "Nom donné par la carte à la partie nord du détroit ; l'étiquette courbe suit le chenal",
+   "tr": "Haritanın boğazın kuzey kesimine verdiği ad; kavisli etiket kanalı izler"
+  }
  },
  {
   "fr": "ASIE",
@@ -303,7 +319,11 @@
     "fr": "Bouche du détroit",
     "tr": "Boğaz ağzı"
    },
-   "modern": null
+   "modern": {
+    "en": "The Marmara mouth of the Strait",
+    "fr": "L'embouchure du Bosphore sur la mer de Marmara",
+    "tr": "Boğaz'ın Marmara ağzı"
+   }
   },
   "kind": "water",
   "bbox": [
@@ -333,7 +353,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "Ottoman form reconstructed; the map has no Turkish name for the southern entrance. Between Sarayburnu and Salacak"
+  "note": {
+   "en": "Ottoman form reconstructed; the map has no Turkish name for the southern entrance. Between Sarayburnu and Salacak",
+   "fr": "Forme ottomane reconstituée ; la carte ne donne pas de nom turc pour l'entrée sud. Entre Sarayburnu et Salacak",
+   "tr": "Osmanlıca biçim yeniden kurulmuştur; haritada güney giriş için Türkçe bir ad yoktur. Sarayburnu ile Salacak arasında"
+  }
  },
  {
   "fr": "MER DE MARMARA",
@@ -382,7 +406,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Named after the marble (Greek mármaron) quarried on Marmara Island"
+  "note": {
+   "en": "Named after the marble (Greek mármaron) quarried on Marmara Island",
+   "fr": "Nommée d'après le marbre (grec mármaron) extrait sur l'île de Marmara",
+   "tr": "Adını Marmara Adası'nda çıkarılan mermerden (Yunanca mármaron) alır"
+  }
  },
  {
   "fr": "ILES DES PRINCES",
@@ -390,7 +418,7 @@
    "latn": "Kızıl Adalar",
    "arab": "قزل آطه لر"
   },
-  "modern": "Adalar (Prens Adaları)",
+  "modern": "Adalar",
   "lit": {
    "fr": {
     "en": "Princes' Islands",
@@ -435,7 +463,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Diagonal letter-spaced label running north-east across the Marmara"
+  "note": {
+   "en": "Diagonal letter-spaced label running north-east across the Marmara. The islands are also called Prens Adaları (Princes' Islands) in Turkish",
+   "fr": "Étiquette diagonale aux lettres espacées, orientée vers le nord-est à travers la Marmara. Les îles sont aussi appelées Prens Adaları (îles des Princes) en turc",
+   "tr": "Marmara üzerinde kuzeydoğuya doğru uzanan, harfleri aralıklı çapraz etiket. Adalar Türkçede Prens Adaları olarak da anılır"
+  }
  },
  {
   "fr": "GOLFE DE NICOMÉDIE",
@@ -484,19 +516,27 @@
    ]
   ],
   "uncertain": false,
-  "note": "Nicomedia is the ancient name of İzmit"
+  "note": {
+   "en": "Nicomedia is the ancient name of İzmit",
+   "fr": "Nicomédie est le nom antique d'İzmit",
+   "tr": "Nikomedya, İzmit'in antik adıdır"
+  }
  },
  {
   "fr": "Plan Topographique du Bosphore de Thrace ou Canal de Constantinople et de ses environs",
   "ota": null,
-  "modern": "Title cartouche",
+  "modern": "Başlık kartuşu",
   "lit": {
    "fr": {
     "en": "Topographic Plan of the Thracian Bosphorus or Channel of Constantinople and its surroundings",
     "tr": "Trakya Boğazı yahut İstanbul Kanalı ve çevresinin topografik planı"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Title cartouche",
+    "fr": "Cartouche du titre",
+    "tr": "Başlık kartuşu"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -538,7 +578,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Surveyed by Fr. Kauffer from 1776 (to 1801); completed and published by J.-D. Barbié du Bocage, 1819"
+  "note": {
+   "en": "Surveyed by Fr. Kauffer from 1776 (to 1801); completed and published by J.-D. Barbié du Bocage, 1819",
+   "fr": "Levé par Fr. Kauffer à partir de 1776 (jusqu'en 1801) ; achevé et publié par J.-D. Barbié du Bocage en 1819",
+   "tr": "1776'dan (1801'e kadar) Fr. Kauffer tarafından ölçülmüş; J.-D. Barbié du Bocage tarafından tamamlanıp 1819'da yayımlanmıştır"
+  }
  },
  {
   "fr": "FORÊT DE BELGRADE",
@@ -587,7 +631,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Diagonal letter-spaced label; the forest is named after the Serbs resettled here from Belgrade after 1521"
+  "note": {
+   "en": "Diagonal letter-spaced label; the forest is named after the Serbs resettled here from Belgrade after 1521",
+   "fr": "Étiquette diagonale aux lettres espacées ; la forêt doit son nom aux Serbes réinstallés ici depuis Belgrade après 1521",
+   "tr": "Harfleri aralıklı çapraz etiket; orman, adını 1521'den sonra Belgrad'dan buraya yerleştirilen Sırplardan alır"
+  }
  },
  {
   "fr": "COURANT DU DIABLE",
@@ -636,6 +684,10 @@
    ]
   ],
   "uncertain": false,
-  "note": "The French name of the current labelled CHEÏTAN-AKINDISI further upstream; letter-spaced across a chunk boundary"
+  "note": {
+   "en": "The French name of the current labelled CHEÏTAN-AKINDISI further upstream; letter-spaced across a chunk boundary",
+   "fr": "Nom français du courant étiqueté CHEÏTAN-AKINDISI plus en amont ; lettres espacées à cheval sur deux tuiles",
+   "tr": "Daha yukarıda CHEÏTAN-AKINDISI olarak etiketlenen akıntının Fransızca adı; harfleri aralıklı, iki parçanın sınırına yayılmış"
+  }
  }
 ]

@@ -16,7 +16,11 @@
     "fr": "Maison à poudre",
     "tr": "Barut evi"
    },
-   "modern": null
+   "modern": {
+    "en": "Kağıthane powder mill",
+    "fr": "Poudrière de Kağıthane",
+    "tr": "Kağıthane baruthanesi"
+   }
   },
   "kind": "military",
   "bbox": [
@@ -27,6 +31,10 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Italic label just south of Kiahad-Hané, beside a separate curved 'Fontaine'. Identification with the Ottoman powder mill at Kağıthane is a guess"
+  "note": {
+   "en": "Italic label just south of Kiahad-Hané, beside a separate curved 'Fontaine'. Identification with the Ottoman powder mill at Kağıthane is a guess",
+   "fr": "Étiquette en italique juste au sud de Kiahad-Hané, à côté d'une « Fontaine » courbe distincte. L'identification avec la poudrière ottomane de Kağıthane est une hypothèse",
+   "tr": "Kiahad-Hané'nin hemen güneyinde, ayrı bir kavisli 'Fontaine' yanında italik yazı. Kağıthane'deki Osmanlı baruthanesiyle özdeşleştirme bir tahmindir"
+  }
  }
 ]

@@ -27,19 +27,27 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "From Greek Pantichion"
+  "note": {
+   "en": "From Greek Pantichion",
+   "fr": "Du grec Pantichion",
+   "tr": "Yunanca Pantichion'dan"
+  }
  },
  {
   "fr": "Citerne ancienne",
   "ota": null,
-  "modern": "Ancient cistern, Pendik (lost)",
+  "modern": "Eski sarnıç, Pendik (lost)",
   "lit": {
    "fr": {
     "en": "Ancient cistern",
     "tr": "Eski sarnıç"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Ancient cistern",
+    "fr": "Citerne ancienne",
+    "tr": "Eski sarnıç"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -55,14 +63,18 @@
  {
   "fr": "Eglise Grecque",
   "ota": null,
-  "modern": "Greek Orthodox church, Pendik",
+  "modern": "Rum Ortodoks kilisesi, Pendik",
   "lit": {
    "fr": {
     "en": "Greek Church",
     "tr": "Rum Kilisesi"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Greek Orthodox church",
+    "fr": "Église grecque orthodoxe",
+    "tr": "Rum Ortodoks kilisesi"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -73,7 +85,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "At Pendik"
+  "note": {
+   "en": "At Pendik",
+   "fr": "À Pendik",
+   "tr": "Pendik'te"
+  }
  },
  {
   "fr": "KARTAL",
@@ -103,7 +119,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Greek Kartalimen"
+  "note": {
+   "en": "Greek Kartalimen",
+   "fr": "Grec Kartalimen",
+   "tr": "Yunanca Kartalimen"
+  }
  },
  {
   "fr": "Karavanserai",
@@ -111,7 +131,7 @@
    "latn": "Kervansaray",
    "arab": "كاروانسرای"
   },
-  "modern": "Kartal caravanserai (lost)",
+  "modern": "Kartal kervansarayı (lost)",
   "lit": {
    "fr": {
     "en": "Caravanserai",
@@ -122,7 +142,11 @@
     "fr": "Palais des caravanes",
     "tr": "Kervansaray"
    },
-   "modern": null
+   "modern": {
+    "en": "Kartal caravanserai",
+    "fr": "Caravansérail de Kartal",
+    "tr": "Kartal kervansarayı"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -133,19 +157,27 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Label partly hidden under the village plan"
+  "note": {
+   "en": "Label partly hidden under the village plan",
+   "fr": "Étiquette en partie cachée sous le plan du village",
+   "tr": "Etiket kısmen köy planının altında kalıyor"
+  }
  },
  {
   "fr": "Chateau ruiné",
   "ota": null,
-  "modern": "Ruined castle, Kartal (lost)",
+  "modern": "Yıkık kale, Kartal (lost)",
   "lit": {
    "fr": {
     "en": "Ruined castle",
     "tr": "Yıkık kale"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Ruined castle",
+    "fr": "Château en ruine",
+    "tr": "Yıkık kale"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -161,14 +193,18 @@
  {
   "fr": "Eglise Arménienne",
   "ota": null,
-  "modern": "Surp Nişan Armenian Church, Kartal",
+  "modern": "Surp Nişan Ermeni Kilisesi, Kartal",
   "lit": {
    "fr": {
     "en": "Armenian Church",
     "tr": "Ermeni Kilisesi"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Surp Nişan (Holy Sign) Armenian church",
+    "fr": "Église arménienne Surp Nişan (Saint-Signe)",
+    "tr": "Surp Nişan Ermeni Kilisesi"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -179,19 +215,27 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "At Kartal"
+  "note": {
+   "en": "At Kartal",
+   "fr": "À Kartal",
+   "tr": "Kartal'da"
+  }
  },
  {
   "fr": "Eglise Grecque",
   "ota": null,
-  "modern": "Greek Orthodox church, Kartal",
+  "modern": "Rum Ortodoks kilisesi, Kartal",
   "lit": {
    "fr": {
     "en": "Greek Church",
     "tr": "Rum Kilisesi"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Greek Orthodox church",
+    "fr": "Église grecque orthodoxe",
+    "tr": "Rum Ortodoks kilisesi"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -202,7 +246,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "At Kartal, south of the village"
+  "note": {
+   "en": "At Kartal, south of the village",
+   "fr": "À Kartal, au sud du village",
+   "tr": "Kartal'da, köyün güneyinde"
+  }
  },
  {
   "fr": "AGADGIK",
@@ -232,7 +280,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Possibly a garbled Yakacık, but IAKA-KEUI just to the west is the better match for that village; left unidentified"
+  "note": {
+   "en": "Possibly a garbled Yakacık, but IAKA-KEUI just to the west is the better match for that village; left unidentified",
+   "fr": "Peut-être un Yakacık déformé, mais IAKA-KEUI juste à l’ouest correspond mieux à ce village ; laissé non identifié",
+   "tr": "Bozulmuş bir Yakacık olabilir, ama hemen batıdaki IAKA-KEUI o köye daha iyi uyar; tanımlanmadan bırakıldı"
+  }
  },
  {
   "fr": "Chemin de Nicomédie",
@@ -240,7 +292,7 @@
    "latn": "İzmit Yolu",
    "arab": "ازمید یولی"
   },
-  "modern": "Old İzmit road (Bağdat Caddesi)",
+  "modern": "Eski İzmit yolu",
   "lit": {
    "fr": {
     "en": "Road to Nicomedia",
@@ -251,7 +303,11 @@
     "fr": "Route d'Izmit",
     "tr": "İzmit yolu"
    },
-   "modern": null
+   "modern": {
+    "en": "Old İzmit road",
+    "fr": "Ancienne route d'Izmit",
+    "tr": "Eski İzmit yolu"
+   }
   },
   "kind": "road",
   "bbox": [
@@ -281,6 +337,10 @@
    ]
   ],
   "uncertain": true,
-  "note": "Ottoman form reconstructed; today roughly the Bağdat Caddesi / D-100 corridor. Three words strung along the coast road: Nicomédie near Pendik, de at Kartal, Chemin in chunk c_9100_1850"
+  "note": {
+   "en": "Ottoman form reconstructed; today roughly the Bağdat Caddesi / D-100 corridor. Three words strung along the coast road: Nicomédie near Pendik, de at Kartal, Chemin in chunk c_9100_1850",
+   "fr": "Forme ottomane reconstituée ; aujourd'hui à peu près le corridor Bağdat Caddesi / D-100. Trois mots égrenés le long de la route côtière : Nicomédie près de Pendik, de à Kartal, Chemin dans le fragment c_9100_1850",
+   "tr": "Osmanlıca biçim türetildi; bugün aşağı yukarı Bağdat Caddesi / D-100 hattı. Sahil yolu boyunca dizilmiş üç kelime: Nicomédie Pendik yakınında, de Kartal'da, Chemin c_9100_1850 parçasında"
+  }
  }
 ]

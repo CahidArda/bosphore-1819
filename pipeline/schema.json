@@ -4,66 +4,191 @@
   "title": "Bosphore 1819 label record",
   "type": "object",
   "additionalProperties": false,
-  "required": ["fr", "ota", "modern", "lit", "kind", "bbox", "parts", "uncertain", "note"],
+  "required": [
+    "fr",
+    "ota",
+    "modern",
+    "lit",
+    "kind",
+    "bbox",
+    "parts",
+    "uncertain",
+    "note"
+  ],
   "properties": {
-    "fr": { "type": "string", "minLength": 1, "description": "Label exactly as engraved" },
+    "fr": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Label exactly as engraved"
+    },
     "ota": {
       "oneOf": [
-        { "type": "null" },
+        {
+          "type": "null"
+        },
         {
           "type": "object",
           "additionalProperties": false,
-          "required": ["latn", "arab"],
+          "required": [
+            "latn",
+            "arab"
+          ],
           "properties": {
-            "latn": { "type": "string", "minLength": 1 },
-            "arab": { "type": "string", "minLength": 1 }
+            "latn": {
+              "type": "string",
+              "minLength": 1
+            },
+            "arab": {
+              "type": "string",
+              "minLength": 1
+            }
           }
         }
       ]
     },
-    "modern": { "type": "string", "minLength": 1 },
+    "modern": {
+      "type": "string",
+      "minLength": 1
+    },
     "lit": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["fr", "ota", "modern"],
+      "required": [
+        "fr",
+        "ota",
+        "modern"
+      ],
       "properties": {
-        "fr": { "$ref": "#/$defs/glossEnTr" },
-        "ota": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/glossEnFrTr" }] },
-        "modern": { "oneOf": [{ "type": "null" }, { "$ref": "#/$defs/glossEnFrTr" }] }
+        "fr": {
+          "$ref": "#/$defs/glossEnTr"
+        },
+        "ota": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/glossEnFrTr"
+            }
+          ]
+        },
+        "modern": {
+          "oneOf": [
+            {
+              "type": "null"
+            },
+            {
+              "$ref": "#/$defs/glossEnFrTr"
+            }
+          ]
+        }
       }
     },
     "kind": {
       "type": "string",
       "enum": [
-        "village", "quarter", "city", "cape", "bay", "water", "fort", "palace", "mosque",
-        "religious", "military", "ruin", "mountain", "forest", "road", "infrastructure",
-        "region", "island", "other"
+        "village",
+        "quarter",
+        "city",
+        "cape",
+        "bay",
+        "water",
+        "fort",
+        "palace",
+        "mosque",
+        "religious",
+        "military",
+        "ruin",
+        "mountain",
+        "forest",
+        "road",
+        "infrastructure",
+        "region",
+        "island",
+        "other"
       ]
     },
-    "bbox": { "$ref": "#/$defs/box" },
-    "parts": { "oneOf": [{ "type": "null" }, { "type": "array", "minItems": 1, "items": { "$ref": "#/$defs/box" } }] },
-    "uncertain": { "type": "boolean" },
-    "note": { "oneOf": [{ "type": "null" }, { "type": "string" }] }
+    "bbox": {
+      "$ref": "#/$defs/box"
+    },
+    "parts": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/box"
+          }
+        }
+      ]
+    },
+    "uncertain": {
+      "type": "boolean"
+    },
+    "note": {
+      "oneOf": [
+        {
+          "type": "null"
+        },
+        {
+          "type": "string"
+        },
+        {
+          "$ref": "#/$defs/glossEnFrTr"
+        }
+      ],
+      "description": "Short context in three languages; a bare string is treated as English"
+    }
   },
   "$defs": {
     "box": {
       "type": "array",
       "minItems": 4,
       "maxItems": 4,
-      "items": { "type": "number", "minimum": 0 },
+      "items": {
+        "type": "number",
+        "minimum": 0
+      },
       "description": "[x1, y1, x2, y2] in full-image pixels (12509 x 7749)"
     },
     "glossEnTr": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["en", "tr"],
-      "properties": { "en": { "type": "string" }, "tr": { "type": "string" } }
+      "required": [
+        "en",
+        "tr"
+      ],
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "tr": {
+          "type": "string"
+        }
+      }
     },
     "glossEnFrTr": {
       "type": "object",
       "additionalProperties": false,
-      "required": ["en", "fr", "tr"],
-      "properties": { "en": { "type": "string" }, "fr": { "type": "string" }, "tr": { "type": "string" } }
+      "required": [
+        "en",
+        "fr",
+        "tr"
+      ],
+      "properties": {
+        "en": {
+          "type": "string"
+        },
+        "fr": {
+          "type": "string"
+        },
+        "tr": {
+          "type": "string"
+        }
+      }
     }
   }
 }

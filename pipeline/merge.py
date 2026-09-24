@@ -80,8 +80,9 @@ def _validate_basic(rec, where):
             errs.append(f"{where}: bad parts {rec['parts']}")
     if not isinstance(rec["uncertain"], bool):
         errs.append(f"{where}: uncertain must be boolean")
-    if rec["note"] is not None and not isinstance(rec["note"], str):
-        errs.append(f"{where}: note must be null or string")
+    n = rec["note"]
+    if n is not None and not isinstance(n, str) and not (isinstance(n, dict) and set(n) == {"en", "fr", "tr"}):
+        errs.append(f"{where}: note must be null, a string or {{en, fr, tr}}")
     return errs
 
 

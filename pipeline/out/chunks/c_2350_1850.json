@@ -2,14 +2,18 @@
  {
   "fr": "Cap avancé",
   "ota": null,
-  "modern": "Cape north of Anadolufeneri, Beykoz (unidentified)",
+  "modern": "Anadolufeneri kuzeyinde burun, Beykoz (unidentified)",
   "lit": {
    "fr": {
     "en": "Projecting cape",
     "tr": "Çıkıntılı burun"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Cape north of Anadolufeneri",
+    "fr": "Cap au nord d'Anadolufeneri",
+    "tr": "Anadolufeneri kuzeyinde burun"
+   }
   },
   "kind": "cape",
   "bbox": [
@@ -20,7 +24,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Descriptive label on the Black Sea shore beyond Anadolufeneri; no Ottoman name given"
+  "note": {
+   "en": "Descriptive label on the Black Sea shore beyond Anadolufeneri; no Ottoman name given",
+   "fr": "Étiquette descriptive sur le rivage de la mer Noire au-delà d'Anadolufeneri ; aucun nom ottoman n'est donné",
+   "tr": "Anadolufeneri'nin ötesinde Karadeniz kıyısında tanımlayıcı etiket; Osmanlıca ad verilmemiş"
+  }
  },
  {
   "fr": "Kousloudgé Rivière",
@@ -63,7 +71,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "Curved label along the stream north-east of Anadolufeneri; the Ottoman form 'Kuzluca' is reconstructed from the French"
+  "note": {
+   "en": "Curved label along the stream north-east of Anadolufeneri; the Ottoman form 'Kuzluca' is reconstructed from the French",
+   "fr": "Étiquette courbe le long du ruisseau au nord-est d'Anadolufeneri ; la forme ottomane « Kuzluca » est reconstituée d'après le français",
+   "tr": "Anadolufeneri'nin kuzeydoğusundaki dere boyunca kıvrımlı etiket; Osmanlıca 'Kuzluca' biçimi Fransızcadan çıkarıldı"
+  }
  },
  {
   "fr": "ANADOLI-FÉNÉRI, ou FANARAKI",
@@ -93,7 +105,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Fanaraki = Greek 'little lighthouse'"
+  "note": {
+   "en": "Fanaraki = Greek 'little lighthouse'",
+   "fr": "Fanaraki = « petit phare » en grec",
+   "tr": "Fanaraki, Yunanca 'küçük fener'"
+  }
  },
  {
   "fr": "Anadoli-Féneri Bournou",
@@ -166,7 +182,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Generic word marking the lighthouse of Anadolufeneri; Ottoman name reconstructed from the adjacent label"
+  "note": {
+   "en": "Generic word marking the lighthouse of Anadolufeneri; Ottoman name reconstructed from the adjacent label",
+   "fr": "Mot générique marquant le phare d'Anadolufeneri ; nom ottoman reconstitué d'après l'étiquette voisine",
+   "tr": "Anadolufeneri'nin fenerini işaretleyen genel sözcük; Osmanlıca ad yandaki etiketten çıkarıldı"
+  }
  },
  {
   "fr": "Fort",
@@ -196,7 +216,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Generic word placed at the fort of Anadolufeneri; Ottoman name reconstructed from the adjacent label"
+  "note": {
+   "en": "Generic word placed at the fort of Anadolufeneri; Ottoman name reconstructed from the adjacent label",
+   "fr": "Mot générique placé au fort d'Anadolufeneri ; nom ottoman reconstitué d'après l'étiquette voisine",
+   "tr": "Anadolufeneri kalesine yerleştirilmiş genel sözcük; Osmanlıca ad yandaki etiketten çıkarıldı"
+  }
  },
  {
   "fr": "Pilav-Kaïassi",
@@ -226,7 +250,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Vertical label along the shore, marking a rock; reading of the small italic text is a guess"
+  "note": {
+   "en": "Vertical label along the shore, marking a rock; reading of the small italic text is a guess",
+   "fr": "Étiquette verticale le long du rivage, marquant un rocher ; la lecture du petit texte en italique est une supposition",
+   "tr": "Kıyı boyunca dikey etiket, bir kayayı işaretliyor; küçük italik yazının okunuşu tahmindir"
+  }
  },
  {
   "fr": "Pilav-Bournou",
@@ -256,7 +284,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Identification with the cape at Poyraz (today Poyraz Burnu) is a guess"
+  "note": {
+   "en": "Identification with the cape at Poyraz (today Poyraz Burnu) is a guess",
+   "fr": "L'identification avec le cap de Poyraz (aujourd'hui Poyraz Burnu) est une supposition",
+   "tr": "Poyraz'daki burunla (bugün Poyraz Burnu) özdeşleştirme tahmindir"
+  }
  },
  {
   "fr": "Fort de Poïras-Liman",
@@ -286,7 +318,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Poyraz = the north-east wind"
+  "note": {
+   "en": "Poyraz = the north-east wind",
+   "fr": "Poyraz = le vent du nord-est",
+   "tr": "Poyraz = kuzeydoğu rüzgârı"
+  }
  },
  {
   "fr": "Fil-Bournou",
@@ -346,19 +382,27 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Modern identification with Keçilik Koyu is a guess"
+  "note": {
+   "en": "Modern identification with Keçilik Koyu is a guess",
+   "fr": "L'identification moderne avec Keçilik Koyu est une supposition",
+   "tr": "Keçilik Koyu ile özdeşleştirme tahmindir"
+  }
  },
  {
   "fr": "Ruines d'une ancienne Église",
   "ota": null,
-  "modern": "Ruined church east of Poyrazköy, Beykoz (unidentified)",
+  "modern": "Poyrazköy doğusunda yıkık kilise, Beykoz (unidentified)",
   "lit": {
    "fr": {
     "en": "Ruins of an old church",
     "tr": "Eski bir kilisenin kalıntıları"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Ruined church east of Poyrazköy",
+    "fr": "Église en ruine à l'est de Poyrazköy",
+    "tr": "Poyrazköy doğusunda yıkık kilise"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -399,7 +443,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "The Symplegades / Clashing Rocks of the Argonaut legend, off Rumelifeneri"
+  "note": {
+   "en": "The Symplegades / Clashing Rocks of the Argonaut legend, off Rumelifeneri",
+   "fr": "Les Symplégades, les Roches qui s'entrechoquent de la légende des Argonautes, au large de Rumelifeneri",
+   "tr": "Argonot efsanesindeki Symplegades, yani Çarpışan Kayalar; Rumelifeneri açıklarında"
+  }
  },
  {
   "fr": "I. Euriké-tachi",
@@ -429,7 +477,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Small italic label; first letter read as E (French 'eu' for ö)"
+  "note": {
+   "en": "Small italic label; first letter read as E (French 'eu' for ö)",
+   "fr": "Petite étiquette en italique ; première lettre lue comme E (« eu » français pour ö)",
+   "tr": "Küçük italik etiket; ilk harf E olarak okundu (ö için Fransızca 'eu')"
+  }
  },
  {
   "fr": "Papas Bournou",
@@ -472,7 +524,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Label runs obliquely up the shore"
+  "note": {
+   "en": "Label runs obliquely up the shore",
+   "fr": "L'étiquette monte en oblique le long du rivage",
+   "tr": "Etiket kıyı boyunca eğik olarak yukarı uzanır"
+  }
  },
  {
   "fr": "Fanal",
@@ -502,7 +558,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Generic word marking the lighthouse of Rumelifeneri; Ottoman name reconstructed from the adjacent label"
+  "note": {
+   "en": "Generic word marking the lighthouse of Rumelifeneri; Ottoman name reconstructed from the adjacent label",
+   "fr": "Mot générique marquant le phare de Rumelifeneri ; nom ottoman reconstitué d'après l'étiquette voisine",
+   "tr": "Rumelifeneri'nin fenerini işaretleyen genel sözcük; Osmanlıca ad yandaki etiketten çıkarıldı"
+  }
  },
  {
   "fr": "ROUMILI-FENER ou FANARAKI",
@@ -545,7 +605,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Fanaraki = Greek 'little lighthouse'"
+  "note": {
+   "en": "Fanaraki = Greek 'little lighthouse'",
+   "fr": "Fanaraki = « petit phare » en grec",
+   "tr": "Fanaraki, Yunanca 'küçük fener'"
+  }
  },
  {
   "fr": "Baglar-alti Bournou",
@@ -553,7 +617,7 @@
    "latn": "Bağlaraltı Burnu",
    "arab": "باغلر آلتی بورنی"
   },
-  "modern": "Cape between Rumelifeneri and Garipçe (unidentified)",
+  "modern": "Rumelifeneri ile Garipçe arasında burun, Sarıyer (unidentified)",
   "lit": {
    "fr": {
     "en": "Below-the-Vineyards Cape",
@@ -564,7 +628,11 @@
     "fr": "Cap au-dessous des Vignes",
     "tr": "Bağlar altı burnu"
    },
-   "modern": null
+   "modern": {
+    "en": "Cape between Rumelifeneri and Garipçe",
+    "fr": "Cap entre Rumelifeneri et Garipçe",
+    "tr": "Rumelifeneri ile Garipçe arasında burun"
+   }
   },
   "kind": "cape",
   "bbox": [
@@ -588,7 +656,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "Modern name not identified"
+  "note": {
+   "en": "Modern name not identified",
+   "fr": "Nom moderne non identifié",
+   "tr": "Bugünkü adı belirlenemedi"
+  }
  },
  {
   "fr": "Karibtché-Bournou",
@@ -618,7 +690,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Garipçe (from garip, 'strange, stranger') is the village name; no literal reading of the cape name is attempted"
+  "note": {
+   "en": "Garipçe (from garip, 'strange, stranger') is the village name; no literal reading of the cape name is attempted",
+   "fr": "Garipçe (de garip, « étrange, étranger ») est le nom du village ; aucune lecture littérale du nom du cap n'est tentée",
+   "tr": "Garipçe (garip'ten, 'tuhaf, yabancı') köyün adıdır; burun adının sözcük anlamı verilmedi"
+  }
  },
  {
   "fr": "Fort",
@@ -648,19 +724,27 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Generic word placed at the fort of Garipçe; Ottoman name reconstructed from the adjacent label"
+  "note": {
+   "en": "Generic word placed at the fort of Garipçe; Ottoman name reconstructed from the adjacent label",
+   "fr": "Mot générique placé au fort de Garipçe ; nom ottoman reconstitué d'après l'étiquette voisine",
+   "tr": "Garipçe kalesine yerleştirilmiş genel sözcük; Osmanlıca ad yandaki etiketten çıkarıldı"
+  }
  },
  {
   "fr": "TERRAIN VOLCANIQUE",
   "ota": null,
-  "modern": "Volcanic ground east of Anadolufeneri, Beykoz",
+  "modern": "Anadolufeneri doğusunda volkanik arazi, Beykoz",
   "lit": {
    "fr": {
     "en": "Volcanic ground",
     "tr": "Volkanik arazi"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Volcanic ground east of Anadolufeneri",
+    "fr": "Terrain volcanique à l'est d'Anadolufeneri",
+    "tr": "Anadolufeneri doğusunda volkanik arazi"
+   }
   },
   "kind": "region",
   "bbox": [
@@ -684,6 +768,10 @@
    ]
   ],
   "uncertain": false,
-  "note": "Vertical letter-spaced label; TERRAIN lies in c_2350_700, VOLCANIQUE in this chunk"
+  "note": {
+   "en": "Vertical letter-spaced label; TERRAIN lies in c_2350_700, VOLCANIQUE in this chunk",
+   "fr": "Étiquette verticale espacée ; TERRAIN se trouve dans c_2350_700, VOLCANIQUE dans cette tuile",
+   "tr": "Dikey, harf aralıklı etiket; TERRAIN c_2350_700'de, VOLCANIQUE bu parçada"
+  }
  }
 ]

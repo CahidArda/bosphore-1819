@@ -9,7 +9,11 @@
         "tr": "Ovidius Kulesi, Geç Roma dönemi yapısı"
       },
       "ota": null,
-      "modern": null
+      "modern": {
+        "en": "Ovid's tower",
+        "fr": "Tour d'Ovide",
+        "tr": "Ovidius kulesi"
+      }
     },
     "kind": "ruin",
     "bbox": [
@@ -33,7 +37,11 @@
       ]
     ],
     "uncertain": true,
-    "note": "Byzantine watchtower ruin near Kilyos; travellers linked it to the exiled poet Ovid. Bas-Empire = the Late Roman/Byzantine empire."
+    "note": {
+      "en": "Byzantine watchtower ruin near Kilyos; travellers linked it to the exiled poet Ovid. Bas-Empire = the Late Roman/Byzantine empire.",
+      "fr": "Ruine d'une tour de guet byzantine près de Kilyos ; les voyageurs l'associaient au poète exilé Ovide. Bas-Empire = l'Empire romain tardif / byzantin.",
+      "tr": "Kilyos yakınında Bizans gözetleme kulesi kalıntısı; gezginler onu sürgündeki şair Ovidius'a bağlamıştır. Bas-Empire = Geç Roma / Bizans İmparatorluğu."
+    }
   },
   {
     "fr": "SCOMBRÉ-KEUI",
@@ -52,7 +60,11 @@
         "fr": "Village du maquereau",
         "tr": "Uskumru köyü"
       },
-      "modern": null
+      "modern": {
+        "en": "Mackerel village",
+        "fr": "Village du maquereau",
+        "tr": "Uskumru köyü"
+      }
     },
     "kind": "village",
     "bbox": [
@@ -63,7 +75,11 @@
     ],
     "parts": null,
     "uncertain": false,
-    "note": "Scombre = mackerel (Greek skombros)"
+    "note": {
+      "en": "Scombre = mackerel (Greek skombros)",
+      "fr": "Scombre = maquereau (grec skombros)",
+      "tr": "Scombre = uskumru (Rumca skombros)"
+    }
   },
   {
     "fr": "Kastanié-sou",
@@ -82,7 +98,11 @@
         "fr": "Eau des châtaigniers",
         "tr": "Kestane suyu"
       },
-      "modern": null
+      "modern": {
+        "en": "Chestnut water",
+        "fr": "Eau des châtaigniers",
+        "tr": "Kestane suyu"
+      }
     },
     "kind": "water",
     "bbox": [
@@ -93,7 +113,11 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": "Slanted label along a stream; read as Kastanié-sou from a rotated zoom"
+    "note": {
+      "en": "Slanted label along a stream; read as Kastanié-sou from a rotated zoom",
+      "fr": "Étiquette inclinée le long d'un ruisseau ; lue Kastanié-sou sur un agrandissement pivoté",
+      "tr": "Bir dere boyunca eğik yazılmış etiket; döndürülmüş yakınlaştırmada Kastanié-sou olarak okundu"
+    }
   },
   {
     "fr": "Bend de Mahmoud",
@@ -112,7 +136,11 @@
         "fr": "Barrage de Mahmoud",
         "tr": "Mahmud bendi"
       },
-      "modern": null
+      "modern": {
+        "en": "Dam with the knob",
+        "fr": "Barrage au pommeau",
+        "tr": "Topuzlu bent"
+      }
     },
     "kind": "infrastructure",
     "bbox": [
@@ -123,7 +151,11 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": "Built 1750 under Mahmud I, hence also called Sultan I. Mahmud Bendi; the Mahmud II dam dates from 1839, after this map."
+    "note": {
+      "en": "Built 1750 under Mahmud I, hence also called Sultan I. Mahmud Bendi; the Mahmud II dam dates from 1839, after this map.",
+      "fr": "Construit en 1750 sous Mahmoud Ier, d'où son autre nom de Sultan I. Mahmud Bendi ; le barrage de Mahmoud II date de 1839, après cette carte.",
+      "tr": "1750'de I. Mahmud döneminde yapıldı, bu yüzden Sultan I. Mahmud Bendi de denir; II. Mahmud Bendi 1839 tarihlidir, yani bu haritadan sonra."
+    }
   },
   {
     "fr": "Bend de la Validé",
@@ -142,7 +174,11 @@
         "fr": "Barrage de la Sultane mère",
         "tr": "Valide sultan bendi"
       },
-      "modern": null
+      "modern": {
+        "en": "The Queen Mother's dam",
+        "fr": "Barrage de la Sultane mère",
+        "tr": "Valide bendi"
+      }
     },
     "kind": "infrastructure",
     "bbox": [
@@ -153,7 +189,11 @@
     ],
     "parts": null,
     "uncertain": false,
-    "note": "Built 1796 for Mihrişah Valide Sultan"
+    "note": {
+      "en": "Built 1796 for Mihrişah Valide Sultan",
+      "fr": "Construit en 1796 pour Mihrişah Valide Sultan",
+      "tr": "1796'da Mihrişah Valide Sultan için yapıldı"
+    }
   },
   {
     "fr": "PETIT BEND",
@@ -161,7 +201,7 @@
       "latn": "Küçük Bend",
       "arab": "كوچك بند"
     },
-    "modern": "Ayvad Bendi, Belgrad Forest (probable)",
+    "modern": "Ayvad Bendi, Belgrad Ormanı (probable)",
     "lit": {
       "fr": {
         "en": "Small dam",
@@ -172,7 +212,11 @@
         "fr": "Petit barrage",
         "tr": "Küçük bent"
       },
-      "modern": null
+      "modern": {
+        "en": "Ayvad dam",
+        "fr": "Barrage d'Ayvad",
+        "tr": "Ayvad bendi"
+      }
     },
     "kind": "infrastructure",
     "bbox": [
@@ -183,7 +227,11 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": "Vertical label; the identification with Ayvad Bendi is a guess."
+    "note": {
+      "en": "Vertical label; the identification with Ayvad Bendi is a guess.",
+      "fr": "Étiquette verticale ; l'identification avec Ayvad Bendi est une hypothèse.",
+      "tr": "Dikey etiket; Ayvad Bendi ile özdeşleştirme bir tahmindir."
+    }
   },
   {
     "fr": "GRAND BEND",
@@ -191,7 +239,7 @@
       "latn": "Büyük Bend",
       "arab": "بیوك بند"
     },
-    "modern": "Büyük Bent, Belgrad Forest",
+    "modern": "Büyük Bent, Belgrad Ormanı",
     "lit": {
       "fr": {
         "en": "Great dam",
@@ -202,7 +250,11 @@
         "fr": "Grand barrage",
         "tr": "Büyük bent"
       },
-      "modern": null
+      "modern": {
+        "en": "Great dam",
+        "fr": "Grand barrage",
+        "tr": "Büyük bent"
+      }
     },
     "kind": "infrastructure",
     "bbox": [
@@ -213,7 +265,11 @@
     ],
     "parts": null,
     "uncertain": false,
-    "note": "Built 1723 under Ahmed III"
+    "note": {
+      "en": "Built 1723 under Ahmed III",
+      "fr": "Construit en 1723 sous Ahmed III",
+      "tr": "1723'te III. Ahmed döneminde yapıldı"
+    }
   },
   {
     "fr": "Kiamurli",
@@ -221,7 +277,7 @@
       "latn": "Kâmürlü",
       "arab": "كامورلی"
     },
-    "modern": "Kâmürlü, Belgrad Forest (unidentified)",
+    "modern": "Kâmürlü, Belgrad Ormanı (unidentified)",
     "lit": {
       "fr": {
         "en": "Kiamurli",
@@ -243,7 +299,11 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": "Village symbol beside the old Belgrad village; reading and identification uncertain."
+    "note": {
+      "en": "Village symbol beside the old Belgrad village; reading and identification uncertain.",
+      "fr": "Symbole de village à côté du vieux village de Belgrad ; lecture et identification incertaines.",
+      "tr": "Eski Belgrad köyünün yanında köy işareti; okunuşu ve kimliği belirsiz."
+    }
   },
   {
     "fr": "le Vieux BELGRADE",
@@ -251,7 +311,7 @@
       "latn": "Belgrad Köyü",
       "arab": "بلغراد كوی"
     },
-    "modern": "Belgrad Köyü, Belgrad Forest (abandoned)",
+    "modern": "Belgrad Köyü, Belgrad Ormanı (abandoned)",
     "lit": {
       "fr": {
         "en": "Old Belgrade",
@@ -262,7 +322,11 @@
         "fr": "Village de Belgrade",
         "tr": "Belgrad köyü"
       },
-      "modern": null
+      "modern": {
+        "en": "Belgrade village",
+        "fr": "Village de Belgrade",
+        "tr": "Belgrad köyü"
+      }
     },
     "kind": "village",
     "bbox": [
@@ -286,6 +350,10 @@
       ]
     ],
     "uncertain": true,
-    "note": "'le Vieux' and 'BELGRADE' are split by the village symbol. Settled by Serbs deported after 1521 and evacuated in the 1890s."
+    "note": {
+      "en": "'le Vieux' and 'BELGRADE' are split by the village symbol. Settled by Serbs deported after 1521 and evacuated in the 1890s.",
+      "fr": "« le Vieux » et « BELGRADE » sont séparés par le symbole du village. Peuplé de Serbes déportés après 1521, évacué dans les années 1890.",
+      "tr": "'le Vieux' ile 'BELGRADE' arasına köy işareti girmiş. 1521'den sonra sürülen Sırplarca kurulmuş, 1890'larda boşaltılmıştır."
+    }
   }
 ]
