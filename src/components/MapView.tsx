@@ -69,6 +69,9 @@ export const MapView = forwardRef<
   const hits = useRef<Hit[]>([]);
   const byId = useRef<Map<string, Label>>(new Map());
   const hoveredRef = useRef<string | null>(null);
+  /** On touch screens the card stays open on the tapped label until the map is tapped elsewhere. */
+  const pinnedRef = useRef<string | null>(null);
+  const touchUI = typeof window !== "undefined" && (window.matchMedia?.("(hover: none)").matches ?? false);
   const prevSelected = useRef<Set<string>>(new Set());
   const prevHighlighted = useRef<Set<string>>(new Set());
   const onToggleRef = useRef(onToggle);
@@ -112,28 +115,31 @@ export const MapView = forwardRef<
     viewer.addHandler("open", () => setOpened(true));
     viewer.addHandler("open-failed", () => setLoaded(true));
 
-    // Clicks (and taps) hit-test against the label boxes.
+    // Clicks (and taps) hit-test against the label boxes. Desktop: a click toggles the
+    // selection. Touch screens have no hover, so a tap on a label pins its card and a
+    // tap anywhere else on the map closes it.
     viewer.addHandler("canvas-click", (ev) => {
       if (!ev.quick) return;
       const id = hitTest(viewer, hits.current, ev.position.x, ev.position.y);
-      if (!id) {
-        if ((ev.originalEvent as PointerEvent)?.pointerType === "touch") {
+      if (touchUI) {
+        if (!id) {
+          pinnedRef.current = null;
           setHover(null);
           setHoverLabel(null);
+          return;
         }
-        return;
-      }
-      onToggleRef.current(id);
-      if ((ev.originalEvent as PointerEvent)?.pointerType === "touch") {
+        pinnedRef.current = id;
         setHover(id);
         setHoverLabel(byId.current.get(id) ?? null);
         placeCard(ev.position.x, ev.position.y);
+        return;
       }
+      if (id) onToggleRef.current(id);
     });
 
     const container = viewer.container;
     const onMove = (e: PointerEvent) => {
-      if (e.pointerType === "touch") return;
+      if (touchUI || e.pointerType === "touch") return;
       const rect = container.getBoundingClientRect();
       const px = e.clientX - rect.left;
       const py = e.clientY - rect.top;
@@ -145,6 +151,7 @@ export const MapView = forwardRef<
       if (id) placeCard(px, py);
     };
     const onLeave = () => {
+      if (pinnedRef.current) return;
       setHover(null);
       setHoverLabel(null);
     };
@@ -296,7 +303,7 @@ export const MapView = forwardRef<
   return (
     <div className={cn("relative h-full w-full overflow-hidden", className)}>
       <div ref={elRef} className="absolute inset-0" data-testid="map" aria-label={d.appName} />
-      <HoverCard ref={cardRef} label={hoverLabel} lang={lang} />
+      <HoverCard ref={cardRef} label={hoverLabel} lang={lang} interactive={touchUI} />
       <div
         aria-hidden={loaded}
         className={cn(
