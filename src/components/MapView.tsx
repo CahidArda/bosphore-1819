@@ -110,6 +110,10 @@ export const MapView = forwardRef<
       showFullPageControl: false,
     });
     viewerRef.current = viewer;
+    // `?debug` exposes the viewer for inspection (which pyramid level is drawn, zoom, etc.).
+    if (new URLSearchParams(window.location.search).has("debug")) {
+      (window as unknown as { __osd?: OpenSeadragon.Viewer }).__osd = viewer;
+    }
     const onTile = () => {
       setLoaded(true);
       viewer.removeHandler("tile-loaded", onTile);
