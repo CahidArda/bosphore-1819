@@ -1,0 +1,689 @@
+[
+ {
+  "fr": "Cap avancé",
+  "ota": null,
+  "modern": "Unidentified cape north-west of Anadolufeneri, Beykoz",
+  "lit": {
+   "fr": {
+    "en": "Projecting cape",
+    "tr": "Çıkıntılı burun"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "cape",
+  "bbox": [
+   2636,
+   2040,
+   2805,
+   2080
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Descriptive label, no Ottoman name given"
+ },
+ {
+  "fr": "Kousloudgé Rivière",
+  "ota": {
+   "latn": "Kuzluca Deresi",
+   "arab": "قوزلوجه دره سی"
+  },
+  "modern": "Stream north of Anadolufeneri (Kuzluca Dere?), Beykoz",
+  "lit": {
+   "fr": {
+    "en": "Kousloudgé River",
+    "tr": "Kousloudgé Deresi"
+   },
+   "ota": {
+    "en": "Kuzluca stream",
+    "fr": "Ruisseau de Kuzluca",
+    "tr": "Kuzluca deresi"
+   },
+   "modern": null
+  },
+  "kind": "water",
+  "bbox": [
+   3140,
+   2145,
+   3400,
+   2250
+  ],
+  "parts": [
+   [
+    3140,
+    2180,
+    3310,
+    2250
+   ],
+   [
+    3300,
+    2145,
+    3400,
+    2200
+   ]
+  ],
+  "uncertain": true,
+  "note": "Curved label along the stream; Ottoman form of 'Kousloudgé' is a guess"
+ },
+ {
+  "fr": "ANADOLI-FÉNÉRI, ou FANARAKI",
+  "ota": {
+   "latn": "Anadolu Feneri",
+   "arab": "آناطولی فنری"
+  },
+  "modern": "Anadolufeneri, Beykoz",
+  "lit": {
+   "fr": {
+    "en": "Anatolian Lighthouse, or Fanaraki",
+    "tr": "Anadolu Feneri veya Fanaraki"
+   },
+   "ota": {
+    "en": "Lighthouse of Anatolia",
+    "fr": "Phare d'Anatolie",
+    "tr": "Anadolu feneri"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   2950,
+   2260,
+   3350,
+   2310
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Fanaraki = Greek 'little lighthouse'"
+ },
+ {
+  "fr": "Anadoli-Féneri Bournou",
+  "ota": {
+   "latn": "Anadolu Feneri Burnu",
+   "arab": "آناطولی فنری بورنی"
+  },
+  "modern": "Anadolufeneri Burnu, Beykoz",
+  "lit": {
+   "fr": {
+    "en": "Anatolian Lighthouse Cape",
+    "tr": "Anadolu Feneri Burnu"
+   },
+   "ota": {
+    "en": "Cape of the Anatolian Lighthouse",
+    "fr": "Cap du Phare d'Anatolie",
+    "tr": "Anadolu feneri burnu"
+   },
+   "modern": null
+  },
+  "kind": "cape",
+  "bbox": [
+   2760,
+   2313,
+   2950,
+   2375
+  ],
+  "parts": [
+   [
+    2760,
+    2313,
+    2950,
+    2345
+   ],
+   [
+    2810,
+    2345,
+    2915,
+    2375
+   ]
+  ],
+  "uncertain": false,
+  "note": null
+ },
+ {
+  "fr": "Fanal",
+  "ota": {
+   "latn": "Anadolu Feneri",
+   "arab": "آناطولی فنری"
+  },
+  "modern": "Anadolu Feneri lighthouse, Beykoz",
+  "lit": {
+   "fr": {
+    "en": "Beacon",
+    "tr": "Fener"
+   },
+   "ota": {
+    "en": "Lighthouse of Anatolia",
+    "fr": "Phare d'Anatolie",
+    "tr": "Anadolu feneri"
+   },
+   "modern": null
+  },
+  "kind": "infrastructure",
+  "bbox": [
+   2955,
+   2318,
+   3025,
+   2348
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Generic word marking the lighthouse of Anadolufeneri"
+ },
+ {
+  "fr": "Fort",
+  "ota": {
+   "latn": "Anadolu Feneri Kalesi",
+   "arab": "آناطولی فنری قلعه سی"
+  },
+  "modern": "Anadolufeneri Kalesi, Beykoz",
+  "lit": {
+   "fr": {
+    "en": "Fort",
+    "tr": "Kale"
+   },
+   "ota": {
+    "en": "Fort of the Anatolian Lighthouse",
+    "fr": "Fort du Phare d'Anatolie",
+    "tr": "Anadolu feneri kalesi"
+   },
+   "modern": null
+  },
+  "kind": "fort",
+  "bbox": [
+   2955,
+   2348,
+   3015,
+   2378
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Generic word placed at the fort of Anadolufeneri"
+ },
+ {
+  "fr": "Pilav-Kaïassi",
+  "ota": {
+   "latn": "Pilav Kayası",
+   "arab": "پلاو قیه سی"
+  },
+  "modern": "Pilav Kayası, Anadolufeneri (rock on the shore)",
+  "lit": {
+   "fr": {
+    "en": "Pilaf Rock",
+    "tr": "Pilav Kayası"
+   },
+   "ota": {
+    "en": "Rock of the Pilaf",
+    "fr": "Rocher du Pilaf",
+    "tr": "Pilav kayası"
+   },
+   "modern": null
+  },
+  "kind": "other",
+  "bbox": [
+   3060,
+   2465,
+   3135,
+   2575
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Vertical label along the shore; reading of the small italic text is a guess"
+ },
+ {
+  "fr": "Pilav-Bournou",
+  "ota": {
+   "latn": "Pilav Burnu",
+   "arab": "پلاو بورنی"
+  },
+  "modern": "Poyraz Burnu (Pilav Burnu), Poyrazköy, Beykoz",
+  "lit": {
+   "fr": {
+    "en": "Pilaf Cape",
+    "tr": "Pilav Burnu"
+   },
+   "ota": {
+    "en": "Cape of the Pilaf",
+    "fr": "Cap du Pilaf",
+    "tr": "Pilav burnu"
+   },
+   "modern": null
+  },
+  "kind": "cape",
+  "bbox": [
+   2930,
+   2655,
+   3150,
+   2695
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Modern identification with the cape at Poyraz is a guess"
+ },
+ {
+  "fr": "Fort de Poïras-Liman",
+  "ota": {
+   "latn": "Poyraz Limanı Kalesi",
+   "arab": "پویراز لیمانی قلعه سی"
+  },
+  "modern": "Poyraz Kalesi, Poyrazköy, Beykoz",
+  "lit": {
+   "fr": {
+    "en": "Fort of Poïras-Liman",
+    "tr": "Poyraz Limanı Kalesi"
+   },
+   "ota": {
+    "en": "Fort of the North-East-Wind Harbour",
+    "fr": "Fort du Port du Vent du Nord-Est",
+    "tr": "Poyraz limanı kalesi"
+   },
+   "modern": null
+  },
+  "kind": "fort",
+  "bbox": [
+   2955,
+   2690,
+   3235,
+   2735
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Poyraz = the north-east wind"
+ },
+ {
+  "fr": "Fil-Bournou",
+  "ota": {
+   "latn": "Fil Burnu",
+   "arab": "فیل بورنی"
+  },
+  "modern": "Fil Burnu, Poyrazköy, Beykoz",
+  "lit": {
+   "fr": {
+    "en": "Elephant Cape",
+    "tr": "Fil Burnu"
+   },
+   "ota": {
+    "en": "Elephant Cape",
+    "fr": "Cap de l'Éléphant",
+    "tr": "Fil burnu"
+   },
+   "modern": null
+  },
+  "kind": "cape",
+  "bbox": [
+   3160,
+   2880,
+   3305,
+   2915
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": null
+ },
+ {
+  "fr": "Ketchili-Liman",
+  "ota": {
+   "latn": "Keçili Limanı",
+   "arab": "كچیلی لیمانی"
+  },
+  "modern": "Keçilik Koyu, Poyrazköy, Beykoz",
+  "lit": {
+   "fr": {
+    "en": "Ketchili Harbour",
+    "tr": "Keçili Limanı"
+   },
+   "ota": {
+    "en": "Goat Harbour",
+    "fr": "Port des Chèvres",
+    "tr": "Keçili limanı"
+   },
+   "modern": null
+  },
+  "kind": "bay",
+  "bbox": [
+   3425,
+   2840,
+   3600,
+   2880
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Modern identification with Keçilik Koyu is a guess"
+ },
+ {
+  "fr": "Ruines d'une ancienne Église",
+  "ota": null,
+  "modern": "Unidentified ruined church east of Poyrazköy, Beykoz",
+  "lit": {
+   "fr": {
+    "en": "Ruins of an old church",
+    "tr": "Eski bir kilisenin kalıntıları"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "ruin",
+  "bbox": [
+   3577,
+   2984,
+   3839,
+   3012
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": null
+ },
+ {
+  "fr": "Iles Cyanées",
+  "ota": {
+   "latn": "Öreke Taşı",
+   "arab": "اوركه طاشی"
+  },
+  "modern": "Öreke Taşı (Symplegades), Rumelifeneri, Sarıyer",
+  "lit": {
+   "fr": {
+    "en": "Cyanean Islands",
+    "tr": "Kyaneai Adaları"
+   },
+   "ota": {
+    "en": "Distaff Rock",
+    "fr": "Rocher de la Quenouille",
+    "tr": "Öreke taşı"
+   },
+   "modern": null
+  },
+  "kind": "island",
+  "bbox": [
+   2520,
+   2853,
+   2686,
+   2886
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "The Symplegades / Clashing Rocks of the Argonaut legend"
+ },
+ {
+  "fr": "I. Euriké-tachi",
+  "ota": {
+   "latn": "Öreke Taşı Adası",
+   "arab": "اوركه طاشی آطه سی"
+  },
+  "modern": "Öreke Taşı, Rumelifeneri, Sarıyer",
+  "lit": {
+   "fr": {
+    "en": "Euriké-tachi Island",
+    "tr": "Öreke Taşı Adası"
+   },
+   "ota": {
+    "en": "Distaff Rock Island",
+    "fr": "Île du Rocher de la Quenouille",
+    "tr": "Öreke taşı adası"
+   },
+   "modern": null
+  },
+  "kind": "island",
+  "bbox": [
+   2440,
+   2885,
+   2590,
+   2910
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Small italic label; first letter read as E (French 'eu' for ö)"
+ },
+ {
+  "fr": "Papas Bournou",
+  "ota": {
+   "latn": "Papaz Burnu",
+   "arab": "پاپاز بورنی"
+  },
+  "modern": "Papaz Burnu, Rumelifeneri, Sarıyer",
+  "lit": {
+   "fr": {
+    "en": "Priest Cape",
+    "tr": "Papaz Burnu"
+   },
+   "ota": {
+    "en": "Cape of the Priest",
+    "fr": "Cap du Prêtre",
+    "tr": "Papaz burnu"
+   },
+   "modern": null
+  },
+  "kind": "cape",
+  "bbox": [
+   2696,
+   2796,
+   2866,
+   2910
+  ],
+  "parts": [
+   [
+    2696,
+    2850,
+    2775,
+    2910
+   ],
+   [
+    2770,
+    2796,
+    2866,
+    2860
+   ]
+  ],
+  "uncertain": false,
+  "note": "Label runs obliquely up the shore"
+ },
+ {
+  "fr": "Fanal",
+  "ota": {
+   "latn": "Rumeli Feneri",
+   "arab": "روم ایلی فنری"
+  },
+  "modern": "Rumeli Feneri lighthouse, Sarıyer",
+  "lit": {
+   "fr": {
+    "en": "Beacon",
+    "tr": "Fener"
+   },
+   "ota": {
+    "en": "Lighthouse of Rumelia",
+    "fr": "Phare de Roumélie",
+    "tr": "Rumeli feneri"
+   },
+   "modern": null
+  },
+  "kind": "infrastructure",
+  "bbox": [
+   2543,
+   2937,
+   2596,
+   2960
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Generic word marking the lighthouse of Rumelifeneri"
+ },
+ {
+  "fr": "ROUMILI-FENER ou FANARAKI",
+  "ota": {
+   "latn": "Rumeli Feneri",
+   "arab": "روم ایلی فنری"
+  },
+  "modern": "Rumelifeneri, Sarıyer",
+  "lit": {
+   "fr": {
+    "en": "Rumelia Lighthouse or Fanaraki",
+    "tr": "Rumeli Feneri veya Fanaraki"
+   },
+   "ota": {
+    "en": "Lighthouse of Rumelia",
+    "fr": "Phare de Roumélie",
+    "tr": "Rumeli feneri"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   2598,
+   2996,
+   2786,
+   3060
+  ],
+  "parts": [
+   [
+    2598,
+    2996,
+    2786,
+    3026
+   ],
+   [
+    2618,
+    3026,
+    2760,
+    3060
+   ]
+  ],
+  "uncertain": false,
+  "note": "Fanaraki = Greek 'little lighthouse'"
+ },
+ {
+  "fr": "Baglar-alti Bournou",
+  "ota": {
+   "latn": "Bağlaraltı Burnu",
+   "arab": "باغلر آلتی بورنی"
+  },
+  "modern": "Cape between Rumelifeneri and Garipçe, Sarıyer",
+  "lit": {
+   "fr": {
+    "en": "Below-the-Vineyards Cape",
+    "tr": "Bağlaraltı Burnu"
+   },
+   "ota": {
+    "en": "Cape Below the Vineyards",
+    "fr": "Cap au-dessous des Vignes",
+    "tr": "Bağlar altı burnu"
+   },
+   "modern": null
+  },
+  "kind": "cape",
+  "bbox": [
+   2795,
+   2965,
+   2910,
+   3010
+  ],
+  "parts": [
+   [
+    2795,
+    2965,
+    2895,
+    2990
+   ],
+   [
+    2828,
+    2986,
+    2910,
+    3010
+   ]
+  ],
+  "uncertain": true,
+  "note": "Modern name not identified"
+ },
+ {
+  "fr": "Karibtché-Bournou",
+  "ota": {
+   "latn": "Garipçe Burnu",
+   "arab": "غریبجه بورنی"
+  },
+  "modern": "Garipçe Burnu, Sarıyer",
+  "lit": {
+   "fr": {
+    "en": "Karibtché Cape",
+    "tr": "Garipçe Burnu"
+   },
+   "ota": {
+    "en": "Strangers' Cape",
+    "fr": "Cap des Étrangers",
+    "tr": "Garipçe burnu"
+   },
+   "modern": null
+  },
+  "kind": "cape",
+  "bbox": [
+   3016,
+   2943,
+   3236,
+   2970
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": null
+ },
+ {
+  "fr": "Fort",
+  "ota": {
+   "latn": "Garipçe Kalesi",
+   "arab": "غریبجه قلعه سی"
+  },
+  "modern": "Garipçe Kalesi, Sarıyer",
+  "lit": {
+   "fr": {
+    "en": "Fort",
+    "tr": "Kale"
+   },
+   "ota": {
+    "en": "Fort of Garipçe",
+    "fr": "Fort de Garipçe",
+    "tr": "Garipçe kalesi"
+   },
+   "modern": null
+  },
+  "kind": "fort",
+  "bbox": [
+   2946,
+   2970,
+   2996,
+   2996
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Generic word placed at the fort of Garipçe"
+ },
+ {
+  "fr": "TERRAIN VOLCANIQUE",
+  "ota": null,
+  "modern": "Volcanic ground east of Anadolufeneri and Poyrazköy, Beykoz",
+  "lit": {
+   "fr": {
+    "en": "Volcanic ground",
+    "tr": "Volkanik arazi"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "region",
+  "bbox": [
+   3436,
+   1445,
+   3670,
+   2805
+  ],
+  "parts": [
+   [
+    3436,
+    1445,
+    3525,
+    1965
+   ],
+   [
+    3545,
+    2185,
+    3670,
+    2805
+   ]
+  ],
+  "uncertain": false,
+  "note": "Vertical letter-spaced label; TERRAIN lies in c_2350_700, VOLCANIQUE in this chunk"
+ }
+]

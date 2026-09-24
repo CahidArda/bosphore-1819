@@ -1,0 +1,104 @@
+[
+ {
+  "fr": "EMBOUCHURE DE LA MER NOIRE",
+  "ota": null,
+  "modern": "Karadeniz Boğazı ağzı (northern mouth of the Bosphorus)",
+  "lit": {
+   "fr": {
+    "en": "Mouth of the Black Sea",
+    "tr": "Karadeniz Ağzı"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "water",
+  "bbox": [
+   2092,
+   2372,
+   2562,
+   2607
+  ],
+  "parts": [
+   [
+    2092,
+    2372,
+    2562,
+    2422
+   ],
+   [
+    2212,
+    2472,
+    2452,
+    2517
+   ],
+   [
+    2102,
+    2557,
+    2547,
+    2607
+   ]
+  ],
+  "uncertain": false,
+  "note": "Letter-spaced three-line label over the water; spans the boundary with c_2350_1850"
+ },
+ {
+  "fr": "Roumili-Fener-Bournou",
+  "ota": {
+   "latn": "Rumeli Feneri Burnu",
+   "arab": "روم ایلی فنری بورنی"
+  },
+  "modern": "Rumelifeneri Burnu, Sarıyer",
+  "lit": {
+   "fr": {
+    "en": "Rumelia Lighthouse Cape",
+    "tr": "Rumeli Feneri Burnu"
+   },
+   "ota": {
+    "en": "Cape of the Rumelian Lighthouse",
+    "fr": "Cap du Phare de Roumélie",
+    "tr": "Rumeli feneri burnu"
+   },
+   "modern": null
+  },
+  "kind": "cape",
+  "bbox": [
+   2244,
+   2934,
+   2522,
+   2962
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Cut by the chunk boundary at x=2500; continues in c_2350_1850"
+ },
+ {
+  "fr": "Fort de Fanaraki",
+  "ota": {
+   "latn": "Rumeli Feneri Kalesi",
+   "arab": "روم ایلی فنری قلعه سی"
+  },
+  "modern": "Rumelifeneri Kalesi, Sarıyer",
+  "lit": {
+   "fr": {
+    "en": "Fort of Fanaraki",
+    "tr": "Fanaraki Kalesi"
+   },
+   "ota": {
+    "en": "Fort of the Rumelian Lighthouse",
+    "fr": "Fort du Phare de Roumélie",
+    "tr": "Rumeli feneri kalesi"
+   },
+   "modern": null
+  },
+  "kind": "fort",
+  "bbox": [
+   2324,
+   2966,
+   2519,
+   2994
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Fanaraki is the Greek name of Rumelifeneri; cut by the chunk boundary at x=2500"
+ }
+]

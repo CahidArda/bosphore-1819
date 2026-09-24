@@ -1,0 +1,197 @@
+[
+  {
+    "fr": "MER NOIRE",
+    "ota": { "latn": "Karadeniz", "arab": "قره دكز" },
+    "modern": "Karadeniz",
+    "lit": {
+      "fr": { "en": "Black Sea", "tr": "Karadeniz" },
+      "ota": { "en": "Black Sea", "fr": "Mer Noire", "tr": "Kara deniz" },
+      "modern": null
+    },
+    "kind": "water",
+    "bbox": [1230, 1260, 1370, 4830],
+    "parts": [[1230, 3760, 1370, 4830], [1230, 1260, 1370, 3100]],
+    "uncertain": false,
+    "note": "Vertical letter-spaced label along the left edge of the sheet"
+  },
+  {
+    "fr": "EMBOUCHURE DE LA MER NOIRE",
+    "ota": { "latn": "Karadeniz Boğazı Ağzı", "arab": "قره دكز بوغازی آغزی" },
+    "modern": "Karadeniz Boğazı girişi (Rumeli Feneri – Anadolu Feneri)",
+    "lit": {
+      "fr": { "en": "Mouth of the Black Sea", "tr": "Karadeniz'in Ağzı" },
+      "ota": { "en": "Mouth of the Black Sea Strait", "fr": "Bouche du détroit de la Mer Noire", "tr": "Karadeniz Boğazı ağzı" },
+      "modern": null
+    },
+    "kind": "water",
+    "bbox": [2070, 2355, 2460, 2545],
+    "parts": [[2070, 2355, 2460, 2395], [2165, 2440, 2365, 2470], [2080, 2505, 2440, 2545]],
+    "uncertain": true,
+    "note": "Ottoman form reconstructed; the map has no Turkish name for the mouth"
+  },
+  {
+    "fr": "CANAL DE LA MER NOIRE",
+    "ota": { "latn": "Karadeniz Boğazı", "arab": "قره دكز بوغازی" },
+    "modern": "İstanbul Boğazı (northern Bosphorus)",
+    "lit": {
+      "fr": { "en": "Channel of the Black Sea", "tr": "Karadeniz Kanalı" },
+      "ota": { "en": "Strait of the Black Sea", "fr": "Détroit de la Mer Noire", "tr": "Karadeniz boğazı" },
+      "modern": { "en": "Strait of Istanbul", "fr": "Détroit d'Istanbul", "tr": "İstanbul boğazı" }
+    },
+    "kind": "water",
+    "bbox": [2830, 2760, 3960, 3720],
+    "parts": [[2830, 2760, 3100, 3080], [3200, 3030, 3300, 3120], [3390, 3180, 3480, 3260], [3550, 3320, 3700, 3450], [3710, 3450, 3960, 3720]],
+    "uncertain": false,
+    "note": "The map's name for the northern reach of the strait; the curved label follows the channel"
+  },
+  {
+    "fr": "ASIE",
+    "ota": { "latn": "Anadolu", "arab": "آناطولی" },
+    "modern": "Anadolu Yakası",
+    "lit": {
+      "fr": { "en": "Asia", "tr": "Asya" },
+      "ota": { "en": "Anatolia", "fr": "Anatolie", "tr": "Anadolu" },
+      "modern": { "en": "Anatolian side", "fr": "Rive anatolienne", "tr": "Anadolu yakası" }
+    },
+    "kind": "region",
+    "bbox": [5120, 1910, 7340, 2010],
+    "parts": [[5120, 1910, 5200, 2010], [5680, 1910, 5760, 2010], [6700, 1910, 6760, 2010], [7260, 1910, 7340, 2010]],
+    "uncertain": false,
+    "note": null
+  },
+  {
+    "fr": "MONT ALEM-DAGHI",
+    "ota": { "latn": "Alem Dağı", "arab": "علم طاغی" },
+    "modern": "Alemdağ, Çekmeköy",
+    "lit": {
+      "fr": { "en": "Mount Alem-Daghi", "tr": "Alem Dağı" },
+      "ota": { "en": "Banner Mountain", "fr": "Mont de l'Étendard", "tr": "Alem dağı" },
+      "modern": null
+    },
+    "kind": "mountain",
+    "bbox": [6040, 2155, 6815, 2215],
+    "parts": [[6040, 2155, 6250, 2215], [6350, 2155, 6815, 2215]],
+    "uncertain": false,
+    "note": "Letter-spaced label across a chunk boundary, recorded from the overview"
+  },
+  {
+    "fr": "EUROPE",
+    "ota": { "latn": "Rumeli", "arab": "روم ایلی" },
+    "modern": "Avrupa Yakası",
+    "lit": {
+      "fr": { "en": "Europe", "tr": "Avrupa" },
+      "ota": { "en": "Land of the Romans (Rumelia)", "fr": "Pays des Romains (Roumélie)", "tr": "Rum ili" },
+      "modern": { "en": "European side", "fr": "Rive européenne", "tr": "Avrupa yakası" }
+    },
+    "kind": "region",
+    "bbox": [1870, 6590, 6730, 6690],
+    "parts": [[1870, 6590, 1970, 6690], [2830, 6590, 2930, 6690], [3810, 6590, 3910, 6690], [4790, 6590, 4890, 6690], [5710, 6590, 5810, 6690], [6630, 6590, 6730, 6690]],
+    "uncertain": false,
+    "note": null
+  },
+  {
+    "fr": "ENTRÉE DU BOSPHORE",
+    "ota": { "latn": "Boğaz Ağzı", "arab": "بوغاز آغزی" },
+    "modern": "Boğaz girişi (Sarayburnu – Salacak)",
+    "lit": {
+      "fr": { "en": "Entrance of the Bosphorus", "tr": "Boğaz Girişi" },
+      "ota": { "en": "Mouth of the Strait", "fr": "Bouche du détroit", "tr": "Boğaz ağzı" },
+      "modern": null
+    },
+    "kind": "water",
+    "bbox": [6805, 4905, 7655, 4960],
+    "parts": [[6805, 4905, 7125, 4960], [7130, 4905, 7245, 4960], [7290, 4905, 7655, 4960]],
+    "uncertain": true,
+    "note": "Ottoman form reconstructed; the map has no Turkish name for the southern entrance"
+  },
+  {
+    "fr": "MER DE MARMARA",
+    "ota": { "latn": "Marmara Denizi", "arab": "مرمره دكزی" },
+    "modern": "Marmara Denizi",
+    "lit": {
+      "fr": { "en": "Sea of Marmara", "tr": "Marmara Denizi" },
+      "ota": { "en": "Sea of Marmara", "fr": "Mer de Marmara", "tr": "Marmara denizi" },
+      "modern": null
+    },
+    "kind": "water",
+    "bbox": [8310, 5000, 11010, 5090],
+    "parts": [[8310, 5000, 8690, 5090], [9010, 5000, 9330, 5090], [9710, 5000, 11010, 5090]],
+    "uncertain": false,
+    "note": "Named after the marble (Greek mármaron) quarried on Marmara Island"
+  },
+  {
+    "fr": "ILES DES PRINCES",
+    "ota": { "latn": "Kızıl Adalar", "arab": "قزل آطه لر" },
+    "modern": "Adalar (Prens Adaları)",
+    "lit": {
+      "fr": { "en": "Princes' Islands", "tr": "Prens Adaları" },
+      "ota": { "en": "Red Islands", "fr": "Îles Rouges", "tr": "Kızıl adalar" },
+      "modern": { "en": "The Islands", "fr": "Les Îles", "tr": "Adalar" }
+    },
+    "kind": "island",
+    "bbox": [9790, 3050, 11000, 4730],
+    "parts": [[9790, 4360, 10210, 4730], [10270, 3910, 10530, 4270], [10580, 3050, 11000, 3770]],
+    "uncertain": false,
+    "note": "Diagonal letter-spaced label running north-east across the Marmara"
+  },
+  {
+    "fr": "GOLFE DE NICOMÉDIE",
+    "ota": { "latn": "İzmit Körfezi", "arab": "ازمید كورفزی" },
+    "modern": "İzmit Körfezi",
+    "lit": {
+      "fr": { "en": "Gulf of Nicomedia", "tr": "Nikomedya Körfezi" },
+      "ota": { "en": "Gulf of İzmit", "fr": "Golfe d'Izmit", "tr": "İzmit körfezi" },
+      "modern": null
+    },
+    "kind": "bay",
+    "bbox": [10360, 1080, 11200, 1620],
+    "parts": [[10540, 1080, 11020, 1160], [10720, 1320, 10860, 1400], [10360, 1540, 11200, 1620]],
+    "uncertain": false,
+    "note": "Nicomedia is the ancient name of İzmit"
+  },
+  {
+    "fr": "Plan Topographique du Bosphore de Thrace ou Canal de Constantinople et de ses environs",
+    "ota": null,
+    "modern": "Title cartouche",
+    "lit": {
+      "fr": { "en": "Topographic Plan of the Thracian Bosphorus or Channel of Constantinople and its surroundings", "tr": "Trakya Boğazı yahut İstanbul Kanalı ve çevresinin topografik planı" },
+      "ota": null,
+      "modern": null
+    },
+    "kind": "other",
+    "bbox": [9100, 5460, 11220, 6890],
+    "parts": [[9560, 5460, 10800, 5530], [9420, 5600, 10930, 5710], [9160, 5800, 11170, 5920], [9760, 5930, 10600, 6010], [9850, 6810, 10500, 6880]],
+    "uncertain": false,
+    "note": "Surveyed by Fr. Kauffer from 1776 (to 1801); completed and published by J.-D. Barbié du Bocage, 1819"
+  },
+  {
+    "fr": "FORÊT DE BELGRADE",
+    "ota": { "latn": "Belgrad Ormanı", "arab": "بلغراد اورمانی" },
+    "modern": "Belgrad Ormanı",
+    "lit": {
+      "fr": { "en": "Forest of Belgrade", "tr": "Belgrad Ormanı" },
+      "ota": { "en": "Belgrade Forest", "fr": "Forêt de Belgrade", "tr": "Belgrad ormanı" },
+      "modern": null
+    },
+    "kind": "forest",
+    "bbox": [2860, 4270, 4520, 6900],
+    "parts": [[2860, 4270, 3400, 4870], [3555, 5095, 3725, 5325], [3855, 5585, 4520, 6900]],
+    "uncertain": false,
+    "note": "Diagonal letter-spaced label; the forest is named after the Serbs resettled here from Belgrade after 1521"
+  },
+  {
+    "fr": "COURANT DU DIABLE",
+    "ota": { "latn": "Şeytan Akıntısı", "arab": "شیطان آقینتیسی" },
+    "modern": "Şeytan Akıntısı",
+    "lit": {
+      "fr": { "en": "Devil's Current", "tr": "Şeytan Akıntısı" },
+      "ota": { "en": "Devil's Current", "fr": "Courant du Diable", "tr": "Şeytan akıntısı" },
+      "modern": null
+    },
+    "kind": "water",
+    "bbox": [6035, 4030, 6540, 4290],
+    "parts": [[6035, 4030, 6270, 4130], [6295, 4130, 6395, 4185], [6385, 4195, 6540, 4290]],
+    "uncertain": false,
+    "note": "The French name of the current labelled CHEÏTAN-AKINDISI further upstream; letter-spaced across a chunk boundary"
+  }
+]

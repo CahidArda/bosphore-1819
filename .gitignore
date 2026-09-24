@@ -1,0 +1,33 @@
+# dependencies / build
+node_modules/
+dist/
+dist-ssr/
+*.local
+*.tsbuildinfo
+
+# playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# pipeline: the scan and all renders are regenerated, never committed
+pipeline/raw/
+pipeline/out/chunkpng/
+pipeline/out/zoom/
+pipeline/out/qa/
+pipeline/out/*.png
+pipeline/out/*.log
+pipeline/__pycache__/
+
+# editors / os
+.DS_Store
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.claude/worktrees/

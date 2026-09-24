@@ -1,0 +1,55 @@
+[
+ {
+  "fr": "CHER-KEUI",
+  "ota": {
+   "latn": "Şerköy",
+   "arab": "شر كوی"
+  },
+  "modern": "Unidentified village west of Ağaçlı (Eyüpsultan)",
+  "lit": {
+   "fr": {
+    "en": "Cher-keui",
+    "tr": "Şerköy"
+   },
+   "ota": {
+    "en": "Şer village",
+    "fr": "Village de Şer",
+    "tr": "Şer köyü"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   1064,
+   6486,
+   1218,
+   6514
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Also fully visible in c_1000_5300; village with a mosque"
+ },
+ {
+  "fr": "F. P. Michel Sculp.",
+  "ota": null,
+  "modern": "Engraver's signature (F. P. Michel)",
+  "lit": {
+   "fr": {
+    "en": "F. P. Michel engraved (this)",
+    "tr": "F. P. Michel hakketti"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "other",
+  "bbox": [
+   1000,
+   6972,
+   1338,
+   7012
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Engraver's signature in the bottom-left margin, just below the map frame; not a place"
+ }
+]
