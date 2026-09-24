@@ -25,7 +25,8 @@
   --sepia: oklch(0.42 0.08 55);
   --sepia-soft: oklch(0.47 0.09 55 / 0.12);
   --mark: oklch(0.9 0.12 90);
-  --match: oklch(0.28 0.02 60);
+  --match: oklch(0.25 0.02 60);
+  --outline-all: oklch(0.32 0.06 55);
 }
 
 @media (prefers-color-scheme: dark) {
@@ -51,7 +52,8 @@
     --sepia: oklch(0.85 0.06 75);
     --sepia-soft: oklch(0.74 0.1 68 / 0.18);
     --mark: oklch(0.5 0.1 80);
-    --match: oklch(0.88 0.02 80);
+    --match: oklch(0.25 0.02 60);
+    --outline-all: oklch(0.32 0.06 55);
   }
 }
 
@@ -108,10 +110,11 @@
   pointer-events: none;
   overflow: visible;
 }
-/* layers toggle: every label gets a visible outline (handy on touch screens) */
+/* layers toggle: every label gets a visible outline (handy on touch screens).
+   The map is sepia in both themes, so the colour does not follow the theme. */
 .lbl-root.show-all .lbl {
-  border-style: solid;
-  border-color: color-mix(in oklab, var(--sepia) 70%, transparent);
+  border: 2px solid var(--outline-all);
+  background: color-mix(in oklab, var(--outline-all) 6%, transparent);
 }
 .lbl {
   position: absolute;
