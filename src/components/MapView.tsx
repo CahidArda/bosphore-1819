@@ -290,7 +290,9 @@ export const MapView = forwardRef<
           if (l) boxes.push(l.bbox);
         }
         if (!boxes.length) return;
-        viewer.viewport.fitBounds(padded(unionRect(boxes), 1.3, 0.08), false);
+        // Keep the surroundings in view: at least a fifth of the sheet's width, so the
+        // 3,840 px level still looks sharp while the full-resolution tile is loading.
+        viewer.viewport.fitBounds(padded(unionRect(boxes), 2.2, 0.2), false);
       },
       hover(id) {
         setHover(id);
