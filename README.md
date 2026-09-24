@@ -4,7 +4,7 @@ An 1819 French map of the Bosphorus with every label read, mapped and translated
 
 ![Bosphore 1819 screenshot](docs/screenshot.png)
 
-**Read how it was built:** [Bosphore 1819: A 200-Year-Old Map of Istanbul, Deciphered with Opus 5.5](https://cahidarda.com/articles/bosphore-1819), on Cahid Arda Öz's blog. Built with Claude Opus 5.5 subagents in an afternoon.
+**Read how it was built:** [Bosphore 1819: Bringing a 200-Year-Old Map of Istanbul to Life with Opus 5.5](https://cahidarda.com/articles/bosphore-1819), on Cahid Arda Öz's blog. Built with Claude Opus 5.5 subagents in an afternoon.
 
 **Live app:** deploy on Vercel (see below) · **Data:** [`public/labels.json`](public/labels.json)
 
