@@ -2,7 +2,7 @@
  {
   "fr": "Glaris Rivière",
   "ota": null,
-  "modern": "Stream between İncirköy and Çubuklu (unidentified)",
+  "modern": "Glaris stream (unidentified)",
   "lit": {
    "fr": {
     "en": "Glaris River",
@@ -33,7 +33,7 @@
    ]
   ],
   "uncertain": true,
-  "note": "Vertical label; name of unknown origin, possibly Greek"
+  "note": "Vertical label on the stream between İncirköy and Çubuklu; the first letter may be C (Claris). Name of unknown, possibly Greek, origin."
  },
  {
   "fr": "Defterdar Tchiftlighi",
@@ -41,7 +41,7 @@
    "latn": "Defterdar Çiftliği",
    "arab": "دفتردار چفتلكی"
   },
-  "modern": "Defterdar Çiftliği, above Çubuklu (lost)",
+  "modern": "Defterdar Çiftliği, Çubuklu (lost)",
   "lit": {
    "fr": {
     "en": "Defterdar Farm",
@@ -63,12 +63,12 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Defterdar = the Ottoman finance minister"
+  "note": "Defterdar = the Ottoman finance minister; the farm lay on the hills above Çubuklu."
  },
  {
   "fr": "3 Citernes antiques",
   "ota": null,
-  "modern": "Three ancient cisterns near İncirköy (unidentified)",
+  "modern": "Three ancient cisterns, İncirköy (unidentified)",
   "lit": {
    "fr": {
     "en": "3 ancient cisterns",
@@ -86,7 +86,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": null
+  "note": "On the hills between İncirköy and Kavacık."
  },
  {
   "fr": "Kavadgik",
@@ -121,7 +121,7 @@
  {
   "fr": "Kiosque ruiné",
   "ota": null,
-  "modern": "Ruined kiosk at Kavacık (lost)",
+  "modern": "Ruined kiosk, Kavacık (lost)",
   "lit": {
    "fr": {
     "en": "Ruined kiosk",
@@ -151,7 +151,7 @@
   "lit": {
    "fr": {
     "en": "Ghenk-sou",
-    "tr": "Ghenk-su"
+    "tr": "Göksu"
    },
    "ota": {
     "en": "Sky-water",
@@ -169,7 +169,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Vertical label; engraved 'Ghenk-sou', probably the upper Göksu"
+  "note": "Vertical label; engraved 'Ghenk-sou', perhaps for 'Gheuk-sou' (Gök-su). Probably the upper Göksu."
  },
  {
   "fr": "Kutchuk-sou",
@@ -204,7 +204,7 @@
  {
   "fr": "Ferme d'un Arménien",
   "ota": null,
-  "modern": "Armenian farm above Kandilli (lost)",
+  "modern": "Armenian farm, Kandilli (lost)",
   "lit": {
    "fr": {
     "en": "Farm of an Armenian",
@@ -222,7 +222,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": null
+  "note": "Inland, on the hills above Kandilli and Vaniköy."
  },
  {
   "fr": "Muravada",
@@ -239,7 +239,7 @@
    "ota": {
     "en": "Abode of the sun (Persian mihr)",
     "fr": "Demeure du soleil (persan mihr)",
-    "tr": "Mihrabat"
+    "tr": "Mihr (güneş) yurdu"
    },
    "modern": null
   },
@@ -293,7 +293,7 @@
   "modern": "Çubuklu Koyu, Beykoz",
   "lit": {
    "fr": {
-    "en": "Gulf of Çubuklu",
+    "en": "Gulf of Tchiboukli",
     "tr": "Çubuklu Körfezi"
    },
    "ota": {
@@ -426,7 +426,7 @@
   "modern": "Anadoluhisarı, Beykoz",
   "lit": {
    "fr": {
-    "en": "Anadoli-Hisari",
+    "en": "Fortress of Anatolia",
     "tr": "Anadolu Hisarı"
    },
    "ota": {
@@ -453,7 +453,7 @@
    "latn": "Anadolu Hisarı",
    "arab": "آناطولی حصاری"
   },
-  "modern": "Anadoluhisarı fortress (Güzelce Hisar)",
+  "modern": "Anadoluhisarı fortress",
   "lit": {
    "fr": {
     "en": "Castle",
@@ -475,7 +475,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Generic 'Château' placed on the fortress of Bayezid I (1395)"
+  "note": "Generic 'Château' placed on the fortress of Bayezid I (1395), also called Güzelce Hisar."
  },
  {
   "fr": "Kiosque du Gd Sr",
@@ -483,7 +483,7 @@
    "latn": "Hünkâr Köşkü",
    "arab": "خنكار كوشكی"
   },
-  "modern": "Sultan's kiosk at Kandilli (lost)",
+  "modern": "Küçüksu Kasrı, Beykoz",
   "lit": {
    "fr": {
     "en": "Kiosk of the Grand Seigneur",
@@ -505,7 +505,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Le Grand Seigneur = the Sultan"
+  "note": "Le Grand Seigneur = the Sultan; the kiosk stands at the Göksu mouth, where Mahmud I's wooden Göksu Kasrı (1752) preceded the present Küçüksu Kasrı (1857)."
  },
  {
   "fr": "Les Eaux douces d'Asie",
@@ -513,7 +513,7 @@
    "latn": "Göksu",
    "arab": "كوك صو"
   },
-  "modern": "Küçüksu / Göksu Deresi",
+  "modern": "Göksu Deresi, Beykoz",
   "lit": {
    "fr": {
     "en": "The Sweet Waters of Asia",
@@ -535,7 +535,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": null
+  "note": "The meadow between the Göksu and Küçüksu streams (Küçüksu Çayırı) was a favourite excursion spot."
  },
  {
   "fr": "KANDILLI",
@@ -573,7 +573,7 @@
    "latn": "Kule Bağçesi",
    "arab": "قله باغچه سی"
   },
-  "modern": "Kuleli",
+  "modern": "Kuleli, Üsküdar",
   "lit": {
    "fr": {
     "en": "Tower Garden",
@@ -740,7 +740,7 @@
    "latn": "Tersane Anbarları",
    "arab": "ترسانه انبارلری"
   },
-  "modern": "Naval storehouses at Bebek (lost)",
+  "modern": "Naval storehouses, Bebek (lost)",
   "lit": {
    "fr": {
     "en": "Storehouses of the Navy",
@@ -762,7 +762,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Diagonal label"
+  "note": "Diagonal label; the Ottoman name is reconstructed."
  },
  {
   "fr": "BEBEK",
@@ -830,11 +830,11 @@
    "latn": "Beyhan Sultan Sahilsarayı",
    "arab": "بیخان سلطان ساحل سرایی"
   },
-  "modern": "Beyhan Sultan waterside palace, Akıntıburnu (lost)",
+  "modern": "Beyhan Sultan Sahilsarayı, Akıntıburnu (lost)",
   "lit": {
    "fr": {
     "en": "Palace of Beihan Sultana",
-    "tr": "Beyhan Sultan Sarayı"
+    "tr": "Beyhan Sultan'ın Sarayı"
    },
    "ota": {
     "en": "Shore palace of Beyhan Sultan",
@@ -857,7 +857,7 @@
  {
   "fr": "Roche St Sèle",
   "ota": null,
-  "modern": "Rock off Arnavutköy (unidentified)",
+  "modern": "St Sèle rock, Arnavutköy (unidentified)",
   "lit": {
    "fr": {
     "en": "Rock of St Sèle",
@@ -883,7 +883,7 @@
    "latn": "Üç Burun",
    "arab": "اوچ بورون"
   },
-  "modern": "Cape between İstinye and Yeniköy",
+  "modern": "Üç Burun, Yeniköy",
   "lit": {
    "fr": {
     "en": "Utch Cape",
@@ -905,7 +905,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": null
+  "note": "The point between Yeniköy and İstinye bay; the name is not in current use."
  },
  {
   "fr": "Tokmak-Bournou",
@@ -943,7 +943,7 @@
    "latn": "Emirgûneoğlu Bağçesi",
    "arab": "امیر كونه اوغلی باغچه سی"
   },
-  "modern": "Emirgân, Sarıyer (Emirgân Korusu)",
+  "modern": "Emirgân Korusu, Sarıyer",
   "lit": {
    "fr": {
     "en": "Garden of Emirgun Oglou, belonging to the Reis Effendi",
@@ -1182,7 +1182,7 @@
  {
   "fr": "Kiosque ruiné",
   "ota": null,
-  "modern": "Ruined kiosk on the shore between Kuleli and Çengelköy (lost)",
+  "modern": "Ruined kiosk, Kuleli (lost)",
   "lit": {
    "fr": {
     "en": "Ruined kiosk",

@@ -5,7 +5,7 @@
       "latn": "Eski Fanaraki Burnu",
       "arab": "اسكی فناراكی بورنی"
     },
-    "modern": "Headland at Kilyos (below Kilyos Kalesi)",
+    "modern": "Kilyos headland, Sarıyer (unidentified)",
     "lit": {
       "fr": {
         "en": "Old Fanaraki Cape",
@@ -14,7 +14,7 @@
       "ota": {
         "en": "Cape of the old little lighthouse",
         "fr": "Cap du vieux petit phare",
-        "tr": "Eski fenercik burnu"
+        "tr": "Eski küçük fener burnu"
       },
       "modern": null
     },
@@ -27,12 +27,12 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": "Fanaraki = Greek 'little lighthouse'; the cape beside Kila Fort (Kilyos)"
+    "note": "Fanaraki = Greek 'little lighthouse'; the cape beside Kila Fort (Kilyos). Ottoman form reconstructed from the French"
   },
   {
     "fr": "Ancienne Tour",
     "ota": null,
-    "modern": "Old tower at Kilyos headland (site of Kilyos Kalesi)",
+    "modern": "Old tower at Kilyos, Sarıyer (unidentified)",
     "lit": {
       "fr": {
         "en": "Old Tower",
@@ -50,7 +50,7 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": null
+    "note": "Drawn beside Kila Fort on the Kilyos headland; possibly part of the Genoese castle of Kilyos"
   },
   {
     "fr": "Kila Fort",
@@ -67,7 +67,7 @@
       "ota": {
         "en": "Castle of Kilya",
         "fr": "Château de Kilya",
-        "tr": "Kilyos kalesi"
+        "tr": "Kilya kalesi"
       },
       "modern": null
     },
@@ -88,7 +88,7 @@
       "latn": "Domuz Dere Burnu",
       "arab": "طوڭوز دره بورنی"
     },
-    "modern": "Cape at Gümüşdere (formerly Domuzdere), Sarıyer",
+    "modern": "Cape at Gümüşdere, Sarıyer",
     "lit": {
       "fr": {
         "en": "Point of Domouz-déré",
@@ -110,7 +110,7 @@
     ],
     "parts": null,
     "uncertain": false,
-    "note": null
+    "note": "Domuzdere was renamed Gümüşdere in the 20th century"
   },
   {
     "fr": "DOMOUZ-DERÉ",
@@ -118,7 +118,7 @@
       "latn": "Domuz Dere",
       "arab": "طوڭوز دره"
     },
-    "modern": "Gümüşdere (formerly Domuzdere), Sarıyer",
+    "modern": "Gümüşdere, Sarıyer",
     "lit": {
       "fr": {
         "en": "Domouz-déré",

@@ -1,3 +1,32 @@
 [
- {"fr":"TOPTCHILER-KEUI","ota":{"latn":"Topçular Köyü","arab":"طوپچیلر كوی"},"modern":"Topçular, Eyüpsultan","lit":{"fr":{"en":"Toptchiler-Keui","tr":"Topçular Köyü"},"ota":{"en":"Village of the gunners","fr":"Village des canonniers","tr":"Topçular köyü"},"modern":null},"kind":"village","bbox":[6374,6186,6602,6222],"parts":null,"uncertain":false,"note":"Cut by the chunk edge in both c_5050_5300 and c_6400_5300; read from a zoom render across the boundary. Named after the Ottoman artillery corps"}
+ {
+  "fr": "TOPTCHILER-KEUI",
+  "ota": {
+   "latn": "Topçular Köyü",
+   "arab": "طوپچیلر كوی"
+  },
+  "modern": "Topçular, Eyüpsultan",
+  "lit": {
+   "fr": {
+    "en": "Toptchiler-Keui",
+    "tr": "Topçular Köyü"
+   },
+   "ota": {
+    "en": "Village of the gunners",
+    "fr": "Village des canonniers",
+    "tr": "Topçular köyü"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   6374,
+   6186,
+   6602,
+   6222
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Named after the Ottoman artillery corps"
+ }
 ]

@@ -5,7 +5,7 @@
    "latn": "Aya Nikola Manastırı",
    "arab": "آیا نیقولا مناستری"
   },
-  "modern": "Aya Nikola church, Heybeliada (identification uncertain)",
+  "modern": "Aya Nikola Kilisesi, Heybeliada",
   "lit": {
    "fr": {
     "en": "Monastery of St Nicholas",
@@ -27,7 +27,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Label sits on the top edge of the chunk"
+  "note": "Tentatively the village church of St Nicholas (rebuilt 1857); Ottoman form reconstructed. Label sits on the top edge of the chunk"
  },
  {
   "fr": "Monastère de la Trinité",
@@ -35,7 +35,7 @@
    "latn": "Aya Triada Manastırı",
    "arab": "آیا تریاذا مناستری"
   },
-  "modern": "Aya Triada Manastırı (Heybeliada Ruhban Okulu), Heybeliada",
+  "modern": "Aya Triada Manastırı, Heybeliada",
   "lit": {
    "fr": {
     "en": "Monastery of the Trinity",
@@ -57,7 +57,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Later site of the Halki theological school (1844)"
+  "note": "Later site of the Halki theological school (Heybeliada Ruhban Okulu, 1844)"
  },
  {
   "fr": "Mon. de St Georges",
@@ -65,7 +65,7 @@
    "latn": "Aya Yorgi Manastırı",
    "arab": "آیا یورگی مناستری"
   },
-  "modern": "Aya Yorgi Manastırı, Heybeliada (identification uncertain)",
+  "modern": "Aya Yorgi Manastırı, Heybeliada",
   "lit": {
    "fr": {
     "en": "Mon. of St George",
@@ -87,12 +87,12 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": null
+  "note": "Identification tentative; Ottoman form reconstructed"
  },
  {
   "fr": "Petit Port",
   "ota": null,
-  "modern": "Small harbour beside Heybeliada village",
+  "modern": "Small harbour, Heybeliada (unidentified)",
   "lit": {
    "fr": {
     "en": "Small Harbour",
@@ -110,7 +110,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Slanted label on the shore beside the village"
+  "note": "Slanted label on the north-west shore beside the village"
  },
  {
   "fr": "KHALKY",
@@ -144,21 +144,14 @@
  },
  {
   "fr": "Mine de cuivre",
-  "ota": {
-   "latn": "Bakır Madeni",
-   "arab": "باقر معدنی"
-  },
-  "modern": "Ancient copper mine, Heybeliada (site lost)",
+  "ota": null,
+  "modern": "Copper mine, Heybeliada (lost)",
   "lit": {
    "fr": {
     "en": "Copper mine",
     "tr": "Bakır madeni"
    },
-   "ota": {
-    "en": "Copper mine",
-    "fr": "Mine de cuivre",
-    "tr": "Bakır madeni"
-   },
+   "ota": null,
    "modern": null
   },
   "kind": "other",
@@ -182,7 +175,7 @@
     3290
    ]
   ],
-  "uncertain": true,
+  "uncertain": false,
   "note": "Two-line label; the mines gave the island its Greek name"
  },
  {
@@ -191,7 +184,7 @@
    "latn": "Panaya Manastırı",
    "arab": "پانایا مناستری"
   },
-  "modern": "Monastery of the Virgin, Heybeliada (site uncertain)",
+  "modern": "Monastery of the Virgin, Heybeliada (unidentified)",
   "lit": {
    "fr": {
     "en": "Monastery of St. Mary",
@@ -213,7 +206,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": null
+  "note": "Ottoman form reconstructed; the site is not securely identified"
  },
  {
   "fr": "Port Ste Marie",
@@ -221,7 +214,7 @@
    "latn": "Çam Limanı",
    "arab": "چام لیمانی"
   },
-  "modern": "Çam Limanı, Heybeliada (identification uncertain)",
+  "modern": "Çam Limanı, Heybeliada",
   "lit": {
    "fr": {
     "en": "Port St. Mary",
@@ -243,12 +236,12 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": null
+  "note": "Tentatively the large southern bay Çam Limanı, whose Turkish name is used for the Ottoman form"
  },
  {
   "fr": "Bains en Briques",
   "ota": null,
-  "modern": "Ruined brick baths, Heybeliada (lost)",
+  "modern": "Brick baths, Heybeliada (lost)",
   "lit": {
    "fr": {
     "en": "Brick Baths",
@@ -266,7 +259,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Two-line slanted label beside a building symbol on the shore; reading confirmed at 1.5x zoom, the site itself is lost"
+  "note": "Two-line slanted label beside a building symbol on the shore; reading confirmed at 1.5x zoom"
  },
  {
   "fr": "Sera-Tachi",
@@ -274,11 +267,11 @@
    "latn": "Sıra Taşı",
    "arab": "صیره طاشی"
   },
-  "modern": "Sıra Taşı rock, north of Kınalıada (identification uncertain)",
+  "modern": "Sıra Taşı, Kınalıada (unidentified)",
   "lit": {
    "fr": {
     "en": "Sera-Tachi",
-    "tr": "Sera Taşı"
+    "tr": "Sıra Taşı"
    },
    "ota": {
     "en": "Row Stone",
@@ -296,7 +289,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Charted rock drawn with a dotted outline and a cross; 'Sera' may stand for Saray"
+  "note": "Charted rock north of Kınalıada, drawn with a dotted outline and a cross. Ottoman form reconstructed; 'Sera' may stand for Saray"
  },
  {
   "fr": "Pytys",
@@ -391,7 +384,7 @@
  {
   "fr": "Ancien Monastère ruiné",
   "ota": null,
-  "modern": "Ruined old monastery on Burgazada (site uncertain)",
+  "modern": "Ruined monastery, Burgazada (unidentified)",
   "lit": {
    "fr": {
     "en": "Old ruined Monastery",
@@ -414,7 +407,7 @@
  {
   "fr": "Ruines de Proti",
   "ota": null,
-  "modern": "Ancient ruins on Kınalıada (lost)",
+  "modern": "Ruins of Proti, Kınalıada (lost)",
   "lit": {
    "fr": {
     "en": "Ruins of Proti",
@@ -473,7 +466,7 @@
  {
   "fr": "Monastère ruiné",
   "ota": null,
-  "modern": "Ruined monastery on Kınalıada (site uncertain)",
+  "modern": "Ruined monastery, Kınalıada (unidentified)",
   "lit": {
    "fr": {
     "en": "Ruined Monastery",

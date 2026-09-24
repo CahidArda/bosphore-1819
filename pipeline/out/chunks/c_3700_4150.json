@@ -57,12 +57,12 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Crio-nero is Greek 'kryo nero', cold water"
+  "note": "Crio-nero is Greek 'kryo nero', cold water; the Ottoman name Soğuksu is reconstructed"
  },
  {
   "fr": "Mont Alonaki",
   "ota": null,
-  "modern": "Alonaki hill above Kefeliköy",
+  "modern": "Alonaki hill, Kefeliköy (unidentified)",
   "lit": {
    "fr": {
     "en": "Mount Alonaki",
@@ -88,7 +88,7 @@
    "latn": "Kırkağaç",
    "arab": "قرق آغاج"
   },
-  "modern": "Kırkağaç plane grove, Kefeliköy (site)",
+  "modern": "Kırkağaç, Kefeliköy (lost)",
   "lit": {
    "fr": {
     "en": "Kirk-agatch, or Clump of Plane-trees",
@@ -123,7 +123,7 @@
    ]
   ],
   "uncertain": true,
-  "note": null
+  "note": "A plane-tree grove on the shore below Kefeliköy; the site is not identifiable today"
  },
  {
   "fr": "Vallon et Prairies de Buyuk-déré",
@@ -171,7 +171,7 @@
  {
   "fr": "les quatre Chemins",
   "ota": null,
-  "modern": "Crossroads above Kefeliköy (unidentified)",
+  "modern": "'Four Roads' crossroads, Kefeliköy (unidentified)",
   "lit": {
    "fr": {
     "en": "The Four Roads",
@@ -194,7 +194,7 @@
  {
   "fr": "Ruines d'un Monastère",
   "ota": null,
-  "modern": "Ruined monastery above Kireçburnu (unidentified)",
+  "modern": "Ruined monastery, Kireçburnu (unidentified)",
   "lit": {
    "fr": {
     "en": "Ruins of a Monastery",
@@ -353,7 +353,7 @@
    "latn": "Belgrad Yolu",
    "arab": "بلغراد یولی"
   },
-  "modern": "Road to Belgrad Köyü through the Belgrad Forest",
+  "modern": "Belgrad Köyü road, Belgrad Ormanı",
   "lit": {
    "fr": {
     "en": "Road of Belgrade",
@@ -388,6 +388,6 @@
    ]
   ],
   "uncertain": false,
-  "note": "Belgrade here is the village of Belgrad in the forest, not the city"
+  "note": "Belgrade here is the forest village of Belgrad (cleared in the 1890s), not the city"
  }
 ]

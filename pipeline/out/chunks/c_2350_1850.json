@@ -2,7 +2,7 @@
  {
   "fr": "Cap avancé",
   "ota": null,
-  "modern": "Unidentified cape north-west of Anadolufeneri, Beykoz",
+  "modern": "Cape north of Anadolufeneri, Beykoz (unidentified)",
   "lit": {
    "fr": {
     "en": "Projecting cape",
@@ -20,7 +20,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Descriptive label, no Ottoman name given"
+  "note": "Descriptive label on the Black Sea shore beyond Anadolufeneri; no Ottoman name given"
  },
  {
   "fr": "Kousloudgé Rivière",
@@ -28,11 +28,11 @@
    "latn": "Kuzluca Deresi",
    "arab": "قوزلوجه دره سی"
   },
-  "modern": "Stream north of Anadolufeneri (Kuzluca Dere?), Beykoz",
+  "modern": "Kuzluca Deresi, Anadolufeneri (unidentified)",
   "lit": {
    "fr": {
     "en": "Kousloudgé River",
-    "tr": "Kousloudgé Deresi"
+    "tr": "Kuzluca Deresi"
    },
    "ota": {
     "en": "Kuzluca stream",
@@ -63,7 +63,7 @@
    ]
   ],
   "uncertain": true,
-  "note": "Curved label along the stream; Ottoman form of 'Kousloudgé' is a guess"
+  "note": "Curved label along the stream north-east of Anadolufeneri; the Ottoman form 'Kuzluca' is reconstructed from the French"
  },
  {
   "fr": "ANADOLI-FÉNÉRI, ou FANARAKI",
@@ -144,7 +144,7 @@
    "latn": "Anadolu Feneri",
    "arab": "آناطولی فنری"
   },
-  "modern": "Anadolu Feneri lighthouse, Beykoz",
+  "modern": "Anadolu Feneri, Beykoz",
   "lit": {
    "fr": {
     "en": "Beacon",
@@ -165,8 +165,8 @@
    2335
   ],
   "parts": null,
-  "uncertain": false,
-  "note": "Generic word marking the lighthouse of Anadolufeneri"
+  "uncertain": true,
+  "note": "Generic word marking the lighthouse of Anadolufeneri; Ottoman name reconstructed from the adjacent label"
  },
  {
   "fr": "Fort",
@@ -195,8 +195,8 @@
    2374
   ],
   "parts": null,
-  "uncertain": false,
-  "note": "Generic word placed at the fort of Anadolufeneri"
+  "uncertain": true,
+  "note": "Generic word placed at the fort of Anadolufeneri; Ottoman name reconstructed from the adjacent label"
  },
  {
   "fr": "Pilav-Kaïassi",
@@ -204,7 +204,7 @@
    "latn": "Pilav Kayası",
    "arab": "پلاو قیه سی"
   },
-  "modern": "Pilav Kayası, Anadolufeneri (rock on the shore)",
+  "modern": "Pilav Kayası, Anadolufeneri",
   "lit": {
    "fr": {
     "en": "Pilaf Rock",
@@ -226,7 +226,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Vertical label along the shore; reading of the small italic text is a guess"
+  "note": "Vertical label along the shore, marking a rock; reading of the small italic text is a guess"
  },
  {
   "fr": "Pilav-Bournou",
@@ -234,7 +234,7 @@
    "latn": "Pilav Burnu",
    "arab": "پلاو بورنی"
   },
-  "modern": "Poyraz Burnu (Pilav Burnu), Poyrazköy, Beykoz",
+  "modern": "Poyraz Burnu, Poyrazköy",
   "lit": {
    "fr": {
     "en": "Pilaf Cape",
@@ -256,7 +256,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Modern identification with the cape at Poyraz is a guess"
+  "note": "Identification with the cape at Poyraz (today Poyraz Burnu) is a guess"
  },
  {
   "fr": "Fort de Poïras-Liman",
@@ -351,7 +351,7 @@
  {
   "fr": "Ruines d'une ancienne Église",
   "ota": null,
-  "modern": "Unidentified ruined church east of Poyrazköy, Beykoz",
+  "modern": "Ruined church east of Poyrazköy, Beykoz (unidentified)",
   "lit": {
    "fr": {
     "en": "Ruins of an old church",
@@ -377,7 +377,7 @@
    "latn": "Öreke Taşı",
    "arab": "اوركه طاشی"
   },
-  "modern": "Öreke Taşı (Symplegades), Rumelifeneri, Sarıyer",
+  "modern": "Öreke Taşı, Rumelifeneri",
   "lit": {
    "fr": {
     "en": "Cyanean Islands",
@@ -399,7 +399,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "The Symplegades / Clashing Rocks of the Argonaut legend"
+  "note": "The Symplegades / Clashing Rocks of the Argonaut legend, off Rumelifeneri"
  },
  {
   "fr": "I. Euriké-tachi",
@@ -480,7 +480,7 @@
    "latn": "Rumeli Feneri",
    "arab": "روم ایلی فنری"
   },
-  "modern": "Rumeli Feneri lighthouse, Sarıyer",
+  "modern": "Rumeli Feneri, Sarıyer",
   "lit": {
    "fr": {
     "en": "Beacon",
@@ -501,8 +501,8 @@
    2944
   ],
   "parts": null,
-  "uncertain": false,
-  "note": "Generic word marking the lighthouse of Rumelifeneri"
+  "uncertain": true,
+  "note": "Generic word marking the lighthouse of Rumelifeneri; Ottoman name reconstructed from the adjacent label"
  },
  {
   "fr": "ROUMILI-FENER ou FANARAKI",
@@ -553,7 +553,7 @@
    "latn": "Bağlaraltı Burnu",
    "arab": "باغلر آلتی بورنی"
   },
-  "modern": "Cape between Rumelifeneri and Garipçe, Sarıyer",
+  "modern": "Cape between Rumelifeneri and Garipçe (unidentified)",
   "lit": {
    "fr": {
     "en": "Below-the-Vineyards Cape",
@@ -603,8 +603,8 @@
     "tr": "Garipçe Burnu"
    },
    "ota": {
-    "en": "Strangers' Cape",
-    "fr": "Cap des Étrangers",
+    "en": "Garipçe Cape",
+    "fr": "Cap de Garipçe",
     "tr": "Garipçe burnu"
    },
    "modern": null
@@ -618,7 +618,7 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": null
+  "note": "Garipçe (from garip, 'strange, stranger') is the village name; no literal reading of the cape name is attempted"
  },
  {
   "fr": "Fort",
@@ -647,13 +647,13 @@
    2990
   ],
   "parts": null,
-  "uncertain": false,
-  "note": "Generic word placed at the fort of Garipçe"
+  "uncertain": true,
+  "note": "Generic word placed at the fort of Garipçe; Ottoman name reconstructed from the adjacent label"
  },
  {
   "fr": "TERRAIN VOLCANIQUE",
   "ota": null,
-  "modern": "Volcanic ground east of Anadolufeneri and Poyrazköy, Beykoz",
+  "modern": "Volcanic ground east of Anadolufeneri, Beykoz",
   "lit": {
    "fr": {
     "en": "Volcanic ground",

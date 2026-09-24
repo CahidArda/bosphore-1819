@@ -24,7 +24,7 @@ Readings marked with a `?` are guesses: the engraving is unclear or the identifi
 
 - **Scan:** Bibliothèque nationale de France, Gallica, [`ark:/12148/btv1b10100957j`](https://gallica.bnf.fr/ark:/12148/btv1b10100957j), mirrored on [Wikimedia Commons](https://commons.wikimedia.org/wiki/File:Plan_Topographique_du_Bosphore,_de_Thrace_ou_Canal_de_Constantinople_et_de_ses_environs_-_Fr._Kauffer_;_J.D._Barbi%C3%A9_du_Bocage_-_btv1b10100957j.jpg). 12 509 × 7 749 px, 13.5 MB JPEG. The app loads the image straight from Wikimedia (it sends `Access-Control-Allow-Origin: *`) through an OpenSeadragon `legacy-image-pyramid` built from the 1280, 1920 and 3840 px thumbnails plus the full image. The image is **not** redistributed in this repository.
 - **Labels:** transcribed from the scan in 54 overlapping chunks by Claude subagents, then reviewed chunk by chunk against overlay renders, then checked for consistency (same place, same spelling everywhere). The record format is in [`pipeline/schema.json`](pipeline/schema.json) and the reading rules in [`pipeline/prompts/ocr.md`](pipeline/prompts/ocr.md).
-- **Counts:** 387 labels, of which 156 are flagged uncertain. Bounding boxes are stored as fractions of the full image (`[x, y, w, h]`), so they are independent of which scan resolution is displayed.
+- **Counts:** 387 labels, of which 164 are flagged uncertain. Bounding boxes are stored as fractions of the full image (`[x, y, w, h]`), so they are independent of which scan resolution is displayed.
 
 ## Running it
 

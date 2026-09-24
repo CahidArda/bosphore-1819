@@ -9,12 +9,12 @@
   "lit": {
    "fr": {
     "en": "Bachi-Buyukli",
-    "tr": "Başıbüyük"
+    "tr": "Başıbüyüklü"
    },
    "ota": {
-    "en": "Big-head",
+    "en": "Big-headed",
     "fr": "Grosse-tête",
-    "tr": "Başıbüyük"
+    "tr": "Başı büyük"
    },
    "modern": null
   },
@@ -27,7 +27,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Sits on the top edge of the chunk"
+  "note": "Sits on the top edge of the chunk; the map writes the name with a -lü suffix"
  },
  {
   "fr": "Bostandgi-Bachi-Kuprusi",
@@ -35,7 +35,7 @@
    "latn": "Bostancıbaşı Köprüsü",
    "arab": "بوستانجی باشی كوپریسی"
   },
-  "modern": "Bostancı Köprüsü (Bostancıbaşı Köprüsü), Bostancı",
+  "modern": "Bostancıbaşı Köprüsü, Bostancı",
   "lit": {
    "fr": {
     "en": "Bostandgi-Bachi bridge",
@@ -62,7 +62,7 @@
  {
   "fr": "Pont de pierre de 3 arches",
   "ota": null,
-  "modern": "Bostancı Köprüsü (Bostancıbaşı Köprüsü), Bostancı",
+  "modern": "Bostancıbaşı Köprüsü, Bostancı",
   "lit": {
    "fr": {
     "en": "Stone bridge of 3 arches",
@@ -88,7 +88,7 @@
    "latn": "Vordonos",
    "arab": "وردونوس"
   },
-  "modern": "Vordonisi (sunken islet off Maltepe)",
+  "modern": "Vordonisi, off Maltepe (submerged)",
   "lit": {
    "fr": {
     "en": "Bordonos",
@@ -110,7 +110,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Rock drawn with a dotted outline"
+  "note": "Rock drawn with a dotted outline; the islet is now under water. Ottoman form reconstructed from the Greek name"
  },
  {
   "fr": "Euréké-Tachi",
@@ -118,7 +118,7 @@
    "latn": "Yürek Taşı",
    "arab": "یورك طاشی"
   },
-  "modern": "Yürek Taşı rock, off Maltepe (identification uncertain)",
+  "modern": "Yürek Taşı, off Maltepe (unidentified)",
   "lit": {
    "fr": {
     "en": "Euréké rock",
@@ -140,7 +140,7 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Rock drawn with a dotted outline NW of the label; Turkish reading (Yürek Taşı) and identification are guesses"
+  "note": "Rock drawn with a dotted outline NW of the label. Turkish reading (Yürek Taşı) and identification are guesses"
  },
  {
   "fr": "Sera-Tachi",
@@ -148,7 +148,7 @@
    "latn": "Sıra Taşı",
    "arab": "صیره طاشی"
   },
-  "modern": "Sıra Taşı rock, north of Kınalıada (identification uncertain)",
+  "modern": "Sıra Taşı, Kınalıada (unidentified)",
   "lit": {
    "fr": {
     "en": "Sera rock",
@@ -170,12 +170,12 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Rock drawn with a dotted outline above the label; Turkish reading (Sıra Taşı) and identification are guesses"
+  "note": "Rock drawn with a dotted outline above the label. Turkish reading (Sıra Taşı) and identification are guesses"
  },
  {
   "fr": "Pont de Pierre",
   "ota": null,
-  "modern": "Stone bridge on the Bağdat road (lost)",
+  "modern": "Stone bridge, Bağdat road (lost)",
   "lit": {
    "fr": {
     "en": "Stone Bridge",
@@ -198,7 +198,7 @@
  {
   "fr": "Pont de Bois",
   "ota": null,
-  "modern": "Wooden bridge over Kurbağalıdere near Kızıltoprak (lost)",
+  "modern": "Wooden bridge, Kurbağalıdere (lost)",
   "lit": {
    "fr": {
     "en": "Wooden Bridge",
@@ -216,6 +216,6 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": null
+  "note": "Near Kızıltoprak"
  }
 ]

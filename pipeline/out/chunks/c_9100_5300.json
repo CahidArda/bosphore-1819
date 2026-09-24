@@ -1,3 +1,3 @@
 [
- {"fr":"Ruines d'une Citadelle","ota":null,"modern":"Ruins of the Byzantine citadel and monastery, Sivriada","lit":{"fr":{"en":"Ruins of a Citadel","tr":"Bir Kale Kalıntıları"},"ota":null,"modern":null},"kind":"ruin","bbox":[10110,5303,10337,5328],"parts":null,"uncertain":false,"note":"On the islet OXYA (Sivriada), not Platy. Label sits on the top edge of this chunk; c_9100_4150 records it whole together with OXYA and Ancien Môle. A short word hidden under the islet hatching precedes 'Ruines' (Pl…/Po…, illegible)"}
+ {"fr":"Ruines d'une Citadelle","ota":null,"modern":"Citadel ruins, Sivriada","lit":{"fr":{"en":"Ruins of a Citadel","tr":"Bir Kalenin Harabeleri"},"ota":null,"modern":null},"kind":"ruin","bbox":[10110,5303,10337,5328],"parts":null,"uncertain":false,"note":"On Sivriada (OXYA); duplicate of the record in c_9100_4150, which holds the label whole. A short illegible word under the islet hatching precedes 'Ruines'"}
 ]
