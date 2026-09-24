@@ -1,0 +1,17 @@
+[
+ {
+  "fr": "Batterie et Fort",
+  "ota": {"latn": "Anadolu Kavağı Hisarı", "arab": "آناطولی قواغی حصاری"},
+  "modern": "Anadolukavağı fortress (Kavak Kalesi / Anadolu Kavağı Tabyası)",
+  "lit": {
+   "fr": {"en": "Battery and Fort", "tr": "Batarya ve Kale"},
+   "ota": {"en": "Fortress of Anadolu Kavağı", "fr": "Forteresse d'Anadoli Kavak", "tr": "Anadolu Kavağı kalesi"},
+   "modern": null
+  },
+  "kind": "fort",
+  "bbox": [3696, 3390, 3836, 3424],
+  "parts": null,
+  "uncertain": false,
+  "note": "Generic label placed directly under the ANADOLI-KAVAK village; the shore fortress rebuilt by Baron de Tott in 1773, twin of the Rumeli Kavağı castle opposite"
+ }
+]

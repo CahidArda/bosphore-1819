@@ -39,7 +39,9 @@ for fname in sorted(os.listdir(CHUNK_DIR)):
     cid = fname[:-5]
 
     def drop_generic(recs):
-        kept = [r for r in recs if r["fr"].strip().lower() not in GENERIC or r["kind"] == "fort"]
+        # A bare generic word is dropped unless it was tied to a specific place
+        # (an Ottoman name was supplied, or it is a fort under a named site).
+        kept = [r for r in recs if r["fr"].strip().lower() not in GENERIC or r["kind"] == "fort" or r["ota"]]
         return kept
 
     edit(cid, drop_generic)

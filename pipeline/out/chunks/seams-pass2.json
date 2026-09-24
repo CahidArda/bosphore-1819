@@ -1,0 +1,32 @@
+[
+  {
+    "fr": "TCHENGHEL-KEUI",
+    "ota": { "latn": "Çengelköy", "arab": "چنكل كوی" },
+    "modern": "Çengelköy, Üsküdar",
+    "lit": {
+      "fr": { "en": "Tchenghel-Keui", "tr": "Çengelköy" },
+      "ota": { "en": "Hook Village", "fr": "Village du Crochet", "tr": "Çengel köyü" },
+      "modern": null
+    },
+    "kind": "village",
+    "bbox": [6316, 3921, 6566, 3956],
+    "parts": null,
+    "uncertain": false,
+    "note": "Label straddles the seam between two chunks; recorded from a zoom across the boundary"
+  },
+  {
+    "fr": "DOLMA-BAKTCHÉ",
+    "ota": { "latn": "Dolma Bağçe", "arab": "طولمه باغچه" },
+    "modern": "Dolmabahçe, Beşiktaş",
+    "lit": {
+      "fr": { "en": "Dolma-Baktché", "tr": "Dolmabahçe" },
+      "ota": { "en": "Filled-in Garden", "fr": "Jardin comblé", "tr": "Dolma bahçe" },
+      "modern": null
+    },
+    "kind": "quarter",
+    "bbox": [6356, 4901, 6560, 4939],
+    "parts": null,
+    "uncertain": false,
+    "note": "The shore garden reclaimed from the sea; the palace was built here in the 1850s. Label straddles a chunk seam"
+  }
+]

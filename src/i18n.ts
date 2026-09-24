@@ -36,6 +36,9 @@ type Dict = {
   sourceLink: string;
   dataLink: string;
   noOttoman: string;
+  roleFr: string;
+  roleOta: string;
+  roleModern: string;
 };
 
 const en: Dict = {
@@ -98,6 +101,9 @@ const en: Dict = {
   sourceLink: "Wikimedia Commons file",
   dataLink: "Source code and data on GitHub",
   noOttoman: "no Ottoman name",
+  roleFr: "fr",
+  roleOta: "ott",
+  roleModern: "now",
 };
 
 const fr: Dict = {
@@ -160,6 +166,9 @@ const fr: Dict = {
   sourceLink: "Fichier sur Wikimedia Commons",
   dataLink: "Code source et données sur GitHub",
   noOttoman: "pas de nom ottoman",
+  roleFr: "fr",
+  roleOta: "ott",
+  roleModern: "auj.",
 };
 
 const tr: Dict = {
@@ -222,6 +231,9 @@ const tr: Dict = {
   sourceLink: "Wikimedia Commons dosyası",
   dataLink: "Kaynak kod ve veriler GitHub'da",
   noOttoman: "Osmanlıca adı yok",
+  roleFr: "fr",
+  roleOta: "osm",
+  roleModern: "bugün",
 };
 
 export const DICT: Record<Lang, Dict> = { en, fr, tr };

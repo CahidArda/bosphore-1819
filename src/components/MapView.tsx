@@ -239,7 +239,9 @@ export const MapView = forwardRef<
         const label = byId.current.get(id);
         if (!viewer || !label) return;
         const r = unionRect(label.parts?.length ? label.parts : [label.bbox]);
-        viewer.viewport.fitBounds(padded(r, 2.2, 0.07), false);
+        // Zoom to the label's neighbourhood rather than the label itself:
+        // at least ~14 % of the sheet's width stays in view.
+        viewer.viewport.fitBounds(padded(r, 3, 0.14), false);
       },
       fitTo(ids) {
         const viewer = viewerRef.current;

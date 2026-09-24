@@ -8,8 +8,8 @@ import { Checkbox } from "@/components/ui/checkbox";
 import { Badge } from "@/components/ui/badge";
 import { Entry } from "./Entry";
 
-/** 3 name lines (20 px) + 3 gloss lines (16 px) + vertical padding (16 px). */
-export const ROW_H = 126;
+/** 3 name lines + Arabic line (20 px each) + 3 gloss lines (16 px) + gaps and padding. */
+export const ROW_H = 150;
 const OVERSCAN = 6;
 
 export function LabelList({
