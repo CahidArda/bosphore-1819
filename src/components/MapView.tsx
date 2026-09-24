@@ -59,11 +59,13 @@ export const MapView = forwardRef<
   {
     labels: Label[];
     selected: Set<string>;
+    /** Ids matching the current search; drawn with a subtle gray outline. */
+    highlighted: Set<string>;
     lang: Lang;
     onToggle: (id: string) => void;
     className?: string;
   }
->(function MapView({ labels, selected, lang, onToggle, className }, ref) {
+>(function MapView({ labels, selected, highlighted, lang, onToggle, className }, ref) {
   const d = t(lang);
   const elRef = useRef<HTMLDivElement>(null);
   const viewerRef = useRef<OpenSeadragon.Viewer | null>(null);
@@ -73,6 +75,7 @@ export const MapView = forwardRef<
   const byId = useRef<Map<string, Label>>(new Map());
   const hoveredRef = useRef<string | null>(null);
   const prevSelected = useRef<Set<string>>(new Set());
+  const prevHighlighted = useRef<Set<string>>(new Set());
   const onToggleRef = useRef(onToggle);
   onToggleRef.current = onToggle;
 
@@ -217,8 +220,21 @@ export const MapView = forwardRef<
     prevSelected.current = new Set();
     for (const id of selected) elsById.current.get(id)?.forEach((e) => e.classList.add("is-sel"));
     prevSelected.current = new Set(selected);
+    prevHighlighted.current = new Set();
+    for (const id of highlighted) elsById.current.get(id)?.forEach((e) => e.classList.add("is-match"));
+    prevHighlighted.current = new Set(highlighted);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [labels, opened]);
+
+  useEffect(() => {
+    for (const id of prevHighlighted.current) {
+      if (!highlighted.has(id)) elsById.current.get(id)?.forEach((e) => e.classList.remove("is-match"));
+    }
+    for (const id of highlighted) {
+      if (!prevHighlighted.current.has(id)) elsById.current.get(id)?.forEach((e) => e.classList.add("is-match"));
+    }
+    prevHighlighted.current = new Set(highlighted);
+  }, [highlighted]);
 
   useEffect(() => {
     for (const id of prevSelected.current) {
