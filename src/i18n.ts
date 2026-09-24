@@ -259,6 +259,37 @@ export function t(lang: Lang): Dict {
   return DICT[lang];
 }
 
+/** Status words the data keeps in parentheses at the end of `modern`, translated per language. */
+const STATUS: Record<string, Record<Lang, string>> = {
+  lost: { en: "lost", fr: "disparu", tr: "kayıp" },
+  demolished: { en: "demolished", fr: "démoli", tr: "yıkıldı" },
+  ruin: { en: "ruin", fr: "ruine", tr: "harabe" },
+  unidentified: { en: "unidentified", fr: "non identifié", tr: "tanımlanamadı" },
+  abandoned: { en: "abandoned", fr: "abandonné", tr: "terk edilmiş" },
+  submerged: { en: "submerged", fr: "submergé", tr: "su altında" },
+  "partly surviving": { en: "partly surviving", fr: "partiellement conservé", tr: "kısmen ayakta" },
+  cleared: { en: "cleared", fr: "disparu", tr: "kaldırıldı" },
+  probable: { en: "probable", fr: "probable", tr: "muhtemel" },
+  culverted: { en: "culverted", fr: "canalisé", tr: "kapatıldı" },
+  "not a place": { en: "not a place", fr: "pas un lieu", tr: "yer değil" },
+};
+
+/** "Bebek Kasrı (demolished)" -> "Bebek Kasrı (yıkıldı)" in Turkish, and so on. */
+export function localizeModern(modern: string, lang: Lang): string {
+  return modern.replace(/\(([^()]+)\)\s*$/, (m, inner: string) => {
+    const t = STATUS[inner.trim().toLowerCase()];
+    return t ? `(${t[lang]})` : m;
+  });
+}
+
+/** The note in the interface language; a bare string is English-only data. */
+export function noteFor(label: Label, lang: Lang): string | null {
+  const n = label.note;
+  if (!n) return null;
+  if (typeof n === "string") return n;
+  return n[lang] || n.en || null;
+}
+
 export function isLang(x: unknown): x is Lang {
   return x === "fr" || x === "tr" || x === "en";
 }

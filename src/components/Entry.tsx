@@ -1,6 +1,6 @@
 import { memo, type ReactNode } from "react";
 import type { Label, Lang, SearchField } from "@/types";
-import { glosses, t } from "@/i18n";
+import { glosses, localizeModern, noteFor, t } from "@/i18n";
 import { cn } from "@/lib/utils";
 import { Badge } from "@/components/ui/badge";
 
@@ -85,7 +85,7 @@ export const Entry = memo(function Entry({
 
       <Part tag={d.roleModern} title={d.rowModern}>
         <div className={cn(nameCls, "font-medium")} lang="tr">
-          <Marked text={label.modern} range={hl("modern")} />
+          <Marked text={localizeModern(label.modern, lang)} range={hl("modern")} />
         </div>
         {g3 && (
           <div className={subCls} data-testid="gloss-modern">
@@ -94,7 +94,9 @@ export const Entry = memo(function Entry({
         )}
       </Part>
 
-      {showNote && label.note && <p className="text-muted-foreground col-span-2 border-t pt-1.5 text-xs leading-4 italic">{label.note}</p>}
+      {showNote && noteFor(label, lang) && (
+        <p className="text-muted-foreground col-span-2 border-t pt-1.5 text-xs leading-4 italic">{noteFor(label, lang)}</p>
+      )}
     </div>
   );
 });
