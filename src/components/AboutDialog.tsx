@@ -4,6 +4,9 @@ import { COMMONS_PAGE } from "@/map/pyramid";
 import { Dialog, DialogContent, DialogDescription, DialogHeader, DialogTitle } from "@/components/ui/dialog";
 
 export const REPO_URL = "https://github.com/CahidArda/bosphore-1819";
+export const SITE_URL = "https://cahidarda.com";
+export const BLOG_URL = "https://cahidarda.com/articles/bosphore-1819";
+const LINK = "text-primary underline underline-offset-4";
 
 export default function AboutDialog({
   open,
@@ -27,6 +30,26 @@ export default function AboutDialog({
           </DialogDescription>
         </DialogHeader>
         <div className="space-y-3 text-sm leading-6">
+          <p>
+            {d.aboutBuiltBefore}
+            <a className={LINK} href={SITE_URL} target="_blank" rel="noreferrer">
+              Cahid Arda Öz
+            </a>
+            {d.aboutBuiltAfter}
+          </p>
+          <ul className="list-disc space-y-1 pl-5">
+            <li>
+              <a className={LINK} href={BLOG_URL} target="_blank" rel="noreferrer">
+                {d.blogLink}
+              </a>
+            </li>
+            <li>
+              <a className={LINK} href={REPO_URL} target="_blank" rel="noreferrer">
+                {d.dataLink}
+              </a>
+            </li>
+          </ul>
+          <hr />
           {d.aboutBody.map((p, i) => (
             <p key={i}>{p}</p>
           ))}
@@ -37,13 +60,8 @@ export default function AboutDialog({
           )}
           <ul className="list-disc space-y-1 pl-5">
             <li>
-              <a className="text-primary underline underline-offset-4" href={COMMONS_PAGE} target="_blank" rel="noreferrer">
+              <a className={LINK} href={COMMONS_PAGE} target="_blank" rel="noreferrer">
                 {d.sourceLink}
-              </a>
-            </li>
-            <li>
-              <a className="text-primary underline underline-offset-4" href={REPO_URL} target="_blank" rel="noreferrer">
-                {d.dataLink}
               </a>
             </li>
           </ul>
