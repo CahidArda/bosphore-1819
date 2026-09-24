@@ -52,9 +52,14 @@ name (Latin and Arabic script) and today's name, each with a literal gloss.
   and translations). `pipeline/fixups.py` holds the cross-chunk decisions made after
   review; it is idempotent and runs before `merge.py`.
 - Conventions: `fr` exactly as engraved; Ottoman Arabic script with ی and ك only;
-  `modern` is a name (plus district, plus a short status in parentheses), never a
-  sentence; `uncertain: true` whenever a reading or identification is a guess. The app
-  shows uncertain records with a `?` badge. Boxes are stored as fractions of the image.
+  `modern` is today's Turkish name (or a short Turkish description), plus district,
+  plus one of the status tokens `(lost)`, `(demolished)`, `(ruin)`, `(unidentified)`,
+  `(abandoned)`, `(submerged)`, `(partly surviving)`, `(cleared)`, `(probable)`,
+  `(culverted)`, `(not a place)`, which the app translates (`localizeModern` in
+  `src/i18n.ts`); never a sentence, never English. `lit.modern` glosses a modern name
+  that has a meaning. `note` is `{en, fr, tr}` or null (`pipeline/prompts/localize.md`).
+  `uncertain: true` whenever a reading or identification is a guess; the app shows
+  those with a `?` badge. Boxes are stored as fractions of the image.
 - QA: `pipeline/overlay.py` draws every box back onto the tiles (`pipeline/out/qa/`).
 
 ## The app
