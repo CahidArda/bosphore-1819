@@ -8,7 +8,7 @@ const out = process.argv[3] ?? "docs/screenshot.png";
 mkdirSync("docs", { recursive: true });
 
 const browser = await chromium.launch();
-const page = await browser.newPage({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 2 });
+const page = await browser.newPage({ viewport: { width: 1440, height: 900 }, deviceScaleFactor: 1 });
 await page.goto(url);
 await page.getByTestId("label-row").first().waitFor();
 await page.getByTestId("map-skeleton").waitFor({ state: "hidden" }).catch(() => {});

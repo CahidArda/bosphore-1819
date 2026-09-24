@@ -1,7 +1,149 @@
 [
- {"fr":"Eski-Fanaraki Bournou","ota":{"latn":"Eski Fenaraki Burnu","arab":"اسكی فناراكی بورنی"},"modern":"Headland at Kilyos (below Kilyos Kalesi)","lit":{"fr":{"en":"Old Fanaraki Cape","tr":"Eski Fanaraki Burnu"},"ota":{"en":"Cape of the old little lighthouse","fr":"Cap du vieux petit phare","tr":"Eski fenercik burnu"},"modern":null},"kind":"cape","bbox":[1393,4198,1690,4226],"parts":null,"uncertain":true,"note":"Fanaraki = Greek 'little lighthouse'; the cape beside Kila Fort (Kilyos)"},
- {"fr":"Ancienne Tour","ota":null,"modern":"Old tower at Kilyos headland (site of Kilyos Kalesi)","lit":{"fr":{"en":"Old Tower","tr":"Eski Kule"},"ota":null,"modern":null},"kind":"ruin","bbox":[1718,4210,1855,4235],"parts":null,"uncertain":true,"note":null},
- {"fr":"Kila Fort","ota":{"latn":"Kilya Kalesi","arab":"كیلیا قلعه سی"},"modern":"Kilyos Kalesi, Kilyos","lit":{"fr":{"en":"Kila Fort","tr":"Kila Kalesi"},"ota":{"en":"Castle of Kilya","fr":"Château de Kilya","tr":"Kilyos kalesi"},"modern":null},"kind":"fort","bbox":[1800,4293,1908,4322],"parts":null,"uncertain":false,"note":"Kila / Kilia = Kilyos"},
- {"fr":"Pointe de Domouz-déré","ota":{"latn":"Domuz Dere Burnu","arab":"طوڭوز دره بورنی"},"modern":"Cape at Gümüşdere (formerly Domuzdere), Sarıyer","lit":{"fr":{"en":"Point of Domouz-déré","tr":"Domuz Dere Burnu"},"ota":{"en":"Pig-stream cape","fr":"Cap du ruisseau du cochon","tr":"Domuz deresi burnu"},"modern":null},"kind":"cape","bbox":[1207,5108,1508,5136],"parts":null,"uncertain":false,"note":null},
- {"fr":"DOMOUZ-DERÉ","ota":{"latn":"Domuz Dere","arab":"طوڭوز دره"},"modern":"Gümüşdere (formerly Domuzdere), Sarıyer","lit":{"fr":{"en":"Domouz-déré","tr":"Domuz Dere"},"ota":{"en":"Pig stream","fr":"Ruisseau du cochon","tr":"Domuz deresi"},"modern":{"en":"Silver stream","fr":"Ruisseau d'argent","tr":"Gümüş dere"}},"kind":"village","bbox":[2010,5088,2222,5115],"parts":null,"uncertain":false,"note":"Village renamed Gümüşdere in the 20th century"}
+  {
+    "fr": "Eski-Fanaraki Bournou",
+    "ota": {
+      "latn": "Eski Fanaraki Burnu",
+      "arab": "اسكی فناراكی بورنی"
+    },
+    "modern": "Headland at Kilyos (below Kilyos Kalesi)",
+    "lit": {
+      "fr": {
+        "en": "Old Fanaraki Cape",
+        "tr": "Eski Fanaraki Burnu"
+      },
+      "ota": {
+        "en": "Cape of the old little lighthouse",
+        "fr": "Cap du vieux petit phare",
+        "tr": "Eski fenercik burnu"
+      },
+      "modern": null
+    },
+    "kind": "cape",
+    "bbox": [
+      1393,
+      4198,
+      1690,
+      4226
+    ],
+    "parts": null,
+    "uncertain": true,
+    "note": "Fanaraki = Greek 'little lighthouse'; the cape beside Kila Fort (Kilyos)"
+  },
+  {
+    "fr": "Ancienne Tour",
+    "ota": null,
+    "modern": "Old tower at Kilyos headland (site of Kilyos Kalesi)",
+    "lit": {
+      "fr": {
+        "en": "Old Tower",
+        "tr": "Eski Kule"
+      },
+      "ota": null,
+      "modern": null
+    },
+    "kind": "ruin",
+    "bbox": [
+      1718,
+      4210,
+      1855,
+      4235
+    ],
+    "parts": null,
+    "uncertain": true,
+    "note": null
+  },
+  {
+    "fr": "Kila Fort",
+    "ota": {
+      "latn": "Kilya Kalesi",
+      "arab": "كیلیا قلعه سی"
+    },
+    "modern": "Kilyos Kalesi, Kilyos",
+    "lit": {
+      "fr": {
+        "en": "Kila Fort",
+        "tr": "Kila Kalesi"
+      },
+      "ota": {
+        "en": "Castle of Kilya",
+        "fr": "Château de Kilya",
+        "tr": "Kilyos kalesi"
+      },
+      "modern": null
+    },
+    "kind": "fort",
+    "bbox": [
+      1800,
+      4293,
+      1908,
+      4322
+    ],
+    "parts": null,
+    "uncertain": false,
+    "note": "Kila / Kilia = Kilyos"
+  },
+  {
+    "fr": "Pointe de Domouz-déré",
+    "ota": {
+      "latn": "Domuz Dere Burnu",
+      "arab": "طوڭوز دره بورنی"
+    },
+    "modern": "Cape at Gümüşdere (formerly Domuzdere), Sarıyer",
+    "lit": {
+      "fr": {
+        "en": "Point of Domouz-déré",
+        "tr": "Domuz Dere Burnu"
+      },
+      "ota": {
+        "en": "Pig-stream cape",
+        "fr": "Cap du ruisseau du cochon",
+        "tr": "Domuz deresi burnu"
+      },
+      "modern": null
+    },
+    "kind": "cape",
+    "bbox": [
+      1207,
+      5108,
+      1508,
+      5136
+    ],
+    "parts": null,
+    "uncertain": false,
+    "note": null
+  },
+  {
+    "fr": "DOMOUZ-DERÉ",
+    "ota": {
+      "latn": "Domuz Dere",
+      "arab": "طوڭوز دره"
+    },
+    "modern": "Gümüşdere (formerly Domuzdere), Sarıyer",
+    "lit": {
+      "fr": {
+        "en": "Domouz-déré",
+        "tr": "Domuz Dere"
+      },
+      "ota": {
+        "en": "Pig stream",
+        "fr": "Ruisseau du cochon",
+        "tr": "Domuz deresi"
+      },
+      "modern": {
+        "en": "Silver stream",
+        "fr": "Ruisseau d'argent",
+        "tr": "Gümüş dere"
+      }
+    },
+    "kind": "village",
+    "bbox": [
+      2010,
+      5088,
+      2222,
+      5115
+    ],
+    "parts": null,
+    "uncertain": false,
+    "note": "Village renamed Gümüşdere in the 20th century"
+  }
 ]

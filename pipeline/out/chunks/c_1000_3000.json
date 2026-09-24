@@ -1,5 +1,91 @@
 [
- {"fr":"Mine de Charbon de terre","ota":null,"modern":"Former coal working near Kilyos / Rumelifeneri (no longer extant)","lit":{"fr":{"en":"Coal mine","tr":"Taş kömürü madeni"},"ota":null,"modern":null},"kind":"other","bbox":[2028,3972,2208,4032],"parts":[[2053,3972,2147,4000],[2028,4000,2208,4032]],"uncertain":true,"note":"'Charbon de terre' = mineral coal, as opposed to charcoal"},
- {"fr":"Eski-Fanaraki Bournou","ota":{"latn":"Eski Fenaraki Burnu","arab":"اسكی فناراكی بورنی"},"modern":"Headland at Kilyos (below Kilyos Kalesi)","lit":{"fr":{"en":"Old Fanaraki Cape","tr":"Eski Fanaraki Burnu"},"ota":{"en":"Cape of the old little lighthouse","fr":"Cap du vieux petit phare","tr":"Eski fenercik burnu"},"modern":null},"kind":"cape","bbox":[1393,4198,1690,4226],"parts":null,"uncertain":true,"note":"Fanaraki = Greek 'little lighthouse'; the cape beside Kila Fort (Kilyos)"},
- {"fr":"Ancienne Tour","ota":null,"modern":"Old tower at Kilyos headland (site of Kilyos Kalesi)","lit":{"fr":{"en":"Old Tower","tr":"Eski Kule"},"ota":null,"modern":null},"kind":"ruin","bbox":[1718,4210,1855,4235],"parts":null,"uncertain":true,"note":null}
+  {
+    "fr": "Mine de Charbon de terre",
+    "ota": null,
+    "modern": "Former coal working near Kilyos / Rumelifeneri (no longer extant)",
+    "lit": {
+      "fr": {
+        "en": "Coal mine",
+        "tr": "Taş kömürü madeni"
+      },
+      "ota": null,
+      "modern": null
+    },
+    "kind": "other",
+    "bbox": [
+      2028,
+      3974,
+      2208,
+      4032
+    ],
+    "parts": [
+      [
+        2083,
+        3974,
+        2164,
+        3999
+      ],
+      [
+        2028,
+        4003,
+        2208,
+        4032
+      ]
+    ],
+    "uncertain": true,
+    "note": "'Charbon de terre' = mineral coal, as opposed to charcoal"
+  },
+  {
+    "fr": "Eski-Fanaraki Bournou",
+    "ota": {
+      "latn": "Eski Fanaraki Burnu",
+      "arab": "اسكی فناراكی بورنی"
+    },
+    "modern": "Headland at Kilyos (below Kilyos Kalesi)",
+    "lit": {
+      "fr": {
+        "en": "Old Fanaraki Cape",
+        "tr": "Eski Fanaraki Burnu"
+      },
+      "ota": {
+        "en": "Cape of the old little lighthouse",
+        "fr": "Cap du vieux petit phare",
+        "tr": "Eski fenercik burnu"
+      },
+      "modern": null
+    },
+    "kind": "cape",
+    "bbox": [
+      1393,
+      4198,
+      1690,
+      4226
+    ],
+    "parts": null,
+    "uncertain": true,
+    "note": "Fanaraki = Greek 'little lighthouse'; the cape beside Kila Fort (Kilyos)"
+  },
+  {
+    "fr": "Ancienne Tour",
+    "ota": null,
+    "modern": "Old tower at Kilyos headland (site of Kilyos Kalesi)",
+    "lit": {
+      "fr": {
+        "en": "Old Tower",
+        "tr": "Eski Kule"
+      },
+      "ota": null,
+      "modern": null
+    },
+    "kind": "ruin",
+    "bbox": [
+      1718,
+      4210,
+      1855,
+      4235
+    ],
+    "parts": null,
+    "uncertain": true,
+    "note": null
+  }
 ]

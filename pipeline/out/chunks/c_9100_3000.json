@@ -1,20 +1,526 @@
 [
- {"fr":"Monastère de St. Nicolas","ota":{"latn":"Aya Nikola Manastırı","arab":"آیا نیقولا مناستری"},"modern":"Aya Nikola church, Heybeliada (identification uncertain)","lit":{"fr":{"en":"Monastery of St. Nicholas","tr":"Aziz Nikolaos Manastırı"},"ota":{"en":"Monastery of Saint Nicholas","fr":"Monastère de Saint-Nicolas","tr":"Aziz Nikolaos manastırı"},"modern":null},"kind":"religious","bbox":[10105,3000,10334,3023],"parts":null,"uncertain":true,"note":"Label sits on the top edge of the chunk"},
- {"fr":"Monastère de la Trinité","ota":{"latn":"Aya Triada Manastırı","arab":"آیا تریاذا مناستری"},"modern":"Aya Triada Manastırı (Heybeliada Ruhban Okulu), Heybeliada","lit":{"fr":{"en":"Monastery of the Trinity","tr":"Teslis Manastırı"},"ota":{"en":"Monastery of the Holy Trinity","fr":"Monastère de la Sainte-Trinité","tr":"Kutsal Üçleme manastırı"},"modern":null},"kind":"religious","bbox":[9700,3090,9922,3113],"parts":null,"uncertain":false,"note":"Later site of the Halki theological school (1844)"},
- {"fr":"Mon. de St. Georges","ota":{"latn":"Aya Yorgi Manastırı","arab":"آیا یورگی مناستری"},"modern":"Aya Yorgi Manastırı, Heybeliada (identification uncertain)","lit":{"fr":{"en":"Mon. of St. George","tr":"Aziz Georgios Manastırı"},"ota":{"en":"Monastery of Saint George","fr":"Monastère de Saint-Georges","tr":"Aziz Yorgi manastırı"},"modern":null},"kind":"religious","bbox":[9970,3092,10155,3115],"parts":null,"uncertain":true,"note":null},
- {"fr":"Petit Port","ota":null,"modern":"Small harbour beside Heybeliada village","lit":{"fr":{"en":"Small Harbour","tr":"Küçük Liman"},"ota":null,"modern":null},"kind":"bay","bbox":[9838,3168,9920,3202],"parts":null,"uncertain":true,"note":"Slanted label on the shore beside the village"},
- {"fr":"KHALKY","ota":{"latn":"Heybeli Ada","arab":"هیبه لی آطه"},"modern":"Heybeliada","lit":{"fr":{"en":"Khalky","tr":"Halki"},"ota":{"en":"Saddlebag Island","fr":"Île de la Sacoche","tr":"Heybeli ada"},"modern":null},"kind":"island","bbox":[9950,3218,10145,3248],"parts":null,"uncertain":false,"note":"Greek Chalki, from chalkos = copper, after the island's ancient copper mines"},
- {"fr":"Mine de cuivre","ota":{"latn":"Bakır Madeni","arab":"باقر معدنی"},"modern":"Ancient copper mine, Heybeliada (site lost)","lit":{"fr":{"en":"Copper mine","tr":"Bakır madeni"},"ota":{"en":"Copper mine","fr":"Mine de cuivre","tr":"Bakır madeni"},"modern":null},"kind":"other","bbox":[10068,3250,10150,3290],"parts":[[10068,3250,10150,3268],[10090,3270,10140,3290]],"uncertain":true,"note":"Two-line label; the mines gave the island its Greek name"},
- {"fr":"Monastère de Ste Marie","ota":{"latn":"Panaya Manastırı","arab":"پانایا مناستری"},"modern":"Monastery of the Virgin, Heybeliada (site uncertain)","lit":{"fr":{"en":"Monastery of St. Mary","tr":"Azize Meryem Manastırı"},"ota":{"en":"Monastery of the All-Holy (Virgin)","fr":"Monastère de la Toute-Sainte","tr":"Meryem Ana manastırı"},"modern":null},"kind":"religious","bbox":[9798,3334,10022,3356],"parts":null,"uncertain":true,"note":null},
- {"fr":"Port Ste Marie","ota":{"latn":"Çam Limanı","arab":"چام لیمانی"},"modern":"Çam Limanı, Heybeliada (identification uncertain)","lit":{"fr":{"en":"Port St. Mary","tr":"Azize Meryem Limanı"},"ota":{"en":"Pine Harbour","fr":"Port des Pins","tr":"Çam limanı"},"modern":null},"kind":"bay","bbox":[10124,3323,10324,3352],"parts":null,"uncertain":true,"note":null},
- {"fr":"Bains en Briques","ota":null,"modern":"Ruined brick baths, Heybeliada (lost)","lit":{"fr":{"en":"Brick Baths","tr":"Tuğla Hamamlar"},"ota":null,"modern":null},"kind":"ruin","bbox":[10025,3352,10090,3412],"parts":null,"uncertain":true,"note":"Slanted label next to a building symbol on the shore; reading of 'en Briques' is a guess"},
- {"fr":"Sera-Tachi","ota":{"latn":"Sera Taşı","arab":"سرا طاشی"},"modern":"Rock north of Kınalıada (unidentified)","lit":{"fr":{"en":"Sera-Tachi","tr":"Sera Taşı"},"ota":{"en":"Sera Rock","fr":"Rocher Sera","tr":"Sera taşı"},"modern":null},"kind":"other","bbox":[9102,3595,9224,3621],"parts":null,"uncertain":true,"note":"Charted rock drawn with a dotted outline and a cross; 'Sera' may stand for Saray"},
- {"fr":"Pytys","ota":{"latn":"Kaşık Adası","arab":"قاشیق آطه سی"},"modern":"Kaşık Adası","lit":{"fr":{"en":"Pytys","tr":"Pytys"},"ota":{"en":"Spoon Island","fr":"Île de la Cuiller","tr":"Kaşık adası"},"modern":null},"kind":"island","bbox":[9755,3538,9826,3572],"parts":null,"uncertain":false,"note":"Greek Pita / Pityoussa, the islet between Heybeliada and Burgazada"},
- {"fr":"ANTIGONE","ota":{"latn":"Burgaz Köyü","arab":"بورغاز كوی"},"modern":"Burgazada village","lit":{"fr":{"en":"Antigone","tr":"Antigone"},"ota":{"en":"Burgaz village","fr":"Village de Burgaz","tr":"Burgaz köyü"},"modern":null},"kind":"village","bbox":[9835,3732,10000,3761],"parts":null,"uncertain":false,"note":"Smaller label on the village; the larger ANTIGONE names the island"},
- {"fr":"ANTIGONE","ota":{"latn":"Burgaz Adası","arab":"بورغاز آطه سی"},"modern":"Burgazada","lit":{"fr":{"en":"Antigone","tr":"Antigone"},"ota":{"en":"Fortress Island","fr":"Île de la Forteresse","tr":"Burgaz adası"},"modern":null},"kind":"island","bbox":[10085,3815,10305,3850],"parts":null,"uncertain":false,"note":"Burgaz from Greek pyrgos = tower; Antigone after Antigonus Monophthalmus"},
- {"fr":"Ancien Monastère ruiné","ota":null,"modern":"Ruined old monastery on Burgazada (site uncertain)","lit":{"fr":{"en":"Old ruined Monastery","tr":"Eski yıkık Manastır"},"ota":null,"modern":null},"kind":"ruin","bbox":[9908,3880,10161,3903],"parts":null,"uncertain":true,"note":null},
- {"fr":"Ruines de Proti","ota":null,"modern":"Ancient ruins on Kınalıada (lost)","lit":{"fr":{"en":"Ruins of Proti","tr":"Proti Harabeleri"},"ota":null,"modern":null},"kind":"ruin","bbox":[9328,3905,9524,3938],"parts":[[9328,3912,9440,3932],[9450,3905,9524,3938]],"uncertain":true,"note":"'Proti' is set in a larger upright face than 'Ruines de'; possibly two labels"},
- {"fr":"Citernes anciennes","ota":null,"modern":"Ancient cisterns, Kınalıada (lost)","lit":{"fr":{"en":"Ancient cisterns","tr":"Eski sarnıçlar"},"ota":null,"modern":null},"kind":"infrastructure","bbox":[9228,3975,9404,3999],"parts":null,"uncertain":false,"note":null},
- {"fr":"Monastère ruiné","ota":null,"modern":"Ruined monastery on Kınalıada (site uncertain)","lit":{"fr":{"en":"Ruined Monastery","tr":"Yıkık Manastır"},"ota":null,"modern":null},"kind":"ruin","bbox":[9115,4032,9288,4057],"parts":null,"uncertain":true,"note":null},
- {"fr":"PROTI","ota":{"latn":"Kınalı Ada","arab":"قنالی آطه"},"modern":"Kınalıada","lit":{"fr":{"en":"Proti","tr":"Proti"},"ota":{"en":"Henna Island","fr":"Île de Henné","tr":"Kınalı ada"},"modern":null},"kind":"island","bbox":[9295,4245,9428,4278],"parts":null,"uncertain":false,"note":"Greek Proti = 'the first' island; the Turkish name refers to its reddish soil"}
+ {
+  "fr": "Monastère de St Nicolas",
+  "ota": {
+   "latn": "Aya Nikola Manastırı",
+   "arab": "آیا نیقولا مناستری"
+  },
+  "modern": "Aya Nikola church, Heybeliada (identification uncertain)",
+  "lit": {
+   "fr": {
+    "en": "Monastery of St Nicholas",
+    "tr": "Aziz Nikolaos Manastırı"
+   },
+   "ota": {
+    "en": "Monastery of Saint Nicholas",
+    "fr": "Monastère de Saint-Nicolas",
+    "tr": "Aziz Nikolaos manastırı"
+   },
+   "modern": null
+  },
+  "kind": "religious",
+  "bbox": [
+   10105,
+   3000,
+   10334,
+   3023
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Label sits on the top edge of the chunk"
+ },
+ {
+  "fr": "Monastère de la Trinité",
+  "ota": {
+   "latn": "Aya Triada Manastırı",
+   "arab": "آیا تریاذا مناستری"
+  },
+  "modern": "Aya Triada Manastırı (Heybeliada Ruhban Okulu), Heybeliada",
+  "lit": {
+   "fr": {
+    "en": "Monastery of the Trinity",
+    "tr": "Teslis Manastırı"
+   },
+   "ota": {
+    "en": "Monastery of the Holy Trinity",
+    "fr": "Monastère de la Sainte-Trinité",
+    "tr": "Kutsal Üçleme manastırı"
+   },
+   "modern": null
+  },
+  "kind": "religious",
+  "bbox": [
+   9700,
+   3090,
+   9922,
+   3113
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Later site of the Halki theological school (1844)"
+ },
+ {
+  "fr": "Mon. de St Georges",
+  "ota": {
+   "latn": "Aya Yorgi Manastırı",
+   "arab": "آیا یورگی مناستری"
+  },
+  "modern": "Aya Yorgi Manastırı, Heybeliada (identification uncertain)",
+  "lit": {
+   "fr": {
+    "en": "Mon. of St George",
+    "tr": "Aziz Georgios Manastırı"
+   },
+   "ota": {
+    "en": "Monastery of Saint George",
+    "fr": "Monastère de Saint-Georges",
+    "tr": "Aziz Yorgi manastırı"
+   },
+   "modern": null
+  },
+  "kind": "religious",
+  "bbox": [
+   9970,
+   3092,
+   10155,
+   3115
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": null
+ },
+ {
+  "fr": "Petit Port",
+  "ota": null,
+  "modern": "Small harbour beside Heybeliada village",
+  "lit": {
+   "fr": {
+    "en": "Small Harbour",
+    "tr": "Küçük Liman"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "bay",
+  "bbox": [
+   9826,
+   3156,
+   9906,
+   3204
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Slanted label on the shore beside the village"
+ },
+ {
+  "fr": "KHALKY",
+  "ota": {
+   "latn": "Heybeliada",
+   "arab": "هیبه لی آطه"
+  },
+  "modern": "Heybeliada",
+  "lit": {
+   "fr": {
+    "en": "Khalky",
+    "tr": "Halki"
+   },
+   "ota": {
+    "en": "Saddlebag Island",
+    "fr": "Île de la Sacoche",
+    "tr": "Heybeli ada"
+   },
+   "modern": null
+  },
+  "kind": "island",
+  "bbox": [
+   9950,
+   3218,
+   10145,
+   3248
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Greek Chalki, from chalkos = copper, after the island's ancient copper mines"
+ },
+ {
+  "fr": "Mine de cuivre",
+  "ota": {
+   "latn": "Bakır Madeni",
+   "arab": "باقر معدنی"
+  },
+  "modern": "Ancient copper mine, Heybeliada (site lost)",
+  "lit": {
+   "fr": {
+    "en": "Copper mine",
+    "tr": "Bakır madeni"
+   },
+   "ota": {
+    "en": "Copper mine",
+    "fr": "Mine de cuivre",
+    "tr": "Bakır madeni"
+   },
+   "modern": null
+  },
+  "kind": "other",
+  "bbox": [
+   10064,
+   3252,
+   10132,
+   3290
+  ],
+  "parts": [
+   [
+    10064,
+    3252,
+    10132,
+    3272
+   ],
+   [
+    10070,
+    3270,
+    10126,
+    3290
+   ]
+  ],
+  "uncertain": true,
+  "note": "Two-line label; the mines gave the island its Greek name"
+ },
+ {
+  "fr": "Monastère de Ste Marie",
+  "ota": {
+   "latn": "Panaya Manastırı",
+   "arab": "پانایا مناستری"
+  },
+  "modern": "Monastery of the Virgin, Heybeliada (site uncertain)",
+  "lit": {
+   "fr": {
+    "en": "Monastery of St. Mary",
+    "tr": "Azize Meryem Manastırı"
+   },
+   "ota": {
+    "en": "Monastery of the All-Holy (Virgin)",
+    "fr": "Monastère de la Toute-Sainte",
+    "tr": "Meryem Ana manastırı"
+   },
+   "modern": null
+  },
+  "kind": "religious",
+  "bbox": [
+   9798,
+   3334,
+   10022,
+   3356
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": null
+ },
+ {
+  "fr": "Port Ste Marie",
+  "ota": {
+   "latn": "Çam Limanı",
+   "arab": "چام لیمانی"
+  },
+  "modern": "Çam Limanı, Heybeliada (identification uncertain)",
+  "lit": {
+   "fr": {
+    "en": "Port St. Mary",
+    "tr": "Azize Meryem Limanı"
+   },
+   "ota": {
+    "en": "Pine Harbour",
+    "fr": "Port des Pins",
+    "tr": "Çam limanı"
+   },
+   "modern": null
+  },
+  "kind": "bay",
+  "bbox": [
+   10126,
+   3319,
+   10312,
+   3346
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": null
+ },
+ {
+  "fr": "Bains en Briques",
+  "ota": null,
+  "modern": "Ruined brick baths, Heybeliada (lost)",
+  "lit": {
+   "fr": {
+    "en": "Brick Baths",
+    "tr": "Tuğla Hamamlar"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "ruin",
+  "bbox": [
+   10025,
+   3352,
+   10090,
+   3412
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Two-line slanted label beside a building symbol on the shore; reading confirmed at 1.5x zoom, the site itself is lost"
+ },
+ {
+  "fr": "Sera-Tachi",
+  "ota": {
+   "latn": "Sıra Taşı",
+   "arab": "صیره طاشی"
+  },
+  "modern": "Sıra Taşı rock, north of Kınalıada (identification uncertain)",
+  "lit": {
+   "fr": {
+    "en": "Sera-Tachi",
+    "tr": "Sera Taşı"
+   },
+   "ota": {
+    "en": "Row Stone",
+    "fr": "Pierre de la rangée",
+    "tr": "Sıra taşı"
+   },
+   "modern": null
+  },
+  "kind": "other",
+  "bbox": [
+   9102,
+   3595,
+   9224,
+   3621
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Charted rock drawn with a dotted outline and a cross; 'Sera' may stand for Saray"
+ },
+ {
+  "fr": "Pytys",
+  "ota": {
+   "latn": "Kaşık Adası",
+   "arab": "قاشیق آطه سی"
+  },
+  "modern": "Kaşık Adası",
+  "lit": {
+   "fr": {
+    "en": "Pytys",
+    "tr": "Pytys"
+   },
+   "ota": {
+    "en": "Spoon Island",
+    "fr": "Île de la Cuiller",
+    "tr": "Kaşık adası"
+   },
+   "modern": null
+  },
+  "kind": "island",
+  "bbox": [
+   9755,
+   3538,
+   9826,
+   3572
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Greek Pita / Pityoussa, the islet between Heybeliada and Burgazada"
+ },
+ {
+  "fr": "ANTIGONE",
+  "ota": {
+   "latn": "Burgaz Köyü",
+   "arab": "بورغاز كوی"
+  },
+  "modern": "Burgazada village",
+  "lit": {
+   "fr": {
+    "en": "Antigone",
+    "tr": "Antigone"
+   },
+   "ota": {
+    "en": "Burgaz village",
+    "fr": "Village de Burgaz",
+    "tr": "Burgaz köyü"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   9835,
+   3732,
+   10000,
+   3761
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Smaller label on the village; the larger ANTIGONE names the island"
+ },
+ {
+  "fr": "ANTIGONE",
+  "ota": {
+   "latn": "Burgaz Adası",
+   "arab": "بورغاز آطه سی"
+  },
+  "modern": "Burgazada",
+  "lit": {
+   "fr": {
+    "en": "Antigone",
+    "tr": "Antigone"
+   },
+   "ota": {
+    "en": "Fortress Island",
+    "fr": "Île de la Forteresse",
+    "tr": "Burgaz adası"
+   },
+   "modern": null
+  },
+  "kind": "island",
+  "bbox": [
+   10085,
+   3815,
+   10305,
+   3850
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Burgaz from Greek pyrgos = tower; Antigone after Antigonus Monophthalmus"
+ },
+ {
+  "fr": "Ancien Monastère ruiné",
+  "ota": null,
+  "modern": "Ruined old monastery on Burgazada (site uncertain)",
+  "lit": {
+   "fr": {
+    "en": "Old ruined Monastery",
+    "tr": "Eski yıkık Manastır"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "ruin",
+  "bbox": [
+   9882,
+   3878,
+   10150,
+   3903
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": null
+ },
+ {
+  "fr": "Ruines de Proti",
+  "ota": null,
+  "modern": "Ancient ruins on Kınalıada (lost)",
+  "lit": {
+   "fr": {
+    "en": "Ruins of Proti",
+    "tr": "Proti Harabeleri"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "ruin",
+  "bbox": [
+   9328,
+   3905,
+   9524,
+   3938
+  ],
+  "parts": [
+   [
+    9328,
+    3912,
+    9440,
+    3932
+   ],
+   [
+    9450,
+    3905,
+    9524,
+    3938
+   ]
+  ],
+  "uncertain": true,
+  "note": "'Proti' is set in a larger upright face than 'Ruines de'; possibly two labels"
+ },
+ {
+  "fr": "Citernes anciennes",
+  "ota": null,
+  "modern": "Ancient cisterns, Kınalıada (lost)",
+  "lit": {
+   "fr": {
+    "en": "Ancient cisterns",
+    "tr": "Eski sarnıçlar"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "infrastructure",
+  "bbox": [
+   9228,
+   3975,
+   9404,
+   3999
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": null
+ },
+ {
+  "fr": "Monastère ruiné",
+  "ota": null,
+  "modern": "Ruined monastery on Kınalıada (site uncertain)",
+  "lit": {
+   "fr": {
+    "en": "Ruined Monastery",
+    "tr": "Yıkık Manastır"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "ruin",
+  "bbox": [
+   9126,
+   4034,
+   9278,
+   4059
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "The italic '8' just left of the label is a depth sounding, not part of it"
+ },
+ {
+  "fr": "PROTI",
+  "ota": {
+   "latn": "Kınalıada",
+   "arab": "قنالی آطه"
+  },
+  "modern": "Kınalıada",
+  "lit": {
+   "fr": {
+    "en": "Proti",
+    "tr": "Proti"
+   },
+   "ota": {
+    "en": "Henna Island",
+    "fr": "Île de Henné",
+    "tr": "Kınalı ada"
+   },
+   "modern": null
+  },
+  "kind": "island",
+  "bbox": [
+   9295,
+   4245,
+   9428,
+   4278
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Greek Proti = 'the first' island; the Turkish name refers to its reddish soil"
+ }
 ]

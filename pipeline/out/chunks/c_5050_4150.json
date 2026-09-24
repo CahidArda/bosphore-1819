@@ -1,35 +1,1043 @@
 [
- {"fr":"BEBEK","ota":{"latn":"Bebek","arab":"ببك"},"modern":"Bebek, Beşiktaş","lit":{"fr":{"en":"Bebek","tr":"Bebek"},"ota":{"en":"Bebek","fr":"Bebek","tr":"Bebek"},"modern":null},"kind":"village","bbox":[5704,4198,5802,4230],"parts":null,"uncertain":false,"note":null},
- {"fr":"Magasins de la Marine","ota":{"latn":"Tersane Anbarları","arab":"ترسانه انبارلری"},"modern":"Naval storehouses at Bebek (lost)","lit":{"fr":{"en":"Storehouses of the Navy","tr":"Donanma Ambarları"},"ota":{"en":"Arsenal storehouses","fr":"Magasins de l'Arsenal","tr":"Tersane ambarları"},"modern":null},"kind":"military","bbox":[5806,4182,5968,4276],"parts":null,"uncertain":true,"note":"Diagonal label"},
- {"fr":"ARNAOUT-KEUI","ota":{"latn":"Arnavutköy","arab":"آرناوود كوی"},"modern":"Arnavutköy, Beşiktaş","lit":{"fr":{"en":"Arnaout-keui","tr":"Arnavutköy"},"ota":{"en":"Albanian village","fr":"Village des Albanais","tr":"Arnavut köyü"},"modern":null},"kind":"village","bbox":[5870,4250,6100,4282],"parts":null,"uncertain":false,"note":null},
- {"fr":"Roche St Sèle","ota":null,"modern":"Rock off Arnavutköy (unidentified)","lit":{"fr":{"en":"Rock of St Sèle","tr":"Aziz Sèle Kayası"},"ota":null,"modern":null},"kind":"other","bbox":[6136,4214,6206,4262],"parts":null,"uncertain":true,"note":"Two-line diagonal label; the saint's name is barely legible"},
- {"fr":"Palais de la Esma Sultane","ota":{"latn":"Esma Sultan Sahilsarayı","arab":"اسما سلطان ساحل سرایی"},"modern":"Esma Sultan waterside palace, Kuruçeşme (lost)","lit":{"fr":{"en":"Palace of Esma Sultana","tr":"Esma Sultan Sarayı"},"ota":{"en":"Shore palace of Esma Sultan","fr":"Palais riverain d'Esma Sultan","tr":"Esma Sultan sahilsarayı"},"modern":null},"kind":"palace","bbox":[6226,4195,6320,4300],"parts":null,"uncertain":true,"note":"Diagonal label; the Sultana's name is read with difficulty"},
- {"fr":"Defterdar-Bournou","ota":{"latn":"Defterdar Burnu","arab":"دفتردار بورنی"},"modern":"Defterdarburnu, Kuruçeşme","lit":{"fr":{"en":"Defterdar Cape","tr":"Defterdar Burnu"},"ota":{"en":"The Treasurer's Cape","fr":"Cap du Trésorier","tr":"Defterdar burnu"},"modern":null},"kind":"cape","bbox":[6290,4263,6416,4316],"parts":[[6295,4263,6416,4290],[6298,4290,6395,4316]],"uncertain":false,"note":null},
- {"fr":"Palais de la Hadidgé-Sultane","ota":{"latn":"Hatice Sultan Sahilsarayı","arab":"خدیجه سلطان ساحل سرایی"},"modern":"Hatice Sultan waterside palace, Defterdarburnu (lost)","lit":{"fr":{"en":"Palace of Hadidgé Sultana","tr":"Hatice Sultan Sarayı"},"ota":{"en":"Shore palace of Hatice Sultan","fr":"Palais riverain de Hatice Sultan","tr":"Hatice Sultan sahilsarayı"},"modern":null},"kind":"palace","bbox":[6383,4330,6550,4380],"parts":[[6388,4330,6508,4354],[6383,4354,6550,4380]],"uncertain":false,"note":"Designed by Antoine-Ignace Melling for Selim III's sister"},
- {"fr":"KOUROU-TCHECHME","ota":{"latn":"Kuruçeşme","arab":"قوری چشمه"},"modern":"Kuruçeşme, Beşiktaş","lit":{"fr":{"en":"Kourou-Tchechmé","tr":"Kuruçeşme"},"ota":{"en":"Dry fountain","fr":"Fontaine sèche","tr":"Kuru çeşme"},"modern":null},"kind":"village","bbox":[6023,4340,6296,4370],"parts":null,"uncertain":false,"note":null},
- {"fr":"St Elie","ota":null,"modern":"Profitis Ilias (Aya İlya) church, Arnavutköy","lit":{"fr":{"en":"St Elias","tr":"Aziz İlyas"},"ota":null,"modern":null},"kind":"religious","bbox":[5933,4316,6016,4343],"parts":null,"uncertain":true,"note":null},
- {"fr":"ORTA-KEUI","ota":{"latn":"Ortaköy","arab":"اورته كوی"},"modern":"Ortaköy, Beşiktaş","lit":{"fr":{"en":"Orta-keui","tr":"Ortaköy"},"ota":{"en":"Middle village","fr":"Village du Milieu","tr":"Orta köy"},"modern":null},"kind":"village","bbox":[6112,4433,6262,4463],"parts":null,"uncertain":false,"note":null},
- {"fr":"Cimetière Arménien","ota":{"latn":"Ermeni Mezarlığı","arab":"ارمنی مزارلغی"},"modern":"Armenian cemetery, Ortaköy","lit":{"fr":{"en":"Armenian Cemetery","tr":"Ermeni Mezarlığı"},"ota":{"en":"Armenian cemetery","fr":"Cimetière arménien","tr":"Ermeni mezarlığı"},"modern":null},"kind":"religious","bbox":[6156,4510,6253,4556],"parts":[[6161,4510,6253,4532],[6158,4534,6250,4556]],"uncertain":true,"note":null},
- {"fr":"Kiosque du Gd Sr","ota":{"latn":"Hünkâr Köşkü","arab":"خنكار كوشكی"},"modern":"Sultan's kiosk above Ortaköy (lost)","lit":{"fr":{"en":"Kiosk of the Grand Seigneur","tr":"Büyük Efendi'nin Köşkü"},"ota":{"en":"The Sovereign's Kiosk","fr":"Kiosque du Souverain","tr":"Padişah köşkü"},"modern":null},"kind":"palace","bbox":[6092,4638,6262,4666],"parts":null,"uncertain":true,"note":"Le Grand Seigneur = the Sultan"},
- {"fr":"Ieni Mahallé","ota":{"latn":"Yeni Mahalle","arab":"یكی محله"},"modern":"Yenimahalle, Beşiktaş","lit":{"fr":{"en":"Ieni Mahallé","tr":"Yeni Mahalle"},"ota":{"en":"New quarter","fr":"Nouveau quartier","tr":"Yeni mahalle"},"modern":null},"kind":"quarter","bbox":[6273,4686,6436,4716],"parts":null,"uncertain":false,"note":null},
- {"fr":"BESCHIK-TASCH","ota":{"latn":"Beşiktaş","arab":"بشكطاش"},"modern":"Beşiktaş","lit":{"fr":{"en":"Beschik-Tasch","tr":"Beşiktaş"},"ota":{"en":"Cradle stone","fr":"Pierre du berceau","tr":"Beşik taşı"},"modern":null},"kind":"village","bbox":[6228,4770,6444,4802],"parts":null,"uncertain":false,"note":null},
- {"fr":"Flamour-Alti","ota":{"latn":"Ihlamur Altı","arab":"ایهلامور آلتی"},"modern":"Ihlamur, Beşiktaş (site of the Ihlamur Kasrı)","lit":{"fr":{"en":"Flamour-Alti","tr":"Ihlamur Altı"},"ota":{"en":"Beneath the lime-trees","fr":"Sous les tilleuls","tr":"Ihlamurların altı"},"modern":null},"kind":"other","bbox":[6090,4813,6220,4840],"parts":null,"uncertain":false,"note":"Flamour = Greek flamouri, the linden; the Ihlamur Kasrı was built here in the 1850s"},
- {"fr":"Kutchuk-Levend Tchiftlik","ota":{"latn":"Küçük Levend Çiftliği","arab":"كوچك لوند چفتلكی"},"modern":"Küçük Levent (Levent), Beşiktaş","lit":{"fr":{"en":"Little Levend Farm","tr":"Küçük Levend Çiftliği"},"ota":{"en":"Farm of the Little Levends (marines)","fr":"Ferme des petits Levends","tr":"Küçük Levend çiftliği"},"modern":null},"kind":"other","bbox":[6266,5003,6540,5030],"parts":null,"uncertain":false,"note":null},
- {"fr":"St DIMITRI","ota":{"latn":"Aya Dimitri","arab":"آیا دیمیتری"},"modern":"Kurtuluş (Tatavla), Şişli","lit":{"fr":{"en":"St Demetrius","tr":"Aziz Dimitri"},"ota":{"en":"Saint Demetrius","fr":"Saint Démétrius","tr":"Aya Dimitri"},"modern":null},"kind":"village","bbox":[6300,5212,6434,5244],"parts":null,"uncertain":false,"note":"The Greek quarter of Tatavla, named after its church"},
- {"fr":"Tatalla-déré","ota":{"latn":"Tatavla Deresi","arab":"طاطاوله دره سی"},"modern":"Tatavla stream (Dolapdere), culverted","lit":{"fr":{"en":"Tatalla stream","tr":"Tatavla Deresi"},"ota":{"en":"Stream of Tatavla","fr":"Ruisseau de Tatavla","tr":"Tatavla deresi"},"modern":null},"kind":"water","bbox":[6256,5300,6366,5386],"parts":null,"uncertain":true,"note":"Diagonal label"},
- {"fr":"KIAHAD-HANÉ","ota":{"latn":"Kâğıdhane","arab":"كاغدخانه"},"modern":"Kağıthane","lit":{"fr":{"en":"Kiahad-Hané","tr":"Kâğıthane"},"ota":{"en":"Paper-mill house","fr":"Maison du papier","tr":"Kâğıt hane"},"modern":null},"kind":"village","bbox":[5316,5203,5533,5233],"parts":null,"uncertain":false,"note":null},
- {"fr":"Pont de Bois","ota":null,"modern":"Wooden bridge over the Kağıthane stream (lost)","lit":{"fr":{"en":"Wooden Bridge","tr":"Ahşap Köprü"},"ota":null,"modern":null},"kind":"infrastructure","bbox":[5553,5083,5643,5186],"parts":null,"uncertain":true,"note":"Diagonal label"},
- {"fr":"Prairie du Djerid","ota":{"latn":"Cirit Çayırı","arab":"جرید چایری"},"modern":"Cirit Meydanı, Kağıthane (Sadabad meadow)","lit":{"fr":{"en":"Meadow of the Djerid","tr":"Cirit Çayırı"},"ota":{"en":"Meadow of the javelin game","fr":"Prairie du jeu de javelot","tr":"Cirit çayırı"},"modern":null},"kind":"other","bbox":[5620,5228,5722,5308],"parts":[[5625,5228,5722,5280],[5645,5268,5698,5308]],"uncertain":false,"note":"Cirit is the Ottoman mounted javelin game"},
- {"fr":"Cascades","ota":{"latn":"Çağlayan","arab":"چاغلایان"},"modern":"Çağlayan, Kağıthane","lit":{"fr":{"en":"Cascades","tr":"Şelaleler"},"ota":{"en":"Waterfall","fr":"Cascade","tr":"Çağlayan"},"modern":null},"kind":"water","bbox":[5700,5210,5790,5248],"parts":null,"uncertain":false,"note":"The marble cascades of Sadabad on the Kağıthane stream"},
- {"fr":"Kiahad-Hané ou Saad-abad, Palais du Gd Seigneur","ota":{"latn":"Sadâbâd Kasrı","arab":"سعدآباد قصری"},"modern":"Sadabad Kasrı, Kağıthane (rebuilt as Çağlayan Kasrı; lost)","lit":{"fr":{"en":"Kiahad-Hané or Saad-abad, Palace of the Grand Seigneur","tr":"Kâğıthane ya da Sadabad, Büyük Efendi'nin Sarayı"},"ota":{"en":"Pavilion of the Abode of Felicity","fr":"Pavillon de la Demeure de Félicité","tr":"Sadabad köşkü"},"modern":null},"kind":"palace","bbox":[5753,5250,6026,5326],"parts":[[5758,5250,5915,5274],[5798,5278,5908,5300],[5821,5303,6026,5326]],"uncertain":false,"note":"Built 1722 for Ahmed III in the Tulip Period"},
- {"fr":"But de Tir","ota":null,"modern":"Shooting range at Kağıthane (lost)","lit":{"fr":{"en":"Shooting butt","tr":"Atış hedefi"},"ota":null,"modern":null},"kind":"other","bbox":[5476,5326,5596,5356],"parts":null,"uncertain":true,"note":null},
- {"fr":"Poudrière","ota":{"latn":"Baruthane","arab":"باروتخانه"},"modern":"Kağıthane Baruthanesi (gunpowder works, lost)","lit":{"fr":{"en":"Powder magazine","tr":"Barut deposu"},"ota":{"en":"Gunpowder works","fr":"Poudrerie","tr":"Baruthane"},"modern":null},"kind":"military","bbox":[5613,5366,5720,5410],"parts":null,"uncertain":true,"note":"Diagonal label"},
- {"fr":"Buyuk-Levend Tchiftlik, brûlé en 1808","ota":{"latn":"Büyük Levend Çiftliği","arab":"بیوك لوند چفتلكی"},"modern":"Levent, Beşiktaş (Levend Çiftliği barracks, site)","lit":{"fr":{"en":"Great Levend Farm, burnt in 1808","tr":"Büyük Levend Çiftliği, 1808'de yandı"},"ota":{"en":"Farm of the Great Levends (marines)","fr":"Ferme des grands Levends","tr":"Büyük Levend çiftliği"},"modern":null},"kind":"military","bbox":[5412,4680,5706,4732],"parts":[[5418,4680,5706,4710],[5455,4711,5578,4732]],"uncertain":false,"note":"Barracks of Selim III's Nizam-ı Cedid army, burnt in the 1808 revolt"},
- {"fr":"Casernes","ota":{"latn":"Levend Çiftliği Kışlası","arab":"لوند چفتلكی قشله سی"},"modern":"Levend Çiftliği barracks, Levent (lost)","lit":{"fr":{"en":"Barracks","tr":"Kışlalar"},"ota":{"en":"Barracks of the Levend farm","fr":"Caserne de la ferme des Levends","tr":"Levend Çiftliği kışlası"},"modern":null},"kind":"military","bbox":[5516,4566,5590,4593],"parts":null,"uncertain":true,"note":"Generic word placed on the Levend Çiftliği barracks"},
- {"fr":"Kiosque pour le Gd Sr","ota":{"latn":"Hünkâr Köşkü","arab":"خنكار كوشكی"},"modern":"Sultan's kiosk at Levend Çiftliği (lost)","lit":{"fr":{"en":"Kiosk for the Grand Seigneur","tr":"Büyük Efendi için Köşk"},"ota":{"en":"The Sovereign's Kiosk","fr":"Kiosque du Souverain","tr":"Padişah köşkü"},"modern":null},"kind":"palace","bbox":[5653,4560,5860,4588],"parts":null,"uncertain":true,"note":"Le Grand Seigneur = the Sultan"},
- {"fr":"Cheik-ul-Islam Kiosque du Gd Sr","ota":{"latn":"Şeyhülislam Köşkü","arab":"شیخ الاسلام كوشكی"},"modern":"Şeyhülislam's kiosk above Bebek (lost)","lit":{"fr":{"en":"Sheikh-ul-Islam, Kiosk of the Grand Seigneur","tr":"Şeyhülislam, Büyük Efendi'nin Köşkü"},"ota":{"en":"Kiosk of the Sheikh-ul-Islam","fr":"Kiosque du Cheikh-ul-Islam","tr":"Şeyhülislam köşkü"},"modern":null},"kind":"palace","bbox":[5643,4300,5800,4353],"parts":[[5648,4300,5795,4324],[5648,4326,5795,4353]],"uncertain":true,"note":"Two stacked lines, possibly two separate labels: the Şeyhülislam's property and a Sultan's kiosk"},
- {"fr":"le Puits","ota":null,"modern":"Well on the Büyükdere road above Ortaköy (lost)","lit":{"fr":{"en":"The Well","tr":"Kuyu"},"ota":null,"modern":null},"kind":"infrastructure","bbox":[5846,4670,5950,4700],"parts":null,"uncertain":true,"note":null},
- {"fr":"Puits et Corps de Gardes","ota":null,"modern":"Well and guardhouse on the Büyükdere road (lost)","lit":{"fr":{"en":"Well and Guardhouse","tr":"Kuyu ve Karakol"},"ota":null,"modern":null},"kind":"military","bbox":[5823,4726,6073,4753],"parts":null,"uncertain":true,"note":null},
- {"fr":"Chemin de Buyuk-déré","ota":{"latn":"Büyükdere Yolu","arab":"بیوك دره یولی"},"modern":"Büyükdere Caddesi","lit":{"fr":{"en":"Road of Büyükdere","tr":"Büyükdere Yolu"},"ota":{"en":"Büyükdere road","fr":"Chemin de Büyükdere","tr":"Büyükdere yolu"},"modern":null},"kind":"road","bbox":[5622,4742,6020,4850],"parts":[[5627,4745,5850,4798],[5820,4775,6020,4850]],"uncertain":false,"note":"Diagonal label along the road"},
- {"fr":"Sou-Kerazous ou Pyramides Hydrauliques","ota":{"latn":"Su Terazileri","arab":"صو ترازولری"},"modern":"Su terazisi towers of the Taksim water line, Levent-Zincirlikuyu","lit":{"fr":{"en":"Sou-Kerazous, or Hydraulic Pyramids","tr":"Su Terazileri, ya da Hidrolik Piramitler"},"ota":{"en":"Water balances (pressure towers)","fr":"Balances d'eau (tours de pression)","tr":"Su terazileri"},"modern":null},"kind":"infrastructure","bbox":[5143,4650,5570,4830],"parts":[[5148,4650,5305,4748],[5311,4748,5570,4830]],"uncertain":true,"note":"Engraved 'Kerazous' for 'terazous' (su terazisi); diagonal label along the aqueduct line"}
+ {
+  "fr": "BEBEK",
+  "ota": {
+   "latn": "Bebek",
+   "arab": "ببك"
+  },
+  "modern": "Bebek, Beşiktaş",
+  "lit": {
+   "fr": {
+    "en": "Bebek",
+    "tr": "Bebek"
+   },
+   "ota": {
+    "en": "Bebek",
+    "fr": "Bebek",
+    "tr": "Bebek"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   5704,
+   4198,
+   5802,
+   4230
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": null
+ },
+ {
+  "fr": "Magasins de la Marine",
+  "ota": {
+   "latn": "Tersane Anbarları",
+   "arab": "ترسانه انبارلری"
+  },
+  "modern": "Naval storehouses at Bebek (lost)",
+  "lit": {
+   "fr": {
+    "en": "Storehouses of the Navy",
+    "tr": "Donanma Ambarları"
+   },
+   "ota": {
+    "en": "Arsenal storehouses",
+    "fr": "Magasins de l'Arsenal",
+    "tr": "Tersane ambarları"
+   },
+   "modern": null
+  },
+  "kind": "military",
+  "bbox": [
+   5806,
+   4182,
+   5968,
+   4276
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Diagonal label"
+ },
+ {
+  "fr": "ARNAOUT-KEUI",
+  "ota": {
+   "latn": "Arnavutköy",
+   "arab": "آرناوود كوی"
+  },
+  "modern": "Arnavutköy, Beşiktaş",
+  "lit": {
+   "fr": {
+    "en": "Arnaout-keui",
+    "tr": "Arnavutköy"
+   },
+   "ota": {
+    "en": "Albanian village",
+    "fr": "Village des Albanais",
+    "tr": "Arnavut köyü"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   5870,
+   4250,
+   6100,
+   4282
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": null
+ },
+ {
+  "fr": "Roche St Sèle",
+  "ota": null,
+  "modern": "Rock off Arnavutköy (unidentified)",
+  "lit": {
+   "fr": {
+    "en": "Rock of St Sèle",
+    "tr": "Aziz Sèle Kayası"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "other",
+  "bbox": [
+   6136,
+   4214,
+   6206,
+   4262
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Two-line diagonal label; the saint's name is barely legible"
+ },
+ {
+  "fr": "Palais de la Esma Sultane",
+  "ota": {
+   "latn": "Esma Sultan Sahilsarayı",
+   "arab": "اسما سلطان ساحل سرایی"
+  },
+  "modern": "Esma Sultan waterside palace, Kuruçeşme (lost)",
+  "lit": {
+   "fr": {
+    "en": "Palace of Esma Sultana",
+    "tr": "Esma Sultan Sarayı"
+   },
+   "ota": {
+    "en": "Shore palace of Esma Sultan",
+    "fr": "Palais riverain d'Esma Sultan",
+    "tr": "Esma Sultan sahilsarayı"
+   },
+   "modern": null
+  },
+  "kind": "palace",
+  "bbox": [
+   6226,
+   4195,
+   6320,
+   4300
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Diagonal label; the Sultana's name is read with difficulty"
+ },
+ {
+  "fr": "Defterdar-Bournou",
+  "ota": {
+   "latn": "Defterdar Burnu",
+   "arab": "دفتردار بورنی"
+  },
+  "modern": "Defterdarburnu, Kuruçeşme",
+  "lit": {
+   "fr": {
+    "en": "Defterdar Cape",
+    "tr": "Defterdar Burnu"
+   },
+   "ota": {
+    "en": "The Treasurer's Cape",
+    "fr": "Cap du Trésorier",
+    "tr": "Defterdar burnu"
+   },
+   "modern": null
+  },
+  "kind": "cape",
+  "bbox": [
+   6290,
+   4263,
+   6416,
+   4316
+  ],
+  "parts": [
+   [
+    6295,
+    4263,
+    6416,
+    4290
+   ],
+   [
+    6298,
+    4290,
+    6395,
+    4316
+   ]
+  ],
+  "uncertain": false,
+  "note": null
+ },
+ {
+  "fr": "Palais de la Hadidgé-Sultane",
+  "ota": {
+   "latn": "Hatice Sultan Sahilsarayı",
+   "arab": "خدیجه سلطان ساحل سرایی"
+  },
+  "modern": "Hatice Sultan waterside palace, Defterdarburnu (lost)",
+  "lit": {
+   "fr": {
+    "en": "Palace of Hadidgé Sultana",
+    "tr": "Hatice Sultan Sarayı"
+   },
+   "ota": {
+    "en": "Shore palace of Hatice Sultan",
+    "fr": "Palais riverain de Hatice Sultan",
+    "tr": "Hatice Sultan sahilsarayı"
+   },
+   "modern": null
+  },
+  "kind": "palace",
+  "bbox": [
+   6383,
+   4330,
+   6550,
+   4380
+  ],
+  "parts": [
+   [
+    6388,
+    4330,
+    6508,
+    4354
+   ],
+   [
+    6383,
+    4354,
+    6550,
+    4380
+   ]
+  ],
+  "uncertain": false,
+  "note": "Designed by Antoine-Ignace Melling for Selim III's sister"
+ },
+ {
+  "fr": "KOUROU-TCHECHME",
+  "ota": {
+   "latn": "Kuruçeşme",
+   "arab": "قوری چشمه"
+  },
+  "modern": "Kuruçeşme, Beşiktaş",
+  "lit": {
+   "fr": {
+    "en": "Kourou-Tchechmé",
+    "tr": "Kuruçeşme"
+   },
+   "ota": {
+    "en": "Dry fountain",
+    "fr": "Fontaine sèche",
+    "tr": "Kuru çeşme"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   6023,
+   4340,
+   6296,
+   4370
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": null
+ },
+ {
+  "fr": "St Elie",
+  "ota": null,
+  "modern": "Profitis Ilias (Aya İlya) church, Arnavutköy",
+  "lit": {
+   "fr": {
+    "en": "St Elias",
+    "tr": "Aziz İlyas"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "religious",
+  "bbox": [
+   5933,
+   4316,
+   6016,
+   4343
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": null
+ },
+ {
+  "fr": "ORTA-KEUI",
+  "ota": {
+   "latn": "Ortaköy",
+   "arab": "اورته كوی"
+  },
+  "modern": "Ortaköy, Beşiktaş",
+  "lit": {
+   "fr": {
+    "en": "Orta-keui",
+    "tr": "Ortaköy"
+   },
+   "ota": {
+    "en": "Middle village",
+    "fr": "Village du Milieu",
+    "tr": "Orta köy"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   6112,
+   4433,
+   6262,
+   4463
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": null
+ },
+ {
+  "fr": "Cimetière Arménien",
+  "ota": {
+   "latn": "Ermeni Mezarlığı",
+   "arab": "ارمنی مزارلغی"
+  },
+  "modern": "Armenian cemetery, Ortaköy",
+  "lit": {
+   "fr": {
+    "en": "Armenian Cemetery",
+    "tr": "Ermeni Mezarlığı"
+   },
+   "ota": {
+    "en": "Armenian cemetery",
+    "fr": "Cimetière arménien",
+    "tr": "Ermeni mezarlığı"
+   },
+   "modern": null
+  },
+  "kind": "religious",
+  "bbox": [
+   6156,
+   4510,
+   6253,
+   4556
+  ],
+  "parts": [
+   [
+    6161,
+    4510,
+    6253,
+    4532
+   ],
+   [
+    6158,
+    4534,
+    6250,
+    4556
+   ]
+  ],
+  "uncertain": true,
+  "note": null
+ },
+ {
+  "fr": "Kiosque du Gd Sr",
+  "ota": {
+   "latn": "Hünkâr Köşkü",
+   "arab": "خنكار كوشكی"
+  },
+  "modern": "Sultan's kiosk above Ortaköy (lost)",
+  "lit": {
+   "fr": {
+    "en": "Kiosk of the Grand Seigneur",
+    "tr": "Büyük Efendi'nin Köşkü"
+   },
+   "ota": {
+    "en": "The Sovereign's Kiosk",
+    "fr": "Kiosque du Souverain",
+    "tr": "Padişah köşkü"
+   },
+   "modern": null
+  },
+  "kind": "palace",
+  "bbox": [
+   6092,
+   4630,
+   6262,
+   4660
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Le Grand Seigneur = the Sultan"
+ },
+ {
+  "fr": "Ieni Mahallé",
+  "ota": {
+   "latn": "Yeni Mahalle",
+   "arab": "یكی محله"
+  },
+  "modern": "Yenimahalle, Beşiktaş",
+  "lit": {
+   "fr": {
+    "en": "Ieni Mahallé",
+    "tr": "Yeni Mahalle"
+   },
+   "ota": {
+    "en": "New quarter",
+    "fr": "Nouveau quartier",
+    "tr": "Yeni mahalle"
+   },
+   "modern": null
+  },
+  "kind": "quarter",
+  "bbox": [
+   6265,
+   4677,
+   6416,
+   4706
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": null
+ },
+ {
+  "fr": "BESCHIK-TASCH",
+  "ota": {
+   "latn": "Beşiktaş",
+   "arab": "بشكطاش"
+  },
+  "modern": "Beşiktaş",
+  "lit": {
+   "fr": {
+    "en": "Beschik-Tasch",
+    "tr": "Beşiktaş"
+   },
+   "ota": {
+    "en": "Cradle stone",
+    "fr": "Pierre du berceau",
+    "tr": "Beşik taşı"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   6228,
+   4770,
+   6444,
+   4802
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": null
+ },
+ {
+  "fr": "Flamour-Alti",
+  "ota": {
+   "latn": "Ihlamur Altı",
+   "arab": "ایهلامور آلتی"
+  },
+  "modern": "Ihlamur, Beşiktaş (site of the Ihlamur Kasrı)",
+  "lit": {
+   "fr": {
+    "en": "Flamour-Alti",
+    "tr": "Ihlamur Altı"
+   },
+   "ota": {
+    "en": "Beneath the lime-trees",
+    "fr": "Sous les tilleuls",
+    "tr": "Ihlamurların altı"
+   },
+   "modern": null
+  },
+  "kind": "other",
+  "bbox": [
+   6090,
+   4813,
+   6220,
+   4840
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Flamour = Greek flamouri, the linden; the Ihlamur Kasrı was built here in the 1850s"
+ },
+ {
+  "fr": "Kutchuk-Levend Tchiftlik",
+  "ota": {
+   "latn": "Küçük Levend Çiftliği",
+   "arab": "كوچك لوند چفتلكی"
+  },
+  "modern": "Küçük Levent (Levent), Beşiktaş",
+  "lit": {
+   "fr": {
+    "en": "Little Levend Farm",
+    "tr": "Küçük Levend Çiftliği"
+   },
+   "ota": {
+    "en": "Farm of the Little Levends (marines)",
+    "fr": "Ferme des petits Levends",
+    "tr": "Küçük Levend çiftliği"
+   },
+   "modern": null
+  },
+  "kind": "other",
+  "bbox": [
+   6266,
+   5003,
+   6540,
+   5030
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": null
+ },
+ {
+  "fr": "St DIMITRI",
+  "ota": {
+   "latn": "Aya Dimitri",
+   "arab": "آیا دیمیتری"
+  },
+  "modern": "Kurtuluş (Tatavla), Şişli",
+  "lit": {
+   "fr": {
+    "en": "St Demetrius",
+    "tr": "Aziz Dimitri"
+   },
+   "ota": {
+    "en": "Saint Demetrius",
+    "fr": "Saint Démétrius",
+    "tr": "Aya Dimitri"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   6300,
+   5212,
+   6434,
+   5244
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "The Greek quarter of Tatavla, named after its church"
+ },
+ {
+  "fr": "Tatalla-déré",
+  "ota": {
+   "latn": "Tatavla Deresi",
+   "arab": "طاطاوله دره سی"
+  },
+  "modern": "Tatavla stream (Dolapdere), culverted",
+  "lit": {
+   "fr": {
+    "en": "Tatalla stream",
+    "tr": "Tatavla Deresi"
+   },
+   "ota": {
+    "en": "Stream of Tatavla",
+    "fr": "Ruisseau de Tatavla",
+    "tr": "Tatavla deresi"
+   },
+   "modern": null
+  },
+  "kind": "water",
+  "bbox": [
+   6256,
+   5300,
+   6366,
+   5386
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Diagonal label"
+ },
+ {
+  "fr": "KIAHAD-HANÉ",
+  "ota": {
+   "latn": "Kâğıdhane",
+   "arab": "كاغدخانه"
+  },
+  "modern": "Kağıthane",
+  "lit": {
+   "fr": {
+    "en": "Kiahad-Hané",
+    "tr": "Kâğıthane"
+   },
+   "ota": {
+    "en": "Paper-mill house",
+    "fr": "Maison du papier",
+    "tr": "Kâğıt hane"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   5316,
+   5203,
+   5533,
+   5233
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": null
+ },
+ {
+  "fr": "Pont de Bois",
+  "ota": null,
+  "modern": "Wooden bridge over the Kağıthane stream (lost)",
+  "lit": {
+   "fr": {
+    "en": "Wooden Bridge",
+    "tr": "Ahşap Köprü"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "infrastructure",
+  "bbox": [
+   5553,
+   5083,
+   5643,
+   5186
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Diagonal label"
+ },
+ {
+  "fr": "Prairie du Djerid",
+  "ota": {
+   "latn": "Cirit Çayırı",
+   "arab": "جرید چایری"
+  },
+  "modern": "Cirit Meydanı, Kağıthane (Sadabad meadow)",
+  "lit": {
+   "fr": {
+    "en": "Meadow of the Djerid",
+    "tr": "Cirit Çayırı"
+   },
+   "ota": {
+    "en": "Meadow of the javelin game",
+    "fr": "Prairie du jeu de javelot",
+    "tr": "Cirit çayırı"
+   },
+   "modern": null
+  },
+  "kind": "other",
+  "bbox": [
+   5612,
+   5238,
+   5710,
+   5325
+  ],
+  "parts": [
+   [
+    5612,
+    5238,
+    5710,
+    5292
+   ],
+   [
+    5644,
+    5278,
+    5698,
+    5325
+   ]
+  ],
+  "uncertain": false,
+  "note": "Cirit is the Ottoman mounted javelin game"
+ },
+ {
+  "fr": "Cascades",
+  "ota": {
+   "latn": "Çağlayan",
+   "arab": "چاغلایان"
+  },
+  "modern": "Çağlayan, Kağıthane",
+  "lit": {
+   "fr": {
+    "en": "Cascades",
+    "tr": "Şelaleler"
+   },
+   "ota": {
+    "en": "Waterfall",
+    "fr": "Cascade",
+    "tr": "Çağlayan"
+   },
+   "modern": null
+  },
+  "kind": "water",
+  "bbox": [
+   5708,
+   5200,
+   5774,
+   5270
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "The marble cascades of Sadabad on the Kağıthane stream"
+ },
+ {
+  "fr": "Kiahad-Hané ou Saad-abad, Palais du Gd Seigneur",
+  "ota": {
+   "latn": "Sadâbâd Kasrı",
+   "arab": "سعدآباد قصری"
+  },
+  "modern": "Sadabad Kasrı, Kağıthane (rebuilt as Çağlayan Kasrı; lost)",
+  "lit": {
+   "fr": {
+    "en": "Kiahad-Hané or Saad-abad, Palace of the Grand Seigneur",
+    "tr": "Kâğıthane ya da Sadabad, Büyük Efendi'nin Sarayı"
+   },
+   "ota": {
+    "en": "Pavilion of the Abode of Felicity",
+    "fr": "Pavillon de la Demeure de Félicité",
+    "tr": "Sadabad köşkü"
+   },
+   "modern": null
+  },
+  "kind": "palace",
+  "bbox": [
+   5757,
+   5236,
+   6023,
+   5327
+  ],
+  "parts": [
+   [
+    5757,
+    5236,
+    5943,
+    5273
+   ],
+   [
+    5794,
+    5270,
+    5906,
+    5300
+   ],
+   [
+    5814,
+    5294,
+    6023,
+    5327
+   ]
+  ],
+  "uncertain": false,
+  "note": "Built 1722 for Ahmed III in the Tulip Period"
+ },
+ {
+  "fr": "But de Tir",
+  "ota": null,
+  "modern": "Shooting range at Kağıthane (lost)",
+  "lit": {
+   "fr": {
+    "en": "Shooting butt",
+    "tr": "Atış hedefi"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "other",
+  "bbox": [
+   5476,
+   5326,
+   5596,
+   5356
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": null
+ },
+ {
+  "fr": "Buyuk-Levend Tchiftlik, brûlé en 1808",
+  "ota": {
+   "latn": "Büyük Levend Çiftliği",
+   "arab": "بیوك لوند چفتلكی"
+  },
+  "modern": "Levent, Beşiktaş (Levend Çiftliği barracks, site)",
+  "lit": {
+   "fr": {
+    "en": "Great Levend Farm, burnt in 1808",
+    "tr": "Büyük Levend Çiftliği, 1808'de yandı"
+   },
+   "ota": {
+    "en": "Farm of the Great Levends (marines)",
+    "fr": "Ferme des grands Levends",
+    "tr": "Büyük Levend çiftliği"
+   },
+   "modern": null
+  },
+  "kind": "military",
+  "bbox": [
+   5412,
+   4680,
+   5706,
+   4732
+  ],
+  "parts": [
+   [
+    5418,
+    4680,
+    5706,
+    4710
+   ],
+   [
+    5455,
+    4711,
+    5578,
+    4732
+   ]
+  ],
+  "uncertain": false,
+  "note": "Barracks of Selim III's Nizam-ı Cedid army, burnt in the 1808 revolt"
+ },
+ {
+  "fr": "Casernes",
+  "ota": {
+   "latn": "Levend Çiftliği Kışlası",
+   "arab": "لوند چفتلكی قشله سی"
+  },
+  "modern": "Levend Çiftliği barracks, Levent (lost)",
+  "lit": {
+   "fr": {
+    "en": "Barracks",
+    "tr": "Kışlalar"
+   },
+   "ota": {
+    "en": "Barracks of the Levend farm",
+    "fr": "Caserne de la ferme des Levends",
+    "tr": "Levend Çiftliği kışlası"
+   },
+   "modern": null
+  },
+  "kind": "military",
+  "bbox": [
+   5508,
+   4554,
+   5593,
+   4584
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Generic word placed on the Levend Çiftliği barracks"
+ },
+ {
+  "fr": "Kiosque pour le Gd Sr",
+  "ota": {
+   "latn": "Hünkâr Köşkü",
+   "arab": "خنكار كوشكی"
+  },
+  "modern": "Sultan's kiosk at Levend Çiftliği (lost)",
+  "lit": {
+   "fr": {
+    "en": "Kiosk for the Grand Seigneur",
+    "tr": "Büyük Efendi için Köşk"
+   },
+   "ota": {
+    "en": "The Sovereign's Kiosk",
+    "fr": "Kiosque du Souverain",
+    "tr": "Padişah köşkü"
+   },
+   "modern": null
+  },
+  "kind": "palace",
+  "bbox": [
+   5649,
+   4546,
+   5860,
+   4578
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Le Grand Seigneur = the Sultan"
+ },
+ {
+  "fr": "Cheik-ul-Islam Kiosque du Gd Sr",
+  "ota": {
+   "latn": "Şeyhülislam Köşkü",
+   "arab": "شیخ الاسلام كوشكی"
+  },
+  "modern": "Şeyhülislam's kiosk above Bebek (lost)",
+  "lit": {
+   "fr": {
+    "en": "Sheikh-ul-Islam, Kiosk of the Grand Seigneur",
+    "tr": "Şeyhülislam, Büyük Efendi'nin Köşkü"
+   },
+   "ota": {
+    "en": "Kiosk of the Sheikh-ul-Islam",
+    "fr": "Kiosque du Cheikh-ul-Islam",
+    "tr": "Şeyhülislam köşkü"
+   },
+   "modern": null
+  },
+  "kind": "palace",
+  "bbox": [
+   5643,
+   4300,
+   5800,
+   4353
+  ],
+  "parts": [
+   [
+    5648,
+    4300,
+    5795,
+    4324
+   ],
+   [
+    5648,
+    4326,
+    5795,
+    4353
+   ]
+  ],
+  "uncertain": true,
+  "note": "Two stacked lines, possibly two separate labels: the Şeyhülislam's property and a Sultan's kiosk"
+ },
+ {
+  "fr": "le Puits",
+  "ota": null,
+  "modern": "Well on the Büyükdere road above Ortaköy (lost)",
+  "lit": {
+   "fr": {
+    "en": "The Well",
+    "tr": "Kuyu"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "infrastructure",
+  "bbox": [
+   5846,
+   4670,
+   5950,
+   4700
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": null
+ },
+ {
+  "fr": "Puits et Corps de Gardes",
+  "ota": null,
+  "modern": "Well and guardhouse on the Büyükdere road (lost)",
+  "lit": {
+   "fr": {
+    "en": "Well and Guardhouse",
+    "tr": "Kuyu ve Karakol"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "military",
+  "bbox": [
+   5823,
+   4726,
+   6073,
+   4753
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": null
+ },
+ {
+  "fr": "Chemin de Buyuk-déré",
+  "ota": {
+   "latn": "Büyükdere Yolu",
+   "arab": "بیوك دره یولی"
+  },
+  "modern": "Büyükdere Caddesi",
+  "lit": {
+   "fr": {
+    "en": "Road of Büyükdere",
+    "tr": "Büyükdere Yolu"
+   },
+   "ota": {
+    "en": "Büyükdere road",
+    "fr": "Chemin de Büyükdere",
+    "tr": "Büyükdere yolu"
+   },
+   "modern": null
+  },
+  "kind": "road",
+  "bbox": [
+   5622,
+   4742,
+   6020,
+   4850
+  ],
+  "parts": [
+   [
+    5627,
+    4745,
+    5850,
+    4798
+   ],
+   [
+    5820,
+    4775,
+    6020,
+    4850
+   ]
+  ],
+  "uncertain": false,
+  "note": "Diagonal label along the road"
+ },
+ {
+  "fr": "Sou-Kerazous ou Pyramides Hydrauliques",
+  "ota": {
+   "latn": "Su Terazileri",
+   "arab": "صو ترازولری"
+  },
+  "modern": "Su terazisi towers of the Taksim water line, Levent-Zincirlikuyu",
+  "lit": {
+   "fr": {
+    "en": "Sou-Kerazous, or Hydraulic Pyramids",
+    "tr": "Su Terazileri, ya da Hidrolik Piramitler"
+   },
+   "ota": {
+    "en": "Water balances (pressure towers)",
+    "fr": "Balances d'eau (tours de pression)",
+    "tr": "Su terazileri"
+   },
+   "modern": null
+  },
+  "kind": "infrastructure",
+  "bbox": [
+   5143,
+   4650,
+   5570,
+   4830
+  ],
+  "parts": [
+   [
+    5148,
+    4650,
+    5305,
+    4748
+   ],
+   [
+    5311,
+    4748,
+    5570,
+    4830
+   ]
+  ],
+  "uncertain": true,
+  "note": "Engraved 'Kerazous' for 'terazous' (su terazisi); diagonal label along the aqueduct line"
+ }
 ]

@@ -1,12 +1,286 @@
 [
- {"fr":"PENDIK","ota":{"latn":"Pendik","arab":"پندیك"},"modern":"Pendik","lit":{"fr":{"en":"Pendik","tr":"Pendik"},"ota":{"en":"Pendik","fr":"Pendik","tr":"Pendik"},"modern":null},"kind":"village","bbox":[9708,892,9814,924],"parts":null,"uncertain":false,"note":"From Greek Pantichion"},
- {"fr":"Citerne ancienne","ota":null,"modern":"Ancient cistern at Pendik (lost)","lit":{"fr":{"en":"Ancient cistern","tr":"Eski sarnıç"},"ota":null,"modern":null},"kind":"ruin","bbox":[9846,816,10014,844],"parts":null,"uncertain":true,"note":null},
- {"fr":"Eglise Grecque","ota":null,"modern":"Greek Orthodox church of Pendik","lit":{"fr":{"en":"Greek Church","tr":"Rum Kilisesi"},"ota":null,"modern":null},"kind":"religious","bbox":[9746,936,9874,972],"parts":null,"uncertain":true,"note":"At Pendik"},
- {"fr":"KARTAL","ota":{"latn":"Kartal","arab":"قارتال"},"modern":"Kartal","lit":{"fr":{"en":"Kartal","tr":"Kartal"},"ota":{"en":"Eagle","fr":"Aigle","tr":"Kartal"},"modern":null},"kind":"village","bbox":[9578,1776,9710,1812],"parts":null,"uncertain":false,"note":"Greek Kartalimen"},
- {"fr":"Karavanserai","ota":{"latn":"Kervansaray","arab":"كروانسرای"},"modern":"Caravanserai at Kartal (lost)","lit":{"fr":{"en":"Caravanserai","tr":"Kervansaray"},"ota":{"en":"Caravan palace","fr":"Palais des caravanes","tr":"Kervansaray"},"modern":null},"kind":"other","bbox":[9634,1817,9745,1852],"parts":null,"uncertain":true,"note":"Label partly hidden under the village plan"},
- {"fr":"Chateau ruiné","ota":null,"modern":"Ruined castle at Kartal (lost)","lit":{"fr":{"en":"Ruined castle","tr":"Yıkık kale"},"ota":null,"modern":null},"kind":"ruin","bbox":[9828,1813,10002,1842],"parts":null,"uncertain":true,"note":null},
- {"fr":"Eglise Arménienne","ota":null,"modern":"Surp Nişan Armenian Church, Kartal","lit":{"fr":{"en":"Armenian Church","tr":"Ermeni Kilisesi"},"ota":null,"modern":null},"kind":"religious","bbox":[9524,1900,9702,1936],"parts":null,"uncertain":true,"note":"At Kartal"},
- {"fr":"Eglise Grecque","ota":null,"modern":"Greek Orthodox church of Kartal","lit":{"fr":{"en":"Greek Church","tr":"Rum Kilisesi"},"ota":null,"modern":null},"kind":"religious","bbox":[9642,1938,9754,1990],"parts":null,"uncertain":true,"note":"At Kartal, south of the village"},
- {"fr":"AGADGIK","ota":{"latn":"Ağacık","arab":"آغاجق"},"modern":"Yakacık, Kartal (?)","lit":{"fr":{"en":"Agadgik","tr":"Ağacık"},"ota":{"en":"Little tree","fr":"Petit arbre","tr":"Ağaççık"},"modern":null},"kind":"village","bbox":[9220,1822,9352,1854],"parts":null,"uncertain":true,"note":"Inland village north-west of Kartal; identification with Yakacık is a guess"},
- {"fr":"Chemin de Nicomédie","ota":{"latn":"İzmit Yolu","arab":"ایزمید یولی"},"modern":"Old Nicomedia road (today the Bağdat Caddesi / D-100 corridor)","lit":{"fr":{"en":"Road to Nicomedia","tr":"İzmit Yolu"},"ota":{"en":"Road of İzmit","fr":"Route d'Izmit","tr":"İzmit yolu"},"modern":null},"kind":"road","bbox":[9262,1476,9830,2314],"parts":[[9774,1476,9830,1628],[9574,1944,9602,1976],[9262,2250,9322,2314]],"uncertain":false,"note":"Three words strung along the coast road: Nicomédie near Pendik, de at Kartal, Chemin in chunk c_9100_1850"}
+ {
+  "fr": "PENDIK",
+  "ota": {
+   "latn": "Pendik",
+   "arab": "پندیك"
+  },
+  "modern": "Pendik",
+  "lit": {
+   "fr": {
+    "en": "Pendik",
+    "tr": "Pendik"
+   },
+   "ota": {
+    "en": "Pendik",
+    "fr": "Pendik",
+    "tr": "Pendik"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   9696,
+   903,
+   9808,
+   932
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "From Greek Pantichion"
+ },
+ {
+  "fr": "Citerne ancienne",
+  "ota": null,
+  "modern": "Ancient cistern at Pendik (lost)",
+  "lit": {
+   "fr": {
+    "en": "Ancient cistern",
+    "tr": "Eski sarnıç"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "ruin",
+  "bbox": [
+   9846,
+   816,
+   10014,
+   844
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": null
+ },
+ {
+  "fr": "Eglise Grecque",
+  "ota": null,
+  "modern": "Greek Orthodox church of Pendik",
+  "lit": {
+   "fr": {
+    "en": "Greek Church",
+    "tr": "Rum Kilisesi"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "religious",
+  "bbox": [
+   9738,
+   944,
+   9866,
+   982
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "At Pendik"
+ },
+ {
+  "fr": "KARTAL",
+  "ota": {
+   "latn": "Kartal",
+   "arab": "قارتال"
+  },
+  "modern": "Kartal",
+  "lit": {
+   "fr": {
+    "en": "Kartal",
+    "tr": "Kartal"
+   },
+   "ota": {
+    "en": "Eagle",
+    "fr": "Aigle",
+    "tr": "Kartal"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   9560,
+   1768,
+   9690,
+   1802
+  ],
+  "parts": null,
+  "uncertain": false,
+  "note": "Greek Kartalimen"
+ },
+ {
+  "fr": "Karavanserai",
+  "ota": {
+   "latn": "Kervansaray",
+   "arab": "كاروانسرای"
+  },
+  "modern": "Caravanserai at Kartal (lost)",
+  "lit": {
+   "fr": {
+    "en": "Caravanserai",
+    "tr": "Kervansaray"
+   },
+   "ota": {
+    "en": "Caravan palace",
+    "fr": "Palais des caravanes",
+    "tr": "Kervansaray"
+   },
+   "modern": null
+  },
+  "kind": "other",
+  "bbox": [
+   9615,
+   1806,
+   9745,
+   1848
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Label partly hidden under the village plan"
+ },
+ {
+  "fr": "Chateau ruiné",
+  "ota": null,
+  "modern": "Ruined castle at Kartal (lost)",
+  "lit": {
+   "fr": {
+    "en": "Ruined castle",
+    "tr": "Yıkık kale"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "ruin",
+  "bbox": [
+   9804,
+   1798,
+   9970,
+   1832
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": null
+ },
+ {
+  "fr": "Eglise Arménienne",
+  "ota": null,
+  "modern": "Surp Nişan Armenian Church, Kartal",
+  "lit": {
+   "fr": {
+    "en": "Armenian Church",
+    "tr": "Ermeni Kilisesi"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "religious",
+  "bbox": [
+   9511,
+   1893,
+   9686,
+   1922
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "At Kartal"
+ },
+ {
+  "fr": "Eglise Grecque",
+  "ota": null,
+  "modern": "Greek Orthodox church of Kartal",
+  "lit": {
+   "fr": {
+    "en": "Greek Church",
+    "tr": "Rum Kilisesi"
+   },
+   "ota": null,
+   "modern": null
+  },
+  "kind": "religious",
+  "bbox": [
+   9626,
+   1926,
+   9716,
+   1986
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "At Kartal, south of the village"
+ },
+ {
+  "fr": "AGADGIK",
+  "ota": {
+   "latn": "Ağacık",
+   "arab": "آغاجق"
+  },
+  "modern": "Ağacık (unidentified village north of Kartal)",
+  "lit": {
+   "fr": {
+    "en": "Agadgik",
+    "tr": "Ağacık"
+   },
+   "ota": {
+    "en": "Little tree",
+    "fr": "Petit arbre",
+    "tr": "Ağaççık"
+   },
+   "modern": null
+  },
+  "kind": "village",
+  "bbox": [
+   9210,
+   1818,
+   9364,
+   1854
+  ],
+  "parts": null,
+  "uncertain": true,
+  "note": "Possibly a garbled Yakacık, but IAKA-KEUI just to the west is the better match for that village; left unidentified"
+ },
+ {
+  "fr": "Chemin de Nicomédie",
+  "ota": {
+   "latn": "İzmit Yolu",
+   "arab": "ایزمید یولی"
+  },
+  "modern": "Old Nicomedia road (today the Bağdat Caddesi / D-100 corridor)",
+  "lit": {
+   "fr": {
+    "en": "Road to Nicomedia",
+    "tr": "İzmit Yolu"
+   },
+   "ota": {
+    "en": "Road of İzmit",
+    "fr": "Route d'Izmit",
+    "tr": "İzmit yolu"
+   },
+   "modern": null
+  },
+  "kind": "road",
+  "bbox": [
+   9258,
+   1476,
+   9830,
+   2293
+  ],
+  "parts": [
+   [
+    9774,
+    1476,
+    9830,
+    1628
+   ],
+   [
+    9560,
+    1932,
+    9590,
+    1963
+   ],
+   [
+    9258,
+    2232,
+    9326,
+    2293
+   ]
+  ],
+  "uncertain": false,
+  "note": "Three words strung along the coast road: Nicomédie near Pendik, de at Kartal, Chemin in chunk c_9100_1850"
+ }
 ]

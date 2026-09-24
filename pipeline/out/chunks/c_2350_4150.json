@@ -1,11 +1,291 @@
 [
- {"fr":"Tour d'Ovide, Édifice du Bas-Empire","ota":null,"modern":"Ovid's Tower, Byzantine watchtower ruin near Zekeriyaköy / Kilyos","lit":{"fr":{"en":"Ovid's Tower, building of the Late Empire","tr":"Ovidius Kulesi, Geç Roma dönemi yapısı"},"ota":null,"modern":null},"kind":"ruin","bbox":[3058,4226,3302,4287],"parts":[[3058,4226,3302,4258],[3140,4258,3262,4287]],"uncertain":true,"note":"Bas-Empire = the Late Roman/Byzantine empire; travellers linked the ruin to the exiled poet Ovid"},
- {"fr":"SCOMBRÉ-KEUI","ota":{"latn":"Uskumru Köyü","arab":"اوسقومرو كوی"},"modern":"Uskumruköy, Sarıyer","lit":{"fr":{"en":"Scombré village","tr":"Uskumru Köyü"},"ota":{"en":"Mackerel village","fr":"Village du maquereau","tr":"Uskumru köyü"},"modern":null},"kind":"village","bbox":[2530,4322,2775,4350],"parts":null,"uncertain":false,"note":"Scombre = mackerel (Greek skombros)"},
- {"fr":"Kastané-sou","ota":{"latn":"Kestane Suyu","arab":"كستانه صویی"},"modern":"Kestanesuyu, Bahçeköy (Sarıyer)","lit":{"fr":{"en":"Kastané-sou","tr":"Kestane Suyu"},"ota":{"en":"Chestnut water","fr":"Eau des châtaigniers","tr":"Kestane suyu"},"modern":null},"kind":"water","bbox":[3682,4192,3768,4302],"parts":null,"uncertain":true,"note":"Slanted label along a stream; reading is a guess"},
- {"fr":"Bend de Mahmoud","ota":{"latn":"Mahmud Bendi","arab":"محمود بندی"},"modern":"Topuzlu Bendi (Sultan I. Mahmud Bendi), Bahçeköy","lit":{"fr":{"en":"Dam of Mahmud","tr":"Mahmud Bendi"},"ota":{"en":"Mahmud's dam","fr":"Barrage de Mahmoud","tr":"Mahmud bendi"},"modern":null},"kind":"infrastructure","bbox":[3577,4690,3777,4830],"parts":null,"uncertain":true,"note":"Built 1750 under Mahmud I; the Mahmud II dam dates from 1839, after this map"},
- {"fr":"Bend de la Validé","ota":{"latn":"Valide Bendi","arab":"والده بندی"},"modern":"Valide Bendi, Bahçeköy","lit":{"fr":{"en":"Dam of the Validé","tr":"Valide Bendi"},"ota":{"en":"The Queen Mother's dam","fr":"Barrage de la Sultane mère","tr":"Valide sultan bendi"},"modern":null},"kind":"infrastructure","bbox":[3534,4920,3730,5030],"parts":null,"uncertain":false,"note":"Built 1796 for Mihrişah Valide Sultan"},
- {"fr":"PETIT BEND","ota":{"latn":"Küçük Bend","arab":"كوچك بند"},"modern":"Ayvad Bendi (probable), Belgrad Forest","lit":{"fr":{"en":"Small dam","tr":"Küçük Bent"},"ota":{"en":"Small dam","fr":"Petit barrage","tr":"Küçük bent"},"modern":null},"kind":"infrastructure","bbox":[3134,5025,3192,5215],"parts":null,"uncertain":true,"note":"Vertical label"},
- {"fr":"GRAND BEND","ota":{"latn":"Büyük Bend","arab":"بیوك بند"},"modern":"Büyük Bent, Belgrad Forest","lit":{"fr":{"en":"Great dam","tr":"Büyük Bent"},"ota":{"en":"Great dam","fr":"Grand barrage","tr":"Büyük bent"},"modern":null},"kind":"infrastructure","bbox":[3434,5225,3598,5365],"parts":null,"uncertain":false,"note":"Built 1723 under Ahmed III"},
- {"fr":"Kiamurli","ota":{"latn":"Kâmürlü","arab":"كامورلی"},"modern":"Unidentified village beside Belgrad village (abandoned)","lit":{"fr":{"en":"Kiamurli","tr":"Kâmürlü"},"ota":{"en":"Kâmürlü","fr":"Kâmürlü","tr":"Kâmürlü"},"modern":null},"kind":"village","bbox":[3318,5083,3428,5110],"parts":null,"uncertain":true,"note":null},
- {"fr":"le Vieux BELGRADE","ota":{"latn":"Belgrad Köyü","arab":"بلغراد كوی"},"modern":"Belgrat village site (evacuated 1890s), Belgrad Forest","lit":{"fr":{"en":"Old Belgrade","tr":"Eski Belgrad"},"ota":{"en":"Belgrade village","fr":"Village de Belgrade","tr":"Belgrad köyü"},"modern":null},"kind":"village","bbox":[3250,5178,3580,5210],"parts":[[3250,5185,3345,5210],[3425,5178,3580,5205]],"uncertain":true,"note":"'le Vieux' and 'BELGRADE' are split by the village symbol; settled by Serbs deported after 1521"}
+  {
+    "fr": "Tour d'Ovide, Édifice du Bas-Empire",
+    "ota": null,
+    "modern": "Ovid's Tower, Byzantine watchtower ruin near Zekeriyaköy / Kilyos",
+    "lit": {
+      "fr": {
+        "en": "Ovid's Tower, building of the Late Empire",
+        "tr": "Ovidius Kulesi, Geç Roma dönemi yapısı"
+      },
+      "ota": null,
+      "modern": null
+    },
+    "kind": "ruin",
+    "bbox": [
+      3058,
+      4226,
+      3302,
+      4287
+    ],
+    "parts": [
+      [
+        3058,
+        4226,
+        3302,
+        4258
+      ],
+      [
+        3140,
+        4258,
+        3262,
+        4287
+      ]
+    ],
+    "uncertain": true,
+    "note": "Bas-Empire = the Late Roman/Byzantine empire; travellers linked the ruin to the exiled poet Ovid"
+  },
+  {
+    "fr": "SCOMBRÉ-KEUI",
+    "ota": {
+      "latn": "Uskumru Köyü",
+      "arab": "اوسقومرو كوی"
+    },
+    "modern": "Uskumruköy, Sarıyer",
+    "lit": {
+      "fr": {
+        "en": "Scombré village",
+        "tr": "Uskumru Köyü"
+      },
+      "ota": {
+        "en": "Mackerel village",
+        "fr": "Village du maquereau",
+        "tr": "Uskumru köyü"
+      },
+      "modern": null
+    },
+    "kind": "village",
+    "bbox": [
+      2530,
+      4322,
+      2775,
+      4350
+    ],
+    "parts": null,
+    "uncertain": false,
+    "note": "Scombre = mackerel (Greek skombros)"
+  },
+  {
+    "fr": "Kastanié-sou",
+    "ota": {
+      "latn": "Kestane Suyu",
+      "arab": "كستانه صویی"
+    },
+    "modern": "Kestanesuyu, Bahçeköy (Sarıyer)",
+    "lit": {
+      "fr": {
+        "en": "Kastanié-sou",
+        "tr": "Kestane Suyu"
+      },
+      "ota": {
+        "en": "Chestnut water",
+        "fr": "Eau des châtaigniers",
+        "tr": "Kestane suyu"
+      },
+      "modern": null
+    },
+    "kind": "water",
+    "bbox": [
+      3682,
+      4192,
+      3768,
+      4302
+    ],
+    "parts": null,
+    "uncertain": true,
+    "note": "Slanted label along a stream; read as Kastanié-sou from a rotated zoom"
+  },
+  {
+    "fr": "Bend de Mahmoud",
+    "ota": {
+      "latn": "Mahmud Bendi",
+      "arab": "محمود بندی"
+    },
+    "modern": "Topuzlu Bendi (Sultan I. Mahmud Bendi), Bahçeköy",
+    "lit": {
+      "fr": {
+        "en": "Dam of Mahmud",
+        "tr": "Mahmud Bendi"
+      },
+      "ota": {
+        "en": "Mahmud's dam",
+        "fr": "Barrage de Mahmoud",
+        "tr": "Mahmud bendi"
+      },
+      "modern": null
+    },
+    "kind": "infrastructure",
+    "bbox": [
+      3577,
+      4690,
+      3777,
+      4830
+    ],
+    "parts": null,
+    "uncertain": true,
+    "note": "Built 1750 under Mahmud I; the Mahmud II dam dates from 1839, after this map"
+  },
+  {
+    "fr": "Bend de la Validé",
+    "ota": {
+      "latn": "Valide Bendi",
+      "arab": "والده بندی"
+    },
+    "modern": "Valide Bendi, Bahçeköy",
+    "lit": {
+      "fr": {
+        "en": "Dam of the Validé",
+        "tr": "Valide Bendi"
+      },
+      "ota": {
+        "en": "The Queen Mother's dam",
+        "fr": "Barrage de la Sultane mère",
+        "tr": "Valide sultan bendi"
+      },
+      "modern": null
+    },
+    "kind": "infrastructure",
+    "bbox": [
+      3534,
+      4920,
+      3730,
+      5030
+    ],
+    "parts": null,
+    "uncertain": false,
+    "note": "Built 1796 for Mihrişah Valide Sultan"
+  },
+  {
+    "fr": "PETIT BEND",
+    "ota": {
+      "latn": "Küçük Bend",
+      "arab": "كوچك بند"
+    },
+    "modern": "Ayvad Bendi (probable), Belgrad Forest",
+    "lit": {
+      "fr": {
+        "en": "Small dam",
+        "tr": "Küçük Bent"
+      },
+      "ota": {
+        "en": "Small dam",
+        "fr": "Petit barrage",
+        "tr": "Küçük bent"
+      },
+      "modern": null
+    },
+    "kind": "infrastructure",
+    "bbox": [
+      3134,
+      5025,
+      3192,
+      5215
+    ],
+    "parts": null,
+    "uncertain": true,
+    "note": "Vertical label"
+  },
+  {
+    "fr": "GRAND BEND",
+    "ota": {
+      "latn": "Büyük Bend",
+      "arab": "بیوك بند"
+    },
+    "modern": "Büyük Bent, Belgrad Forest",
+    "lit": {
+      "fr": {
+        "en": "Great dam",
+        "tr": "Büyük Bent"
+      },
+      "ota": {
+        "en": "Great dam",
+        "fr": "Grand barrage",
+        "tr": "Büyük bent"
+      },
+      "modern": null
+    },
+    "kind": "infrastructure",
+    "bbox": [
+      3434,
+      5225,
+      3598,
+      5365
+    ],
+    "parts": null,
+    "uncertain": false,
+    "note": "Built 1723 under Ahmed III"
+  },
+  {
+    "fr": "Kiamurli",
+    "ota": {
+      "latn": "Kâmürlü",
+      "arab": "كامورلی"
+    },
+    "modern": "Unidentified village beside Belgrad village (abandoned)",
+    "lit": {
+      "fr": {
+        "en": "Kiamurli",
+        "tr": "Kâmürlü"
+      },
+      "ota": {
+        "en": "Kâmürlü",
+        "fr": "Kâmürlü",
+        "tr": "Kâmürlü"
+      },
+      "modern": null
+    },
+    "kind": "village",
+    "bbox": [
+      3312,
+      5078,
+      3422,
+      5106
+    ],
+    "parts": null,
+    "uncertain": true,
+    "note": null
+  },
+  {
+    "fr": "le Vieux BELGRADE",
+    "ota": {
+      "latn": "Belgrad Köyü",
+      "arab": "بلغراد كوی"
+    },
+    "modern": "Belgrat village site (evacuated 1890s), Belgrad Forest",
+    "lit": {
+      "fr": {
+        "en": "Old Belgrade",
+        "tr": "Eski Belgrad"
+      },
+      "ota": {
+        "en": "Belgrade village",
+        "fr": "Village de Belgrade",
+        "tr": "Belgrad köyü"
+      },
+      "modern": null
+    },
+    "kind": "village",
+    "bbox": [
+      3250,
+      5178,
+      3580,
+      5210
+    ],
+    "parts": [
+      [
+        3250,
+        5185,
+        3345,
+        5210
+      ],
+      [
+        3425,
+        5178,
+        3580,
+        5205
+      ]
+    ],
+    "uncertain": true,
+    "note": "'le Vieux' and 'BELGRADE' are split by the village symbol; settled by Serbs deported after 1521"
+  }
 ]
