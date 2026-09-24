@@ -30,6 +30,9 @@ name (Latin and Arabic script) and today's name, each with a literal gloss.
   original, all served from upload.wikimedia.org with `Access-Control-Allow-Origin: *`.
   Only those thumbnail widths exist; others return 400. On phones the original level is
   dropped (`isConstrainedDevice`), because decoding 97 megapixels stalls mobile WebGL.
+  `minPixelRatio` is 0.3 on purpose: the levels are not power-of-two steps, and with the
+  default 0.5 the viewer stretched the 3840 px thumbnail at label zoom (blurry) and used
+  the 1280 px one at home. Measure with `?debug` (`window.__osd`) before changing it.
 - Scripted downloads need a descriptive User-Agent (`pipeline/common.py`). Gallica's
   IIIF endpoint refuses scripts; do not depend on it.
 - `pipeline/download.py` fetches the scan to `pipeline/raw/full.jpg` (gitignored) and

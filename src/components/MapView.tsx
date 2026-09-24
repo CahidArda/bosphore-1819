@@ -98,6 +98,11 @@ export const MapView = forwardRef<
       gestureSettingsTouch: { clickToZoom: false, dblClickToZoom: true },
       maxZoomPixelRatio: 2.5,
       minZoomImageRatio: 0.7,
+      // The Wikimedia levels are not power-of-two steps (1280, 1920, 3840, 12509), which
+      // confuses OpenSeadragon's level picker: with the default 0.5 it stretched the 3840 px
+      // thumbnail at label zoom and used the soft 1280 px one at home. 0.3 makes it draw the
+      // original when zoomed in, the 3840 level at moderate zoom and the 1920 level at home.
+      minPixelRatio: 0.3,
       visibilityRatio: 0.8,
       constrainDuringPan: true,
       animationTime: 0.6,
