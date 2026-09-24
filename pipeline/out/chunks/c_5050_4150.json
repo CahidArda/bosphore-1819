@@ -35,7 +35,7 @@
    "latn": "Tersane Anbarları",
    "arab": "ترسانه انبارلری"
   },
-  "modern": "Naval storehouses, Bebek (lost)",
+  "modern": "Tersane ambarları, Bebek (lost)",
   "lit": {
    "fr": {
     "en": "Storehouses of the Navy",
@@ -46,7 +46,11 @@
     "fr": "Magasins de l'Arsenal",
     "tr": "Tersane ambarları"
    },
-   "modern": null
+   "modern": {
+    "en": "Arsenal storehouses",
+    "fr": "Magasins de l'Arsenal",
+    "tr": "Tersane ambarları"
+   }
   },
   "kind": "military",
   "bbox": [
@@ -57,7 +61,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Diagonal label; the Ottoman name is reconstructed"
+  "note": {
+   "en": "Diagonal label; the Ottoman name is reconstructed",
+   "fr": "Étiquette en diagonale ; le nom ottoman est reconstitué",
+   "tr": "Çapraz etiket; Osmanlıca ad yeniden kurgulanmıştır"
+  }
  },
  {
   "fr": "ARNAOUT-KEUI",
@@ -92,14 +100,18 @@
  {
   "fr": "Roche St Sèle",
   "ota": null,
-  "modern": "Rock off Arnavutköy (unidentified)",
+  "modern": "Arnavutköy açığında kaya (unidentified)",
   "lit": {
    "fr": {
     "en": "Rock of St Sèle",
     "tr": "Aziz Sèle Kayası"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Rock off Arnavutköy",
+    "fr": "Rocher au large d'Arnavutköy",
+    "tr": "Arnavutköy açığında kaya"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -110,7 +122,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Two-line diagonal label; the saint's name is barely legible"
+  "note": {
+   "en": "Two-line diagonal label; the saint's name is barely legible",
+   "fr": "Étiquette de deux lignes en diagonale ; le nom du saint est à peine lisible",
+   "tr": "İki satırlık çapraz etiket; azizin adı güçlükle okunuyor"
+  }
  },
  {
   "fr": "Palais de la Esma Sultane",
@@ -140,7 +156,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Diagonal label; the Sultana's name is read with difficulty"
+  "note": {
+   "en": "Diagonal label; the Sultana's name is read with difficulty",
+   "fr": "Étiquette en diagonale ; le nom de la sultane se lit difficilement",
+   "tr": "Çapraz etiket; sultanın adı güçlükle okunuyor"
+  }
  },
  {
   "fr": "Defterdar-Bournou",
@@ -226,7 +246,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Designed by Antoine-Ignace Melling for Selim III's sister"
+  "note": {
+   "en": "Designed by Antoine-Ignace Melling for Selim III's sister",
+   "fr": "Dessiné par Antoine-Ignace Melling pour la sœur de Sélim III",
+   "tr": "III. Selim'in kız kardeşi için Antoine-Ignace Melling tarafından tasarlandı"
+  }
  },
  {
   "fr": "KOUROU-TCHECHME",
@@ -261,14 +285,18 @@
  {
   "fr": "St Elie",
   "ota": null,
-  "modern": "Profitis Ilias (Aya İlya) church, Arnavutköy",
+  "modern": "Aya İlya Kilisesi, Arnavutköy",
   "lit": {
    "fr": {
     "en": "St Elias",
     "tr": "Aziz İlyas"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Church of Saint Elias",
+    "fr": "Église Saint-Élie",
+    "tr": "Aya İlya kilisesi"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -279,7 +307,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": null
+  "note": {
+   "en": "The Greek Orthodox church of Profitis Ilias (Saint Elias) in Arnavutköy",
+   "fr": "L'église grecque-orthodoxe Profitis Ilias (Saint-Élie) d'Arnavutköy",
+   "tr": "Arnavutköy'deki Profitis İlias (Aya İlya) Rum Ortodoks kilisesi"
+  }
  },
  {
   "fr": "ORTA-KEUI",
@@ -317,7 +349,7 @@
    "latn": "Ermeni Mezarlığı",
    "arab": "ارمنی مزارلغی"
   },
-  "modern": "Armenian cemetery, Ortaköy",
+  "modern": "Ermeni Mezarlığı, Ortaköy",
   "lit": {
    "fr": {
     "en": "Armenian Cemetery",
@@ -328,7 +360,11 @@
     "fr": "Cimetière arménien",
     "tr": "Ermeni mezarlığı"
    },
-   "modern": null
+   "modern": {
+    "en": "Armenian cemetery",
+    "fr": "Cimetière arménien",
+    "tr": "Ermeni mezarlığı"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -352,7 +388,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "The Ottoman name is reconstructed"
+  "note": {
+   "en": "The Ottoman name is reconstructed",
+   "fr": "Le nom ottoman est reconstitué",
+   "tr": "Osmanlıca ad yeniden kurgulanmıştır"
+  }
  },
  {
   "fr": "Kiosque du Gd Sr",
@@ -360,7 +400,7 @@
    "latn": "Hünkâr Köşkü",
    "arab": "خنكار كوشكی"
   },
-  "modern": "Sultan's kiosk above Ortaköy (lost)",
+  "modern": "Hünkâr Köşkü, Ortaköy (lost)",
   "lit": {
    "fr": {
     "en": "Kiosk of the Grand Seigneur",
@@ -371,7 +411,11 @@
     "fr": "Kiosque du Souverain",
     "tr": "Padişah köşkü"
    },
-   "modern": null
+   "modern": {
+    "en": "The Sultan's kiosk",
+    "fr": "Kiosque du Sultan",
+    "tr": "Padişah köşkü"
+   }
   },
   "kind": "palace",
   "bbox": [
@@ -382,7 +426,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Le Grand Seigneur = the Sultan"
+  "note": {
+   "en": "Le Grand Seigneur = the Sultan",
+   "fr": "Le Grand Seigneur désigne le Sultan",
+   "tr": "Le Grand Seigneur, padişah demektir"
+  }
  },
  {
   "fr": "Ieni Mahallé",
@@ -472,7 +520,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Flamour is Greek flamouri, the linden; the Ihlamur Kasrı was built here in the 1850s"
+  "note": {
+   "en": "Flamour is Greek flamouri, the linden; the Ihlamur Kasrı was built here in the 1850s",
+   "fr": "Flamour vient du grec flamouri, le tilleul ; le Ihlamur Kasrı fut bâti ici dans les années 1850",
+   "tr": "Flamour, Yunanca flamouri yani ıhlamurdan gelir; Ihlamur Kasrı 1850'lerde burada yapıldı"
+  }
  },
  {
   "fr": "Kutchuk-Levend Tchiftlik",
@@ -480,7 +532,7 @@
    "latn": "Küçük Levend Çiftliği",
    "arab": "كوچك لوند چفتلكی"
   },
-  "modern": "Küçük Levent (Levent), Beşiktaş",
+  "modern": "Küçük Levent, Beşiktaş",
   "lit": {
    "fr": {
     "en": "Little Levend Farm",
@@ -502,7 +554,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Levends were Ottoman marines and irregular troops; this was the smaller of the two Levend farms"
+  "note": {
+   "en": "Levends were Ottoman marines and irregular troops; this was the smaller of the two Levend farms, on the site of today's Levent",
+   "fr": "Les levends étaient des marins et des troupes irrégulières ottomanes ; c'était la plus petite des deux fermes des Levends, sur le site du Levent actuel",
+   "tr": "Levendler Osmanlı deniz erleri ve başıbozuk askerleriydi; bu, iki Levend çiftliğinin küçüğüydü ve bugünkü Levent'in yerindeydi"
+  }
  },
  {
   "fr": "St DIMITRI",
@@ -510,7 +566,7 @@
    "latn": "Aya Dimitri",
    "arab": "آیا دیمیتری"
   },
-  "modern": "Kurtuluş (Tatavla), Şişli",
+  "modern": "Kurtuluş, Şişli",
   "lit": {
    "fr": {
     "en": "St Demetrius",
@@ -521,7 +577,11 @@
     "fr": "Saint Démétrius",
     "tr": "Aya Dimitri"
    },
-   "modern": null
+   "modern": {
+    "en": "Liberation",
+    "fr": "Libération",
+    "tr": "Kurtuluş"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -532,7 +592,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "The Greek quarter of Tatavla, named after its church"
+  "note": {
+   "en": "The Greek quarter of Tatavla, named after its church; renamed Kurtuluş in 1929",
+   "fr": "Le quartier grec de Tatavla, nommé d'après son église ; rebaptisé Kurtuluş en 1929",
+   "tr": "Kilisesinden adını alan Rum semti Tatavla; 1929'da Kurtuluş adını aldı"
+  }
  },
  {
   "fr": "Tatalla-déré",
@@ -551,7 +615,11 @@
     "fr": "Ruisseau de Tatavla",
     "tr": "Tatavla deresi"
    },
-   "modern": null
+   "modern": {
+    "en": "Waterwheel stream",
+    "fr": "Ruisseau de la noria",
+    "tr": "Dolap deresi"
+   }
   },
   "kind": "water",
   "bbox": [
@@ -562,7 +630,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Diagonal label; the Tatavla stream is today the culverted Dolapdere"
+  "note": {
+   "en": "Diagonal label; the Tatavla stream is today the culverted Dolapdere",
+   "fr": "Étiquette en diagonale ; le ruisseau de Tatavla est aujourd'hui le Dolapdere, canalisé sous terre",
+   "tr": "Çapraz etiket; Tatavla deresi bugün üstü kapatılmış Dolapdere'dir"
+  }
  },
  {
   "fr": "KIAHAD-HANÉ",
@@ -597,14 +669,18 @@
  {
   "fr": "Pont de Bois",
   "ota": null,
-  "modern": "Wooden bridge, Kağıthane (lost)",
+  "modern": "Ahşap köprü, Kağıthane (lost)",
   "lit": {
    "fr": {
     "en": "Wooden Bridge",
     "tr": "Ahşap Köprü"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Wooden bridge",
+    "fr": "Pont de bois",
+    "tr": "Ahşap köprü"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -615,7 +691,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Diagonal label"
+  "note": {
+   "en": "Diagonal label",
+   "fr": "Étiquette en diagonale",
+   "tr": "Çapraz etiket"
+  }
  },
  {
   "fr": "Prairie du Djerid",
@@ -634,7 +714,11 @@
     "fr": "Prairie du jeu de javelot",
     "tr": "Cirit çayırı"
    },
-   "modern": null
+   "modern": {
+    "en": "Javelin-game ground",
+    "fr": "Terrain du jeu de javelot",
+    "tr": "Cirit meydanı"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -658,7 +742,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Cirit is the Ottoman mounted javelin game; the meadow belonged to the Sadabad grounds"
+  "note": {
+   "en": "Cirit is the Ottoman mounted javelin game; the meadow belonged to the Sadabad grounds",
+   "fr": "Le cirit est le jeu de javelot à cheval des Ottomans ; la prairie faisait partie du domaine de Sadabad",
+   "tr": "Cirit, Osmanlıların atlı mızrak oyunudur; çayır Sadabad arazisine aitti"
+  }
  },
  {
   "fr": "Cascades",
@@ -688,7 +776,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "The marble cascades of Sadabad on the Kağıthane stream"
+  "note": {
+   "en": "The marble cascades of Sadabad on the Kağıthane stream",
+   "fr": "Les cascades de marbre de Sadabad sur le ruisseau de Kağıthane",
+   "tr": "Kağıthane deresi üzerindeki Sadabad'ın mermer çağlayanları"
+  }
  },
  {
   "fr": "Kiahad-Hané ou Saad-abad, Palais du Gd Seigneur",
@@ -737,19 +829,27 @@
    ]
   ],
   "uncertain": false,
-  "note": "Built 1722 for Ahmed III in the Tulip Period; rebuilt as Çağlayan Kasrı and later demolished"
+  "note": {
+   "en": "Built 1722 for Ahmed III in the Tulip Period; rebuilt as Çağlayan Kasrı and later demolished",
+   "fr": "Bâti en 1722 pour Ahmed III à l'époque des Tulipes ; reconstruit sous le nom de Çağlayan Kasrı, puis démoli",
+   "tr": "Lale Devri'nde, 1722'de III. Ahmed için yapıldı; Çağlayan Kasrı olarak yeniden inşa edildi, sonra yıkıldı"
+  }
  },
  {
   "fr": "But de Tir",
   "ota": null,
-  "modern": "Shooting butt, Kağıthane (lost)",
+  "modern": "Atış hedefi, Kağıthane (lost)",
   "lit": {
    "fr": {
     "en": "Shooting butt",
     "tr": "Atış hedefi"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Shooting butt",
+    "fr": "Butte de tir",
+    "tr": "Atış hedefi"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -803,7 +903,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Barracks of Selim III's Nizam-ı Cedid army, burnt in the 1808 revolt"
+  "note": {
+   "en": "Barracks of Selim III's Nizam-ı Cedid army, burnt in the 1808 revolt",
+   "fr": "Caserne de l'armée du Nizam-ı Cedid de Sélim III, incendiée lors de la révolte de 1808",
+   "tr": "III. Selim'in Nizam-ı Cedid ordusunun kışlası; 1808 ayaklanmasında yakıldı"
+  }
  },
  {
   "fr": "Casernes",
@@ -811,7 +915,7 @@
    "latn": "Levend Çiftliği Kışlası",
    "arab": "لوند چفتلكی قشله سی"
   },
-  "modern": "Levend Çiftliği barracks, Levent (lost)",
+  "modern": "Levend Çiftliği Kışlası, Levent (lost)",
   "lit": {
    "fr": {
     "en": "Barracks",
@@ -822,7 +926,11 @@
     "fr": "Caserne de la ferme des Levends",
     "tr": "Levend Çiftliği kışlası"
    },
-   "modern": null
+   "modern": {
+    "en": "Barracks of the Levend farm",
+    "fr": "Caserne de la ferme des Levends",
+    "tr": "Levend Çiftliği kışlası"
+   }
   },
   "kind": "military",
   "bbox": [
@@ -833,7 +941,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Generic word placed on the Levend Çiftliği barracks"
+  "note": {
+   "en": "Generic word placed on the Levend Çiftliği barracks",
+   "fr": "Mot générique placé sur la caserne de Levend Çiftliği",
+   "tr": "Levend Çiftliği kışlasının üzerine yazılmış genel bir sözcük"
+  }
  },
  {
   "fr": "Kiosque pour le Gd Sr",
@@ -841,7 +953,7 @@
    "latn": "Hünkâr Köşkü",
    "arab": "خنكار كوشكی"
   },
-  "modern": "Sultan's kiosk at Levend Çiftliği (lost)",
+  "modern": "Hünkâr Köşkü, Levend Çiftliği (lost)",
   "lit": {
    "fr": {
     "en": "Kiosk for the Grand Seigneur",
@@ -852,7 +964,11 @@
     "fr": "Kiosque du Souverain",
     "tr": "Padişah köşkü"
    },
-   "modern": null
+   "modern": {
+    "en": "The Sultan's kiosk",
+    "fr": "Kiosque du Sultan",
+    "tr": "Padişah köşkü"
+   }
   },
   "kind": "palace",
   "bbox": [
@@ -863,7 +979,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Le Grand Seigneur = the Sultan"
+  "note": {
+   "en": "Le Grand Seigneur = the Sultan",
+   "fr": "Le Grand Seigneur désigne le Sultan",
+   "tr": "Le Grand Seigneur, padişah demektir"
+  }
  },
  {
   "fr": "Cheik-ul-Islam Kiosque du Gd Sr",
@@ -871,7 +991,7 @@
    "latn": "Şeyhülislam Köşkü",
    "arab": "شیخ الاسلام كوشكی"
   },
-  "modern": "Şeyhülislam's kiosk above Bebek (lost)",
+  "modern": "Şeyhülislam Köşkü, Bebek (lost)",
   "lit": {
    "fr": {
     "en": "Sheikh-ul-Islam, Kiosk of the Grand Seigneur",
@@ -882,7 +1002,11 @@
     "fr": "Kiosque du Cheikh-ul-Islam",
     "tr": "Şeyhülislam köşkü"
    },
-   "modern": null
+   "modern": {
+    "en": "Kiosk of the Sheikh-ul-Islam",
+    "fr": "Kiosque du Cheikh-ul-Islam",
+    "tr": "Şeyhülislam köşkü"
+   }
   },
   "kind": "palace",
   "bbox": [
@@ -906,19 +1030,27 @@
    ]
   ],
   "uncertain": true,
-  "note": "Two stacked lines, possibly two separate labels: the Şeyhülislam's property and a Sultan's kiosk"
+  "note": {
+   "en": "Two stacked lines, possibly two separate labels: the Şeyhülislam's property and a Sultan's kiosk",
+   "fr": "Deux lignes superposées, peut-être deux étiquettes distinctes : la propriété du Cheikh-ul-Islam et un kiosque du Sultan",
+   "tr": "Üst üste iki satır, belki iki ayrı etiket: Şeyhülislam'ın mülkü ve bir hünkâr köşkü"
+  }
  },
  {
   "fr": "le Puits",
   "ota": null,
-  "modern": "Well on the Büyükdere road (lost)",
+  "modern": "Büyükdere yolunda kuyu (lost)",
   "lit": {
    "fr": {
     "en": "The Well",
     "tr": "Kuyu"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Well on the Büyükdere road",
+    "fr": "Puits sur la route de Büyükdere",
+    "tr": "Büyükdere yolunda kuyu"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -934,14 +1066,18 @@
  {
   "fr": "Puits et Corps de Gardes",
   "ota": null,
-  "modern": "Well and guardhouse on the Büyükdere road (lost)",
+  "modern": "Büyükdere yolunda kuyu ve karakol (lost)",
   "lit": {
    "fr": {
     "en": "Well and Guardhouse",
     "tr": "Kuyu ve Karakol"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Well and guardhouse on the Büyükdere road",
+    "fr": "Puits et corps de garde sur la route de Büyükdere",
+    "tr": "Büyükdere yolunda kuyu ve karakol"
+   }
   },
   "kind": "military",
   "bbox": [
@@ -971,7 +1107,11 @@
     "fr": "Chemin de Büyükdere",
     "tr": "Büyükdere yolu"
    },
-   "modern": null
+   "modern": {
+    "en": "Büyükdere Avenue",
+    "fr": "Avenue de Büyükdere",
+    "tr": "Büyükdere caddesi"
+   }
   },
   "kind": "road",
   "bbox": [
@@ -995,7 +1135,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Diagonal label along the road"
+  "note": {
+   "en": "Diagonal label along the road",
+   "fr": "Étiquette en diagonale le long de la route",
+   "tr": "Yol boyunca çapraz yazılmış etiket"
+  }
  },
  {
   "fr": "Sou-Kerazous ou Pyramides Hydrauliques",
@@ -1003,7 +1147,7 @@
    "latn": "Su Terazileri",
    "arab": "صو ترازولری"
   },
-  "modern": "Su terazisi towers, Levent",
+  "modern": "Su terazileri, Levent",
   "lit": {
    "fr": {
     "en": "Sou-Kerazous, or Hydraulic Pyramids",
@@ -1014,7 +1158,11 @@
     "fr": "Balances d'eau",
     "tr": "Su terazileri"
    },
-   "modern": null
+   "modern": {
+    "en": "Water-balance towers",
+    "fr": "Tours de balance d'eau",
+    "tr": "Su terazileri"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -1038,6 +1186,10 @@
    ]
   ],
   "uncertain": true,
-  "note": "Engraved 'Kerazous' for 'terazous' (su terazisi, the pressure towers of the Taksim water line); diagonal label along the aqueduct"
+  "note": {
+   "en": "Engraved 'Kerazous' for 'terazous' (su terazisi, the pressure towers of the Taksim water line); diagonal label along the aqueduct",
+   "fr": "Gravé « Kerazous » pour « terazous » (su terazisi, les tours de pression de la conduite d'eau de Taksim) ; étiquette en diagonale le long de l'aqueduc",
+   "tr": "'terazous' yerine 'Kerazous' hakkedilmiş (su terazisi, Taksim su yolunun basınç kuleleri); su kemeri boyunca çapraz etiket"
+  }
  }
 ]

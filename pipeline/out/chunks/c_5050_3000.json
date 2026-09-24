@@ -2,14 +2,18 @@
  {
   "fr": "Glaris Rivière",
   "ota": null,
-  "modern": "Glaris stream (unidentified)",
+  "modern": "Glaris Deresi (unidentified)",
   "lit": {
    "fr": {
     "en": "Glaris River",
     "tr": "Glaris Nehri"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Glaris stream",
+    "fr": "Ruisseau de Glaris",
+    "tr": "Glaris deresi"
+   }
   },
   "kind": "water",
   "bbox": [
@@ -33,7 +37,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "Vertical label on the stream between İncirköy and Çubuklu; the first letter may be C (Claris). Name of unknown, possibly Greek, origin."
+  "note": {
+   "en": "Vertical label on the stream between İncirköy and Çubuklu; the first letter may be C (Claris). Name of unknown, possibly Greek, origin.",
+   "fr": "Étiquette verticale sur le ruisseau entre İncirköy et Çubuklu ; la première lettre pourrait être un C (Claris). Nom d'origine inconnue, peut-être grecque.",
+   "tr": "İncirköy ile Çubuklu arasındaki dere üzerinde dikey yazı; ilk harf C olabilir (Claris). Kökeni bilinmeyen, belki Rumca bir ad."
+  }
  },
  {
   "fr": "Defterdar Tchiftlighi",
@@ -52,7 +60,11 @@
     "fr": "Ferme du Trésorier",
     "tr": "Defterdar çiftliği"
    },
-   "modern": null
+   "modern": {
+    "en": "The Treasurer's farm",
+    "fr": "Ferme du Trésorier",
+    "tr": "Defterdar çiftliği"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -63,19 +75,27 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Defterdar = the Ottoman finance minister; the farm lay on the hills above Çubuklu."
+  "note": {
+   "en": "Defterdar = the Ottoman finance minister; the farm lay on the hills above Çubuklu.",
+   "fr": "Defterdar = le ministre ottoman des finances ; la ferme se trouvait sur les collines au-dessus de Çubuklu.",
+   "tr": "Defterdar, Osmanlı maliye nazırıdır; çiftlik Çubuklu'nun üstündeki tepelerdeydi."
+  }
  },
  {
   "fr": "3 Citernes antiques",
   "ota": null,
-  "modern": "Three ancient cisterns, İncirköy (unidentified)",
+  "modern": "Üç antik sarnıç, İncirköy (unidentified)",
   "lit": {
    "fr": {
     "en": "3 ancient cisterns",
     "tr": "3 antik sarnıç"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Three ancient cisterns",
+    "fr": "Trois citernes antiques",
+    "tr": "Üç antik sarnıç"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -86,7 +106,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "On the hills between İncirköy and Kavacık."
+  "note": {
+   "en": "On the hills between İncirköy and Kavacık.",
+   "fr": "Sur les collines entre İncirköy et Kavacık.",
+   "tr": "İncirköy ile Kavacık arasındaki tepelerde."
+  }
  },
  {
   "fr": "Kavadgik",
@@ -121,14 +145,18 @@
  {
   "fr": "Kiosque ruiné",
   "ota": null,
-  "modern": "Ruined kiosk, Kavacık (lost)",
+  "modern": "Yıkık köşk, Kavacık (lost)",
   "lit": {
    "fr": {
     "en": "Ruined kiosk",
     "tr": "Yıkık köşk"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Ruined kiosk",
+    "fr": "Kiosque en ruine",
+    "tr": "Yıkık köşk"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -139,7 +167,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Placed directly under Kavadgik"
+  "note": {
+   "en": "Placed directly under Kavadgik",
+   "fr": "Placé juste sous Kavadgik",
+   "tr": "Kavadgik yazısının hemen altında"
+  }
  },
  {
   "fr": "Ghenk-sou",
@@ -169,7 +201,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Vertical label; engraved 'Ghenk-sou', perhaps for 'Gheuk-sou' (Gök-su). Probably the upper Göksu."
+  "note": {
+   "en": "Vertical label; engraved 'Ghenk-sou', perhaps for 'Gheuk-sou' (Gök-su). Probably the upper Göksu.",
+   "fr": "Étiquette verticale ; gravé « Ghenk-sou », sans doute pour « Gheuk-sou » (Gök-su). Probablement le cours supérieur du Göksu.",
+   "tr": "Dikey yazı; 'Ghenk-sou' kazınmış, muhtemelen 'Gheuk-sou' (Gök-su) yerine. Büyük olasılıkla Göksu'nun yukarı kesimi."
+  }
  },
  {
   "fr": "Kutchuk-sou",
@@ -199,19 +235,27 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Diagonal label along the stream"
+  "note": {
+   "en": "Diagonal label along the stream",
+   "fr": "Étiquette en diagonale le long du ruisseau",
+   "tr": "Dere boyunca çapraz yazı"
+  }
  },
  {
   "fr": "Ferme d'un Arménien",
   "ota": null,
-  "modern": "Armenian farm, Kandilli (lost)",
+  "modern": "Ermeni çiftliği, Kandilli (lost)",
   "lit": {
    "fr": {
     "en": "Farm of an Armenian",
     "tr": "Bir Ermeni'nin çiftliği"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Armenian farm",
+    "fr": "Ferme arménienne",
+    "tr": "Ermeni çiftliği"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -222,7 +266,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Inland, on the hills above Kandilli and Vaniköy."
+  "note": {
+   "en": "Inland, on the hills above Kandilli and Vaniköy.",
+   "fr": "À l'intérieur des terres, sur les collines au-dessus de Kandilli et Vaniköy.",
+   "tr": "İç kesimde, Kandilli ve Vaniköy'ün üstündeki tepelerde."
+  }
  },
  {
   "fr": "Muravada",
@@ -241,7 +289,11 @@
     "fr": "Demeure du soleil (persan mihr)",
     "tr": "Mihr (güneş) yurdu"
    },
-   "modern": null
+   "modern": {
+    "en": "Mihrabat grove",
+    "fr": "Bois de Mihrabat",
+    "tr": "Mihrabat korusu"
+   }
   },
   "kind": "quarter",
   "bbox": [
@@ -252,7 +304,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Engraved 'Muravada'; identified with Mihrabat on the hill above Kanlıca"
+  "note": {
+   "en": "Engraved 'Muravada'; identified with Mihrabat on the hill above Kanlıca",
+   "fr": "Gravé « Muravada » ; identifié avec Mihrabat, sur la colline au-dessus de Kanlıca",
+   "tr": "'Muravada' kazınmış; Kanlıca'nın üstündeki tepedeki Mihrabat ile özdeşleştirildi"
+  }
  },
  {
   "fr": "Tchiboukli",
@@ -282,7 +338,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Vertical label; final letter read as i"
+  "note": {
+   "en": "Vertical label; final letter read as i",
+   "fr": "Étiquette verticale ; dernière lettre lue comme un i",
+   "tr": "Dikey yazı; son harf i olarak okundu"
+  }
  },
  {
   "fr": "Golfe de Tchiboukli",
@@ -301,7 +361,11 @@
     "fr": "Golfe de Çubuklu",
     "tr": "Çubuklu körfezi"
    },
-   "modern": null
+   "modern": {
+    "en": "Çubuklu bay",
+    "fr": "Baie de Çubuklu",
+    "tr": "Çubuklu koyu"
+   }
   },
   "kind": "bay",
   "bbox": [
@@ -325,7 +389,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "Final letter of Tchiboukli read as i"
+  "note": {
+   "en": "Final letter of Tchiboukli read as i",
+   "fr": "Dernière lettre de Tchiboukli lue comme un i",
+   "tr": "Tchiboukli'nin son harfi i olarak okundu"
+  }
  },
  {
   "fr": "KANDLIDGÉ",
@@ -385,7 +453,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Curved label along the shore"
+  "note": {
+   "en": "Curved label along the shore",
+   "fr": "Étiquette courbe le long du rivage",
+   "tr": "Kıyı boyunca kavisli yazı"
+  }
  },
  {
   "fr": "Keurfès",
@@ -415,7 +487,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Small vertical label in the cove south of Kanlıca"
+  "note": {
+   "en": "Small vertical label in the cove south of Kanlıca",
+   "fr": "Petite étiquette verticale dans l'anse au sud de Kanlıca",
+   "tr": "Kanlıca'nın güneyindeki koyda küçük dikey yazı"
+  }
  },
  {
   "fr": "ANADOLI-HISARI",
@@ -453,7 +529,7 @@
    "latn": "Anadolu Hisarı",
    "arab": "آناطولی حصاری"
   },
-  "modern": "Anadoluhisarı fortress",
+  "modern": "Anadoluhisarı Kalesi",
   "lit": {
    "fr": {
     "en": "Castle",
@@ -464,7 +540,11 @@
     "fr": "Forteresse d'Anatolie",
     "tr": "Anadolu kalesi"
    },
-   "modern": null
+   "modern": {
+    "en": "Anadoluhisarı fortress",
+    "fr": "Forteresse d'Anadoluhisarı",
+    "tr": "Anadoluhisarı kalesi"
+   }
   },
   "kind": "fort",
   "bbox": [
@@ -475,7 +555,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Generic 'Château' placed on the fortress of Bayezid I (1395), also called Güzelce Hisar."
+  "note": {
+   "en": "Generic 'Château' placed on the fortress of Bayezid I (1395), also called Güzelce Hisar.",
+   "fr": "« Château » générique placé sur la forteresse de Bayezid Ier (1395), dite aussi Güzelce Hisar.",
+   "tr": "I. Bayezid'in kalesi (1395) üzerine konmuş genel 'Château' yazısı; Güzelce Hisar da denir."
+  }
  },
  {
   "fr": "Kiosque du Gd Sr",
@@ -494,7 +578,11 @@
     "fr": "Kiosque du Souverain",
     "tr": "Padişah köşkü"
    },
-   "modern": null
+   "modern": {
+    "en": "Küçüksu Pavilion",
+    "fr": "Pavillon de Küçüksu",
+    "tr": "Küçüksu kasrı"
+   }
   },
   "kind": "palace",
   "bbox": [
@@ -505,7 +593,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Le Grand Seigneur = the Sultan; the kiosk stands at the Göksu mouth, where Mahmud I's wooden Göksu Kasrı (1752) preceded the present Küçüksu Kasrı (1857)."
+  "note": {
+   "en": "Le Grand Seigneur = the Sultan; the kiosk stands at the Göksu mouth, where Mahmud I's wooden Göksu Kasrı (1752) preceded the present Küçüksu Kasrı (1857).",
+   "fr": "Le Grand Seigneur = le Sultan ; le kiosque se trouve à l'embouchure du Göksu, où le Göksu Kasrı en bois de Mahmud Ier (1752) a précédé l'actuel Küçüksu Kasrı (1857).",
+   "tr": "Le Grand Seigneur = Padişah; köşk Göksu ağzındadır, I. Mahmud'un ahşap Göksu Kasrı (1752) bugünkü Küçüksu Kasrı'ndan (1857) önce burada duruyordu."
+  }
  },
  {
   "fr": "Les Eaux douces d'Asie",
@@ -535,7 +627,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "The meadow between the Göksu and Küçüksu streams (Küçüksu Çayırı) was a favourite excursion spot."
+  "note": {
+   "en": "The meadow between the Göksu and Küçüksu streams (Küçüksu Çayırı) was a favourite excursion spot.",
+   "fr": "La prairie entre les ruisseaux Göksu et Küçüksu (Küçüksu Çayırı) était un lieu d'excursion très prisé.",
+   "tr": "Göksu ile Küçüksu dereleri arasındaki çayır (Küçüksu Çayırı) gözde bir mesire yeriydi."
+  }
  },
  {
   "fr": "KANDILLI",
@@ -599,7 +695,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Vertical label"
+  "note": {
+   "en": "Vertical label",
+   "fr": "Étiquette verticale",
+   "tr": "Dikey yazı"
+  }
  },
  {
   "fr": "VANI-KEUI",
@@ -629,7 +729,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Named after the preacher Vani Mehmed Efendi"
+  "note": {
+   "en": "Named after the preacher Vani Mehmed Efendi",
+   "fr": "Nommé d'après le prédicateur Vani Mehmed Efendi",
+   "tr": "Adını vaiz Vani Mehmed Efendi'den alır"
+  }
  },
  {
   "fr": "Pointe de Kandilli",
@@ -732,7 +836,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Where Ottoman officials received foreign envoys"
+  "note": {
+   "en": "Where Ottoman officials received foreign envoys",
+   "fr": "Où les dignitaires ottomans recevaient les envoyés étrangers",
+   "tr": "Osmanlı ricalinin yabancı elçileri kabul ettiği yer"
+  }
  },
  {
   "fr": "Magasins de la Marine",
@@ -740,7 +848,7 @@
    "latn": "Tersane Anbarları",
    "arab": "ترسانه انبارلری"
   },
-  "modern": "Naval storehouses, Bebek (lost)",
+  "modern": "Tersane ambarları, Bebek (lost)",
   "lit": {
    "fr": {
     "en": "Storehouses of the Navy",
@@ -751,7 +859,11 @@
     "fr": "Magasins de l'Arsenal",
     "tr": "Tersane ambarları"
    },
-   "modern": null
+   "modern": {
+    "en": "Arsenal storehouses",
+    "fr": "Magasins de l'Arsenal",
+    "tr": "Tersane ambarları"
+   }
   },
   "kind": "military",
   "bbox": [
@@ -762,7 +874,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Diagonal label; the Ottoman name is reconstructed."
+  "note": {
+   "en": "Diagonal label; the Ottoman name is reconstructed.",
+   "fr": "Étiquette en diagonale ; le nom ottoman est reconstitué.",
+   "tr": "Çapraz yazı; Osmanlıca ad tahminle kurulmuştur."
+  }
  },
  {
   "fr": "BEBEK",
@@ -852,19 +968,27 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Diagonal label; Beyhan Sultan was a daughter of Mustafa III"
+  "note": {
+   "en": "Diagonal label; Beyhan Sultan was a daughter of Mustafa III",
+   "fr": "Étiquette en diagonale ; Beyhan Sultan était une fille de Mustafa III",
+   "tr": "Çapraz yazı; Beyhan Sultan, III. Mustafa'nın kızıydı"
+  }
  },
  {
   "fr": "Roche St Sèle",
   "ota": null,
-  "modern": "St Sèle rock, Arnavutköy (unidentified)",
+  "modern": "Aziz Sèle Kayası, Arnavutköy (unidentified)",
   "lit": {
    "fr": {
     "en": "Rock of St Sèle",
     "tr": "Aziz Sèle Kayası"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Rock of St Sèle",
+    "fr": "Rocher de Saint-Sèle",
+    "tr": "Aziz Sèle kayası"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -875,7 +999,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Two-line diagonal label; the saint's name is barely legible"
+  "note": {
+   "en": "Two-line diagonal label; the saint's name is barely legible",
+   "fr": "Étiquette en diagonale sur deux lignes ; le nom du saint est à peine lisible",
+   "tr": "İki satırlık çapraz yazı; azizin adı güçlükle okunuyor"
+  }
  },
  {
   "fr": "Utch-Bouroun",
@@ -905,7 +1033,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "The point between Yeniköy and İstinye bay; the name is not in current use."
+  "note": {
+   "en": "The point between Yeniköy and İstinye bay; the name is not in current use.",
+   "fr": "La pointe entre Yeniköy et la baie d'İstinye ; le nom n'est plus en usage.",
+   "tr": "Yeniköy ile İstinye koyu arasındaki burun; ad bugün kullanılmıyor."
+  }
  },
  {
   "fr": "Tokmak-Bournou",
@@ -954,7 +1086,11 @@
     "fr": "Jardin du fils d'Emir Güne",
     "tr": "Emir Güne oğlunun bahçesi"
    },
-   "modern": null
+   "modern": {
+    "en": "Emirgân grove",
+    "fr": "Bois d'Emirgân",
+    "tr": "Emirgân korusu"
+   }
   },
   "kind": "quarter",
   "bbox": [
@@ -984,7 +1120,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "Reis Efendi = the Ottoman foreign minister; the estate gave Emirgân its name"
+  "note": {
+   "en": "Reis Efendi = the Ottoman foreign minister; the estate gave Emirgân its name",
+   "fr": "Reis Efendi = le ministre ottoman des affaires étrangères ; le domaine a donné son nom à Emirgân",
+   "tr": "Reis Efendi, Osmanlı hariciye nazırıdır; Emirgân adını bu bahçeden alır"
+  }
  },
  {
   "fr": "BALTA-LIMAN",
@@ -1027,7 +1167,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Diagonal label; named after Baltaoğlu Süleyman, admiral of Mehmed II"
+  "note": {
+   "en": "Diagonal label; named after Baltaoğlu Süleyman, admiral of Mehmed II",
+   "fr": "Étiquette en diagonale ; nommé d'après Baltaoğlu Süleyman, amiral de Mehmed II",
+   "tr": "Çapraz yazı; adını II. Mehmed'in kaptanı Baltaoğlu Süleyman'dan alır"
+  }
  },
  {
   "fr": "Kaialar-Bournou",
@@ -1065,7 +1209,7 @@
    "latn": "Rumeli Hisarı",
    "arab": "روم ایلی حصاری"
   },
-  "modern": "Rumelihisarı fortress",
+  "modern": "Rumelihisarı Kalesi",
   "lit": {
    "fr": {
     "en": "Castle",
@@ -1076,7 +1220,11 @@
     "fr": "Forteresse de Roumélie",
     "tr": "Rumeli kalesi"
    },
-   "modern": null
+   "modern": {
+    "en": "Rumelihisarı fortress",
+    "fr": "Forteresse de Rumelihisarı",
+    "tr": "Rumelihisarı kalesi"
+   }
   },
   "kind": "fort",
   "bbox": [
@@ -1087,7 +1235,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Generic 'Château' placed on the fortress of Mehmed II (1452)"
+  "note": {
+   "en": "Generic 'Château' placed on the fortress of Mehmed II (1452)",
+   "fr": "« Château » générique placé sur la forteresse de Mehmed II (1452)",
+   "tr": "II. Mehmed'in kalesi (1452) üzerine konmuş genel 'Château' yazısı"
+  }
  },
  {
   "fr": "ROUMILI-HISARI",
@@ -1136,7 +1288,11 @@
     "fr": "Tekké des Martyrs",
     "tr": "Şehitler dergâhı"
    },
-   "modern": null
+   "modern": {
+    "en": "Martyrs' memorial",
+    "fr": "Mémorial des martyrs",
+    "tr": "Şehitlik"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -1177,19 +1333,27 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "The same current is labelled COURANT DU DIABLE further south"
+  "note": {
+   "en": "The same current is labelled COURANT DU DIABLE further south",
+   "fr": "Le même courant est étiqueté COURANT DU DIABLE plus au sud",
+   "tr": "Aynı akıntı daha güneyde COURANT DU DIABLE olarak yazılmış"
+  }
  },
  {
   "fr": "Kiosque ruiné",
   "ota": null,
-  "modern": "Ruined kiosk, Kuleli (lost)",
+  "modern": "Yıkık köşk, Kuleli (lost)",
   "lit": {
    "fr": {
     "en": "Ruined kiosk",
     "tr": "Yıkık köşk"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Ruined kiosk",
+    "fr": "Kiosque en ruine",
+    "tr": "Yıkık köşk"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -1200,6 +1364,10 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Shore label east of Kuleli, south-west of Çengelköy"
+  "note": {
+   "en": "Shore label east of Kuleli, south-west of Çengelköy",
+   "fr": "Étiquette de rivage à l'est de Kuleli, au sud-ouest de Çengelköy",
+   "tr": "Kuleli'nin doğusunda, Çengelköy'ün güneybatısında kıyı yazısı"
+  }
  }
 ]

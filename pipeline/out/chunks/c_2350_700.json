@@ -1,188 +1,224 @@
 [
- {
-  "fr": "Cap Kara-Abondous",
-  "ota": {
-   "latn": "Kara Abondus Burnu",
-   "arab": "قره آبوندوس بورنی"
+  {
+    "fr": "Cap Kara-Abondous",
+    "ota": {
+      "latn": "Kara Abondus Burnu",
+      "arab": "قره آبوندوس بورنی"
+    },
+    "modern": "Kara Abondus Burnu, Beykoz (unidentified)",
+    "lit": {
+      "fr": {
+        "en": "Cape Kara-Abondous",
+        "tr": "Kara-Abondous Burnu"
+      },
+      "ota": {
+        "en": "Black Abondous Cape",
+        "fr": "Cap Noir d'Abondous",
+        "tr": "Kara Abondus burnu"
+      },
+      "modern": null
+    },
+    "kind": "cape",
+    "bbox": [
+      2658,
+      888,
+      2914,
+      920
+    ],
+    "parts": null,
+    "uncertain": true,
+    "note": {
+      "en": "Cape north-west of Riva; the second word is hard to read (Abondous / Aboudous) and only 'Kara' (black) is sure.",
+      "fr": "Cap au nord-ouest de Riva ; le second mot est difficile à lire (Abondous / Aboudous), seul « Kara » (noir) est sûr.",
+      "tr": "Riva'nın kuzeybatısındaki burun; ikinci sözcük zor okunuyor (Abondous / Aboudous), yalnızca 'Kara' kesin."
+    }
   },
-  "modern": "Kara Abondus Burnu, Beykoz (unidentified)",
-  "lit": {
-   "fr": {
-    "en": "Cape Kara-Abondous",
-    "tr": "Kara-Abondous Burnu"
-   },
-   "ota": {
-    "en": "Black Abondous Cape",
-    "fr": "Cap Noir d'Abondous",
-    "tr": "Kara Abondus burnu"
-   },
-   "modern": null
+  {
+    "fr": "I. de Riva",
+    "ota": {
+      "latn": "Riva Adası",
+      "arab": "ریوا آطه سی"
+    },
+    "modern": "Riva Adası, Beykoz",
+    "lit": {
+      "fr": {
+        "en": "Island of Riva",
+        "tr": "Riva Adası"
+      },
+      "ota": {
+        "en": "Island of Riva",
+        "fr": "Île de Riva",
+        "tr": "Riva adası"
+      },
+      "modern": {
+        "en": "Riva island",
+        "fr": "Île de Riva",
+        "tr": "Riva adası"
+      }
+    },
+    "kind": "island",
+    "bbox": [
+      2700,
+      1222,
+      2834,
+      1250
+    ],
+    "parts": null,
+    "uncertain": false,
+    "note": {
+      "en": "Small rock off Riva",
+      "fr": "Petit rocher au large de Riva",
+      "tr": "Riva açığında küçük bir kaya"
+    }
   },
-  "kind": "cape",
-  "bbox": [
-   2658,
-   888,
-   2914,
-   920
-  ],
-  "parts": null,
-  "uncertain": true,
-  "note": "Cape north-west of Riva; the second word is hard to read (Abondous / Aboudous) and only 'Kara' (black) is sure."
- },
- {
-  "fr": "I. de Riva",
-  "ota": {
-   "latn": "Riva Adası",
-   "arab": "ریوا آطه سی"
+  {
+    "fr": "RIVA",
+    "ota": {
+      "latn": "Riva",
+      "arab": "ریوا"
+    },
+    "modern": "Riva, Beykoz",
+    "lit": {
+      "fr": {
+        "en": "Riva",
+        "tr": "Riva"
+      },
+      "ota": {
+        "en": "Riva",
+        "fr": "Riva",
+        "tr": "Riva"
+      },
+      "modern": null
+    },
+    "kind": "village",
+    "bbox": [
+      3058,
+      1306,
+      3126,
+      1336
+    ],
+    "parts": null,
+    "uncertain": false,
+    "note": {
+      "en": "Greek Rhebas; Ottoman Riva / Çayağzı",
+      "fr": "Rhebas en grec ; Riva / Çayağzı en ottoman",
+      "tr": "Rumca Rhebas; Osmanlıca Riva / Çayağzı"
+    }
   },
-  "modern": "Riva Adası, Beykoz",
-  "lit": {
-   "fr": {
-    "en": "Island of Riva",
-    "tr": "Riva Adası"
-   },
-   "ota": {
-    "en": "Island of Riva",
-    "fr": "Île de Riva",
-    "tr": "Riva adası"
-   },
-   "modern": null
+  {
+    "fr": "Château",
+    "ota": {
+      "latn": "Riva Kalesi",
+      "arab": "ریوا قلعه سی"
+    },
+    "modern": "Riva Kalesi, Beykoz",
+    "lit": {
+      "fr": {
+        "en": "Castle",
+        "tr": "Kale"
+      },
+      "ota": {
+        "en": "Castle of Riva",
+        "fr": "Château de Riva",
+        "tr": "Riva kalesi"
+      },
+      "modern": {
+        "en": "Riva castle",
+        "fr": "Château de Riva",
+        "tr": "Riva kalesi"
+      }
+    },
+    "kind": "fort",
+    "bbox": [
+      2960,
+      1350,
+      3060,
+      1380
+    ],
+    "parts": null,
+    "uncertain": false,
+    "note": {
+      "en": "Generic word placed at the Genoese castle of Riva.",
+      "fr": "Mot générique placé au château génois de Riva.",
+      "tr": "Riva'daki Ceneviz kalesine konmuş genel bir sözcük."
+    }
   },
-  "kind": "island",
-  "bbox": [
-   2700,
-   1222,
-   2834,
-   1250
-  ],
-  "parts": null,
-  "uncertain": false,
-  "note": "Small rock off Riva"
- },
- {
-  "fr": "RIVA",
-  "ota": {
-   "latn": "Riva",
-   "arab": "ریوا"
-  },
-  "modern": "Riva, Beykoz",
-  "lit": {
-   "fr": {
-    "en": "Riva",
-    "tr": "Riva"
-   },
-   "ota": {
-    "en": "Riva",
-    "fr": "Riva",
-    "tr": "Riva"
-   },
-   "modern": null
-  },
-  "kind": "village",
-  "bbox": [
-   3058,
-   1306,
-   3126,
-   1336
-  ],
-  "parts": null,
-  "uncertain": false,
-  "note": "Greek Rhebas; Ottoman Riva / Çayağzı"
- },
- {
-  "fr": "Château",
-  "ota": {
-   "latn": "Riva Kalesi",
-   "arab": "ریوا قلعه سی"
-  },
-  "modern": "Riva Kalesi, Beykoz",
-  "lit": {
-   "fr": {
-    "en": "Castle",
-    "tr": "Kale"
-   },
-   "ota": {
-    "en": "Castle of Riva",
-    "fr": "Château de Riva",
-    "tr": "Riva kalesi"
-   },
-   "modern": null
-  },
-  "kind": "fort",
-  "bbox": [
-   2960,
-   1350,
-   3060,
-   1380
-  ],
-  "parts": null,
-  "uncertain": false,
-  "note": "Generic word placed at the Genoese castle of Riva."
- },
- {
-  "fr": "Cap de Riva",
-  "ota": {
-   "latn": "Riva Burnu",
-   "arab": "ریوا بورنی"
-  },
-  "modern": "Riva Burnu, Beykoz",
-  "lit": {
-   "fr": {
-    "en": "Cape of Riva",
-    "tr": "Riva Burnu"
-   },
-   "ota": {
-    "en": "Cape of Riva",
+  {
     "fr": "Cap de Riva",
-    "tr": "Riva burnu"
-   },
-   "modern": null
+    "ota": {
+      "latn": "Riva Burnu",
+      "arab": "ریوا بورنی"
+    },
+    "modern": "Riva Burnu, Beykoz",
+    "lit": {
+      "fr": {
+        "en": "Cape of Riva",
+        "tr": "Riva Burnu"
+      },
+      "ota": {
+        "en": "Cape of Riva",
+        "fr": "Cap de Riva",
+        "tr": "Riva burnu"
+      },
+      "modern": {
+        "en": "Cape Riva",
+        "fr": "Cap de Riva",
+        "tr": "Riva burnu"
+      }
+    },
+    "kind": "cape",
+    "bbox": [
+      2712,
+      1416,
+      2880,
+      1448
+    ],
+    "parts": null,
+    "uncertain": false,
+    "note": null
   },
-  "kind": "cape",
-  "bbox": [
-   2712,
-   1416,
-   2880,
-   1448
-  ],
-  "parts": null,
-  "uncertain": false,
-  "note": null
- },
- {
-  "fr": "Grande Vallée",
-  "ota": null,
-  "modern": "Riva Deresi valley, Beykoz",
-  "lit": {
-   "fr": {
-    "en": "Great Valley",
-    "tr": "Büyük Vadi"
-   },
-   "ota": null,
-   "modern": null
-  },
-  "kind": "other",
-  "bbox": [
-   3344,
-   1012,
-   3608,
-   1226
-  ],
-  "parts": [
-   [
-    3344,
-    1140,
-    3498,
-    1226
-   ],
-   [
-    3508,
-    1012,
-    3608,
-    1145
-   ]
-  ],
-  "uncertain": true,
-  "note": "Curved label along the valley of the Riva stream"
- }
+  {
+    "fr": "Grande Vallée",
+    "ota": null,
+    "modern": "Riva Deresi vadisi, Beykoz",
+    "lit": {
+      "fr": {
+        "en": "Great Valley",
+        "tr": "Büyük Vadi"
+      },
+      "ota": null,
+      "modern": {
+        "en": "Valley of the Riva stream",
+        "fr": "Vallée du ruisseau de Riva",
+        "tr": "Riva Deresi vadisi"
+      }
+    },
+    "kind": "other",
+    "bbox": [
+      3344,
+      1012,
+      3608,
+      1226
+    ],
+    "parts": [
+      [
+        3344,
+        1140,
+        3498,
+        1226
+      ],
+      [
+        3508,
+        1012,
+        3608,
+        1145
+      ]
+    ],
+    "uncertain": true,
+    "note": {
+      "en": "Curved label along the valley of the Riva stream",
+      "fr": "Étiquette courbe le long de la vallée du ruisseau de Riva",
+      "tr": "Riva Deresi vadisi boyunca kavisli yazılmış etiket"
+    }
+  }
 ]

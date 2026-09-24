@@ -16,7 +16,11 @@
     "fr": "Village des gens de Caffa",
     "tr": "Kefeliler köyü"
    },
-   "modern": null
+   "modern": {
+    "en": "Village of the Kefe people",
+    "fr": "Village des gens de Kefe",
+    "tr": "Kefeliler köyü"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -27,7 +31,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Settled by Crimean Greeks from Kefe (Caffa)"
+  "note": {
+   "en": "Settled by Crimean Greeks from Kefe (Caffa)",
+   "fr": "Peuplé de Grecs de Crimée venus de Kefe (Caffa)",
+   "tr": "Kefe'den (Kefe/Caffa) gelen Kırım Rumlarınca kurulmuştur"
+  }
  },
  {
   "fr": "Crio-nero, ou Fontaine froide",
@@ -35,7 +43,7 @@
    "latn": "Soğuksu",
    "arab": "صوغوق صو"
   },
-  "modern": "Kryo Nero spring, Kefeliköy",
+  "modern": "Soğuksu kaynağı, Kefeliköy",
   "lit": {
    "fr": {
     "en": "Krio-nero, or Cold Fountain",
@@ -46,7 +54,11 @@
     "fr": "Eau froide",
     "tr": "Soğuk su"
    },
-   "modern": null
+   "modern": {
+    "en": "Cold-water spring",
+    "fr": "Source d'eau froide",
+    "tr": "Soğuksu kaynağı"
+   }
   },
   "kind": "water",
   "bbox": [
@@ -57,19 +69,27 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Crio-nero is Greek 'kryo nero', cold water; the Ottoman name Soğuksu is reconstructed"
+  "note": {
+   "en": "Crio-nero is Greek 'kryo nero', cold water; the Ottoman name Soğuksu is reconstructed",
+   "fr": "Crio-nero est le grec « kryo nero », eau froide ; le nom ottoman Soğuksu est reconstitué",
+   "tr": "Crio-nero, Rumca 'kryo nero', soğuk su demektir; Osmanlıca Soğuksu adı tahmine dayanır"
+  }
  },
  {
   "fr": "Mont Alonaki",
   "ota": null,
-  "modern": "Alonaki hill, Kefeliköy (unidentified)",
+  "modern": "Alonaki tepesi, Kefeliköy (unidentified)",
   "lit": {
    "fr": {
     "en": "Mount Alonaki",
     "tr": "Alonaki Dağı"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Alonaki hill",
+    "fr": "Colline d'Alonaki",
+    "tr": "Alonaki tepesi"
+   }
   },
   "kind": "mountain",
   "bbox": [
@@ -80,7 +100,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Alonaki is Greek for 'little threshing floor'"
+  "note": {
+   "en": "Alonaki is Greek for 'little threshing floor'",
+   "fr": "Alonaki signifie « petite aire de battage » en grec",
+   "tr": "Alonaki, Rumca 'küçük harman yeri' demektir"
+  }
  },
  {
   "fr": "Kirk-agatch ou Bouquet de Platanes",
@@ -99,7 +123,11 @@
     "fr": "Quarante arbres",
     "tr": "Kırk ağaç"
    },
-   "modern": null
+   "modern": {
+    "en": "Forty trees",
+    "fr": "Quarante arbres",
+    "tr": "Kırk ağaç"
+   }
   },
   "kind": "forest",
   "bbox": [
@@ -123,7 +151,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "A plane-tree grove on the shore below Kefeliköy; the site is not identifiable today"
+  "note": {
+   "en": "A plane-tree grove on the shore below Kefeliköy; the site is not identifiable today",
+   "fr": "Un bosquet de platanes sur le rivage sous Kefeliköy ; le site n'est plus identifiable aujourd'hui",
+   "tr": "Kefeliköy'ün altındaki kıyıda bir çınar korusu; yeri bugün tespit edilemiyor"
+  }
  },
  {
   "fr": "Vallon et Prairies de Buyuk-déré",
@@ -142,7 +174,11 @@
     "fr": "Prairie de Büyükdere",
     "tr": "Büyükdere çayırı"
    },
-   "modern": null
+   "modern": {
+    "en": "Büyükdere meadow",
+    "fr": "Prairie de Büyükdere",
+    "tr": "Büyükdere çayırı"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -166,19 +202,27 @@
    ]
   ],
   "uncertain": false,
-  "note": "Two vertical lines; the famous meadow with the 'Seven Brothers' plane tree"
+  "note": {
+   "en": "Two vertical lines; the famous meadow with the 'Seven Brothers' plane tree",
+   "fr": "Deux lignes verticales ; la célèbre prairie au platane des « Sept Frères »",
+   "tr": "İki dikey satır; 'Yedi Kardeşler' çınarıyla ünlü çayır"
+  }
  },
  {
   "fr": "les quatre Chemins",
   "ota": null,
-  "modern": "'Four Roads' crossroads, Kefeliköy (unidentified)",
+  "modern": "Dörtyol kavşağı, Kefeliköy (unidentified)",
   "lit": {
    "fr": {
     "en": "The Four Roads",
     "tr": "Dört Yol"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Four Roads crossroads",
+    "fr": "Carrefour des Quatre-Chemins",
+    "tr": "Dörtyol kavşağı"
+   }
   },
   "kind": "road",
   "bbox": [
@@ -194,14 +238,18 @@
  {
   "fr": "Ruines d'un Monastère",
   "ota": null,
-  "modern": "Ruined monastery, Kireçburnu (unidentified)",
+  "modern": "Yıkık manastır, Kireçburnu (unidentified)",
   "lit": {
    "fr": {
     "en": "Ruins of a Monastery",
     "tr": "Bir manastırın harabeleri"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Ruined monastery",
+    "fr": "Monastère en ruine",
+    "tr": "Yıkık manastır"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -231,7 +279,11 @@
     "fr": "Village du Jardin",
     "tr": "Bahçe köyü"
    },
-   "modern": null
+   "modern": {
+    "en": "Garden village",
+    "fr": "Village du Jardin",
+    "tr": "Bahçe köyü"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -250,7 +302,7 @@
    "latn": "Bağçeköy Kemeri",
    "arab": "باغچه كوی كمری"
   },
-  "modern": "Bahçeköy Kemeri (Sultan Mahmud Kemeri), Sarıyer",
+  "modern": "Bahçeköy Kemeri, Sarıyer",
   "lit": {
    "fr": {
     "en": "Aqueduct of Baktché-keui, or of Ibrahim",
@@ -261,7 +313,11 @@
     "fr": "Arche (aqueduc) de Bahçeköy",
     "tr": "Bahçeköy kemeri"
    },
-   "modern": null
+   "modern": {
+    "en": "Bahçeköy aqueduct",
+    "fr": "Aqueduc de Bahçeköy",
+    "tr": "Bahçeköy kemeri"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -285,7 +341,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "Part of the Taksim water system built under Mahmud I"
+  "note": {
+   "en": "Also called Sultan Mahmud Kemeri; part of the Taksim water system built under Mahmud I",
+   "fr": "Aussi appelé Sultan Mahmud Kemeri ; partie du réseau d'eau de Taksim construit sous Mahmoud Ier",
+   "tr": "Sultan Mahmud Kemeri de denir; I. Mahmud döneminde yapılan Taksim su yolunun bir parçasıdır"
+  }
  },
  {
   "fr": "AÏAZA",
@@ -315,7 +375,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Engraved AÏAZA; identification with Ayazağa is a guess"
+  "note": {
+   "en": "Engraved AÏAZA; identification with Ayazağa is a guess",
+   "fr": "Gravé AÏAZA ; l'identification avec Ayazağa est une hypothèse",
+   "tr": "Haritada AÏAZA yazılı; Ayazağa ile özdeşleştirme bir tahmindir"
+  }
  },
  {
   "fr": "DGENDÉRÉ",
@@ -353,7 +417,7 @@
    "latn": "Belgrad Yolu",
    "arab": "بلغراد یولی"
   },
-  "modern": "Belgrad Köyü road, Belgrad Ormanı",
+  "modern": "Belgrad Köyü yolu, Belgrad Ormanı",
   "lit": {
    "fr": {
     "en": "Road of Belgrade",
@@ -364,7 +428,11 @@
     "fr": "Chemin de Belgrade",
     "tr": "Belgrad yolu"
    },
-   "modern": null
+   "modern": {
+    "en": "Road to Belgrad village, Belgrade Forest",
+    "fr": "Route du village de Belgrad, forêt de Belgrade",
+    "tr": "Belgrad Köyü yolu"
+   }
   },
   "kind": "road",
   "bbox": [
@@ -388,6 +456,10 @@
    ]
   ],
   "uncertain": false,
-  "note": "Belgrade here is the forest village of Belgrad (cleared in the 1890s), not the city"
+  "note": {
+   "en": "Belgrade here is the forest village of Belgrad (cleared in the 1890s), not the city",
+   "fr": "Belgrade désigne ici le village forestier de Belgrad (évacué dans les années 1890), non la ville",
+   "tr": "Buradaki Belgrad, şehir değil, 1890'larda boşaltılan Belgrad Ormanı'ndaki köydür"
+  }
  }
 ]

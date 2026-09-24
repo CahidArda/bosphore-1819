@@ -27,19 +27,27 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Village with a mosque west of Ağaçlı; the Ottoman form and the meaning of 'Şer' are guesses"
+  "note": {
+   "en": "Village with a mosque west of Ağaçlı; the Ottoman form and the meaning of 'Şer' are guesses",
+   "fr": "Village avec une mosquée à l'ouest d'Ağaçlı ; la forme ottomane et le sens de « Şer » sont des suppositions",
+   "tr": "Ağaçlı'nın batısında camili köy; Osmanlıca biçim ve 'Şer'in anlamı tahmindir"
+  }
  },
  {
   "fr": "F. P. Michel Sculp.",
   "ota": null,
-  "modern": "Engraver's signature (not a place)",
+  "modern": "Hakkâkın imzası (not a place)",
   "lit": {
    "fr": {
     "en": "Engraved by F. P. Michel",
     "tr": "F. P. Michel hakketti"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Engraver's signature",
+    "fr": "Signature du graveur",
+    "tr": "Hakkâkın imzası"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -50,6 +58,10 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Engraver's signature in the bottom-left margin, below the map frame"
+  "note": {
+   "en": "Engraver's signature in the bottom-left margin, below the map frame",
+   "fr": "Signature du graveur dans la marge inférieure gauche, sous le cadre de la carte",
+   "tr": "Harita çerçevesinin altında, sol alt kenar boşluğunda hakkâkın imzası"
+  }
  }
 ]

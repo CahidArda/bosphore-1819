@@ -9,7 +9,11 @@
     "tr": "Karadeniz'in Ağzı"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Mouth of the Black Sea strait",
+    "fr": "Embouchure du détroit de la mer Noire",
+    "tr": "Karadeniz Boğazı ağzı"
+   }
   },
   "kind": "water",
   "bbox": [
@@ -39,7 +43,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "The northern mouth of the Bosphorus; letter-spaced three-line label over the water"
+  "note": {
+   "en": "The northern mouth of the Bosphorus; letter-spaced three-line label over the water",
+   "fr": "L'embouchure nord du Bosphore ; étiquette espacée sur trois lignes au-dessus de l'eau",
+   "tr": "Boğaz'ın kuzey ağzı; su üzerinde üç satırlık, harf aralıklı etiket"
+  }
  },
  {
   "fr": "Roumili-Fener-Bournou",
@@ -69,7 +77,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Ends right at the chunk boundary (x≈2500); appears cut on the left in c_2350_1850"
+  "note": {
+   "en": "Ends right at the chunk boundary (x≈2500); appears cut on the left in c_2350_1850",
+   "fr": "Se termine juste à la limite de la tuile (x≈2500) ; apparaît coupé à gauche dans c_2350_1850",
+   "tr": "Tam parça sınırında biter (x≈2500); c_2350_1850'de solu kesik görünür"
+  }
  },
  {
   "fr": "Fort de Fanaraki",
@@ -99,6 +111,10 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Fanaraki is the Greek name of Rumelifeneri; ends right at the chunk boundary (x≈2500)"
+  "note": {
+   "en": "Fanaraki is the Greek name of Rumelifeneri; ends right at the chunk boundary (x≈2500)",
+   "fr": "Fanaraki est le nom grec de Rumelifeneri ; se termine juste à la limite de la tuile (x≈2500)",
+   "tr": "Fanaraki, Rumelifeneri'nin Yunanca adıdır; tam parça sınırında biter (x≈2500)"
+  }
  }
 ]

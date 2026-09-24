@@ -5,7 +5,7 @@
       "latn": "Eski Fanaraki Burnu",
       "arab": "اسكی فناراكی بورنی"
     },
-    "modern": "Kilyos headland, Sarıyer (unidentified)",
+    "modern": "Kilyos burnu, Sarıyer (unidentified)",
     "lit": {
       "fr": {
         "en": "Old Fanaraki Cape",
@@ -16,7 +16,11 @@
         "fr": "Cap du vieux petit phare",
         "tr": "Eski küçük fener burnu"
       },
-      "modern": null
+      "modern": {
+        "en": "Kilyos headland",
+        "fr": "Cap de Kilyos",
+        "tr": "Kilyos burnu"
+      }
     },
     "kind": "cape",
     "bbox": [
@@ -27,19 +31,27 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": "Fanaraki = Greek 'little lighthouse'; the cape beside Kila Fort (Kilyos). Ottoman form reconstructed from the French"
+    "note": {
+      "en": "Fanaraki = Greek 'little lighthouse'; the cape beside Kila Fort (Kilyos). Ottoman form reconstructed from the French",
+      "fr": "Fanaraki = « petit phare » en grec ; le cap à côté du fort de Kila (Kilyos). Forme ottomane reconstituée d'après le français",
+      "tr": "Fanaraki, Yunanca 'küçük fener'; Kila Kalesi'nin (Kilyos) yanındaki burun. Osmanlıca biçim Fransızcadan çıkarıldı"
+    }
   },
   {
     "fr": "Ancienne Tour",
     "ota": null,
-    "modern": "Old tower at Kilyos, Sarıyer (unidentified)",
+    "modern": "Kilyos'ta eski kule, Sarıyer (unidentified)",
     "lit": {
       "fr": {
         "en": "Old Tower",
         "tr": "Eski Kule"
       },
       "ota": null,
-      "modern": null
+      "modern": {
+        "en": "Old tower at Kilyos",
+        "fr": "Vieille tour à Kilyos",
+        "tr": "Kilyos'ta eski kule"
+      }
     },
     "kind": "ruin",
     "bbox": [
@@ -50,7 +62,11 @@
     ],
     "parts": null,
     "uncertain": true,
-    "note": "Drawn beside Kila Fort on the Kilyos headland; possibly part of the Genoese castle of Kilyos"
+    "note": {
+      "en": "Drawn beside Kila Fort on the Kilyos headland; possibly part of the Genoese castle of Kilyos",
+      "fr": "Dessinée à côté du fort de Kila sur le cap de Kilyos ; peut-être une partie du château génois de Kilyos",
+      "tr": "Kilyos burnunda Kila Kalesi'nin yanında çizilmiş; Kilyos'un Ceneviz kalesinin bir parçası olabilir"
+    }
   },
   {
     "fr": "Kila Fort",
@@ -80,7 +96,11 @@
     ],
     "parts": null,
     "uncertain": false,
-    "note": "Kila / Kilia = Kilyos"
+    "note": {
+      "en": "Kila / Kilia = Kilyos",
+      "fr": "Kila / Kilia = Kilyos",
+      "tr": "Kila / Kilia = Kilyos"
+    }
   },
   {
     "fr": "Pointe de Domouz-déré",
@@ -88,7 +108,7 @@
       "latn": "Domuz Dere Burnu",
       "arab": "طوڭوز دره بورنی"
     },
-    "modern": "Cape at Gümüşdere, Sarıyer",
+    "modern": "Gümüşdere'deki burun, Sarıyer",
     "lit": {
       "fr": {
         "en": "Point of Domouz-déré",
@@ -99,7 +119,11 @@
         "fr": "Cap du ruisseau du cochon",
         "tr": "Domuz deresi burnu"
       },
-      "modern": null
+      "modern": {
+        "en": "Cape at Gümüşdere",
+        "fr": "Cap à Gümüşdere",
+        "tr": "Gümüşdere'deki burun"
+      }
     },
     "kind": "cape",
     "bbox": [
@@ -110,7 +134,11 @@
     ],
     "parts": null,
     "uncertain": false,
-    "note": "Domuzdere was renamed Gümüşdere in the 20th century"
+    "note": {
+      "en": "Domuzdere was renamed Gümüşdere in the 20th century",
+      "fr": "Domuzdere a été renommé Gümüşdere au XXe siècle",
+      "tr": "Domuzdere 20. yüzyılda Gümüşdere olarak yeniden adlandırıldı"
+    }
   },
   {
     "fr": "DOMOUZ-DERÉ",
@@ -144,6 +172,10 @@
     ],
     "parts": null,
     "uncertain": false,
-    "note": "Village renamed Gümüşdere in the 20th century"
+    "note": {
+      "en": "Village renamed Gümüşdere in the 20th century",
+      "fr": "Village renommé Gümüşdere au XXe siècle",
+      "tr": "Köy 20. yüzyılda Gümüşdere adını aldı"
+    }
   }
 ]

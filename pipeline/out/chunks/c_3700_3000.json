@@ -16,7 +16,11 @@
     "fr": "Père Blanc (aussi 'vautour')",
     "tr": "Ak baba (akbaba)"
    },
-   "modern": null
+   "modern": {
+    "en": "White Father (also 'vulture')",
+    "fr": "Père Blanc (aussi 'vautour')",
+    "tr": "Ak baba (akbaba)"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -27,7 +31,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Named after the Akbaba Sultan tekke"
+  "note": {
+   "en": "Named after the Akbaba Sultan tekke",
+   "fr": "Doit son nom au tekké d'Akbaba Sultan",
+   "tr": "Adını Akbaba Sultan Tekkesi'nden alır"
+  }
  },
  {
   "fr": "Tokat",
@@ -46,7 +54,11 @@
     "fr": "Tokat",
     "tr": "Tokat"
    },
-   "modern": null
+   "modern": {
+    "en": "Tokat Garden",
+    "fr": "Jardin de Tokat",
+    "tr": "Tokat bahçesi"
+   }
   },
   "kind": "palace",
   "bbox": [
@@ -57,7 +69,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Royal garden and hunting lodge (Tokat Köşkü) founded by Süleyman I"
+  "note": {
+   "en": "Royal garden and hunting lodge (Tokat Köşkü) founded by Süleyman I",
+   "fr": "Jardin royal et pavillon de chasse (Tokat Köşkü) fondés par Soliman Ier",
+   "tr": "I. Süleyman'ın kurduğu has bahçe ve av köşkü (Tokat Köşkü)"
+  }
  },
  {
   "fr": "Tokat Tchiftlik",
@@ -76,7 +92,11 @@
     "fr": "Ferme de Tokat",
     "tr": "Tokat çiftliği"
    },
-   "modern": null
+   "modern": {
+    "en": "Tokat Farm",
+    "fr": "Ferme de Tokat",
+    "tr": "Tokat çiftliği"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -106,7 +126,11 @@
     "fr": "Ruisseau de Beykoz",
     "tr": "Beykoz deresi"
    },
-   "modern": null
+   "modern": {
+    "en": "Beykoz Stream",
+    "fr": "Ruisseau de Beykoz",
+    "tr": "Beykoz deresi"
+   }
   },
   "kind": "water",
   "bbox": [
@@ -117,7 +141,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Vertical label along the stream"
+  "note": {
+   "en": "Vertical label along the stream",
+   "fr": "Inscription verticale le long du ruisseau",
+   "tr": "Dere boyunca uzanan dikey etiket"
+  }
  },
  {
   "fr": "Fontaine de St Constantin",
@@ -125,7 +153,7 @@
    "latn": "Aya Kostantin Ayazması",
    "arab": "آیا قسطنطین آیازمه سی"
   },
-  "modern": "Ayios Konstantinos spring, Beykoz",
+  "modern": "Aya Konstantin Ayazması, Beykoz",
   "lit": {
    "fr": {
     "en": "Fountain of St Constantine",
@@ -136,7 +164,11 @@
     "fr": "Source sacrée de St Constantin",
     "tr": "Aya Konstantin ayazması"
    },
-   "modern": null
+   "modern": {
+    "en": "Saint Constantine's holy spring",
+    "fr": "Source sacrée de Saint-Constantin",
+    "tr": "Aya Konstantin ayazması"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -147,7 +179,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Ottoman form reconstructed; the map gives only the French"
+  "note": {
+   "en": "Ottoman form reconstructed; the map gives only the French",
+   "fr": "Forme ottomane reconstituée ; la carte ne donne que le français",
+   "tr": "Osmanlıca biçim yeniden kurgulandı; haritada yalnızca Fransızcası var"
+  }
  },
  {
   "fr": "Sultanié",
@@ -166,7 +202,11 @@
     "fr": "Impériale, du Sultan",
     "tr": "Sultana ait"
    },
-   "modern": null
+   "modern": {
+    "en": "Imperial, of the Sultan",
+    "fr": "Impériale, du Sultan",
+    "tr": "Sultana ait"
+   }
   },
   "kind": "palace",
   "bbox": [
@@ -177,7 +217,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Sultaniye meadow and kiosk (Sultaniye Kasrı, lost) on the Beykoz shore"
+  "note": {
+   "en": "Sultaniye meadow and kiosk (Sultaniye Kasrı, lost) on the Beykoz shore",
+   "fr": "Prairie et kiosque de Sultaniye (Sultaniye Kasrı, disparu) sur la rive de Beykoz",
+   "tr": "Beykoz kıyısındaki Sultaniye çayırı ve köşkü (Sultaniye Kasrı, kayıp)"
+  }
  },
  {
   "fr": "Kiosque ruiné",
@@ -189,7 +233,11 @@
     "tr": "Yıkık köşk"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Sultaniye Pavilion",
+    "fr": "Pavillon de Sultaniye",
+    "tr": "Sultaniye kasrı"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -200,19 +248,27 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Placed directly under Sultanié; probably the ruined Sultaniye kiosk"
+  "note": {
+   "en": "Placed directly under Sultanié; probably the ruined Sultaniye kiosk",
+   "fr": "Placé juste sous Sultanié ; probablement le kiosque ruiné de Sultaniye",
+   "tr": "Sultanié'nin hemen altında; muhtemelen yıkık Sultaniye köşkü"
+  }
  },
  {
   "fr": "Ruines antiques",
   "ota": null,
-  "modern": "Ancient ruins, Sultaniye (unidentified)",
+  "modern": "Sultaniye'de antik kalıntılar, Beykoz (unidentified)",
   "lit": {
    "fr": {
     "en": "Ancient ruins",
     "tr": "Antik harabeler"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Ancient ruins at Sultaniye",
+    "fr": "Ruines antiques à Sultaniye",
+    "tr": "Sultaniye'de antik kalıntılar"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -228,14 +284,18 @@
  {
   "fr": "L'anse des Ruines",
   "ota": null,
-  "modern": "Sultaniye cove, Beykoz (unidentified)",
+  "modern": "Sultaniye Koyu, Beykoz (unidentified)",
   "lit": {
    "fr": {
     "en": "Cove of the Ruins",
     "tr": "Harabeler Koyu"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Sultaniye cove",
+    "fr": "Anse de Sultaniye",
+    "tr": "Sultaniye koyu"
+   }
   },
   "kind": "bay",
   "bbox": [
@@ -259,7 +319,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "Small cove below the ancient ruins at Sultaniye; read from a low-resolution scan"
+  "note": {
+   "en": "Small cove below the ancient ruins at Sultaniye; read from a low-resolution scan",
+   "fr": "Petite anse sous les ruines antiques de Sultaniye ; lu sur un scan de basse résolution",
+   "tr": "Sultaniye'deki antik kalıntıların altındaki küçük koy; düşük çözünürlüklü taramadan okundu"
+  }
  },
  {
   "fr": "BEY-KOZ",
@@ -308,7 +372,11 @@
     "fr": "Village du rivage",
     "tr": "Yalı köyü"
    },
-   "modern": null
+   "modern": {
+    "en": "Shore village",
+    "fr": "Village du rivage",
+    "tr": "Yalı köyü"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -338,7 +406,11 @@
     "fr": "Cap du Chevreuil",
     "tr": "Karaca burnu"
    },
-   "modern": null
+   "modern": {
+    "en": "Roe-deer Cape",
+    "fr": "Cap du Chevreuil",
+    "tr": "Karaca burnu"
+   }
   },
   "kind": "cape",
   "bbox": [
@@ -383,7 +455,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Site of the 1833 Treaty of Hünkâr İskelesi"
+  "note": {
+   "en": "Site of the 1833 Treaty of Hünkâr İskelesi",
+   "fr": "Lieu du traité d'Unkiar-Skelessi de 1833",
+   "tr": "1833 Hünkâr İskelesi Antlaşması'nın imzalandığı yer"
+  }
  },
  {
   "fr": "Iskelessi",
@@ -391,7 +467,7 @@
    "latn": "İskelesi",
    "arab": "اسكله سی"
   },
-  "modern": "Hünkâr İskelesi landing, Beykoz",
+  "modern": "Hünkâr İskelesi, Beykoz",
   "lit": {
    "fr": {
     "en": "Landing stage",
@@ -402,7 +478,11 @@
     "fr": "Son débarcadère",
     "tr": "İskelesi"
    },
-   "modern": null
+   "modern": {
+    "en": "The Sovereign's Landing",
+    "fr": "Débarcadère du Souverain",
+    "tr": "Padişah iskelesi"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -413,7 +493,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Small diagonal label completing 'Hounkiar-Hisari'"
+  "note": {
+   "en": "Small diagonal label completing 'Hounkiar-Hisari'",
+   "fr": "Petite inscription en diagonale qui complète « Hounkiar-Hisari »",
+   "tr": "'Hounkiar-Hisari'yi tamamlayan küçük çapraz etiket"
+  }
  },
  {
   "fr": "Moulin du Gd Sr",
@@ -421,7 +505,7 @@
    "latn": "Hünkâr Değirmeni",
    "arab": "خنكار دگرمنی"
   },
-  "modern": "Sultan's mill, Hünkâr İskelesi (lost)",
+  "modern": "Hünkâr Değirmeni, Hünkâr İskelesi (lost)",
   "lit": {
    "fr": {
     "en": "Mill of the Grand Seigneur",
@@ -432,7 +516,11 @@
     "fr": "Moulin du Souverain",
     "tr": "Padişah değirmeni"
    },
-   "modern": null
+   "modern": {
+    "en": "The Sovereign's Mill",
+    "fr": "Moulin du Souverain",
+    "tr": "Padişah değirmeni"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -443,7 +531,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Le Grand Seigneur = the Sultan; Ottoman form reconstructed"
+  "note": {
+   "en": "Le Grand Seigneur = the Sultan; Ottoman form reconstructed",
+   "fr": "Le Grand Seigneur = le Sultan ; forme ottomane reconstituée",
+   "tr": "Le Grand Seigneur = Padişah; Osmanlıca biçim yeniden kurgulandı"
+  }
  },
  {
   "fr": "Selvé-Bournou",
@@ -462,7 +554,11 @@
     "fr": "Cap du Cyprès",
     "tr": "Selvi burnu"
    },
-   "modern": null
+   "modern": {
+    "en": "Cypress Cape",
+    "fr": "Cap du Cyprès",
+    "tr": "Selvi burnu"
+   }
   },
   "kind": "cape",
   "bbox": [
@@ -492,7 +588,11 @@
     "fr": "Cap du Village-Neuf",
     "tr": "Yeniköy burnu"
    },
-   "modern": null
+   "modern": {
+    "en": "New-village Cape",
+    "fr": "Cap du Village-Neuf",
+    "tr": "Yeniköy burnu"
+   }
   },
   "kind": "cape",
   "bbox": [
@@ -522,7 +622,11 @@
     "fr": "Village-Neuf",
     "tr": "Yeni köy"
    },
-   "modern": null
+   "modern": {
+    "en": "New village",
+    "fr": "Village-Neuf",
+    "tr": "Yeni köy"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -552,7 +656,11 @@
     "fr": "Kalender (derviche errant)",
     "tr": "Kalender (gezgin derviş)"
    },
-   "modern": null
+   "modern": {
+    "en": "Kalender (wandering dervish)",
+    "fr": "Kalender (derviche errant)",
+    "tr": "Kalender (gezgin derviş)"
+   }
   },
   "kind": "quarter",
   "bbox": [
@@ -563,7 +671,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Site of the Kalender Kasrı, a royal kiosk"
+  "note": {
+   "en": "Site of the Kalender Kasrı, a royal kiosk",
+   "fr": "Emplacement du Kalender Kasrı, un kiosque impérial",
+   "tr": "Bir hünkâr köşkü olan Kalender Kasrı'nın yeri"
+  }
  },
  {
   "fr": "Bibika",
@@ -593,7 +705,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Probably a Phanariot family estate north of Tarabya"
+  "note": {
+   "en": "Probably a Phanariot family estate north of Tarabya",
+   "fr": "Probablement le domaine d'une famille phanariote au nord de Tarabya",
+   "tr": "Muhtemelen Tarabya'nın kuzeyinde bir Fenerli Rum ailesinin malikânesi"
+  }
  },
  {
   "fr": "Havous Baktché",
@@ -612,7 +728,11 @@
     "fr": "Jardin du Bassin",
     "tr": "Havuz bahçesi"
    },
-   "modern": null
+   "modern": {
+    "en": "Pool Garden",
+    "fr": "Jardin du Bassin",
+    "tr": "Havuz bahçesi"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -623,7 +743,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Ottoman form reconstructed from the French"
+  "note": {
+   "en": "Ottoman form reconstructed from the French",
+   "fr": "Forme ottomane reconstituée d'après le français",
+   "tr": "Osmanlıca biçim Fransızcadan yeniden kurgulandı"
+  }
  },
  {
   "fr": "THARAPIA",
@@ -653,7 +777,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "From the Greek Therapeia, 'healing'"
+  "note": {
+   "en": "From the Greek Therapeia, 'healing'",
+   "fr": "Du grec Therapeia, « guérison »",
+   "tr": "Yunanca Therapeia'dan, 'şifa'"
+  }
  },
  {
   "fr": "Nveau Palais de France",
@@ -661,7 +789,7 @@
    "latn": "Fransa Sarayı",
    "arab": "فرانسه سرایی"
   },
-  "modern": "French summer embassy, Tarabya",
+  "modern": "Fransız Sefareti Yazlığı, Tarabya",
   "lit": {
    "fr": {
     "en": "New Palace of France",
@@ -672,7 +800,11 @@
     "fr": "Palais de France",
     "tr": "Fransa sarayı"
    },
-   "modern": null
+   "modern": {
+    "en": "French embassy summer residence",
+    "fr": "Résidence d'été de l'ambassade de France",
+    "tr": "Fransız elçiliğinin yazlığı"
+   }
   },
   "kind": "palace",
   "bbox": [
@@ -683,19 +815,27 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Diagonal label; 'Nveau' = Nouveau"
+  "note": {
+   "en": "Diagonal label; 'Nveau' = Nouveau",
+   "fr": "Inscription en diagonale ; « Nveau » = Nouveau",
+   "tr": "Çapraz etiket; 'Nveau' = Nouveau (yeni)"
+  }
  },
  {
   "fr": "Observatoire",
   "ota": null,
-  "modern": "Tarabya observatory (lost)",
+  "modern": "Tarabya Gözlemevi, Sarıyer (lost)",
   "lit": {
    "fr": {
     "en": "Observatory",
     "tr": "Gözlemevi"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Tarabya observatory",
+    "fr": "Observatoire de Tarabya",
+    "tr": "Tarabya gözlemevi"
+   }
   },
   "kind": "other",
   "bbox": [
@@ -714,7 +854,7 @@
    "latn": "Eski Fransa Sarayı",
    "arab": "اسكی فرانسه سرایی"
   },
-  "modern": "Old French summer embassy, Tarabya (lost)",
+  "modern": "Eski Fransız Sefareti Yazlığı, Tarabya (lost)",
   "lit": {
    "fr": {
     "en": "Old Palace of France",
@@ -725,7 +865,11 @@
     "fr": "Ancien Palais de France",
     "tr": "Eski Fransa sarayı"
    },
-   "modern": null
+   "modern": {
+    "en": "Old French embassy summer residence",
+    "fr": "Ancienne résidence d'été de l'ambassade de France",
+    "tr": "Fransız elçiliğinin eski yazlığı"
+   }
   },
   "kind": "palace",
   "bbox": [
@@ -757,7 +901,7 @@
    "latn": "Kireçburnu Ayazması",
    "arab": "كیرج بورنی آیازمه سی"
   },
-  "modern": "Kireçburnu ayazması, Sarıyer",
+  "modern": "Kireçburnu Ayazması, Sarıyer",
   "lit": {
    "fr": {
     "en": "Lime-Cape holy spring",
@@ -768,7 +912,11 @@
     "fr": "Source sacrée du Cap de la Chaux",
     "tr": "Kireçburnu ayazması"
    },
-   "modern": null
+   "modern": {
+    "en": "Lime Cape holy spring",
+    "fr": "Source sacrée du Cap de la Chaux",
+    "tr": "Kireçburnu ayazması"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -784,14 +932,18 @@
  {
   "fr": "Construction antique",
   "ota": null,
-  "modern": "Ancient structure, Kireçburnu (unidentified)",
+  "modern": "Kireçburnu'nda antik yapı, Sarıyer (unidentified)",
   "lit": {
    "fr": {
     "en": "Ancient structure",
     "tr": "Antik yapı"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Ancient structure at Kireçburnu",
+    "fr": "Construction antique à Kireçburnu",
+    "tr": "Kireçburnu'nda antik yapı"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -821,7 +973,11 @@
     "fr": "Chaux",
     "tr": "Kireç"
    },
-   "modern": null
+   "modern": {
+    "en": "Lime Cape",
+    "fr": "Cap de la Chaux",
+    "tr": "Kireç burnu"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -851,7 +1007,11 @@
     "fr": "Golfe de la Grande Vallée",
     "tr": "Büyükdere körfezi"
    },
-   "modern": null
+   "modern": {
+    "en": "Great-valley Bay",
+    "fr": "Baie de la Grande Vallée",
+    "tr": "Büyükdere koyu"
+   }
   },
   "kind": "bay",
   "bbox": [
@@ -894,7 +1054,11 @@
     "fr": "Cap du Tombeau",
     "tr": "Mezar burnu"
    },
-   "modern": null
+   "modern": {
+    "en": "Tomb Cape",
+    "fr": "Cap du Tombeau",
+    "tr": "Mezar burnu"
+   }
   },
   "kind": "cape",
   "bbox": [
@@ -924,7 +1088,11 @@
     "fr": "Falaise jaune",
     "tr": "Sarı yar"
    },
-   "modern": null
+   "modern": {
+    "en": "Yellow cliff",
+    "fr": "Falaise jaune",
+    "tr": "Sarı yar"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -940,14 +1108,18 @@
  {
   "fr": "Cimetière Turc",
   "ota": null,
-  "modern": "Muslim cemetery, Sarıyer",
+  "modern": "Müslüman mezarlığı, Sarıyer",
   "lit": {
    "fr": {
     "en": "Turkish Cemetery",
     "tr": "Türk Mezarlığı"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Muslim cemetery",
+    "fr": "Cimetière musulman",
+    "tr": "Müslüman mezarlığı"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -979,7 +1151,7 @@
    "latn": "Rusya Sarayı",
    "arab": "روسیه سرایی"
   },
-  "modern": "Russian summer embassy, Büyükdere",
+  "modern": "Rus Sefareti Yazlığı, Büyükdere",
   "lit": {
    "fr": {
     "en": "Palace of Russia",
@@ -990,7 +1162,11 @@
     "fr": "Palais de Russie",
     "tr": "Rusya sarayı"
    },
-   "modern": null
+   "modern": {
+    "en": "Russian embassy summer residence",
+    "fr": "Résidence d'été de l'ambassade de Russie",
+    "tr": "Rus elçiliğinin yazlığı"
+   }
   },
   "kind": "palace",
   "bbox": [
@@ -1001,7 +1177,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Summer residence of the Russian embassy, still held by the Russian consulate"
+  "note": {
+   "en": "Summer residence of the Russian embassy, still held by the Russian consulate",
+   "fr": "Résidence d'été de l'ambassade de Russie, toujours occupée par le consulat russe",
+   "tr": "Rus elçiliğinin yazlık konutu; bugün hâlâ Rus konsolosluğunun elinde"
+  }
  },
  {
   "fr": "Palais d'Espagne",
@@ -1009,7 +1189,7 @@
    "latn": "İspanya Sarayı",
    "arab": "اسپانیه سرایی"
   },
-  "modern": "Spanish summer embassy, Büyükdere (lost)",
+  "modern": "İspanya Sefareti Yazlığı, Büyükdere (lost)",
   "lit": {
    "fr": {
     "en": "Palace of Spain",
@@ -1020,7 +1200,11 @@
     "fr": "Palais d'Espagne",
     "tr": "İspanya sarayı"
    },
-   "modern": null
+   "modern": {
+    "en": "Spanish embassy summer residence",
+    "fr": "Résidence d'été de l'ambassade d'Espagne",
+    "tr": "İspanya elçiliğinin yazlığı"
+   }
   },
   "kind": "palace",
   "bbox": [
@@ -1050,7 +1234,11 @@
     "fr": "Grande Vallée",
     "tr": "Büyük dere"
    },
-   "modern": null
+   "modern": {
+    "en": "Great valley",
+    "fr": "Grande Vallée",
+    "tr": "Büyük dere"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -1074,7 +1262,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Vertical label running down the village"
+  "note": {
+   "en": "Vertical label running down the village",
+   "fr": "Inscription verticale qui descend le long du village",
+   "tr": "Köy boyunca aşağı inen dikey etiket"
+  }
  },
  {
   "fr": "KÉFÉLI-KEUI",
@@ -1093,7 +1285,11 @@
     "fr": "Village des gens de Caffa",
     "tr": "Kefeliler köyü"
    },
-   "modern": null
+   "modern": {
+    "en": "Village of the people of Kefe (Caffa)",
+    "fr": "Village des gens de Caffa",
+    "tr": "Kefeliler köyü"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -1104,7 +1300,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Settled by Crimean Greeks from Kefe (Caffa)"
+  "note": {
+   "en": "Settled by Crimean Greeks from Kefe (Caffa)",
+   "fr": "Peuplé de Grecs de Crimée venus de Kefe (Caffa)",
+   "tr": "Kefe'den (Kırım) gelen Rumlarca kurulmuştur"
+  }
  },
  {
   "fr": "Crio-nero, ou Fontaine froide",
@@ -1112,7 +1312,7 @@
    "latn": "Soğuksu",
    "arab": "صوغوق صو"
   },
-  "modern": "Kryo Nero spring, Kefeliköy",
+  "modern": "Soğuksu, Kefeliköy",
   "lit": {
    "fr": {
     "en": "Krio-nero, or Cold Fountain",
@@ -1123,7 +1323,11 @@
     "fr": "Eau froide",
     "tr": "Soğuk su"
    },
-   "modern": null
+   "modern": {
+    "en": "Cold water",
+    "fr": "Eau froide",
+    "tr": "Soğuk su"
+   }
   },
   "kind": "water",
   "bbox": [
@@ -1134,7 +1338,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Crio-nero is Greek 'kryo nero', cold water; Ottoman form reconstructed from the French gloss"
+  "note": {
+   "en": "Crio-nero is Greek 'kryo nero', cold water; Ottoman form reconstructed from the French gloss",
+   "fr": "Crio-nero est le grec « kryo nero », eau froide ; forme ottomane reconstituée d'après la glose française",
+   "tr": "Crio-nero, Yunanca 'kryo nero', soğuk su; Osmanlıca biçim Fransızca açıklamadan yeniden kurgulandı"
+  }
  },
  {
   "fr": "Ieron, ancien Château des Génois ruiné",
@@ -1153,7 +1361,11 @@
     "fr": "Château de Yoros",
     "tr": "Yoros kalesi"
    },
-   "modern": null
+   "modern": {
+    "en": "Castle of Yoros",
+    "fr": "Château de Yoros",
+    "tr": "Yoros kalesi"
+   }
   },
   "kind": "fort",
   "bbox": [
@@ -1177,7 +1389,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Hieron = the sanctuary (of Zeus Ourios)"
+  "note": {
+   "en": "Hieron = the sanctuary (of Zeus Ourios)",
+   "fr": "Hieron = le sanctuaire (de Zeus Ourios)",
+   "tr": "Hieron = (Zeus Ourios'un) kutsal alanı"
+  }
  },
  {
   "fr": "ANADOLI-KAVAK",
@@ -1196,7 +1412,11 @@
     "fr": "Peuplier d'Anatolie (poste de garde)",
     "tr": "Anadolu kavağı"
    },
-   "modern": null
+   "modern": {
+    "en": "Anatolian poplar (guard-post)",
+    "fr": "Peuplier d'Anatolie (poste de garde)",
+    "tr": "Anadolu kavağı"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -1207,7 +1427,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Kavak also meant the guard-posts at the Black Sea mouth"
+  "note": {
+   "en": "Kavak also meant the guard-posts at the Black Sea mouth",
+   "fr": "Kavak désignait aussi les postes de garde à l'entrée de la mer Noire",
+   "tr": "Kavak, Karadeniz ağzındaki karakollar anlamına da gelirdi"
+  }
  },
  {
   "fr": "Ioucha",
@@ -1226,7 +1450,11 @@
     "fr": "Josué",
     "tr": "Yuşa"
    },
-   "modern": null
+   "modern": {
+    "en": "Joshua Battery",
+    "fr": "Batterie de Josué",
+    "tr": "Yuşa tabyası"
+   }
   },
   "kind": "fort",
   "bbox": [
@@ -1237,7 +1465,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Labelled 'Fort et Batterie' beneath"
+  "note": {
+   "en": "Labelled 'Fort et Batterie' beneath",
+   "fr": "Porte la mention « Fort et Batterie » en dessous",
+   "tr": "Altında 'Fort et Batterie' (kale ve tabya) yazıyor"
+  }
  },
  {
   "fr": "ÏOUCHA-DAGHI ou Montagne du Géant",
@@ -1256,7 +1488,11 @@
     "fr": "Mont de Josué",
     "tr": "Yuşa dağı"
    },
-   "modern": null
+   "modern": {
+    "en": "Joshua's Hill",
+    "fr": "Colline de Josué",
+    "tr": "Yuşa tepesi"
+   }
   },
   "kind": "mountain",
   "bbox": [
@@ -1280,7 +1516,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "The 'Giant's Bed' of the ancients"
+  "note": {
+   "en": "The 'Giant's Bed' of the ancients",
+   "fr": "Le « Lit du Géant » des Anciens",
+   "tr": "Antik çağın 'Dev Yatağı'"
+  }
  },
  {
   "fr": "Fosse du Géant",
@@ -1299,7 +1539,11 @@
     "fr": "Tombe de Josué",
     "tr": "Yuşa'nın kabri"
    },
-   "modern": null
+   "modern": {
+    "en": "Tomb of the prophet Joshua",
+    "fr": "Tombeau du prophète Josué",
+    "tr": "Hazreti Yuşa türbesi"
+   }
   },
   "kind": "religious",
   "bbox": [
@@ -1310,19 +1554,27 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "A 17 m long grave venerated as that of the prophet Joshua"
+  "note": {
+   "en": "A 17 m long grave venerated as that of the prophet Joshua",
+   "fr": "Une tombe de 17 m de long vénérée comme celle du prophète Josué",
+   "tr": "Yuşa peygamberin kabri olarak saygı gören 17 m uzunluğunda mezar"
+  }
  },
  {
   "fr": "Ruines du Monastère de St Pantéléemon",
   "ota": null,
-  "modern": "St Panteleimon monastery, Yuşa Tepesi (ruined)",
+  "modern": "Aya Panteleimon Manastırı, Yuşa Tepesi (ruin)",
   "lit": {
    "fr": {
     "en": "Ruins of the Monastery of St Panteleimon",
     "tr": "Aziz Panteleimon Manastırı harabeleri"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Saint Panteleimon monastery",
+    "fr": "Monastère de Saint-Pantéléimon",
+    "tr": "Aya Panteleimon manastırı"
+   }
   },
   "kind": "ruin",
   "bbox": [
@@ -1352,7 +1604,11 @@
    ]
   ],
   "uncertain": false,
-  "note": "Byzantine monastery on the summit, beside a small mosque"
+  "note": {
+   "en": "Byzantine monastery on the summit, beside a small mosque",
+   "fr": "Monastère byzantin au sommet, à côté d'une petite mosquée",
+   "tr": "Zirvedeki Bizans manastırı, küçük bir caminin yanında"
+  }
  },
  {
   "fr": "UMOUR-ÏERI",
@@ -1371,7 +1627,11 @@
     "fr": "Lieu d'Umur",
     "tr": "Umur'un yeri"
    },
-   "modern": null
+   "modern": {
+    "en": "Umur's place",
+    "fr": "Lieu d'Umur",
+    "tr": "Umur'un yeri"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -1401,7 +1661,11 @@
     "fr": "Cap du Hongrois",
     "tr": "Macar burnu"
    },
-   "modern": null
+   "modern": {
+    "en": "Hungarian Cape",
+    "fr": "Cap du Hongrois",
+    "tr": "Macar burnu"
+   }
   },
   "kind": "cape",
   "bbox": [
@@ -1431,7 +1695,11 @@
     "fr": "Batterie de la colline",
     "tr": "Tepe tabyası"
    },
-   "modern": null
+   "modern": {
+    "en": "Telli battery",
+    "fr": "Batterie de Telli",
+    "tr": "Telli tabya"
+   }
   },
   "kind": "fort",
   "bbox": [
@@ -1442,7 +1710,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Labelled 'Fort et Batterie' beneath; European shore"
+  "note": {
+   "en": "Labelled 'Fort et Batterie' beneath; European shore",
+   "fr": "Porte la mention « Fort et Batterie » en dessous ; rive européenne",
+   "tr": "Altında 'Fort et Batterie' (kale ve tabya) yazıyor; Rumeli yakası"
+  }
  },
  {
   "fr": "Vallée du Grand Seigneur",
@@ -1450,7 +1722,7 @@
    "latn": "Hünkâr Deresi",
    "arab": "خنكار دره سی"
   },
-  "modern": "Hünkâr İskelesi valley, Beykoz",
+  "modern": "Hünkâr İskelesi Vadisi, Beykoz",
   "lit": {
    "fr": {
     "en": "Valley of the Grand Seigneur",
@@ -1461,7 +1733,11 @@
     "fr": "Vallée du Souverain",
     "tr": "Padişah deresi"
    },
-   "modern": null
+   "modern": {
+    "en": "Valley of the Sovereign's Landing",
+    "fr": "Vallée du Débarcadère du Souverain",
+    "tr": "Hünkâr İskelesi vadisi"
+   }
   },
   "kind": "water",
   "bbox": [
@@ -1485,7 +1761,11 @@
    ]
   ],
   "uncertain": true,
-  "note": "Diagonal label along the valley behind Hünkâr İskelesi; Ottoman form reconstructed"
+  "note": {
+   "en": "Diagonal label along the valley behind Hünkâr İskelesi; Ottoman form reconstructed",
+   "fr": "Inscription en diagonale le long de la vallée derrière Hünkâr İskelesi ; forme ottomane reconstituée",
+   "tr": "Hünkâr İskelesi'nin arkasındaki vadi boyunca çapraz etiket; Osmanlıca biçim yeniden kurgulandı"
+  }
  },
  {
   "fr": "Validé Tchechmé",
@@ -1504,7 +1784,11 @@
     "fr": "Fontaine de la Sultane Mère",
     "tr": "Valide Sultan çeşmesi"
    },
-   "modern": null
+   "modern": {
+    "en": "Fountain of the Queen Mother",
+    "fr": "Fontaine de la Sultane Mère",
+    "tr": "Valide Sultan çeşmesi"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -1534,7 +1818,11 @@
     "fr": "Fabrique de papier",
     "tr": "Kâğıt fabrikası"
    },
-   "modern": null
+   "modern": {
+    "en": "Hünkâr İskelesi paper mill",
+    "fr": "Papeterie de Hünkâr İskelesi",
+    "tr": "Hünkâr İskelesi kâğıt fabrikası"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -1545,7 +1833,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "State paper mill founded under Selim III in 1804; Ottoman form reconstructed"
+  "note": {
+   "en": "State paper mill founded under Selim III in 1804; Ottoman form reconstructed",
+   "fr": "Papeterie d'État fondée sous Selim III en 1804 ; forme ottomane reconstituée",
+   "tr": "III. Selim döneminde 1804'te kurulan devlet kâğıt fabrikası; Osmanlıca biçim yeniden kurgulandı"
+  }
  },
  {
   "fr": "INDGIR-KEUI",
@@ -1564,7 +1856,11 @@
     "fr": "Village du Figuier",
     "tr": "İncir köyü"
    },
-   "modern": null
+   "modern": {
+    "en": "Fig village",
+    "fr": "Village du Figuier",
+    "tr": "İncir köyü"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -1583,7 +1879,7 @@
    "latn": "Abdurrahman Ağa Köşkü",
    "arab": "عبدالرحمن آغا كوشكی"
   },
-  "modern": "Abdurat Zagia kiosk, İncirköy (lost)",
+  "modern": "Abdurrahman Ağa Köşkü, İncirköy (lost)",
   "lit": {
    "fr": {
     "en": "Kiosk of Abdurat Zagia",
@@ -1594,7 +1890,11 @@
     "fr": "Kiosque d'Abdurrahman Agha",
     "tr": "Abdurrahman Ağa köşkü"
    },
-   "modern": null
+   "modern": {
+    "en": "Kiosk of Abdurrahman Ağa",
+    "fr": "Kiosque d'Abdurrahman Agha",
+    "tr": "Abdurrahman Ağa köşkü"
+   }
   },
   "kind": "palace",
   "bbox": [
@@ -1618,19 +1918,27 @@
    ]
   ],
   "uncertain": true,
-  "note": "Kiosk on the shore south of İncirköy; owner's name read with difficulty, Ottoman form is a guess"
+  "note": {
+   "en": "Kiosk on the shore south of İncirköy; owner's name read with difficulty, Ottoman form is a guess",
+   "fr": "Kiosque sur la rive au sud d'İncirköy ; nom du propriétaire lu difficilement, forme ottomane hypothétique",
+   "tr": "İncirköy'ün güneyinde kıyıdaki köşk; sahibinin adı güçlükle okundu, Osmanlıca biçim tahmin"
+  }
  },
  {
   "fr": "Fours à chaux",
   "ota": null,
-  "modern": "Lime kilns, Çubuklu (lost)",
+  "modern": "Kireç ocakları, Çubuklu (lost)",
   "lit": {
    "fr": {
     "en": "Lime kilns",
     "tr": "Kireç ocakları"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Lime kilns",
+    "fr": "Fours à chaux",
+    "tr": "Kireç ocakları"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -1671,6 +1979,10 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "From the Greek Sosthenion"
+  "note": {
+   "en": "From the Greek Sosthenion",
+   "fr": "Du grec Sosthenion",
+   "tr": "Yunanca Sosthenion'dan"
+  }
  }
 ]

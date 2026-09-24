@@ -16,7 +16,11 @@
     "fr": "Grosse-tête",
     "tr": "Başı büyük"
    },
-   "modern": null
+   "modern": {
+    "en": "Big-headed",
+    "fr": "Grosse-tête",
+    "tr": "Başı büyük"
+   }
   },
   "kind": "village",
   "bbox": [
@@ -27,7 +31,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Sits on the top edge of the chunk; the map writes the name with a -lü suffix"
+  "note": {
+   "en": "Sits on the top edge of the chunk; the map writes the name with a -lü suffix",
+   "fr": "Sur le bord supérieur de la tuile ; la carte écrit le nom avec un suffixe -lü.",
+   "tr": "Parçanın üst kenarında; harita adı -lü ekiyle yazar."
+  }
  },
  {
   "fr": "Bostandgi-Bachi-Kuprusi",
@@ -46,7 +54,11 @@
     "fr": "Pont du Chef des Jardiniers",
     "tr": "Bostancıbaşı köprüsü"
    },
-   "modern": null
+   "modern": {
+    "en": "Bridge of the Chief Gardener",
+    "fr": "Pont du chef des jardiniers",
+    "tr": "Bostancıbaşı köprüsü"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -57,7 +69,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Marked the eastern limit of the capital's jurisdiction"
+  "note": {
+   "en": "Marked the eastern limit of the capital's jurisdiction",
+   "fr": "Marquait la limite orientale de la juridiction de la capitale.",
+   "tr": "Başkentin yetki alanının doğu sınırını belirlerdi."
+  }
  },
  {
   "fr": "Pont de pierre de 3 arches",
@@ -69,7 +85,11 @@
     "tr": "3 kemerli taş köprü"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Bridge of the Chief Gardener",
+    "fr": "Pont du chef des jardiniers",
+    "tr": "Bostancıbaşı köprüsü"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -80,7 +100,11 @@
   ],
   "parts": null,
   "uncertain": false,
-  "note": "Descriptive second line under Bostandgi-Bachi-Kuprusi"
+  "note": {
+   "en": "Descriptive second line under Bostandgi-Bachi-Kuprusi",
+   "fr": "Seconde ligne descriptive sous Bostandgi-Bachi-Kuprusi.",
+   "tr": "Bostandgi-Bachi-Kuprusi'nin altındaki açıklayıcı ikinci satır."
+  }
  },
  {
   "fr": "Bordonos",
@@ -88,7 +112,7 @@
    "latn": "Vordonos",
    "arab": "وردونوس"
   },
-  "modern": "Vordonisi, off Maltepe (submerged)",
+  "modern": "Vordonisi, Maltepe açıkları (submerged)",
   "lit": {
    "fr": {
     "en": "Bordonos",
@@ -110,7 +134,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Rock drawn with a dotted outline; the islet is now under water. Ottoman form reconstructed from the Greek name"
+  "note": {
+   "en": "Rock drawn with a dotted outline; the islet is now under water. Ottoman form reconstructed from the Greek name",
+   "fr": "Rocher dessiné en pointillé ; l'îlot est aujourd'hui sous l'eau. Forme ottomane reconstituée d'après le nom grec.",
+   "tr": "Noktalı çizgiyle çizilmiş kaya; adacık bugün su altında. Osmanlıca biçim Yunanca addan türetilmiştir."
+  }
  },
  {
   "fr": "Euréké-Tachi",
@@ -118,7 +146,7 @@
    "latn": "Yürek Taşı",
    "arab": "یورك طاشی"
   },
-  "modern": "Yürek Taşı, off Maltepe (unidentified)",
+  "modern": "Yürek Taşı, Maltepe açıkları (unidentified)",
   "lit": {
    "fr": {
     "en": "Euréké rock",
@@ -129,7 +157,11 @@
     "fr": "Pierre du cœur",
     "tr": "Yürek taşı"
    },
-   "modern": null
+   "modern": {
+    "en": "Heart rock",
+    "fr": "Rocher du cœur",
+    "tr": "Yürek taşı"
+   }
   },
   "kind": "island",
   "bbox": [
@@ -140,7 +172,11 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Rock drawn with a dotted outline NW of the label. Turkish reading (Yürek Taşı) and identification are guesses"
+  "note": {
+   "en": "Rock drawn with a dotted outline NW of the label. Turkish reading (Yürek Taşı) and identification are guesses",
+   "fr": "Rocher dessiné en pointillé au nord-ouest de l'étiquette. La lecture turque (Yürek Taşı) et l'identification sont des hypothèses.",
+   "tr": "Etiketin kuzeybatısında noktalı çizgiyle çizilmiş kaya. Türkçe okunuş (Yürek Taşı) ve kimlik tahmindir."
+  }
  },
  {
   "fr": "Sera-Tachi",
@@ -170,19 +206,27 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Rock drawn with a dotted outline above the label. Turkish reading (Sıra Taşı) and identification are guesses"
+  "note": {
+   "en": "Rock drawn with a dotted outline above the label. Turkish reading (Sıra Taşı) and identification are guesses",
+   "fr": "Rocher dessiné en pointillé au-dessus de l'étiquette. La lecture turque (Sıra Taşı) et l'identification sont des hypothèses.",
+   "tr": "Etiketin üstünde noktalı çizgiyle çizilmiş kaya. Türkçe okunuş (Sıra Taşı) ve kimlik tahmindir."
+  }
  },
  {
   "fr": "Pont de Pierre",
   "ota": null,
-  "modern": "Stone bridge, Bağdat road (lost)",
+  "modern": "Taş köprü, Bağdat yolu (lost)",
   "lit": {
    "fr": {
     "en": "Stone Bridge",
     "tr": "Taş Köprü"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Stone bridge on the Baghdad road",
+    "fr": "Pont de pierre sur la route de Bagdad",
+    "tr": "Bağdat yolu üzerinde taş köprü"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -198,14 +242,18 @@
  {
   "fr": "Pont de Bois",
   "ota": null,
-  "modern": "Wooden bridge, Kurbağalıdere (lost)",
+  "modern": "Tahta köprü, Kurbağalıdere (lost)",
   "lit": {
    "fr": {
     "en": "Wooden Bridge",
     "tr": "Tahta Köprü"
    },
    "ota": null,
-   "modern": null
+   "modern": {
+    "en": "Wooden bridge over the Kurbağalıdere",
+    "fr": "Pont de bois sur le Kurbağalıdere",
+    "tr": "Kurbağalıdere üzerinde tahta köprü"
+   }
   },
   "kind": "infrastructure",
   "bbox": [
@@ -216,6 +264,10 @@
   ],
   "parts": null,
   "uncertain": true,
-  "note": "Near Kızıltoprak"
+  "note": {
+   "en": "Near Kızıltoprak",
+   "fr": "Près de Kızıltoprak.",
+   "tr": "Kızıltoprak yakınında."
+  }
  }
 ]
