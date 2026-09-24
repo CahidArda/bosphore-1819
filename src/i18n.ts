@@ -36,6 +36,7 @@ type Dict = {
   sourceLink: string;
   dataLink: string;
   noOttoman: string;
+  showAll: string;
   aboutBuiltBefore: string;
   aboutBuiltAfter: string;
   blogLink: string;
@@ -104,6 +105,7 @@ const en: Dict = {
   sourceLink: "Wikimedia Commons file",
   dataLink: "Source code and data on GitHub",
   noOttoman: "no Ottoman name",
+  showAll: "Outline every label",
   aboutBuiltBefore: "An app built by ",
   aboutBuiltAfter: " with Claude Opus 5.5.",
   blogLink: "How it was built (blog post)",
@@ -172,6 +174,7 @@ const fr: Dict = {
   sourceLink: "Fichier sur Wikimedia Commons",
   dataLink: "Code source et données sur GitHub",
   noOttoman: "pas de nom ottoman",
+  showAll: "Encadrer tous les noms",
   aboutBuiltBefore: "Une application réalisée par ",
   aboutBuiltAfter: " avec Claude Opus 5.5.",
   blogLink: "Comment elle a été faite (article de blog)",
@@ -240,6 +243,7 @@ const tr: Dict = {
   sourceLink: "Wikimedia Commons dosyası",
   dataLink: "Kaynak kod ve veriler GitHub'da",
   noOttoman: "Osmanlıca adı yok",
+  showAll: "Tüm adları çerçevele",
   aboutBuiltBefore: "Bu uygulama ",
   aboutBuiltAfter: " tarafından Claude Opus 5.5 ile yapıldı.",
   blogLink: "Nasıl yapıldı (blog yazısı)",

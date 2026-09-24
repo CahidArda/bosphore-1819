@@ -108,6 +108,11 @@
   pointer-events: none;
   overflow: visible;
 }
+/* layers toggle: every label gets a visible outline (handy on touch screens) */
+.lbl-root.show-all .lbl {
+  border-style: solid;
+  border-color: color-mix(in oklab, var(--sepia) 70%, transparent);
+}
 .lbl {
   position: absolute;
   box-sizing: border-box;

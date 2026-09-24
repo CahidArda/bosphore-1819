@@ -56,11 +56,13 @@ export const MapView = forwardRef<
     selected: Set<string>;
     /** Ids matching the current search; drawn with a subtle gray outline. */
     highlighted: Set<string>;
+    /** Outline every label (the layers toggle). */
+    outlineAll: boolean;
     lang: Lang;
     onToggle: (id: string) => void;
     className?: string;
   }
->(function MapView({ labels, selected, highlighted, lang, onToggle, className }, ref) {
+>(function MapView({ labels, selected, highlighted, outlineAll, lang, onToggle, className }, ref) {
   const d = t(lang);
   const elRef = useRef<HTMLDivElement>(null);
   const viewerRef = useRef<OpenSeadragon.Viewer | null>(null);
@@ -74,6 +76,7 @@ export const MapView = forwardRef<
   const touchUI = typeof window !== "undefined" && (window.matchMedia?.("(hover: none)").matches ?? false);
   const prevSelected = useRef<Set<string>>(new Set());
   const prevHighlighted = useRef<Set<string>>(new Set());
+  const rootRef = useRef<HTMLDivElement | null>(null);
   const onToggleRef = useRef(onToggle);
   onToggleRef.current = onToggle;
 
@@ -205,7 +208,8 @@ export const MapView = forwardRef<
     // percentages. OpenSeadragon then updates a single element per frame instead of
     // several hundred, which keeps panning and pinch-zoom smooth on phones.
     const root = document.createElement("div");
-    root.className = "lbl-root";
+    root.className = outlineAll ? "lbl-root show-all" : "lbl-root";
+    rootRef.current = root;
     const frag = document.createDocumentFragment();
     for (const label of labels) {
       const boxes = label.parts && label.parts.length ? label.parts : [label.bbox];
@@ -239,6 +243,10 @@ export const MapView = forwardRef<
     prevHighlighted.current = new Set(highlighted);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [labels, opened]);
+
+  useEffect(() => {
+    rootRef.current?.classList.toggle("show-all", outlineAll);
+  }, [outlineAll]);
 
   useEffect(() => {
     for (const id of prevHighlighted.current) {
