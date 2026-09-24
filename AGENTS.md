@@ -33,6 +33,20 @@ name (Latin and Arabic script) and today's name, each with a literal gloss.
   `minPixelRatio` is 0.3 on purpose: the levels are not power-of-two steps, and with the
   default 0.5 the viewer stretched the 3840 px thumbnail at label zoom (blurry) and used
   the 1280 px one at home. Measure with `?debug` (`window.__osd`) before changing it.
+  How it was found: with `?debug`, read `viewer.world.getItemAt(0)._lastDrawn` (tile
+  levels 0..3 = 1280, 1920, 3840, original) at three zooms in a 1280×800 window, setting
+  `viewer.minPixelRatio` and the item's `minPixelRatio` and forcing a redraw between runs:
+
+  | minPixelRatio | label zoom (image zoom 0.37) | mid (0.17) | home (0.07) |
+  |---|---|---|---|
+  | 0.5 (default) | level 2, 3840 px stretched | level 1 | level 0, soft |
+  | 0.4 | level 2 | level 2 | level 0 |
+  | 0.3 (chosen) | level 3, original | level 2 | level 1 |
+  | 0.2 | level 3 | level 2 | level 1 |
+
+  0.3 is the largest value that draws the original at label zoom and the 1920 px level at
+  home; 0.2 gives the same levels for no benefit. `maxZoomPixelRatio` and
+  `minZoomImageRatio` were not part of the problem.
 - Scripted downloads need a descriptive User-Agent (`pipeline/common.py`). Gallica's
   IIIF endpoint refuses scripts; do not depend on it.
 - `pipeline/download.py` fetches the scan to `pipeline/raw/full.jpg` (gitignored) and
