@@ -20,6 +20,19 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Naskh+Arabic:wght@400;500&display=swap&subset=arabic"
     />
     <title>Bosphore 1819</title>
+    <!-- Google Analytics (shared with cahidarda.com; apps are told apart by hostname). Not loaded
+         on localhost, file:// or under automation, so local runs and tests send nothing. -->
+    <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    if (location.protocol === "https:" && !navigator.webdriver) {
+      const s = document.createElement("script");
+      s.async = true; s.src = "https://www.googletagmanager.com/gtag/js?id=G-JEFFYQNEL0";
+      document.head.appendChild(s);
+    }
+    gtag("js", new Date());
+    gtag("config", "G-JEFFYQNEL0");
+    </script>
   </head>
   <body>
     <div id="root"></div>
