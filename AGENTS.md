@@ -5,7 +5,7 @@ pieces live, and which decisions are deliberate.
 
 ## What this is
 
-Bosphore 1819 (https://bosphore-1819.vercel.app) shows the 1819 French map of the
+Bosphore 1819 (https://bosphore-1819.cahidarda.com) shows the 1819 French map of the
 Bosphorus (*Plan Topographique du Bosphore de Thrace ou Canal de Constantinople et de
 ses environs*, surveyed by François Kauffer 1776-1786, redrawn by Jean-Denis Barbié du
 Bocage for Melling's *Voyage pittoresque de Constantinople*) with every place name

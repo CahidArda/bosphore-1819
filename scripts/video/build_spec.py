@@ -6,7 +6,7 @@ A1 = ev["click_show"] + 1.35
 B1 = ev["hover"] + 2.05
 B0 = B1 - (10.0 - (A1 - A0))
 La = lambda t: round(t - A0, 3); Lb = lambda t: round(t - B0, 3)
-pill = "bosphore-1819.vercel.app/?lang=en"
+pill = "bosphore-1819.cahidarda.com/?lang=en"
 segA = {"src": f"{D}/raw.mp4", "start": round(A0, 3), "end": round(A1, 3), "pill": pill,
   "captions": [
     {"text": "Bosphore 1819 · 387 labels, three languages", "start": 0.0, "end": La(ev["click_search"] + 0.3)},
